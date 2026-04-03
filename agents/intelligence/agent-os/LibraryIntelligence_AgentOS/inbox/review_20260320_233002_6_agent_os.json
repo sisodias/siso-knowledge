@@ -1,0 +1,13 @@
+{
+  "type": "integration_review",
+  "source": "os_insights",
+  "timestamp": "2026-03-20T23:30:02.563672",
+  "tier": "critical",
+  "title": "Cherry Studio",
+  "source_detail": "Unknown",
+  "components": "mcp, agent_os",
+  "insight": "**Repository**: [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) **Description**: AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs **Research**: A desktop AI client supporting multiple LLM providers on Windows/Mac/Linu",
+  "url": "https://github.com/CherryHQ/cherry-studio",
+  "status": "pending_review",
+  "routed_to": "agent_os"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "integration_review",
+  "source": "os_insights",
+  "timestamp": "2026-03-20T23:30:02.563928",
+  "tier": "critical",
+  "title": "Claude Code Templates",
+  "source_detail": "Unknown",
+  "components": "mcp, evals",
+  "insight": "**Repository**: [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) **Description**: CLI tool for configuring and monitoring Claude Code **Research**: Comprehensive collection of ready-to-use Claude Code configurations including agents (frontend-developer, code-reviewer",
+  "url": "https://github.com/davila7/claude-code-templates",
+  "status": "pending_review",
+  "routed_to": "agent_os"
+}

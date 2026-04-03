@@ -1,0 +1,13 @@
+type: section
+name: "Ecosystem"
+slug: ecosystem
+description: "Ecosystem integrations, model providers, and third-party tools"
+icon: "🌐"
+color: "#FB9900"
+order: 2
+bookcases:
+  - anthropic
+  - openai
+  - opensource
+owner: LIBRARY_PM
+version: "1.0"

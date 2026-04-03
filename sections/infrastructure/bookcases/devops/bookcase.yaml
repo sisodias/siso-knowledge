@@ -1,0 +1,12 @@
+name: Devops
+description: DevOps practices, CI/CD, and infrastructure
+section: infrastructure
+shelves:
+- ci_cd
+- containers
+- skills
+created: 2026-03-19
+type: bookcase
+slug: devops
+owner: LIBRARY_PM
+version: '1.0'

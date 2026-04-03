@@ -1,0 +1,11 @@
+type: section
+name: "Product"
+slug: product
+description: "Product development, UX, and customer insights"
+icon: "📦"
+color: "#9C27B0"
+order: 4
+bookcases:
+  - business_automation
+owner: LIBRARY_PM
+version: "1.0"

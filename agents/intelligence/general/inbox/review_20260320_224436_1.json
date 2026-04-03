@@ -1,0 +1,12 @@
+{
+  "type": "integration_review",
+  "source": "os_insights",
+  "timestamp": "2026-03-20T22:44:36.785726",
+  "tier": "critical",
+  "title": "Firecrawl",
+  "source_detail": "Unknown",
+  "components": "memory, mcp, rag, evals",
+  "insight": "**Repository**: [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) **Description**: The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data **Research**: The leading web scraping/crawling API for AI applications. Turns websites into clean markdown, struct",
+  "url": "https://github.com/firecrawl/firecrawl",
+  "status": "pending_review"
+}

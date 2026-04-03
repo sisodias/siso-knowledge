@@ -1,0 +1,16 @@
+bookcase: agents
+created: 2026-03-19
+description: Self-directed agents with minimal human oversight
+name: Autonomous
+page_count: 0
+section: ai_research
+type: shelf
+slug: autonomous
+owner: LIBRARY_PM
+version: '1.0'
+content_type: insights
+routing_keywords: []
+tier_targets:
+  A: 0.1
+  B: 0.3
+  C: 0.6

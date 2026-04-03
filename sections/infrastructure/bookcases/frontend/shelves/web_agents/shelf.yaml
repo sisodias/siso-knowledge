@@ -1,0 +1,16 @@
+bookcase: frontend
+created: 2026-03-19
+description: Browser automation and web agents
+name: Web Agents
+page_count: 280
+section: infrastructure
+type: shelf
+slug: web_agents
+owner: LIBRARY_PM
+version: '1.0'
+content_type: insights
+routing_keywords: []
+tier_targets:
+  A: 0.1
+  B: 0.3
+  C: 0.6

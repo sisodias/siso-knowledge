@@ -1,0 +1,7 @@
+name: "Intelligence"
+description: "Person profiles with tiered insights and prediction tracking."
+slug: intelligence
+bookcase: people
+section: people
+owner: LIBRARY_PM
+version: "1.0"

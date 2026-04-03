@@ -1,0 +1,10 @@
+name: Claude Code
+description: Claude Code patterns and coding agent techniques
+section: ai_research
+shelves:
+- patterns
+created: 2026-03-19
+type: bookcase
+slug: claude_code
+owner: LIBRARY_PM
+version: '1.0'

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": ["Bash", "Read", "Write", "Edit", "Glob", "Grep"],
+    "deny": ["Rm -rf", "Sudo"]
+  },
+  "env": {
+    "AGENT_HOME": "${agent_dir}",
+    "CLAUDE_MEM_DIR": "${agent_dir}/.claude/memory"
+  }
+}

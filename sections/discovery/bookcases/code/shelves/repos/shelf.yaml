@@ -1,0 +1,16 @@
+bookcase: code
+created: 2026-03-23
+description: GitHub repositories discovered and researched
+name: Repos
+page_count: 0
+section: discovery
+type: shelf
+slug: repos
+owner: LIBRARY_PM
+version: '1.0'
+content_type: repository
+routing_keywords: []
+tier_targets:
+  A: 0.1
+  B: 0.3
+  C: 0.6

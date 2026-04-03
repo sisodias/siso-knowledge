@@ -1,0 +1,12 @@
+name: Agents
+description: Autonomous agents, multi-agent systems, and orchestration patterns
+section: ai_research
+shelves:
+- multi_agent
+- code_agents
+- autonomous
+created: 2026-03-19
+type: bookcase
+slug: agents
+owner: LIBRARY_PM
+version: '1.0'

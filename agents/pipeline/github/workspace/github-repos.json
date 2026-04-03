@@ -1,0 +1,1802 @@
+[
+  {
+    "name": "openclaw/openclaw",
+    "stars": 320874,
+    "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+    "url": "https://github.com/openclaw/openclaw"
+  },
+  {
+    "name": "n8n-io/n8n",
+    "stars": 179699,
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "url": "https://github.com/n8n-io/n8n"
+  },
+  {
+    "name": "airbnb/javascript",
+    "stars": 148121,
+    "description": "JavaScript Style Guide",
+    "url": "https://github.com/airbnb/javascript"
+  },
+  {
+    "name": "langgenius/dify",
+    "stars": 133288,
+    "description": "Production-ready platform for agentic workflow development.",
+    "url": "https://github.com/langgenius/dify"
+  },
+  {
+    "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+    "stars": 131752,
+    "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
+  },
+  {
+    "name": "langchain-ai/langchain",
+    "stars": 129964,
+    "description": "The agent engineering platform",
+    "url": "https://github.com/langchain-ai/langchain"
+  },
+  {
+    "name": "anomalyco/opencode",
+    "stars": 124210,
+    "description": "The open source coding agent.",
+    "url": "https://github.com/anomalyco/opencode"
+  },
+  {
+    "name": "supabase/supabase",
+    "stars": 99161,
+    "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+    "url": "https://github.com/supabase/supabase"
+  },
+  {
+    "name": "google-gemini/gemini-cli",
+    "stars": 98151,
+    "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "url": "https://github.com/google-gemini/gemini-cli"
+  },
+  {
+    "name": "anthropics/skills",
+    "stars": 96107,
+    "description": "Public repository for Agent Skills",
+    "url": "https://github.com/anthropics/skills"
+  },
+  {
+    "name": "firecrawl/firecrawl",
+    "stars": 94475,
+    "description": "🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data",
+    "url": "https://github.com/firecrawl/firecrawl"
+  },
+  {
+    "name": "rasbt/LLMs-from-scratch",
+    "stars": 88525,
+    "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+    "url": "https://github.com/rasbt/LLMs-from-scratch"
+  },
+  {
+    "name": "affaan-m/everything-claude-code",
+    "stars": 83432,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "url": "https://github.com/affaan-m/everything-claude-code"
+  },
+  {
+    "name": "anthropics/claude-code",
+    "stars": 79285,
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "url": "https://github.com/anthropics/claude-code"
+  },
+  {
+    "name": "netdata/netdata",
+    "stars": 78103,
+    "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+    "url": "https://github.com/netdata/netdata"
+  },
+  {
+    "name": "github/spec-kit",
+    "stars": 77907,
+    "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+    "url": "https://github.com/github/spec-kit"
+  },
+  {
+    "name": "infiniflow/ragflow",
+    "stars": 75306,
+    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+    "url": "https://github.com/infiniflow/ragflow"
+  },
+  {
+    "name": "OpenHands/OpenHands",
+    "stars": 69309,
+    "description": "🙌 OpenHands: AI-Driven Development",
+    "url": "https://github.com/OpenHands/OpenHands"
+  },
+  {
+    "name": "FoundationAgents/MetaGPT",
+    "stars": 65368,
+    "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+    "url": "https://github.com/FoundationAgents/MetaGPT"
+  },
+  {
+    "name": "OpenBB-finance/OpenBB",
+    "stars": 63246,
+    "description": "Financial data platform for analysts, quants and AI agents.",
+    "url": "https://github.com/OpenBB-finance/OpenBB"
+  },
+  {
+    "name": "mem0ai/mem0",
+    "stars": 50208,
+    "description": "Universal memory layer for AI Agents",
+    "url": "https://github.com/mem0ai/mem0"
+  },
+  {
+    "name": "upstash/context7",
+    "stars": 49515,
+    "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
+    "url": "https://github.com/upstash/context7"
+  },
+  {
+    "name": "freqtrade/freqtrade",
+    "stars": 47760,
+    "description": "Free, open source crypto trading bot",
+    "url": "https://github.com/freqtrade/freqtrade"
+  },
+  {
+    "name": "apache/airflow",
+    "stars": 44678,
+    "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+    "url": "https://github.com/apache/airflow"
+  },
+  {
+    "name": "CherryHQ/cherry-studio",
+    "stars": 41690,
+    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+    "url": "https://github.com/CherryHQ/cherry-studio"
+  },
+  {
+    "name": "bmad-code-org/BMAD-METHOD",
+    "stars": 41126,
+    "description": "Breakthrough Method for Agile Ai Driven Development",
+    "url": "https://github.com/bmad-code-org/BMAD-METHOD"
+  },
+  {
+    "name": "karpathy/autoresearch",
+    "stars": 40650,
+    "description": "AI agents running research on single-GPU nanochat training automatically",
+    "url": "https://github.com/karpathy/autoresearch"
+  },
+  {
+    "name": "VoltAgent/awesome-openclaw-skills",
+    "stars": 38997,
+    "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
+    "url": "https://github.com/VoltAgent/awesome-openclaw-skills"
+  },
+  {
+    "name": "PatrickJS/awesome-cursorrules",
+    "stars": 38535,
+    "description": "📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors",
+    "url": "https://github.com/PatrickJS/awesome-cursorrules"
+  },
+  {
+    "name": "thedotmack/claude-mem",
+    "stars": 37719,
+    "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+    "url": "https://github.com/thedotmack/claude-mem"
+  },
+  {
+    "name": "1Panel-dev/1Panel",
+    "stars": 34399,
+    "description": "🔥 Take full control of your VPS with 1Panel. Deploy OpenClaw in one click.",
+    "url": "https://github.com/1Panel-dev/1Panel"
+  },
+  {
+    "name": "HKUDS/nanobot",
+    "stars": 34334,
+    "description": "\"🐈 nanobot: The Ultra-Lightweight OpenClaw\"",
+    "url": "https://github.com/HKUDS/nanobot"
+  },
+  {
+    "name": "gsd-build/get-shit-done",
+    "stars": 32755,
+    "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
+    "url": "https://github.com/gsd-build/get-shit-done"
+  },
+  {
+    "name": "musistudio/claude-code-router",
+    "stars": 29878,
+    "description": "Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.",
+    "url": "https://github.com/musistudio/claude-code-router"
+  },
+  {
+    "name": "ChromeDevTools/chrome-devtools-mcp",
+    "stars": 29848,
+    "description": "Chrome DevTools for coding agents",
+    "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+  },
+  {
+    "name": "hesreallyhim/awesome-claude-code",
+    "stars": 28843,
+    "description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
+    "url": "https://github.com/hesreallyhim/awesome-claude-code"
+  },
+  {
+    "name": "paperclipai/paperclip",
+    "stars": 28168,
+    "description": "Open-source orchestration for zero-human companies",
+    "url": "https://github.com/paperclipai/paperclip"
+  },
+  {
+    "name": "zeroclaw-labs/zeroclaw",
+    "stars": 27735,
+    "description": "Fast, small, and fully autonomous AI assistant infrastructure — deploy anywhere, swap anything 🦀",
+    "url": "https://github.com/zeroclaw-labs/zeroclaw"
+  },
+  {
+    "name": "e2b-dev/awesome-ai-agents",
+    "stars": 26498,
+    "description": "A list of AI autonomous agents",
+    "url": "https://github.com/e2b-dev/awesome-ai-agents"
+  },
+  {
+    "name": "eyaltoledano/claude-task-master",
+    "stars": 25971,
+    "description": "An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.",
+    "url": "https://github.com/eyaltoledano/claude-task-master"
+  },
+  {
+    "name": "hesamsheikh/awesome-openclaw-usecases",
+    "stars": 25770,
+    "description": "A community collection of OpenClaw use cases for making life easier.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases"
+  },
+  {
+    "name": "qwibitai/nanoclaw",
+    "stars": 23901,
+    "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
+    "url": "https://github.com/qwibitai/nanoclaw"
+  },
+  {
+    "name": "BloopAI/vibe-kanban",
+    "stars": 23349,
+    "description": "Get 10X more out of Claude Code, Codex or any coding agent",
+    "url": "https://github.com/BloopAI/vibe-kanban"
+  },
+  {
+    "name": "davila7/claude-code-templates",
+    "stars": 23109,
+    "description": "CLI tool for configuring and monitoring Claude Code",
+    "url": "https://github.com/davila7/claude-code-templates"
+  },
+  {
+    "name": "mastra-ai/mastra",
+    "stars": 22083,
+    "description": "From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack.",
+    "url": "https://github.com/mastra-ai/mastra"
+  },
+  {
+    "name": "PrefectHQ/prefect",
+    "stars": 21891,
+    "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+    "url": "https://github.com/PrefectHQ/prefect"
+  },
+  {
+    "name": "ruvnet/ruflo",
+    "stars": 21542,
+    "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+    "url": "https://github.com/ruvnet/ruflo"
+  },
+  {
+    "name": "activepieces/activepieces",
+    "stars": 21269,
+    "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+    "url": "https://github.com/activepieces/activepieces"
+  },
+  {
+    "name": "nikivdev/flow",
+    "stars": 21153,
+    "description": "Everything you need to move your project faster",
+    "url": "https://github.com/nikivdev/flow"
+  },
+  {
+    "name": "winfunc/opcode",
+    "stars": 20978,
+    "description": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
+    "url": "https://github.com/winfunc/opcode"
+  },
+  {
+    "name": "camel-ai/owl",
+    "stars": 19208,
+    "description": "🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation",
+    "url": "https://github.com/camel-ai/owl"
+  },
+  {
+    "name": "iOfficeAI/AionUi",
+    "stars": 19036,
+    "description": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
+    "url": "https://github.com/iOfficeAI/AionUi"
+  },
+  {
+    "name": "google/adk-python",
+    "stars": 18417,
+    "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+    "url": "https://github.com/google/adk-python"
+  },
+  {
+    "name": "livekit/livekit",
+    "stars": 17654,
+    "description": "End-to-end realtime stack for connecting humans and AI",
+    "url": "https://github.com/livekit/livekit"
+  },
+  {
+    "name": "yetone/avante.nvim",
+    "stars": 17586,
+    "description": "Use your Neovim like using Cursor AI IDE!",
+    "url": "https://github.com/yetone/avante.nvim"
+  },
+  {
+    "name": "TransformerOptimus/SuperAGI",
+    "stars": 17277,
+    "description": "<⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.",
+    "url": "https://github.com/TransformerOptimus/SuperAGI"
+  },
+  {
+    "name": "camel-ai/camel",
+    "stars": 16391,
+    "description": "🐫 CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org",
+    "url": "https://github.com/camel-ai/camel"
+  },
+  {
+    "name": "OthmanAdi/planning-with-files",
+    "stars": 16344,
+    "description": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.",
+    "url": "https://github.com/OthmanAdi/planning-with-files"
+  },
+  {
+    "name": "agent0ai/agent-zero",
+    "stars": 16182,
+    "description": "Agent Zero AI framework",
+    "url": "https://github.com/agent0ai/agent-zero"
+  },
+  {
+    "name": "karpathy/llm-council",
+    "stars": 15873,
+    "description": "LLM Council works together to answer your hardest questions",
+    "url": "https://github.com/karpathy/llm-council"
+  },
+  {
+    "name": "slopus/happy",
+    "stars": 15552,
+    "description": "Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured",
+    "url": "https://github.com/slopus/happy"
+  },
+  {
+    "name": "ansible/awx",
+    "stars": 15320,
+    "description": "AWX provides a web-based user interface, REST API, and task engine built on top of Ansible. It is one of the upstream projects for Red Hat Ansible Automation Platform.",
+    "url": "https://github.com/ansible/awx"
+  },
+  {
+    "name": "volcengine/OpenViking",
+    "stars": 15312,
+    "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
+    "url": "https://github.com/volcengine/OpenViking"
+  },
+  {
+    "name": "plandex-ai/plandex",
+    "stars": 15092,
+    "description": "Open source AI coding agent. Designed for large projects and real world tasks.",
+    "url": "https://github.com/plandex-ai/plandex"
+  },
+  {
+    "name": "RightNow-AI/openfang",
+    "stars": 14812,
+    "description": "Open-source Agent Operating System",
+    "url": "https://github.com/RightNow-AI/openfang"
+  },
+  {
+    "name": "kepano/obsidian-skills",
+    "stars": 14583,
+    "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+    "url": "https://github.com/kepano/obsidian-skills"
+  },
+  {
+    "name": "AndyMik90/Aperant",
+    "stars": 13352,
+    "description": "Autonomous multi-session AI coding",
+    "url": "https://github.com/AndyMik90/Aperant"
+  },
+  {
+    "name": "eigent-ai/eigent",
+    "stars": 13042,
+    "description": "Eigent: The Open Source Cowork Desktop to Unlock Your Exceptional Productivity. Local and Free Alternative to Claude Cowork.",
+    "url": "https://github.com/eigent-ai/eigent"
+  },
+  {
+    "name": "NevaMind-AI/memU",
+    "stars": 13004,
+    "description": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).",
+    "url": "https://github.com/NevaMind-AI/memU"
+  },
+  {
+    "name": "ag-ui-protocol/ag-ui",
+    "stars": 12522,
+    "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
+    "url": "https://github.com/ag-ui-protocol/ag-ui"
+  },
+  {
+    "name": "steveyegge/gastown",
+    "stars": 12430,
+    "description": "Gas Town - multi-agent workspace manager",
+    "url": "https://github.com/steveyegge/gastown"
+  },
+  {
+    "name": "PipedreamHQ/pipedream",
+    "stars": 11178,
+    "description": "Connect APIs, remarkably fast.  Free for developers.",
+    "url": "https://github.com/PipedreamHQ/pipedream"
+  },
+  {
+    "name": "getumbrel/umbrel",
+    "stars": 10792,
+    "description": "An elegant home server OS. Run OpenClaw, store your files and photos, run a Bitcoin node, and do more with over 300 apps in the Umbrel App Store.",
+    "url": "https://github.com/getumbrel/umbrel"
+  },
+  {
+    "name": "OffcierCia/DeFi-Developer-Road-Map",
+    "stars": 10711,
+    "description": "DeFi Developer roadmap is a curated Developer handbook which includes a list of the best tools for DApps development, resources and references! ",
+    "url": "https://github.com/OffcierCia/DeFi-Developer-Road-Map"
+  },
+  {
+    "name": "cft0808/edict",
+    "stars": 10663,
+    "description": "🏛️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails",
+    "url": "https://github.com/cft0808/edict"
+  },
+  {
+    "name": "timlrx/tailwind-nextjs-starter-blog",
+    "stars": 10424,
+    "description": "This is a Next.js, Tailwind CSS blogging starter template. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.",
+    "url": "https://github.com/timlrx/tailwind-nextjs-starter-blog"
+  },
+  {
+    "name": "Yeachan-Heo/oh-my-claudecode",
+    "stars": 10193,
+    "description": "Teams-first Multi-agent orchestration for Claude Code",
+    "url": "https://github.com/Yeachan-Heo/oh-my-claudecode"
+  },
+  {
+    "name": "cloudflare/moltworker",
+    "stars": 9661,
+    "description": "Run OpenClaw, (formerly Moltbot, formerly Clawdbot) on Cloudflare Workers",
+    "url": "https://github.com/cloudflare/moltworker"
+  },
+  {
+    "name": "mcp-use/mcp-use",
+    "stars": 9450,
+    "description": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.",
+    "url": "https://github.com/mcp-use/mcp-use"
+  },
+  {
+    "name": "diet103/claude-code-infrastructure-showcase",
+    "stars": 9270,
+    "description": "Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents",
+    "url": "https://github.com/diet103/claude-code-infrastructure-showcase"
+  },
+  {
+    "name": "davidkimai/Context-Engineering",
+    "stars": 8571,
+    "description": "\"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
+    "url": "https://github.com/davidkimai/Context-Engineering"
+  },
+  {
+    "name": "manaflow-ai/cmux",
+    "stars": 7844,
+    "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
+    "url": "https://github.com/manaflow-ai/cmux"
+  },
+  {
+    "name": "automazeio/ccpm",
+    "stars": 7681,
+    "description": "Project management system for Claude Code using GitHub Issues and Git worktrees for parallel agent execution.",
+    "url": "https://github.com/automazeio/ccpm"
+  },
+  {
+    "name": "HumanAIGC/EMO",
+    "stars": 7633,
+    "description": "Emote Portrait Alive: Generating Expressive Portrait Videos with Audio2Video Diffusion Model under Weak Conditions",
+    "url": "https://github.com/HumanAIGC/EMO"
+  },
+  {
+    "name": "snarktank/ai-dev-tasks",
+    "stars": 7633,
+    "description": "A simple task management system for managing AI dev agents",
+    "url": "https://github.com/snarktank/ai-dev-tasks"
+  },
+  {
+    "name": "leerob/next-mdx-blog",
+    "stars": 7563,
+    "description": "Next.js + MDX blog template with Tailwind CSS and TypeScript.",
+    "url": "https://github.com/leerob/next-mdx-blog"
+  },
+  {
+    "name": "MemTensor/MemOS",
+    "stars": 7375,
+    "description": "AI memory OS for LLM and Agent systems(moltbot,clawdbot,openclaw), enabling persistent Skill memory for cross-task skill reuse and evolution.",
+    "url": "https://github.com/MemTensor/MemOS"
+  },
+  {
+    "name": "superset-sh/superset",
+    "stars": 7305,
+    "description": "IDE for the AI Agents Era - Run an army of Claude Code, Codex, etc. on your machine",
+    "url": "https://github.com/superset-sh/superset"
+  },
+  {
+    "name": "HKUDS/ClawWork",
+    "stars": 7281,
+    "description": "\"ClawWork: OpenClaw as Your AI Coworker - 💰 $15K earned in 11 Hours\"",
+    "url": "https://github.com/HKUDS/ClawWork"
+  },
+  {
+    "name": "MiroMindAI/MiroThinker",
+    "stars": 7024,
+    "description": "MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7 and MiroThinker-H1, achieve 74.0 and 88.2 on the BrowseComp, respectively.",
+    "url": "https://github.com/MiroMindAI/MiroThinker"
+  },
+  {
+    "name": "refly-ai/refly",
+    "stars": 7013,
+    "description": "The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts.",
+    "url": "https://github.com/refly-ai/refly"
+  },
+  {
+    "name": "InternLM/MindSearch",
+    "stars": 6806,
+    "description": "🔍 An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)",
+    "url": "https://github.com/InternLM/MindSearch"
+  },
+  {
+    "name": "VoltAgent/voltagent",
+    "stars": 6791,
+    "description": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework",
+    "url": "https://github.com/VoltAgent/voltagent"
+  },
+  {
+    "name": "teng-lin/notebooklm-py",
+    "stars": 6184,
+    "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
+    "url": "https://github.com/teng-lin/notebooklm-py"
+  },
+  {
+    "name": "Shopify/polaris-react",
+    "stars": 6106,
+    "description": "Shopify's Polaris Design System - React implementation (Deprecated)",
+    "url": "https://github.com/Shopify/polaris-react"
+  },
+  {
+    "name": "BrowserMCP/mcp",
+    "stars": 6083,
+    "description": "Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser",
+    "url": "https://github.com/BrowserMCP/mcp"
+  },
+  {
+    "name": "kyegomez/swarms",
+    "stars": 5906,
+    "description": "The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework. Website: https://swarms.ai",
+    "url": "https://github.com/kyegomez/swarms"
+  },
+  {
+    "name": "Uniswap/web3-react",
+    "stars": 5690,
+    "description": "A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps",
+    "url": "https://github.com/Uniswap/web3-react"
+  },
+  {
+    "name": "MervinPraison/PraisonAI",
+    "stars": 5680,
+    "description": "PraisonAI 🦞 - Your 24/7 AI employee team. Automate and solve complex challenges with low-code multi-agent AI that plans, researches, codes, and delivers to Telegram, Discord, and WhatsApp. Handoffs, guardrails, memory, RAG, 100+ LLMs.",
+    "url": "https://github.com/MervinPraison/PraisonAI"
+  },
+  {
+    "name": "GothenburgBitFactory/taskwarrior",
+    "stars": 5653,
+    "description": "Taskwarrior - Command line Task Management",
+    "url": "https://github.com/GothenburgBitFactory/taskwarrior"
+  },
+  {
+    "name": "BlockRunAI/ClawRouter",
+    "stars": 5549,
+    "description": "The agent-native LLM router for OpenClaw. 41+ models, <1ms routing, USDC payments on Base & Solana via x402.",
+    "url": "https://github.com/BlockRunAI/ClawRouter"
+  },
+  {
+    "name": "ChrisWiles/claude-code-showcase",
+    "stars": 5540,
+    "description": "Comprehensive Claude Code project configuration example with hooks, skills, agents, commands, and GitHub Actions workflows",
+    "url": "https://github.com/ChrisWiles/claude-code-showcase"
+  },
+  {
+    "name": "Uniswap/interface",
+    "stars": 5492,
+    "description": "🦄 Open source interfaces for the Uniswap protocol",
+    "url": "https://github.com/Uniswap/interface"
+  },
+  {
+    "name": "agiresearch/AIOS",
+    "stars": 5335,
+    "description": "AIOS: AI Agent Operating System",
+    "url": "https://github.com/agiresearch/AIOS"
+  },
+  {
+    "name": "ringhyacinth/Star-Office-UI",
+    "stars": 5092,
+    "description": "A pixel office for your OpenClaw: turn invisible work states into a cozy little space with characters, daily notes, and guest agents. Code under MIT; art assets for non-commercial learning only.",
+    "url": "https://github.com/ringhyacinth/Star-Office-UI"
+  },
+  {
+    "name": "sea-protocol/seaprotocol",
+    "stars": 5066,
+    "description": "Sea protocol is the ultimate DEX base on order-book & AMM on Aptos & Sui.Anybody has the right to trade any asset anywhere, anytime!",
+    "url": "https://github.com/sea-protocol/seaprotocol"
+  },
+  {
+    "name": "ValueCell-ai/ClawX",
+    "stars": 4798,
+    "description": "ClawX is a desktop app that provides a graphical interface for OpenClaw AI agents. It turns CLI-based AI orchestration into a desktop experience without using the terminal. China website is https://clawx.com.cn.",
+    "url": "https://github.com/ValueCell-ai/ClawX"
+  },
+  {
+    "name": "memovai/mimiclaw",
+    "stars": 4582,
+    "description": "MimiClaw: Run OpenClaw on a $5 chip. No OS(Linux). No Node.js. No Mac mini. No Raspberry Pi. No VPS. Hardware agents OS.",
+    "url": "https://github.com/memovai/mimiclaw"
+  },
+  {
+    "name": "jiulingyun/openclaw-cn",
+    "stars": 4321,
+    "description": "中文社区版OpenClaw，同原版保持定期更新，已内置钉钉、企业微信、飞书、QQ以及国内网络环境优化。你的专属个人AI助手。支持所有操作系统和平台。🦞",
+    "url": "https://github.com/jiulingyun/openclaw-cn"
+  },
+  {
+    "name": "rainbow-me/rainbow",
+    "stars": 4320,
+    "description": "🌈‒ the Ethereum wallet that lives in your pocket ",
+    "url": "https://github.com/rainbow-me/rainbow"
+  },
+  {
+    "name": "langroid/langroid",
+    "stars": 3934,
+    "description": "Harness LLMs with Multi-Agent Programming",
+    "url": "https://github.com/langroid/langroid"
+  },
+  {
+    "name": "mnfst/manifest",
+    "stars": 3850,
+    "description": "Smart LLM Routing for OpenClaw. Cut Costs up to 70% 🦞🦚",
+    "url": "https://github.com/mnfst/manifest"
+  },
+  {
+    "name": "embarklabs/embark",
+    "stars": 3784,
+    "description": "Framework for serverless Decentralized Applications using Ethereum, IPFS and other platforms",
+    "url": "https://github.com/embarklabs/embark"
+  },
+  {
+    "name": "OneRedOak/claude-code-workflows",
+    "stars": 3716,
+    "description": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Workflows are based off applied learnings from our AI-native startup.",
+    "url": "https://github.com/OneRedOak/claude-code-workflows"
+  },
+  {
+    "name": "parcadei/Continuous-Claude-v3",
+    "stars": 3613,
+    "description": "Context management for Claude Code. Hooks maintain state via ledgers and handoffs. MCP execution without context pollution. Agent orchestration with isolated context windows.",
+    "url": "https://github.com/parcadei/Continuous-Claude-v3"
+  },
+  {
+    "name": "campfirein/cipher",
+    "stars": 3589,
+    "description": "Byterover Cipher is an opensource memory layer specifically designed for coding agents. Compatible with Cursor, Codex, Claude Code, Windsurf, Cline, Claude Desktop, Gemini CLI, AWS's Kiro, VS Code, Roo Code, Trae, Amp Code and Warp through MCP. Built by https://byterover.dev/",
+    "url": "https://github.com/campfirein/cipher"
+  },
+  {
+    "name": "camel-ai/oasis",
+    "stars": 3449,
+    "description": "🏝️ OASIS: Open Agent Social Interaction Simulations with One Million Agents. ",
+    "url": "https://github.com/camel-ai/oasis"
+  },
+  {
+    "name": "vllm-project/semantic-router",
+    "stars": 3440,
+    "description": "System Level Intelligent Router for Mixture-of-Models at Cloud, Data Center and Edge",
+    "url": "https://github.com/vllm-project/semantic-router"
+  },
+  {
+    "name": "disler/claude-code-hooks-mastery",
+    "stars": 3327,
+    "description": "Master Claude Code Hooks",
+    "url": "https://github.com/disler/claude-code-hooks-mastery"
+  },
+  {
+    "name": "badrisnarayanan/antigravity-claude-proxy",
+    "stars": 3182,
+    "description": "Proxy that exposes Antigravity provided claude / gemini models, so we can use them in Claude Code and OpenClaw (Clawdbot)",
+    "url": "https://github.com/badrisnarayanan/antigravity-claude-proxy"
+  },
+  {
+    "name": "miaoxworld/OpenClawInstaller",
+    "stars": 3121,
+    "description": "ClawdBot 一键部署工具",
+    "url": "https://github.com/miaoxworld/OpenClawInstaller"
+  },
+  {
+    "name": "openclaw/skills",
+    "stars": 3014,
+    "description": "All versions of all skills that are on clawhub.com archived",
+    "url": "https://github.com/openclaw/skills"
+  },
+  {
+    "name": "CortexReach/memory-lancedb-pro",
+    "stars": 2911,
+    "description": "Enhanced LanceDB memory plugin for OpenClaw — Hybrid Retrieval (Vector + BM25), Cross-Encoder Rerank, Multi-Scope Isolation, Management CLI",
+    "url": "https://github.com/CortexReach/memory-lancedb-pro"
+  },
+  {
+    "name": "builderz-labs/mission-control",
+    "stars": 2713,
+    "description": "The open-source dashboard for AI agent orchestration. Manage agent fleets, track tasks, monitor costs, and orchestrate workflows — with direct CLI integration, GitHub sync, and real-time monitoring.",
+    "url": "https://github.com/builderz-labs/mission-control"
+  },
+  {
+    "name": "EverMind-AI/EverMemOS",
+    "stars": 2705,
+    "description": "Long-term memory for your 24/7 OpenClaw agents across LLMs and platforms.",
+    "url": "https://github.com/EverMind-AI/EverMemOS"
+  },
+  {
+    "name": "abhi1693/openclaw-mission-control",
+    "stars": 2656,
+    "description": "AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-agent collaboration via OpenClaw Gateway.",
+    "url": "https://github.com/abhi1693/openclaw-mission-control"
+  },
+  {
+    "name": "michaelshimeles/ralphy",
+    "stars": 2620,
+    "description": "My Ralph Wiggum setup, an autonomous bash script that runs Claude Code, Codex, OpenCode, Cursor agent, Qwen & Droid in a loop until your PRD is complete.",
+    "url": "https://github.com/michaelshimeles/ralphy"
+  },
+  {
+    "name": "davepoon/buildwithclaude",
+    "stars": 2599,
+    "description": "A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw",
+    "url": "https://github.com/davepoon/buildwithclaude"
+  },
+  {
+    "name": "RunMaestro/Maestro",
+    "stars": 2519,
+    "description": "Agent Orchestration Command Center",
+    "url": "https://github.com/RunMaestro/Maestro"
+  },
+  {
+    "name": "moazbuilds/CodeMachine-CLI",
+    "stars": 2385,
+    "description": "CodeMachine is an open-source tool that orchestrates AI coding agents into repeatable, long-running workflows. ⚡️",
+    "url": "https://github.com/moazbuilds/CodeMachine-CLI"
+  },
+  {
+    "name": "kagent-dev/kagent",
+    "stars": 2360,
+    "description": "Cloud Native Agentic AI | Discord: https://bit.ly/kagentdiscord",
+    "url": "https://github.com/kagent-dev/kagent"
+  },
+  {
+    "name": "moltis-org/moltis",
+    "stars": 2257,
+    "description": "A Rust-native claw you can trust. One binary — sandboxed, secure, auditable. Voice, memory, MCP tools, and multi-channel access built-in.",
+    "url": "https://github.com/moltis-org/moltis"
+  },
+  {
+    "name": "roboflow/inference",
+    "stars": 2222,
+    "description": "Turn any computer or edge device into a command center for your computer vision projects.",
+    "url": "https://github.com/roboflow/inference"
+  },
+  {
+    "name": "mikeyobrien/ralph-orchestrator",
+    "stars": 2213,
+    "description": "An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration",
+    "url": "https://github.com/mikeyobrien/ralph-orchestrator"
+  },
+  {
+    "name": "snarktank/antfarm",
+    "stars": 2189,
+    "description": "Build your agent team in OpenClaw with one command.",
+    "url": "https://github.com/snarktank/antfarm"
+  },
+  {
+    "name": "OffcierCia/ultimate-defi-research-base",
+    "stars": 2182,
+    "description": "Here we collect and discuss the best DeFI & Blockchain researches and tools. Feel free to DM me on Twitter or open pool request. ",
+    "url": "https://github.com/OffcierCia/ultimate-defi-research-base"
+  },
+  {
+    "name": "firecrawl/open-agent-builder",
+    "stars": 2122,
+    "description": "🔥 Visual workflow builder for AI agents powered by Firecrawl - drag-and-drop web scraping pipelines with real-time execution",
+    "url": "https://github.com/firecrawl/open-agent-builder"
+  },
+  {
+    "name": "can1357/oh-my-pi",
+    "stars": 2082,
+    "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+    "url": "https://github.com/can1357/oh-my-pi"
+  },
+  {
+    "name": "scaffold-eth/scaffold-eth-2",
+    "stars": 1996,
+    "description": "Open source forkable Ethereum dev stack",
+    "url": "https://github.com/scaffold-eth/scaffold-eth-2"
+  },
+  {
+    "name": "LeoYeAI/openclaw-master-skills",
+    "stars": 1938,
+    "description": "🧠 Curated collection of 339+ best OpenClaw skills — weekly updated by MyClaw.ai from ClawHub, GitHub & community. AI, productivity, dev, marketing, finance & more.",
+    "url": "https://github.com/LeoYeAI/openclaw-master-skills"
+  },
+  {
+    "name": "mckaywrigley/mckays-app-template",
+    "stars": 1936,
+    "description": "This is the template I use to start new full-stack projects.",
+    "url": "https://github.com/mckaywrigley/mckays-app-template"
+  },
+  {
+    "name": "EvoAgentX/Awesome-Self-Evolving-Agents",
+    "stars": 1929,
+    "description": "[Survey] A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems",
+    "url": "https://github.com/EvoAgentX/Awesome-Self-Evolving-Agents"
+  },
+  {
+    "name": "MiniMax-AI/Mini-Agent",
+    "stars": 1877,
+    "description": "A minimal yet professional single agent demo project that showcases the core execution pipeline and production-grade features of agents.",
+    "url": "https://github.com/MiniMax-AI/Mini-Agent"
+  },
+  {
+    "name": "betomoedano/snapai",
+    "stars": 1734,
+    "description": "AI-powered icon generation CLI for React Native & Expo developers. Generate stunning app icons in seconds using OpenAI's latest models.",
+    "url": "https://github.com/betomoedano/snapai"
+  },
+  {
+    "name": "grp06/openclaw-studio",
+    "stars": 1651,
+    "description": "A clean web dashboard for OpenClaw. Connect your Gateway, manage agents, and ship faster. ⭐️ Star if you like it!",
+    "url": "https://github.com/grp06/openclaw-studio"
+  },
+  {
+    "name": "asheshgoplani/agent-deck",
+    "stars": 1573,
+    "description": "Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more.",
+    "url": "https://github.com/asheshgoplani/agent-deck"
+  },
+  {
+    "name": "crshdn/mission-control",
+    "stars": 1526,
+    "description": "AI Agent Orchestration Dashboard - Manage AI agents, assign tasks, and coordinate multi-agent collaboration via OpenClaw Gateway.",
+    "url": "https://github.com/crshdn/mission-control"
+  },
+  {
+    "name": "RTGS2017/NagaAgent",
+    "stars": 1489,
+    "description": "A simple yet powerful agent framework for personal assistants, designed to enable intelligent interaction, multi-agent collaboration, and seamless tool integration.",
+    "url": "https://github.com/RTGS2017/NagaAgent"
+  },
+  {
+    "name": "PleasePrompto/notebooklm-mcp",
+    "stars": 1440,
+    "description": "MCP server for NotebookLM - Let your AI agents (Claude Code, Codex) research documentation directly with grounded, citation-backed answers from Gemini. Persistent auth, library management, cross-client sharing. Zero hallucinations, just your knowledge base.",
+    "url": "https://github.com/PleasePrompto/notebooklm-mcp"
+  },
+  {
+    "name": "obsei/obsei",
+    "stars": 1381,
+    "description": "Obsei is a low code AI powered automation tool. It can be used in various business flows like social listening, AI based alerting, brand image analysis, comparative study and more .",
+    "url": "https://github.com/obsei/obsei"
+  },
+  {
+    "name": "ComposioHQ/secure-openclaw",
+    "stars": 1369,
+    "description": "A personal 24x7 AI assistant like OpenClaw that runs on your messaging platforms. Send a message on WhatsApp, Telegram, Signal, or iMessage and get responses from Claude with full tool access, persistent memory, scheduled reminders, and integrations with 500+ apps.",
+    "url": "https://github.com/ComposioHQ/secure-openclaw"
+  },
+  {
+    "name": "ovh/utask",
+    "stars": 1365,
+    "description": "µTask is an automation engine that models and executes business processes declared in yaml. ✏️📋",
+    "url": "https://github.com/ovh/utask"
+  },
+  {
+    "name": "peterkrueck/Claude-Code-Development-Kit",
+    "stars": 1327,
+    "description": "Handle context at scale - my custom Claude Code workflow including hooks, mcp and sub agents",
+    "url": "https://github.com/peterkrueck/Claude-Code-Development-Kit"
+  },
+  {
+    "name": "CloudAI-X/claude-workflow-v2",
+    "stars": 1300,
+    "description": "Universal Claude Code workflow plugin with agents, skills, hooks, and commands",
+    "url": "https://github.com/CloudAI-X/claude-workflow-v2"
+  },
+  {
+    "name": "Shopify/themekit",
+    "stars": 1284,
+    "description": "Shopify theme development command line tool.",
+    "url": "https://github.com/Shopify/themekit"
+  },
+  {
+    "name": "disler/claude-code-hooks-multi-agent-observability",
+    "stars": 1276,
+    "description": "Real-time monitoring for Claude Code agents through simple hook event tracking.",
+    "url": "https://github.com/disler/claude-code-hooks-multi-agent-observability"
+  },
+  {
+    "name": "YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
+    "stars": 1240,
+    "description": "AI skill for OpenClaw & Claude Code — recommend from 10000+ Nano Banana Pro (Gemini) image prompts. Smart search by use case, content remix, sample images.",
+    "url": "https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill"
+  },
+  {
+    "name": "omerxx/tmux-sessionx",
+    "stars": 1217,
+    "description": "A Tmux session manager, with preview, fuzzy finding, and MORE",
+    "url": "https://github.com/omerxx/tmux-sessionx"
+  },
+  {
+    "name": "junhoyeo/tokscale",
+    "stars": 1217,
+    "description": "🛰️ A CLI tool for tracking token usage from OpenCode, Claude Code, 🦞OpenClaw (Clawdbot/Moltbot), Pi, Codex, Gemini, Cursor, AmpCode, Factory Droid, Kimi, and more! • 🏅Global Leaderboard + 2D/3D Contributions Graph",
+    "url": "https://github.com/junhoyeo/tokscale"
+  },
+  {
+    "name": "rinadelph/Agent-MCP",
+    "stars": 1195,
+    "description": "Agent-MCP is a framework for creating multi-agent systems that enables coordinated, efficient AI collaboration through the Model Context Protocol (MCP). The system is designed for developers building AI applications that benefit from multiple specialized agents working in parallel on different aspects of a project.",
+    "url": "https://github.com/rinadelph/Agent-MCP"
+  },
+  {
+    "name": "decentraland/marketplace",
+    "stars": 1195,
+    "description": "🏛️ Decentraland's NFT Marketplace",
+    "url": "https://github.com/decentraland/marketplace"
+  },
+  {
+    "name": "julionc/awesome-shopify",
+    "stars": 1193,
+    "description": "📌✨A curated list of awesome Shopify resources, libraries and open source projects.",
+    "url": "https://github.com/julionc/awesome-shopify"
+  },
+  {
+    "name": "steipete/claude-code-mcp",
+    "stars": 1175,
+    "description": "Claude Code as one-shot MCP server to have an agent in your agent.",
+    "url": "https://github.com/steipete/claude-code-mcp"
+  },
+  {
+    "name": "aiming-lab/Agent0",
+    "stars": 1092,
+    "description": "Agent0 Series: Self-Evolving Agents from Zero Data",
+    "url": "https://github.com/aiming-lab/Agent0"
+  },
+  {
+    "name": "runkids/skillshare",
+    "stars": 905,
+    "description": "📚 Sync skills across all AI CLI tools with one command and simplify team sharing. Supporting Codex, Claude Code, OpenClaw & more",
+    "url": "https://github.com/runkids/skillshare"
+  },
+  {
+    "name": "crabwise-ai/crabwalk",
+    "stars": 864,
+    "description": "🦀 Crabwalk 🦀 Real-time companion monitor for OpenClaw agents.",
+    "url": "https://github.com/crabwise-ai/crabwalk"
+  },
+  {
+    "name": "zentralopensource/zentral",
+    "stars": 847,
+    "description": "Zentral is a high-visibility platform for controlling Apple endpoints in enterprises. It brings great observability to IT and makes tracking & reporting compliance much less manual.",
+    "url": "https://github.com/zentralopensource/zentral"
+  },
+  {
+    "name": "context-machine-lab/sleepless-agent",
+    "stars": 810,
+    "description": "🤖 24/7 AI agent that maximizes Claude Code Pro usage via Slack. Auto-processes tasks, manages isolated workspaces, creates Git commits/PRs, and optimizes day/night usage thresholds.",
+    "url": "https://github.com/context-machine-lab/sleepless-agent"
+  },
+  {
+    "name": "carlosazaustre/tenacitOS",
+    "stars": 810,
+    "description": "OpenClaw Mission Control Dashboard",
+    "url": "https://github.com/carlosazaustre/tenacitOS"
+  },
+  {
+    "name": "prompt-security/clawsec",
+    "stars": 782,
+    "description": "A complete security skill suite for OpenClaw's and NanoClaw agents (and variants). Protect your SOUL.md (etc') with drift detection, live security recommendations, automated audits, and skill integrity verification. All from one installable suite.",
+    "url": "https://github.com/prompt-security/clawsec"
+  },
+  {
+    "name": "karpathy/jobs",
+    "stars": 723,
+    "description": "A research tool for visually exploring Bureau of Labor Statistics Occupational Outlook Handbook data. This is not a report, a paper, or a serious economic publication — it is a development tool for exploring BLS data visually.",
+    "url": "https://github.com/karpathy/jobs"
+  },
+  {
+    "name": "terryso/claude-auto-resume",
+    "stars": 700,
+    "description": "A shell script utility that automatically resumes Claude CLI tasks when usage limits are lifted.",
+    "url": "https://github.com/terryso/claude-auto-resume"
+  },
+  {
+    "name": "prompt-engineering/chat-flow",
+    "stars": 687,
+    "description": " ChatFlow  - AI-based chat flow framework, personalize your ChatGPT workflows and build the road to automation。ChatFlow —— 打造个性化 ChatGPT 流程，构建自动化之路 ",
+    "url": "https://github.com/prompt-engineering/chat-flow"
+  },
+  {
+    "name": "vstorm-co/full-stack-ai-agent-template",
+    "stars": 671,
+    "description": "Production-ready Full-Stack AI Agent Template — FastAPI + Next.js with 5 AI frameworks (PydanticAI, LangChain, LangGraph, CrewAI, DeepAgents), WebSocket streaming, tool approval UI, auth, multi-DB, observability, and 20+ integrations.",
+    "url": "https://github.com/vstorm-co/full-stack-ai-agent-template"
+  },
+  {
+    "name": "quoroom-ai/room",
+    "stars": 642,
+    "description": "Open-source earning-focused swarm intelligence engine. Self-governing AI collectives (queen, workers, quorum voting) running locally via MCP. Works with Claude Code, Codex, or pay-per-use APIs.",
+    "url": "https://github.com/quoroom-ai/room"
+  },
+  {
+    "name": "firstbatchxyz/mem-agent-mcp",
+    "stars": 614,
+    "description": "mem-agent mcp server",
+    "url": "https://github.com/firstbatchxyz/mem-agent-mcp"
+  },
+  {
+    "name": "supermemoryai/openclaw-supermemory",
+    "stars": 604,
+    "description": "OpenClaw Supermemory lets to have long-term memory and recall for your openclaw agent.",
+    "url": "https://github.com/supermemoryai/openclaw-supermemory"
+  },
+  {
+    "name": "agent-sh/agentsys",
+    "stars": 604,
+    "description": "AI writes code. This automates everything else · 18 plugins, 38 agents, and 36 skills · for Claude Code, OpenCode, Codex, cursor, kiro.",
+    "url": "https://github.com/agent-sh/agentsys"
+  },
+  {
+    "name": "ibelick/webclaw",
+    "stars": 587,
+    "description": "Fast web client for OpenClaw",
+    "url": "https://github.com/ibelick/webclaw"
+  },
+  {
+    "name": "Farzad-R/LLM-Zero-to-Hundred",
+    "stars": 557,
+    "description": "This repository contains different LLM chatbot projects (RAG, LLM agents, etc.) and well-known techniques for training and fine tuning LLMs.",
+    "url": "https://github.com/Farzad-R/LLM-Zero-to-Hundred"
+  },
+  {
+    "name": "bkdevs/async-server",
+    "stars": 533,
+    "description": "It's like Claude Code + Linear + GitHub PR",
+    "url": "https://github.com/bkdevs/async-server"
+  },
+  {
+    "name": "dappros/ethora",
+    "stars": 522,
+    "description": "Open-source engine for chat 💬, AI assistants 🤖 & wallets 🪪. React, Typescript, Python, XMPP. Build future apps with chat, AI agents and web3.",
+    "url": "https://github.com/dappros/ethora"
+  },
+  {
+    "name": "gitbitex/gitbitex-spot",
+    "stars": 519,
+    "description": "An Open Source Cryptocurrency Exchange",
+    "url": "https://github.com/gitbitex/gitbitex-spot"
+  },
+  {
+    "name": "L1AD/claude-task-viewer",
+    "stars": 495,
+    "description": "A web-based Kanban board for viewing Claude Code tasks",
+    "url": "https://github.com/L1AD/claude-task-viewer"
+  },
+  {
+    "name": "camel-ai/loong",
+    "stars": 492,
+    "description": "🐉 Loong: Synthesize Long CoTs at Scale through Verifiers.",
+    "url": "https://github.com/camel-ai/loong"
+  },
+  {
+    "name": "milisp/codexia",
+    "stars": 491,
+    "description": "Agent Workstation for Codex CLI + Claude Code — with task scheduler, git worktree & remote control, Tauri",
+    "url": "https://github.com/milisp/codexia"
+  },
+  {
+    "name": "wecode-ai/Wegent",
+    "stars": 485,
+    "description": "An open-source AI-native operating system to define, organize, and run intelligent agent teams",
+    "url": "https://github.com/wecode-ai/Wegent"
+  },
+  {
+    "name": "sundial-org/awesome-openclaw-skills",
+    "stars": 481,
+    "description": "Top OpenClaw skills, with the most popular and useful ones.",
+    "url": "https://github.com/sundial-org/awesome-openclaw-skills"
+  },
+  {
+    "name": "robsannaa/openclaw-mission-control",
+    "stars": 474,
+    "description": "A GUI that runs on your Openclaw host and lets you totally manage it without touching the CLI. Not a technical user? Deploy it on agentbay.space",
+    "url": "https://github.com/robsannaa/openclaw-mission-control"
+  },
+  {
+    "name": "hollaex/hollaex-kit",
+    "stars": 468,
+    "description": "Exchange Starter Kit to run your own Digital Asset Trading Exchange Platform",
+    "url": "https://github.com/hollaex/hollaex-kit"
+  },
+  {
+    "name": "vstorm-co/pydantic-deepagents",
+    "stars": 467,
+    "description": "Python Deep Agent framework built on top of Pydantic-AI, designed to help you quickly build production-grade autonomous AI agents with planning, filesystem operations, subagent delegation, skills, and structured outputs—in just 10 lines of code.",
+    "url": "https://github.com/vstorm-co/pydantic-deepagents"
+  },
+  {
+    "name": "betomoedano/quick-push",
+    "stars": 418,
+    "description": "A lightweight macOS menu bar utility for quickly testing Expo push notifications",
+    "url": "https://github.com/betomoedano/quick-push"
+  },
+  {
+    "name": "craigsc/cmux",
+    "stars": 367,
+    "description": "cmux: tmux for Claude Code",
+    "url": "https://github.com/craigsc/cmux"
+  },
+  {
+    "name": "hallucinogen/agent-viewer",
+    "stars": 342,
+    "description": "Kanban board for managing Claude Code agents in tmux",
+    "url": "https://github.com/hallucinogen/agent-viewer"
+  },
+  {
+    "name": "WW-AI-Lab/openclaw-office",
+    "stars": 334,
+    "description": "OpenClaw Office is the visual monitoring and management frontend for the  OpenClaw Multi-Agent system. It connects to the OpenClaw Gateway via WebSocket to visualize Agent collaboration as a \"digital office\" and provides a full console management interface.",
+    "url": "https://github.com/WW-AI-Lab/openclaw-office"
+  },
+  {
+    "name": "clawdeckio/clawdeck",
+    "stars": 317,
+    "description": "Open source mission control for your OpenClaw agents 🦞",
+    "url": "https://github.com/clawdeckio/clawdeck"
+  },
+  {
+    "name": "get-convex/agent",
+    "stars": 312,
+    "description": "Build AI agents on Convex with persistent chat history",
+    "url": "https://github.com/get-convex/agent"
+  },
+  {
+    "name": "Arkya-AI/claude-context-os",
+    "stars": 295,
+    "description": "A complete operating system for Claude that prevents context loss and makes multi-session work reliable",
+    "url": "https://github.com/Arkya-AI/claude-context-os"
+  },
+  {
+    "name": "lekt9/openclaw-foundry",
+    "stars": 281,
+    "description": "The forge that forges itself. Self-writing meta-extension for OpenClaw.ai",
+    "url": "https://github.com/lekt9/openclaw-foundry"
+  },
+  {
+    "name": "mudrii/openclaw-dashboard",
+    "stars": 279,
+    "description": "A beautiful, zero-dependency command center for OpenClaw AI agents",
+    "url": "https://github.com/mudrii/openclaw-dashboard"
+  },
+  {
+    "name": "heshanera/HealthPlus",
+    "stars": 261,
+    "description": "A Management System for a Health Care Facility. The system includes Registration of patients, Making appointments, Storing patient records, Billing in the pharmacy & Pharmacy stock controlling",
+    "url": "https://github.com/heshanera/HealthPlus"
+  },
+  {
+    "name": "thelastbackspace/cursor-auto-resume",
+    "stars": 255,
+    "description": "A simple tool that automatically clicks the \"resume the conversation\" link in Cursor IDE when rate limits are hit.",
+    "url": "https://github.com/thelastbackspace/cursor-auto-resume"
+  },
+  {
+    "name": "ErwanLorteau/BMAD_Openclaw",
+    "stars": 249,
+    "description": "Bridging the BMad Method to OpenClaw  —  Structured AI-driven development workflows.",
+    "url": "https://github.com/ErwanLorteau/BMAD_Openclaw"
+  },
+  {
+    "name": "Ark0N/Codeman",
+    "stars": 247,
+    "description": "Manage Claude Code & Opencode in Tmux Sessions in a modern WebUI",
+    "url": "https://github.com/Ark0N/Codeman"
+  },
+  {
+    "name": "manish-raana/openclaw-mission-control",
+    "stars": 245,
+    "description": "Mission Control is a simple, real-time web UI for monitoring agents and task workflows. Built with Convex and React, it provides a clean dashboard to track task state, agent activity, and live logs — all synchronized instantly without polling or message queues.",
+    "url": "https://github.com/manish-raana/openclaw-mission-control"
+  },
+  {
+    "name": "orra-dev/orra",
+    "stars": 244,
+    "description": "A plan engine for dynamic planning and reliable execution of AI agent workflows.",
+    "url": "https://github.com/orra-dev/orra"
+  },
+  {
+    "name": "SawyerHood/gitclaw",
+    "stars": 240,
+    "description": "OpenClaw but it runs entirely on github actions",
+    "url": "https://github.com/SawyerHood/gitclaw"
+  },
+  {
+    "name": "firstbatchxyz/dkn-compute-node",
+    "stars": 228,
+    "description": "Compute Node of Dria Knowledge Network.",
+    "url": "https://github.com/firstbatchxyz/dkn-compute-node"
+  },
+  {
+    "name": "ManojKumarPatnaik/Major-project-list",
+    "stars": 223,
+    "description": "A list of practical projects that anyone can solve in any programming language (See solutions). These projects are divided into multiple categories, and each category has its own folder.  To get started, simply fork this repo.  CONTRIBUTING See ways of contributing to this repo. You can contribute solutions (will be published in this repo) to existing problems, add new projects, or remove existing ones. Make sure you follow all instructions properly.  Solutions You can find implementations of these projects in many other languages by other users in this repo.  Credits  Problems are motivated by the ones shared at:  Martyr2’s Mega Project List Rosetta Code Table of Contents Numbers Classic Algorithms Graph Data Structures Text Networking Classes Threading Web Files Databases Graphics and Multimedia Security Numbers Find PI to the Nth Digit - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.  Find e to the Nth Digit - Just like the previous problem, but with e instead of PI. Enter a number and have the program generate e up to that many decimal places. Keep a limit to how far the program will go.  Fibonacci Sequence - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.  Prime Factorization - Have the user enter a number and find all Prime Factors (if there are any) and display them.  Next Prime Number - Have the program find prime numbers until the user chooses to stop asking for the next one.  Find Cost of Tile to Cover W x H Floor - Calculate the total cost of the tile it would take to cover a floor plan of width and height, using a cost entered by the user.  Mortgage Calculator - Calculate the monthly payments of a fixed-term mortgage over given Nth terms at a given interest rate. Also, figure out how long it will take the user to pay back the loan. For added complexity, add an option for users to select the compounding interval (Monthly, Weekly, Daily, Continually).  Change Return Program - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.  Binary to Decimal and Back Converter - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.  Calculator - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.  Unit Converter (temp, currency, volume, mass, and more) - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to, and then the value. The program will then make the conversion.  Alarm Clock - A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.  Distance Between Two Cities - Calculates the distance between two cities and allows the user to specify a unit of distance. This program may require finding coordinates for the cities like latitude and longitude.  Credit Card Validator - Takes in a credit card number from a common credit card vendor (Visa, MasterCard, American Express, Discoverer) and validates it to make sure that it is a valid number (look into how credit cards use a checksum).  Tax Calculator - Asks the user to enter a cost and either a country or state tax. It then returns the tax plus the total cost with tax.  Factorial Finder - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1, and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.  Complex Number Algebra - Show addition, multiplication, negation, and inversion of complex numbers in separate functions. (Subtraction and division operations can be made with pairs of these operations.) Print the results for each operation tested.  Happy Numbers - A happy number is defined by the following process. Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers. Display an example of your output here. Find the first 8 happy numbers.  Number Names - Show how to spell out a number in English. You can use a preexisting implementation or roll your own, but you should support inputs up to at least one million (or the maximum value of your language's default bounded integer type if that's less). Optional: Support for inputs other than positive integers (like zero, negative integers, and floating-point numbers).  Coin Flip Simulation - Write some code that simulates flipping a single coin however many times the user decides. The code should record the outcomes and count the number of tails and heads.  Limit Calculator - Ask the user to enter f(x) and the limit value, then return the value of the limit statement Optional: Make the calculator capable of supporting infinite limits.  Fast Exponentiation - Ask the user to enter 2 integers a and b and output a^b (i.e. pow(a,b)) in O(LG n) time complexity.  Classic Algorithms Collatz Conjecture - Start with a number n > 1. Find the number of steps it takes to reach one using the following process: If n is even, divide it by 2. If n is odd, multiply it by 3 and add 1.  Sorting - Implement two types of sorting algorithms: Merge sort and bubble sort.  Closest pair problem - The closest pair of points problem or closest pair problem is a problem of computational geometry: given n points in metric space, find a pair of points with the smallest distance between them.  Sieve of Eratosthenes - The sieve of Eratosthenes is one of the most efficient ways to find all of the smaller primes (below 10 million or so).  Graph Graph from links - Create a program that will create a graph or network from a series of links.  Eulerian Path - Create a program that will take as an input a graph and output either an Eulerian path or an Eulerian cycle, or state that it is not possible. An Eulerian path starts at one node and traverses every edge of a graph through every node and finishes at another node. An Eulerian cycle is an eulerian Path that starts and finishes at the same node.  Connected Graph - Create a program that takes a graph as an input and outputs whether every node is connected or not.  Dijkstra’s Algorithm - Create a program that finds the shortest path through a graph using its edges.  Minimum Spanning Tree - Create a program that takes a connected, undirected graph with weights and outputs the minimum spanning tree of the graph i.e., a subgraph that is a tree, contains all the vertices, and the sum of its weights is the least possible.  Data Structures Inverted index - An Inverted Index is a data structure used to create full-text search. Given a set of text files, implement a program to create an inverted index. Also, create a user interface to do a search using that inverted index which returns a list of files that contain the query term/terms. The search index can be in memory.  Text Fizz Buzz - Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.  Reverse a String - Enter a string and the program will reverse it and print it out.  Pig Latin - Pig Latin is a game of alterations played in the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: \"banana\" would yield anana-bay). Read Wikipedia for more information on rules.  Count Vowels - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.  Check if Palindrome - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backward like “racecar”  Count Words in a String - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.  Text Editor - Notepad-style application that can open, edit, and save text documents. Optional: Add syntax highlighting and other features.  RSS Feed Creator - Given a link to RSS/Atom Feed, get all posts and display them.  Quote Tracker (market symbols etc) - A program that can go out and check the current value of stocks for a list of symbols entered by the user. The user can set how often the stocks are checked. For CLI, show whether the stock has moved up or down. Optional: If GUI, the program can show green up and red down arrows to show which direction the stock value has moved.  Guestbook / Journal - A simple application that allows people to add comments or write journal entries. It can allow comments or not and timestamps for all entries. Could also be made into a shoutbox. Optional: Deploy it on Google App Engine or Heroku or any other PaaS (if possible, of course).  Vigenere / Vernam / Ceasar Ciphers - Functions for encrypting and decrypting data messages. Then send them to a friend.  Regex Query Tool - A tool that allows the user to enter a text string and then in a separate control enter a regex pattern. It will run the regular expression against the source text and return any matches or flag errors in the regular expression.  Networking FTP Program - A file transfer program that can transfer files back and forth from a remote web sever.  Bandwidth Monitor - A small utility program that tracks how much data you have uploaded and downloaded from the net during the course of your current online session. See if you can find out what periods of the day you use more and less and generate a report or graph that shows it.  Port Scanner - Enter an IP address and a port range where the program will then attempt to find open ports on the given computer by connecting to each of them. On any successful connections mark the port as open.  Mail Checker (POP3 / IMAP) - The user enters various account information include web server and IP, protocol type (POP3 or IMAP), and the application will check for email at a given interval.  Country from IP Lookup - Enter an IP address and find the country that IP is registered in. Optional: Find the Ip automatically.  Whois Search Tool - Enter an IP or host address and have it look it up through whois and return the results to you.  Site Checker with Time Scheduling - An application that attempts to connect to a website or server every so many minute or a given time and check if it is up. If it is down, it will notify you by email or by posting a notice on the screen.  Classes Product Inventory Project - Create an application that manages an inventory of products. Create a product class that has a price, id, and quantity on hand. Then create an inventory class that keeps track of various products and can sum up the inventory value.  Airline / Hotel Reservation System - Create a reservation system that books airline seats or hotel rooms. It charges various rates for particular sections of the plane or hotel. For example, first class is going to cost more than a coach. Hotel rooms have penthouse suites which cost more. Keep track of when rooms will be available and can be scheduled.  Company Manager - Create a hierarchy of classes - abstract class Employee and subclasses HourlyEmployee, SalariedEmployee, Manager, and Executive. Everyone's pay is calculated differently, research a bit about it. After you've established an employee hierarchy, create a Company class that allows you to manage the employees. You should be able to hire, fire, and raise employees.  Bank Account Manager - Create a class called Account which will be an abstract class for three other classes called CheckingAccount, SavingsAccount, and BusinessAccount. Manage credits and debits from these accounts through an ATM-style program.  Patient / Doctor Scheduler - Create a patient class and a doctor class. Have a doctor that can handle multiple patients and set up a scheduling program where a doctor can only handle 16 patients during an 8 hr workday.  Recipe Creator and Manager - Create a recipe class with ingredients and put them in a recipe manager program that organizes them into categories like desserts, main courses, or by ingredients like chicken, beef, soups, pies, etc.  Image Gallery - Create an image abstract class and then a class that inherits from it for each image type. Put them in a program that displays them in a gallery-style format for viewing.  Shape Area and Perimeter Classes - Create an abstract class called Shape and then inherit from it other shapes like diamond, rectangle, circle, triangle, etc. Then have each class override the area and perimeter functionality to handle each shape type.  Flower Shop Ordering To Go - Create a flower shop application that deals in flower objects and use those flower objects in a bouquet object which can then be sold. Keep track of the number of objects and when you may need to order more.  Family Tree Creator - Create a class called Person which will have a name, when they were born, and when (and if) they died. Allow the user to create these Person classes and put them into a family tree structure. Print out the tree to the screen.  Threading Create A Progress Bar for Downloads - Create a progress bar for applications that can keep track of a download in progress. The progress bar will be on a separate thread and will communicate with the main thread using delegates.  Bulk Thumbnail Creator - Picture processing can take a bit of time for some transformations. Especially if the image is large. Create an image program that can take hundreds of images and converts them to a specified size in the background thread while you do other things. For added complexity, have one thread handling re-sizing, have another bulk renaming of thumbnails, etc.  Web Page Scraper - Create an application that connects to a site and pulls out all links, or images, and saves them to a list. Optional: Organize the indexed content and don’t allow duplicates. Have it put the results into an easily searchable index file.  Online White Board - Create an application that allows you to draw pictures, write notes and use various colors to flesh out ideas for projects. Optional: Add a feature to invite friends to collaborate on a whiteboard online.  Get Atomic Time from Internet Clock - This program will get the true atomic time from an atomic time clock on the Internet. Use any one of the atomic clocks returned by a simple Google search.  Fetch Current Weather - Get the current weather for a given zip/postal code. Optional: Try locating the user automatically.  Scheduled Auto Login and Action - Make an application that logs into a given site on a schedule and invokes a certain action and then logs out. This can be useful for checking webmail, posting regular content, or getting info for other applications and saving it to your computer.  E-Card Generator - Make a site that allows people to generate their own little e-cards and send them to other people. Do not use Flash. Use a picture library and perhaps insightful mottos or quotes.  Content Management System - Create a content management system (CMS) like Joomla, Drupal, PHP Nuke, etc. Start small. Optional: Allow for the addition of modules/addons.  Web Board (Forum) - Create a forum for you and your buddies to post, administer and share thoughts and ideas.  CAPTCHA Maker - Ever see those images with letters numbers when you signup for a service and then ask you to enter what you see? It keeps web bots from automatically signing up and spamming. Try creating one yourself for online forms.  Files Quiz Maker - Make an application that takes various questions from a file, picked randomly, and puts together a quiz for students. Each quiz can be different and then reads a key to grade the quizzes.  Sort Excel/CSV File Utility - Reads a file of records, sorts them, and then writes them back to the file. Allow the user to choose various sort style and sorting based on a particular field.  Create Zip File Maker - The user enters various files from different directories and the program zips them up into a zip file. Optional: Apply actual compression to the files. Start with Huffman Algorithm.  PDF Generator - An application that can read in a text file, HTML file, or some other file and generates a PDF file out of it. Great for a web-based service where the user uploads the file and the program returns a PDF of the file. Optional: Deploy on GAE or Heroku if possible.  Mp3 Tagger - Modify and add ID3v1 tags to MP3 files. See if you can also add in the album art into the MP3 file’s header as well as other ID3v2 tags.  Code Snippet Manager - Another utility program that allows coders to put in functions, classes, or other tidbits to save for use later. Organized by the type of snippet or language the coder can quickly lookup code. Optional: For extra practice try adding syntax highlighting based on the language.  Databases SQL Query Analyzer - A utility application in which a user can enter a query and have it run against a local database and look for ways to make it more efficient.  Remote SQL Tool - A utility that can execute queries on remote servers from your local computer across the Internet. It should take in a remote host, user name, and password, run the query and return the results.  Report Generator - Create a utility that generates a report based on some tables in a database. Generates sales reports based on the order/order details tables or sums up the day's current database activity.  Event Scheduler and Calendar - Make an application that allows the user to enter a date and time of an event, event notes, and then schedule those events on a calendar. The user can then browse the calendar or search the calendar for specific events. Optional: Allow the application to create re-occurrence events that reoccur every day, week, month, year, etc.  Budget Tracker - Write an application that keeps track of a household’s budget. The user can add expenses, income, and recurring costs to find out how much they are saving or losing over a period of time. Optional: Allow the user to specify a date range and see the net flow of money in and out of the house budget for that time period.  TV Show Tracker - Got a favorite show you don’t want to miss? Don’t have a PVR or want to be able to find the show to then PVR it later? Make an application that can search various online TV Guide sites, locate the shows/times/channels and add them to a database application. The database/website then can send you email reminders that a show is about to start and which channel it will be on.  Travel Planner System - Make a system that allows users to put together their own little travel itinerary and keep track of the airline/hotel arrangements, points of interest, budget, and schedule.  Graphics and Multimedia Slide Show - Make an application that shows various pictures in a slide show format. Optional: Try adding various effects like fade in/out, star wipe, and window blinds transitions.  Stream Video from Online - Try to create your own online streaming video player.  Mp3 Player - A simple program for playing your favorite music files. Add features you think are missing from your favorite music player.  Watermarking Application - Have some pictures you want copyright protected? Add your own logo or text lightly across the background so that no one can simply steal your graphics off your site. Make a program that will add this watermark to the picture. Optional: Use threading to process multiple images simultaneously.  Turtle Graphics - This is a common project where you create a floor of 20 x 20 squares. Using various commands you tell a turtle to draw a line on the floor. You have moved forward, left or right, lift or drop the pen, etc. Do a search online for \"Turtle Graphics\" for more information. Optional: Allow the program to read in the list of commands from a file.  GIF Creator A program that puts together multiple images (PNGs, JPGs, TIFFs) to make a smooth GIF that can be exported. Optional: Make the program convert small video files to GIFs as well.  Security Caesar cipher - Implement a Caesar cipher, both encoding, and decoding. The key is an integer from 1 to 25. This cipher rotates the letters of the alphabet (A to Z). The encoding replaces each letter with the 1st to 25th next letter in the alphabet (wrapping Z to A). So key 2 encrypts \"HI\" to \"JK\", but key 20 encrypts \"HI\" to \"BC\". This simple \"monoalphabetic substitution cipher\" provides almost no security, because an attacker who has the encoded message can either use frequency analysis to guess the key, or just try all 25 keys.",
+    "url": "https://github.com/ManojKumarPatnaik/Major-project-list"
+  },
+  {
+    "name": "AgentOrchestrator/AgentBase",
+    "stars": 223,
+    "description": "Multi-agent orchestrator for tracking and analyzing AI coding assistant conversations (Claude Code, Cursor, Windsurf)",
+    "url": "https://github.com/AgentOrchestrator/AgentBase"
+  },
+  {
+    "name": "naskio/n8n-nodes-python",
+    "stars": 216,
+    "description": "Run Python code on n8n",
+    "url": "https://github.com/naskio/n8n-nodes-python"
+  },
+  {
+    "name": "onikan27/claude-code-monitor",
+    "stars": 212,
+    "description": "Real-time dashboard for monitoring multiple Claude Code sessions. CLI + Mobile Web UI with QR code access, terminal focus   switching (iTerm2, Terminal.app, Ghostty). macOS only.",
+    "url": "https://github.com/onikan27/claude-code-monitor"
+  },
+  {
+    "name": "minhlucvan/n8n-nodes-browserless",
+    "stars": 211,
+    "description": "n8n node to interact with browserless instance ",
+    "url": "https://github.com/minhlucvan/n8n-nodes-browserless"
+  },
+  {
+    "name": "HKUDS/MoChat",
+    "stars": 207,
+    "description": "\"MoChat: OpenClaw as Your Social Agent https://mochat.io\"",
+    "url": "https://github.com/HKUDS/MoChat"
+  },
+  {
+    "name": "Polygant/OpenCEX",
+    "stars": 206,
+    "description": "OpenCEX free open-source cryptocurrency exchange engine. Industry standard.",
+    "url": "https://github.com/Polygant/OpenCEX"
+  },
+  {
+    "name": "Shopify/theme-tools",
+    "stars": 205,
+    "description": "Everything developer experience for Shopify themes",
+    "url": "https://github.com/Shopify/theme-tools"
+  },
+  {
+    "name": "kondasoft/ks-bootshop",
+    "stars": 200,
+    "description": "Our Free Shopify Theme focused on simplicity, speed, and user experience. Download it today and finish your Shopify store within days, not months. Powered by Bootstrap v5 framework and 15+ years of coding experience.",
+    "url": "https://github.com/kondasoft/ks-bootshop"
+  },
+  {
+    "name": "dreamwing/clawbridge",
+    "stars": 197,
+    "description": "ClawBridge is the OpenClaw Mobile Dashboard. Monitor agent's real-time thoughts, actions, track token costs, and manage tasks from anywhere using your pocket-sized Mission Control.",
+    "url": "https://github.com/dreamwing/clawbridge"
+  },
+  {
+    "name": "outsourc-e/clawsuite",
+    "stars": 188,
+    "description": "All-in-one command center for OpenClaw agents",
+    "url": "https://github.com/outsourc-e/clawsuite"
+  },
+  {
+    "name": "jasewarner/gulp-shopify",
+    "stars": 185,
+    "description": "Blank slate Shopify theme for Developers, packaged with Gulp.js for processing SCSS, JavaScript (ES6), images and fonts. Made to support Online Store 2.0 features and Shopify CLI.",
+    "url": "https://github.com/jasewarner/gulp-shopify"
+  },
+  {
+    "name": "montalvomiguelo/hydrogen-theme",
+    "stars": 171,
+    "description": "A port of Hydrogen's default template to Shopify OS 2.0",
+    "url": "https://github.com/montalvomiguelo/hydrogen-theme"
+  },
+  {
+    "name": "VienDinhCom/bootstrap-shopify-theme",
+    "stars": 171,
+    "description": "A responsive Shopify theme using Bootstrap, BEM, Liquid, Sass, ESNext, Theme Tools, and Webpack for flexibility.",
+    "url": "https://github.com/VienDinhCom/bootstrap-shopify-theme"
+  },
+  {
+    "name": "six-ddc/ccbot",
+    "stars": 168,
+    "description": "Telegram ↔ tmux bridge for Claude Code: 1 topic = 1 window = 1 session",
+    "url": "https://github.com/six-ddc/ccbot"
+  },
+  {
+    "name": "memovai/memov",
+    "stars": 166,
+    "description": "Give git-like & traceable memory to OpenClaw and any coding agents. By https://memov.ai/ aka Entire CLI for every coding agents by MCP.",
+    "url": "https://github.com/memovai/memov"
+  },
+  {
+    "name": "slhleosun/EvoClaw",
+    "stars": 161,
+    "description": "Structured SOUL evolution framework for AI agents — experience, reflection, governed identity updates, and visual timelines.",
+    "url": "https://github.com/slhleosun/EvoClaw"
+  },
+  {
+    "name": "eborges-git/n8n-render",
+    "stars": 139,
+    "description": "Deploying n8n on Render (render.com) hosting, using separate Web Service (with Docker and Persistent Disk Storage) + Postgres DB.",
+    "url": "https://github.com/eborges-git/n8n-render"
+  },
+  {
+    "name": "Fallomai/openui",
+    "stars": 130,
+    "description": "AI command center for your AI coding agents. 100% local, free, opensource.",
+    "url": "https://github.com/Fallomai/openui"
+  },
+  {
+    "name": "betomoedano/React-Native-Notion-Clone",
+    "stars": 127,
+    "description": "Local-First Notion Clone built with Prisma, Expo and ❤️",
+    "url": "https://github.com/betomoedano/React-Native-Notion-Clone"
+  },
+  {
+    "name": "Temaki-AI/clawd-control",
+    "stars": 113,
+    "description": "🏰 Real-time dashboard for monitoring and managing Clawdbot AI agents",
+    "url": "https://github.com/Temaki-AI/clawd-control"
+  },
+  {
+    "name": "FoundDream/miniclawd",
+    "stars": 109,
+    "description": "🦞 A lightweight openclaw build with TypeScript.",
+    "url": "https://github.com/FoundDream/miniclawd"
+  },
+  {
+    "name": "rizqcon/openclawdev-taskboard",
+    "stars": 100,
+    "description": "An Open Claw Development Team built with security and best pracices in mind.",
+    "url": "https://github.com/rizqcon/openclawdev-taskboard"
+  },
+  {
+    "name": "MarlBurroW/pinchchat",
+    "stars": 98,
+    "description": "A sleek, dark-themed webchat UI for OpenClaw 🦞",
+    "url": "https://github.com/MarlBurroW/pinchchat"
+  },
+  {
+    "name": "eason-dev/nextjs-tailwind-contentlayer-blog-starter",
+    "stars": 89,
+    "description": "Blog starter template with modern frontend tech stack like Next.js, Tailwind CSS, Contentlayer, i18Next",
+    "url": "https://github.com/eason-dev/nextjs-tailwind-contentlayer-blog-starter"
+  },
+  {
+    "name": "firstbatchxyz/dria-agent",
+    "stars": 80,
+    "description": "powerful and fast tool calling agents",
+    "url": "https://github.com/firstbatchxyz/dria-agent"
+  },
+  {
+    "name": "vincentkoc/awesome-openclaw",
+    "stars": 80,
+    "description": "Curated awesome list for OpenClaw (formerly Moltbot/Clawdbot): skills, plugins, memory systems, MCP tools, deployment stacks, ecosystem platforms, and developer tooling.",
+    "url": "https://github.com/vincentkoc/awesome-openclaw"
+  },
+  {
+    "name": "fm9394/OpenClaw-OPS-Suite",
+    "stars": 80,
+    "description": null,
+    "url": "https://github.com/fm9394/OpenClaw-OPS-Suite"
+  },
+  {
+    "name": "stoneforge-ai/stoneforge",
+    "stars": 77,
+    "description": "A web dashboard and runtime for orchestrating AI coding agents",
+    "url": "https://github.com/stoneforge-ai/stoneforge"
+  },
+  {
+    "name": "ZeroPointRepo/youtube-skills",
+    "stars": 75,
+    "description": "YouTube Transcript API skills for AI agents. Get transcripts, search videos, browse channels. Works with OpenClaw, ClawdBot, Claude Code, Cursor, Windsurf.",
+    "url": "https://github.com/ZeroPointRepo/youtube-skills"
+  },
+  {
+    "name": "thedaviddias/souls-directory",
+    "stars": 73,
+    "description": "🧠 Directory of SOUL.md personality files for OpenClaw agents",
+    "url": "https://github.com/thedaviddias/souls-directory"
+  },
+  {
+    "name": "skalenetwork/sgxwallet",
+    "stars": 68,
+    "description": "sgxwallet is the first-ever opensource high-performance hardware secure crypto wallet that is based on Intel SGX technology.  First opensource product on Intel SGX whitelist. Scales to 100,000+ transactions per second. Currently supports ETH and SKALE, and will support BTC in the future.  Sgxwallet is under heavy development and use by SKALE network.",
+    "url": "https://github.com/skalenetwork/sgxwallet"
+  },
+  {
+    "name": "knostic/openclaw-telemetry",
+    "stars": 67,
+    "description": "Telemetry for OpenClaw - Captures tool calls, LLM usage, agent lifecycle, and message events. Outputs to JSONL file and optionally to syslog for SIEM integration.",
+    "url": "https://github.com/knostic/openclaw-telemetry"
+  },
+  {
+    "name": "seth-schultz/orchestr8",
+    "stars": 64,
+    "description": "The Future of AI-Powered Development: Orchestr8 Transforms Claude Code Into a Complete Software Engineering Team",
+    "url": "https://github.com/seth-schultz/orchestr8"
+  },
+  {
+    "name": "yh-ong/Web-Based-Clinic-Appointment-System",
+    "stars": 60,
+    "description": "Web-Based Clinic Appointment System one of the platform for doctor and clinic to manage and scheduling the appointment. Beside, patient can using the mobile application to make an appointment through online.",
+    "url": "https://github.com/yh-ong/Web-Based-Clinic-Appointment-System"
+  },
+  {
+    "name": "RocketChat/RC4Community",
+    "stars": 57,
+    "description": "Full-stack components for building, engaging, and growing your massive on-line community",
+    "url": "https://github.com/RocketChat/RC4Community"
+  },
+  {
+    "name": "Jzineldin/mission-control",
+    "stars": 57,
+    "description": "🖥️ macOS-native dashboard for OpenClaw AI agents — monitor, control, and optimize your agent from a sleek web interface",
+    "url": "https://github.com/Jzineldin/mission-control"
+  },
+  {
+    "name": "waynesutton/clawsync",
+    "stars": 56,
+    "description": "ClawSync, OpenClaw for the cloud. Deploy an open source personal AI agent with chat UI, skills system, MCP support, and multi-model routing. Built on Convex.",
+    "url": "https://github.com/waynesutton/clawsync"
+  },
+  {
+    "name": "adridder/moltron",
+    "stars": 49,
+    "description": "Self-evolving Agents. MOLTRON upgrades agents to learn and evolve skills autonomously. Welcome to the Singularity.",
+    "url": "https://github.com/adridder/moltron"
+  },
+  {
+    "name": "GreenSheep01201/Claw-Kanban",
+    "stars": 45,
+    "description": "AI Agent Orchestration Kanban Board — Route tasks to Claude Code, Codex CLI, and Gemini CLI with role-based auto-assignment and real-time monitoring",
+    "url": "https://github.com/GreenSheep01201/Claw-Kanban"
+  },
+  {
+    "name": "nirholas/agenti",
+    "stars": 42,
+    "description": "Give AI agents access to money. Manage finances, trade cryptocurrency. MCP server for AI agents to interact with 20+ blockchains. 380+ tools for DeFi, DEX aggregation, security scanning, cross-chain bridges, QR payments. x402 enabled - AI agents can autonomously pay for premium APIs and trade with other agents. Works with Claude, ChatGPT, Cursor.",
+    "url": "https://github.com/nirholas/agenti"
+  },
+  {
+    "name": "Nebaura-Labs/mote",
+    "stars": 40,
+    "description": "Mote - An open-source ESP32-S3 voice companion for Clawd.bot",
+    "url": "https://github.com/Nebaura-Labs/mote"
+  },
+  {
+    "name": "stefbowerman/cadaver-2.0",
+    "stars": 35,
+    "description": "Cadaver is a Shopify Online Store 2.0 starter theme.",
+    "url": "https://github.com/stefbowerman/cadaver-2.0"
+  },
+  {
+    "name": "brijr/mdx",
+    "stars": 34,
+    "description": "MDX Next.js Starter built with brijr/craft, and shadcn/ui",
+    "url": "https://github.com/brijr/mdx"
+  },
+  {
+    "name": "navjotdhanawat/openclaw-mission-control",
+    "stars": 31,
+    "description": "Mission Control dashboard for OpenClaw — manage agents, tasks, and missions from a command-center UI",
+    "url": "https://github.com/navjotdhanawat/openclaw-mission-control"
+  },
+  {
+    "name": "wolverin0/clawtrol",
+    "stars": 30,
+    "description": "Mission control for your AI agents 🎮",
+    "url": "https://github.com/wolverin0/clawtrol"
+  },
+  {
+    "name": "ianpilon/OpenOrca",
+    "stars": 29,
+    "description": "Real-time dashboard to monitor and control personal AI agents (\"Claw Agents\")",
+    "url": "https://github.com/ianpilon/OpenOrca"
+  },
+  {
+    "name": "ketanmistry/taillour-theme",
+    "stars": 27,
+    "description": "Taillour is a Shopify 2.0 boilerplate theme that's quick to build custom-designed Shopify stores with. Use it as a starting point for your next project.",
+    "url": "https://github.com/ketanmistry/taillour-theme"
+  },
+  {
+    "name": "Mobeen-Dev/chatbot_Shopify",
+    "stars": 27,
+    "description": "Agentic Shopify Chatbot with MCP integration, embedded directly into Shopify via a Theme Extension",
+    "url": "https://github.com/Mobeen-Dev/chatbot_Shopify"
+  },
+  {
+    "name": "Automations-Project/n8n-bulk-automated-google-drive-files-sharing-and-direct-download-link-generation",
+    "stars": 26,
+    "description": " This project is another Nodemation (AKA: n8n) Free Workflow Template... ",
+    "url": "https://github.com/Automations-Project/n8n-bulk-automated-google-drive-files-sharing-and-direct-download-link-generation"
+  },
+  {
+    "name": "bokiko/openClaw-dashboard",
+    "stars": 24,
+    "description": "OpenClaw AI Agent Swarm Dashboard",
+    "url": "https://github.com/bokiko/openClaw-dashboard"
+  },
+  {
+    "name": "caopulan/fix-my-claw",
+    "stars": 23,
+    "description": "A plug-and-play 24/7 watchdog for OpenClaw with automatic recovery. OpenClaw 7×24 守护与自动恢复，一键启动，开箱即用。",
+    "url": "https://github.com/caopulan/fix-my-claw"
+  },
+  {
+    "name": "ewimsatt/openclaw-opsdeck-core",
+    "stars": 21,
+    "description": "Mission Control dashboard for OpenClaw: round table, local chat, and cron controls.",
+    "url": "https://github.com/ewimsatt/openclaw-opsdeck-core"
+  },
+  {
+    "name": "codeaashu/awesome-openclaw-Skills",
+    "stars": 20,
+    "description": "The awesome collection of OpenClaw Skills. Formerly known as Moltbot, originally Clawdbot.",
+    "url": "https://github.com/codeaashu/awesome-openclaw-Skills"
+  },
+  {
+    "name": "feiskyer/openclaw-kubernetes",
+    "stars": 20,
+    "description": "Kubernetes helm chart for OpenClaw (former Moltbot/Clawdbot) ",
+    "url": "https://github.com/feiskyer/openclaw-kubernetes"
+  },
+  {
+    "name": "mkXultra/claude_code_setup",
+    "stars": 17,
+    "description": null,
+    "url": "https://github.com/mkXultra/claude_code_setup"
+  },
+  {
+    "name": "regenrek/clawlets",
+    "stars": 16,
+    "description": "Clawlets is an unofficial openclaw server provisioner made for hetzner.",
+    "url": "https://github.com/regenrek/clawlets"
+  },
+  {
+    "name": "TheSethRose/MoltBoard",
+    "stars": 15,
+    "description": "A local-first task and project management dashboard designed for AI-assisted development workflows. MoltBoard provides a web interface for managing tasks, tracking project progress, and integrating with GitHub.",
+    "url": "https://github.com/TheSethRose/MoltBoard"
+  },
+  {
+    "name": "crypto-lend/cryptolend.ui",
+    "stars": 12,
+    "description": "An opensource p2p crypto lending platform. ",
+    "url": "https://github.com/crypto-lend/cryptolend.ui"
+  },
+  {
+    "name": "SSujitX/clawdbot-ui",
+    "stars": 12,
+    "description": "Control Panel UI for ClawdBot - your personal AI assistant. Manage gateway, install skills, run admin commands. 🦞",
+    "url": "https://github.com/SSujitX/clawdbot-ui"
+  },
+  {
+    "name": "bobby-io/react-vite-shadcn-template",
+    "stars": 10,
+    "description": null,
+    "url": "https://github.com/bobby-io/react-vite-shadcn-template"
+  },
+  {
+    "name": "taielab/openclaw-autopilot",
+    "stars": 9,
+    "description": "OpenClaw Autopilot - Conversational deployment toolkit for your personal AI assistant platform. Supports 15 top-tier models (GPT-5.2, Claude Opus 4.5, DeepSeek V3.2, etc.) and 20+ professional tools.",
+    "url": "https://github.com/taielab/openclaw-autopilot"
+  },
+  {
+    "name": "paradite/x-draft",
+    "stars": 9,
+    "description": "My implementation of Ralph Loop and sample project",
+    "url": "https://github.com/paradite/x-draft"
+  },
+  {
+    "name": "LAMBDASOFT-org/awesome-openclaw-ecosystem",
+    "stars": 8,
+    "description": "A curated list of platforms, infrastructure, and services in the OpenClaw (MoltBot/ClawdBot) agent ecosystem where humans can observe but not participate",
+    "url": "https://github.com/LAMBDASOFT-org/awesome-openclaw-ecosystem"
+  },
+  {
+    "name": "AWebOfBrown/clawdbot-on-oracle-vps",
+    "stars": 8,
+    "description": "A template for deploying your personal AI assistant, clawd.bot, to Oracle Cloud on the always-free tier (24 GB RAM, 4 CPU) using Pulumi.",
+    "url": "https://github.com/AWebOfBrown/clawdbot-on-oracle-vps"
+  },
+  {
+    "name": "tarekziade/claude-tools",
+    "stars": 8,
+    "description": "Hooks and tools for Claude Code",
+    "url": "https://github.com/tarekziade/claude-tools"
+  },
+  {
+    "name": "joeynyc/openclaw-mission-control",
+    "stars": 6,
+    "description": "Native macOS command center for OpenClaw AI agents. Real-time dashboard, live chat, service monitoring. Built with SwiftUI.",
+    "url": "https://github.com/joeynyc/openclaw-mission-control"
+  },
+  {
+    "name": "kirubelmm/shopify-theme-kapri",
+    "stars": 6,
+    "description": "A clean and modern Shopify theme. Built for performance, simplicity, and customization.",
+    "url": "https://github.com/kirubelmm/shopify-theme-kapri"
+  },
+  {
+    "name": "Metavibez4L/XmetaV",
+    "stars": 5,
+    "description": "XmetaV: Command center repo for managing OpenClaw agents, gateway, and Ollama integration on WSL2/Linux",
+    "url": "https://github.com/Metavibez4L/XmetaV"
+  },
+  {
+    "name": "Stargx/claude-code-dashboard",
+    "stars": 5,
+    "description": "A lightweight localhost dashboard that monitors multiple Claude Code sessions in real-time. See token usage, costs, active tools, subagents, and session status across all your terminal instances at a glance.",
+    "url": "https://github.com/Stargx/claude-code-dashboard"
+  },
+  {
+    "name": "08Tyrant31/clawd-plugin-vault",
+    "stars": 4,
+    "description": "📁 Transform your local directory into a structured knowledge vault with Clawdbot, featuring fast semantic search and markdown support.",
+    "url": "https://github.com/08Tyrant31/clawd-plugin-vault"
+  },
+  {
+    "name": "natan89/awesome-openclaw-skills",
+    "stars": 4,
+    "description": "🔍 Discover over 1715 community-driven OpenClaw skills, sorted by category, to enhance your projects and streamline your workflow.",
+    "url": "https://github.com/natan89/awesome-openclaw-skills"
+  },
+  {
+    "name": "Lordsisodia/great-library-of-siso",
+    "stars": 4,
+    "description": "🏛️ The Great Library of SISO - Focused research repository for AI development intelligence across 5 core domains: MCP, Claude Brain Configs, Community Insights, SISO IDE Agent Wrapper, and Browser Automation",
+    "url": "https://github.com/Lordsisodia/great-library-of-siso"
+  },
+  {
+    "name": "meridianix/clawdbot-session-pruner",
+    "stars": 3,
+    "description": "Optimize bloated JSONL session files by truncating large tool results while preserving conversation continuity. Built for Claude Code, Clawdbot sessions, and any JSONL-based chat logs.",
+    "url": "https://github.com/meridianix/clawdbot-session-pruner"
+  },
+  {
+    "name": "sbrunomello/simdex-web",
+    "stars": 2,
+    "description": "Frontend of a crypto exchange simulator with account creation, login, and transaction simulation using Spring Security.",
+    "url": "https://github.com/sbrunomello/simdex-web"
+  },
+  {
+    "name": "bitpixelgt/first-principles-thinking",
+    "stars": 2,
+    "description": "Know about First Principles Thinking",
+    "url": "https://github.com/bitpixelgt/first-principles-thinking"
+  },
+  {
+    "name": "Mostafa-SAID7/clothing-shop",
+    "stars": 2,
+    "description": "the Clothing Shop project — a web-based application for managing and browsing a digital clothing store.  ---  ## ✨ Key Features  - 👕 Display clothing products with images, names, prices - 🛒 Basic cart functionality (add/remove items) ",
+    "url": "https://github.com/Mostafa-SAID7/clothing-shop"
+  },
+  {
+    "name": "jawad-ahmadd/Portfolio",
+    "stars": 2,
+    "description": "Shopify Expert | Helping E-commerce brands scale with custom Liquid code and conversion-focused design",
+    "url": "https://github.com/jawad-ahmadd/Portfolio"
+  },
+  {
+    "name": "vishalnarkhede/agentdock",
+    "stars": 2,
+    "description": "Web dashboard for managing parallel AI coding agents (Claude Code, Cursor) across repos with tmux sessions and git worktrees",
+    "url": "https://github.com/vishalnarkhede/agentdock"
+  },
+  {
+    "name": "ibrahimpuri/DockerCodeReviewer",
+    "stars": 1,
+    "description": null,
+    "url": "https://github.com/ibrahimpuri/DockerCodeReviewer"
+  },
+  {
+    "name": "CryptexVision/crypto-sentiment-pulse",
+    "stars": 1,
+    "description": "Crypto Sentiment Pulse (CSP) - AI-powered tool to decode crypto markets with real-time sentiment, on-chain insights, and event alerts. Open-source, community-driven, and free with a tip jar (BTC: bc1qxyz...). Built by @CryptexVision. Contribute, explore datasets, and empower your crypto journey! #Crypto #AI #OpenSource",
+    "url": "https://github.com/CryptexVision/crypto-sentiment-pulse"
+  },
+  {
+    "name": "Lordsisodia/blackbox4",
+    "stars": 1,
+    "description": "Blackbox4: Advanced AI Agent System with 33+ organized skills, MCP integrations, and intelligent workflows",
+    "url": "https://github.com/Lordsisodia/blackbox4"
+  },
+  {
+    "name": "jarvis-raven/agent-distillations",
+    "stars": 1,
+    "description": "A communal memory for ephemeral agents. Structured knowledge transfer, agent-to-agent.",
+    "url": "https://github.com/jarvis-raven/agent-distillations"
+  },
+  {
+    "name": "OpenClawBeast/openclaw-command-center",
+    "stars": 1,
+    "description": "Graphical Command Center UI for OpenClaw - manage agents, skills, nodes, and projects",
+    "url": "https://github.com/OpenClawBeast/openclaw-command-center"
+  },
+  {
+    "name": "643search/openclaw-command-center",
+    "stars": 1,
+    "description": "Mission control dashboard for OpenClaw AI agent system - Next.js + Convex + Railway deployment ready",
+    "url": "https://github.com/643search/openclaw-command-center"
+  },
+  {
+    "name": "Alaa-Younsi/Northernwest",
+    "stars": 1,
+    "description": "Northernwest is a fully custom Shopify Online Store 2.0 theme for Northernwest, engineered as a premium, minimalist gaming accessories storefront.",
+    "url": "https://github.com/Alaa-Younsi/Northernwest"
+  },
+  {
+    "name": "maghangadotcom/shopify-cro-toolkit",
+    "stars": 1,
+    "description": "Production-tested Liquid sections, JS utilities and performance patterns for Shopify CRO. Cart interceptors, quantity nudges, subscription-first buy boxes, free shipping bars and Core Web Vitals fixes. Built from real experiments on 7-9 figure DTC subscription brands. No dependencies. Mobile-first. Schema-driven.",
+    "url": "https://github.com/maghangadotcom/shopify-cro-toolkit"
+  },
+  {
+    "name": "sergehovhannisyan/shopify-recently-viewed-ajax",
+    "stars": 1,
+    "description": "High-performance Recently Viewed products section for Shopify with AJAX and Zero Layout Shift optimization.",
+    "url": "https://github.com/sergehovhannisyan/shopify-recently-viewed-ajax"
+  },
+  {
+    "name": "sergehovhannisyan/shopify-sticky-atc-pro",
+    "stars": 1,
+    "description": "High-performance Sticky Add to Cart section for Shopify (Dawn Theme). Built with Intersection Observer API and Section Rendering API for maximum speed and native theme compatibility.",
+    "url": "https://github.com/sergehovhannisyan/shopify-sticky-atc-pro"
+  },
+  {
+    "name": "sergehovhannisyan/shopify-author-profile-modal",
+    "stars": 1,
+    "description": "Enhance your Shopify product pages with a clean, dynamic author biography modal. Lightweight, responsive, and easy to install.",
+    "url": "https://github.com/sergehovhannisyan/shopify-author-profile-modal"
+  },
+  {
+    "name": "rcereceda/shopify-sections",
+    "stars": 1,
+    "description": "reusable Shopify sections",
+    "url": "https://github.com/rcereceda/shopify-sections"
+  },
+  {
+    "name": "anssanova/Apparel-Theme-Development",
+    "stars": 1,
+    "description": "A custom Shopify apparel theme developed with Liquid and Shopify's theme architecture. Built with modular sections and reusable components, it delivers a clean, responsive and scalable storefront designed for modern eCommerce experiences.",
+    "url": "https://github.com/anssanova/Apparel-Theme-Development"
+  }
+]

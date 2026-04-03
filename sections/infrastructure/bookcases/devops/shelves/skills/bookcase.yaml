@@ -1,0 +1,8 @@
+name: Skills
+description: The SISO Skills Hub — reusable task recipes for agents
+section: infrastructure
+bookcase: devops
+type: shelf
+slug: skills
+owner: LIBRARY_PM
+version: "1.0"

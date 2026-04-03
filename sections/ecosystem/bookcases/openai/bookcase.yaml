@@ -1,0 +1,10 @@
+name: Openai
+description: OpenAI models and API
+section: ecosystem
+shelves:
+- models
+created: 2026-03-19
+type: bookcase
+slug: openai
+owner: LIBRARY_PM
+version: '1.0'

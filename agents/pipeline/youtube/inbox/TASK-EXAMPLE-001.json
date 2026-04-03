@@ -1,0 +1,10 @@
+{
+  "id": "TASK-EXAMPLE-001",
+  "title": "Example Task",
+  "description": "This is an example task file showing the expected format for inbox messages. Delete this when you receive your first real task.",
+  "priority": 5,
+  "assigned_to": "agent-name",
+  "status": "pending",
+  "created_at": "2026-01-01T00:00:00Z",
+  "from": "requester-agent"
+}

@@ -1,0 +1,10 @@
+name: Frontend
+description: Frontend development and web agents
+section: infrastructure
+shelves:
+- web_agents
+created: 2026-03-19
+type: bookcase
+slug: frontend
+owner: LIBRARY_PM
+version: '1.0'

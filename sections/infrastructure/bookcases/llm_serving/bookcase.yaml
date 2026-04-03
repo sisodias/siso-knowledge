@@ -1,0 +1,10 @@
+name: Llm Serving
+description: LLM serving and inference optimization
+section: infrastructure
+shelves:
+- inference
+created: 2026-03-19
+type: bookcase
+slug: llm_serving
+owner: LIBRARY_PM
+version: '1.0'

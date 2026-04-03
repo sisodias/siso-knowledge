@@ -1,0 +1,16 @@
+bookcase: evals
+created: 2026-03-19
+description: Evaluation benchmarks and datasets
+name: Benchmarks
+page_count: 3
+section: ai_research
+type: shelf
+slug: benchmarks
+owner: LIBRARY_PM
+version: '1.0'
+content_type: insights
+routing_keywords: []
+tier_targets:
+  A: 0.1
+  B: 0.3
+  C: 0.6

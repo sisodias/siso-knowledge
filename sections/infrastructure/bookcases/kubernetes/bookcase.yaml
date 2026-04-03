@@ -1,0 +1,10 @@
+name: Kubernetes
+description: Kubernetes patterns and orchestration
+section: infrastructure
+shelves:
+- patterns
+created: 2026-03-19
+type: bookcase
+slug: kubernetes
+owner: LIBRARY_PM
+version: '1.0'

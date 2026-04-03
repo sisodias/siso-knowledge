@@ -1,0 +1,11 @@
+{
+  "id": "TASK-PM-002",
+  "title": "Populate ai_research/llms/embeddings shelf",
+  "description": "Research GitHub repos related to LLM embeddings, text embeddings, vector representations, embedding models, and similarity search. Target shelf ai_research/bookcases/llms/shelves/embeddings. Find repos about: embedding models (OpenAI, SentenceBERT, etc), vector databases, cosine similarity, embedding fine-tuning, multi-modal embeddings, etc.",
+  "priority": 1,
+  "assigned_to": "GitHubQueueAnalysis",
+  "target_shelf": "ai_research/llms/embeddings",
+  "status": "done",
+  "created_at": "2026-03-20T14:35:00Z",
+  "from": "LIBRARY_PM heartbeat"
+}

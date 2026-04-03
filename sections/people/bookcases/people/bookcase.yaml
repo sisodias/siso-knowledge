@@ -1,0 +1,8 @@
+name: "People"
+description: "Curated person profiles with tiered insights and prediction tracking."
+slug: people
+section: people
+shelves:
+  - intelligence
+owner: LIBRARY_PM
+version: "1.0"

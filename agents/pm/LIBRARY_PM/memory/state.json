@@ -1,0 +1,13 @@
+{
+  "agent": {"id": "library:LIBRARY_PM", "name": "LIBRARY_PM", "version": "4.0.0"},
+  "status": "idle",
+  "current_task": null,
+  "last_task": "heartbeat-04",
+  "pipeline_runs": 4,
+  "total_pages_ingested": 1479,
+  "empty_shelves": 15,
+  "graph_nodes": 1484,
+  "graph_edges": 2819,
+  "last_updated": "2026-03-21",
+  "last_heartbeat": "heartbeat-05"
+}

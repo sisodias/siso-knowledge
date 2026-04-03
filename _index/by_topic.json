@@ -1,0 +1,998 @@
+{
+  "models": {
+    "shelf_path": "sections/ecosystem/bookcases/opensource/shelves/models",
+    "page_count": 106,
+    "top_pages": [
+      {
+        "id": "p_0003",
+        "score": 5.72
+      },
+      {
+        "id": "p_0002",
+        "score": 5.72
+      },
+      {
+        "id": "p_0001",
+        "score": 5.72
+      },
+      {
+        "id": "p_0004",
+        "score": 5.72
+      },
+      {
+        "id": "p_0007",
+        "score": 5.48
+      },
+      {
+        "id": "p_0006",
+        "score": 5.48
+      },
+      {
+        "id": "p_0005",
+        "score": 5.48
+      },
+      {
+        "id": "p_0009",
+        "score": 3.21
+      },
+      {
+        "id": "p_0008",
+        "score": 3.21
+      },
+      {
+        "id": "p_709",
+        "score": 0.0
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": [
+      {
+        "source": "p_0006",
+        "target": "null"
+      },
+      {
+        "source": "p_0004",
+        "target": "null"
+      }
+    ]
+  },
+  "youtube": {
+    "shelf_path": "sections/discovery/bookcases/video/shelves/youtube",
+    "page_count": 2,
+    "top_pages": [
+      {
+        "id": "p_3649",
+        "score": 0.0
+      },
+      {
+        "id": "p_3646",
+        "score": 0.0
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": []
+  },
+  "repos": {
+    "shelf_path": "sections/discovery/bookcases/code/shelves/repos",
+    "page_count": 28,
+    "top_pages": [
+      {
+        "id": "p_3629",
+        "score": 0.0
+      },
+      {
+        "id": "p_3639",
+        "score": 0.0
+      },
+      {
+        "id": "p_3628",
+        "score": 0.0
+      },
+      {
+        "id": "p_3638",
+        "score": 0.0
+      },
+      {
+        "id": "p_3623",
+        "score": 0.0
+      },
+      {
+        "id": "p_3646",
+        "score": 0.0
+      },
+      {
+        "id": "p_3633",
+        "score": 0.0
+      },
+      {
+        "id": "p_3642",
+        "score": 0.0
+      },
+      {
+        "id": "p_3627",
+        "score": 0.0
+      },
+      {
+        "id": "p_3637",
+        "score": 0.0
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": []
+  },
+  "methodology": {
+    "shelf_path": "sections/ai_research/bookcases/evals/shelves/methodology",
+    "page_count": 5,
+    "top_pages": [
+      {
+        "id": "p_667",
+        "score": 0
+      },
+      {
+        "id": "p_663",
+        "score": 0
+      },
+      {
+        "id": "p_666",
+        "score": 0
+      },
+      {
+        "id": "p_665",
+        "score": 0
+      },
+      {
+        "id": "p_664",
+        "score": 0
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": []
+  },
+  "benchmarks": {
+    "shelf_path": "sections/ai_research/bookcases/evals/shelves/benchmarks",
+    "page_count": 943,
+    "top_pages": [
+      {
+        "id": "p_0003",
+        "score": 5.2
+      },
+      {
+        "id": "p_0002",
+        "score": 5.2
+      },
+      {
+        "id": "p_0001",
+        "score": 5.2
+      },
+      {
+        "id": "p_2685",
+        "score": 0.0
+      },
+      {
+        "id": "p_2897",
+        "score": 0.0
+      },
+      {
+        "id": "p_649",
+        "score": 0.0
+      },
+      {
+        "id": "p_2864",
+        "score": 0.0
+      },
+      {
+        "id": "p_2767",
+        "score": 0.0
+      },
+      {
+        "id": "p_2924",
+        "score": 0.0
+      },
+      {
+        "id": "p_2835",
+        "score": 0.0
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": [
+      {
+        "source": "p_713",
+        "target": "null"
+      },
+      {
+        "source": "p_0002",
+        "target": "null"
+      }
+    ]
+  },
+  "multi_agent": {
+    "shelf_path": "sections/ai_research/bookcases/agents/shelves/multi_agent",
+    "page_count": 410,
+    "top_pages": [
+      {
+        "id": "p_0008",
+        "score": 6.89
+      },
+      {
+        "id": "p_0003",
+        "score": 6.89
+      },
+      {
+        "id": "p_0007",
+        "score": 6.89
+      },
+      {
+        "id": "p_0006",
+        "score": 6.89
+      },
+      {
+        "id": "p_0002",
+        "score": 6.89
+      },
+      {
+        "id": "p_0005",
+        "score": 6.89
+      },
+      {
+        "id": "p_0001",
+        "score": 6.89
+      },
+      {
+        "id": "p_0004",
+        "score": 6.89
+      },
+      {
+        "id": "p_0009",
+        "score": 6.66
+      },
+      {
+        "id": "p_0013",
+        "score": 6.66
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": [
+      {
+        "source": "p_718",
+        "target": "null"
+      },
+      {
+        "source": "p_0041",
+        "target": "null"
+      }
+    ]
+  },
+  "code_agents": {
+    "shelf_path": "sections/ai_research/bookcases/agents/shelves/code_agents",
+    "page_count": 977,
+    "top_pages": [
+      {
+        "id": "p_0003",
+        "score": 6.75
+      },
+      {
+        "id": "p_0006",
+        "score": 6.75
+      },
+      {
+        "id": "p_0002",
+        "score": 6.75
+      },
+      {
+        "id": "p_0005",
+        "score": 6.75
+      },
+      {
+        "id": "p_0001",
+        "score": 6.75
+      },
+      {
+        "id": "p_0004",
+        "score": 6.75
+      },
+      {
+        "id": "p_0009",
+        "score": 6.55
+      },
+      {
+        "id": "p_0008",
+        "score": 6.55
+      },
+      {
+        "id": "p_0013",
+        "score": 6.55
+      },
+      {
+        "id": "p_0007",
+        "score": 6.55
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": [
+      {
+        "source": "p_830",
+        "target": "null"
+      },
+      {
+        "source": "p_815",
+        "target": "null"
+      },
+      {
+        "source": "p_0002",
+        "target": "null"
+      },
+      {
+        "source": "p_832",
+        "target": "null"
+      },
+      {
+        "source": "p_783",
+        "target": "null"
+      },
+      {
+        "source": "p_0015",
+        "target": "null"
+      },
+      {
+        "source": "p_0021",
+        "target": "null"
+      },
+      {
+        "source": "p_833",
+        "target": "null"
+      },
+      {
+        "source": "p_0045",
+        "target": "null"
+      }
+    ]
+  },
+  "patterns": {
+    "shelf_path": "sections/ai_research/bookcases/claude_code/shelves/patterns",
+    "page_count": 836,
+    "top_pages": [
+      {
+        "id": "p_0003",
+        "score": 4.48
+      },
+      {
+        "id": "p_0002",
+        "score": 4.48
+      },
+      {
+        "id": "p_0001",
+        "score": 4.48
+      },
+      {
+        "id": "p_1489",
+        "score": 0.0
+      },
+      {
+        "id": "p_1718",
+        "score": 0.0
+      },
+      {
+        "id": "p_1658",
+        "score": 0.0
+      },
+      {
+        "id": "p_1749",
+        "score": 0.0
+      },
+      {
+        "id": "p_1598",
+        "score": 0.0
+      },
+      {
+        "id": "p_1609",
+        "score": 0.0
+      },
+      {
+        "id": "p_1334",
+        "score": 0.0
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": []
+  },
+  "retrieval": {
+    "shelf_path": "sections/ai_research/bookcases/rag/shelves/retrieval",
+    "page_count": 369,
+    "top_pages": [
+      {
+        "id": "p_0003",
+        "score": 4.46
+      },
+      {
+        "id": "p_0002",
+        "score": 4.46
+      },
+      {
+        "id": "p_0005",
+        "score": 4.46
+      },
+      {
+        "id": "p_0001",
+        "score": 4.46
+      },
+      {
+        "id": "p_0004",
+        "score": 4.46
+      },
+      {
+        "id": "p_0009",
+        "score": 3.86
+      },
+      {
+        "id": "p_0008",
+        "score": 3.86
+      },
+      {
+        "id": "p_0007",
+        "score": 3.86
+      },
+      {
+        "id": "p_0006",
+        "score": 3.86
+      },
+      {
+        "id": "p_0011",
+        "score": 3.86
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": [
+      {
+        "source": "p_0009",
+        "target": "null"
+      }
+    ]
+  },
+  "context_window": {
+    "shelf_path": "sections/ai_research/bookcases/llms/shelves/context_window",
+    "page_count": 22,
+    "top_pages": [
+      {
+        "id": "p_0668",
+        "score": 9.0
+      },
+      {
+        "id": "p_0666",
+        "score": 8.5
+      },
+      {
+        "id": "p_0670",
+        "score": 8.4
+      },
+      {
+        "id": "p_0669",
+        "score": 8.3
+      },
+      {
+        "id": "p_0672",
+        "score": 8.2
+      },
+      {
+        "id": "p_0667",
+        "score": 8.2
+      },
+      {
+        "id": "p_0678",
+        "score": 8.1
+      },
+      {
+        "id": "p_0676",
+        "score": 7.9
+      },
+      {
+        "id": "p_0677",
+        "score": 7.8
+      },
+      {
+        "id": "p_0671",
+        "score": 7.8
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": []
+  },
+  "embeddings": {
+    "shelf_path": "sections/ai_research/bookcases/llms/shelves/embeddings",
+    "page_count": 20,
+    "top_pages": [
+      {
+        "id": "p_0001",
+        "score": 9.5
+      },
+      {
+        "id": "p_0006",
+        "score": 9.2
+      },
+      {
+        "id": "p_0007",
+        "score": 9.0
+      },
+      {
+        "id": "p_0002",
+        "score": 8.8
+      },
+      {
+        "id": "p_0008",
+        "score": 8.5
+      },
+      {
+        "id": "p_0003",
+        "score": 8.5
+      },
+      {
+        "id": "p_0011",
+        "score": 8.5
+      },
+      {
+        "id": "p_0012",
+        "score": 8.2
+      },
+      {
+        "id": "p_0009",
+        "score": 8.0
+      },
+      {
+        "id": "p_0018",
+        "score": 8.0
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": []
+  },
+  "reasoning": {
+    "shelf_path": "sections/ai_research/bookcases/llms/shelves/reasoning",
+    "page_count": 1309,
+    "top_pages": [
+      {
+        "id": "p_0003",
+        "score": 7.02
+      },
+      {
+        "id": "p_0002",
+        "score": 7.02
+      },
+      {
+        "id": "p_0005",
+        "score": 7.02
+      },
+      {
+        "id": "p_0001",
+        "score": 7.02
+      },
+      {
+        "id": "p_0004",
+        "score": 7.02
+      },
+      {
+        "id": "p_0008",
+        "score": 5.8
+      },
+      {
+        "id": "p_0007",
+        "score": 5.8
+      },
+      {
+        "id": "p_0006",
+        "score": 5.8
+      },
+      {
+        "id": "p_0009",
+        "score": 5.5
+      },
+      {
+        "id": "p_0012",
+        "score": 5.5
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": [
+      {
+        "source": "p_0038",
+        "target": "null"
+      },
+      {
+        "source": "p_755",
+        "target": "null"
+      }
+    ]
+  },
+  "ci_cd": {
+    "shelf_path": "sections/infrastructure/bookcases/devops/shelves/ci_cd",
+    "page_count": 747,
+    "top_pages": [
+      {
+        "id": "p_2986",
+        "score": 0.0
+      },
+      {
+        "id": "p_2794",
+        "score": 0.0
+      },
+      {
+        "id": "p_2736",
+        "score": 0.0
+      },
+      {
+        "id": "p_1718",
+        "score": 0.0
+      },
+      {
+        "id": "p_2941",
+        "score": 0.0
+      },
+      {
+        "id": "p_2910",
+        "score": 0.0
+      },
+      {
+        "id": "p_2850",
+        "score": 0.0
+      },
+      {
+        "id": "p_3371",
+        "score": 0.0
+      },
+      {
+        "id": "p_1396",
+        "score": 0.0
+      },
+      {
+        "id": "p_3042",
+        "score": 0.0
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": []
+  },
+  "skills": {
+    "shelf_path": "sections/infrastructure/bookcases/devops/shelves/skills",
+    "page_count": 10,
+    "top_pages": [
+      {
+        "id": "p_006",
+        "score": 9.5
+      },
+      {
+        "id": "p_002",
+        "score": 9.5
+      },
+      {
+        "id": "p_003",
+        "score": 9.5
+      },
+      {
+        "id": "p_007",
+        "score": 9.5
+      },
+      {
+        "id": "p_008",
+        "score": 9.5
+      },
+      {
+        "id": "p_009",
+        "score": 9.5
+      },
+      {
+        "id": "p_010",
+        "score": 9.5
+      },
+      {
+        "id": "p_004",
+        "score": 9.5
+      },
+      {
+        "id": "p_005",
+        "score": 9.5
+      },
+      {
+        "id": "p_001",
+        "score": 9.5
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": []
+  },
+  "web_agents": {
+    "shelf_path": "sections/infrastructure/bookcases/frontend/shelves/web_agents",
+    "page_count": 280,
+    "top_pages": [
+      {
+        "id": "p_0009",
+        "score": 7.51
+      },
+      {
+        "id": "p_0008",
+        "score": 7.51
+      },
+      {
+        "id": "p_0003",
+        "score": 7.51
+      },
+      {
+        "id": "p_0007",
+        "score": 7.51
+      },
+      {
+        "id": "p_0006",
+        "score": 7.51
+      },
+      {
+        "id": "p_0002",
+        "score": 7.51
+      },
+      {
+        "id": "p_0005",
+        "score": 7.51
+      },
+      {
+        "id": "p_0001",
+        "score": 7.51
+      },
+      {
+        "id": "p_0010",
+        "score": 7.51
+      },
+      {
+        "id": "p_0004",
+        "score": 7.51
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": [
+      {
+        "source": "p_0059",
+        "target": "null"
+      },
+      {
+        "source": "p_0119",
+        "target": "null"
+      },
+      {
+        "source": "p_0076",
+        "target": "null"
+      },
+      {
+        "source": "p_0136",
+        "target": "null"
+      },
+      {
+        "source": "p_0046",
+        "target": "null"
+      },
+      {
+        "source": "p_0017",
+        "target": "null"
+      },
+      {
+        "source": "p_0057",
+        "target": "null"
+      },
+      {
+        "source": "p_0156",
+        "target": "null"
+      },
+      {
+        "source": "p_0016",
+        "target": "null"
+      },
+      {
+        "source": "p_0036",
+        "target": "null"
+      },
+      {
+        "source": "p_0137",
+        "target": "null"
+      },
+      {
+        "source": "p_0204",
+        "target": "null"
+      },
+      {
+        "source": "p_0012",
+        "target": "null"
+      },
+      {
+        "source": "p_0005",
+        "target": "null"
+      },
+      {
+        "source": "p_0141",
+        "target": "null"
+      },
+      {
+        "source": "p_0110",
+        "target": "null"
+      },
+      {
+        "source": "p_0035",
+        "target": "null"
+      },
+      {
+        "source": "p_0025",
+        "target": "null"
+      },
+      {
+        "source": "p_0040",
+        "target": "null"
+      },
+      {
+        "source": "p_0125",
+        "target": "null"
+      },
+      {
+        "source": "p_0065",
+        "target": "null"
+      },
+      {
+        "source": "p_0174",
+        "target": "null"
+      },
+      {
+        "source": "p_0135",
+        "target": "null"
+      },
+      {
+        "source": "p_0061",
+        "target": "null"
+      },
+      {
+        "source": "p_0202",
+        "target": "null"
+      },
+      {
+        "source": "p_0131",
+        "target": "null"
+      },
+      {
+        "source": "p_0219",
+        "target": "null"
+      },
+      {
+        "source": "p_0238",
+        "target": "null"
+      },
+      {
+        "source": "p_0259",
+        "target": "null"
+      }
+    ]
+  },
+  "inference": {
+    "shelf_path": "sections/infrastructure/bookcases/llm_serving/shelves/inference",
+    "page_count": 909,
+    "top_pages": [
+      {
+        "id": "p_0009",
+        "score": 7.51
+      },
+      {
+        "id": "p_0008",
+        "score": 7.51
+      },
+      {
+        "id": "p_0003",
+        "score": 7.51
+      },
+      {
+        "id": "p_0007",
+        "score": 7.51
+      },
+      {
+        "id": "p_0006",
+        "score": 7.51
+      },
+      {
+        "id": "p_0002",
+        "score": 7.51
+      },
+      {
+        "id": "p_0005",
+        "score": 7.51
+      },
+      {
+        "id": "p_0001",
+        "score": 7.51
+      },
+      {
+        "id": "p_0004",
+        "score": 7.51
+      },
+      {
+        "id": "p_0013",
+        "score": 7.29
+      }
+    ],
+    "consensus_pages": [],
+    "contradiction_pairs": [
+      {
+        "source": "p_0159",
+        "target": "null"
+      },
+      {
+        "source": "p_0119",
+        "target": "null"
+      },
+      {
+        "source": "p_0008",
+        "target": "null"
+      },
+      {
+        "source": "p_0158",
+        "target": "null"
+      },
+      {
+        "source": "p_0052",
+        "target": "null"
+      },
+      {
+        "source": "p_0003",
+        "target": "null"
+      },
+      {
+        "source": "p_0205",
+        "target": "null"
+      },
+      {
+        "source": "p_0091",
+        "target": "null"
+      },
+      {
+        "source": "p_0056",
+        "target": "null"
+      },
+      {
+        "source": "p_0106",
+        "target": "null"
+      },
+      {
+        "source": "p_0032",
+        "target": "null"
+      },
+      {
+        "source": "p_0156",
+        "target": "null"
+      },
+      {
+        "source": "p_0043",
+        "target": "null"
+      },
+      {
+        "source": "p_0093",
+        "target": "null"
+      },
+      {
+        "source": "p_0104",
+        "target": "null"
+      },
+      {
+        "source": "p_0044",
+        "target": "null"
+      },
+      {
+        "source": "p_0001",
+        "target": "null"
+      },
+      {
+        "source": "p_0010",
+        "target": "null"
+      },
+      {
+        "source": "p_0004",
+        "target": "null"
+      },
+      {
+        "source": "p_0226",
+        "target": "null"
+      },
+      {
+        "source": "p_0229",
+        "target": "null"
+      }
+    ]
+  }
+}

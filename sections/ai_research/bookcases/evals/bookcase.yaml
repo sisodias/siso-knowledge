@@ -1,0 +1,11 @@
+name: Evals
+description: Evaluation benchmarks and methodology
+section: ai_research
+shelves:
+- benchmarks
+- methodology
+created: 2026-03-19
+type: bookcase
+slug: evals
+owner: LIBRARY_PM
+version: '1.0'

@@ -1,0 +1,13 @@
+{
+  "type": "integration_review",
+  "source": "os_insights",
+  "timestamp": "2026-03-20T23:30:02.563581",
+  "tier": "critical",
+  "title": "Claude Task Master",
+  "source_detail": "Unknown",
+  "components": "mcp",
+  "insight": "**Repository**: [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) **Description**: An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others. **Research**: Task management system designed for AI-driven development workflows.",
+  "url": "https://github.com/eyaltoledano/claude-task-master",
+  "status": "pending_review",
+  "routed_to": "agent_os"
+}

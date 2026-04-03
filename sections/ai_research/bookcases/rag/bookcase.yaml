@@ -1,0 +1,11 @@
+name: Rag
+description: Retrieval-augmented generation and vector databases
+section: ai_research
+shelves:
+- retrieval
+- vector_db
+created: 2026-03-19
+type: bookcase
+slug: rag
+owner: LIBRARY_PM
+version: '1.0'

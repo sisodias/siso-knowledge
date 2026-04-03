@@ -1,0 +1,12 @@
+name: Llms
+description: Large language models, reasoning, and context handling
+section: ai_research
+shelves:
+- reasoning
+- context_window
+- embeddings
+created: 2026-03-19
+type: bookcase
+slug: llms
+owner: LIBRARY_PM
+version: '1.0'

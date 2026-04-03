@@ -1,0 +1,13 @@
+{
+  "type": "integration_review",
+  "source": "os_insights",
+  "timestamp": "2026-03-20T23:30:02.563835",
+  "tier": "critical",
+  "title": "Claude Code Setup",
+  "source_detail": "Unknown",
+  "components": "mcp, orchestration, evals",
+  "insight": "**Repository**: [mkXultra/claude_code_setup](https://github.com/mkXultra/claude_code_setup) **Description**: Multi-agent collaboration setup for Claude Code using MCP. **Research**: A multi-agent collaboration setup for Claude Code using MCP. Enables multiple Claude Code instances to work together:",
+  "url": "https://github.com/mkXultra/claude_code_setup",
+  "status": "pending_review",
+  "routed_to": "agent_os"
+}

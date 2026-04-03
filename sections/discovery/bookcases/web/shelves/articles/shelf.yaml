@@ -1,0 +1,16 @@
+bookcase: web
+created: 2026-03-20
+description: Online articles and written content
+name: Articles
+page_count: 0
+section: discovery
+type: shelf
+slug: articles
+owner: LIBRARY_PM
+version: '1.0'
+content_type: insights
+routing_keywords: []
+tier_targets:
+  A: 0.1
+  B: 0.3
+  C: 0.6

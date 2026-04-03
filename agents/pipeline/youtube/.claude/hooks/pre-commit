@@ -1,0 +1,10 @@
+#!/bin/bash
+# Clear task memory on git commit
+
+TASK_DB=".claude/task.db"
+
+if [ -f "$TASK_DB" ]; then
+  echo "Clearing task memory: $TASK_DB"
+  rm -f "$TASK_DB"
+  echo "Task memory cleared."
+fi

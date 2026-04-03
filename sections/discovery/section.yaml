@@ -1,0 +1,13 @@
+type: section
+name: "Discovery"
+slug: discovery
+description: "Discovered resources from social media, web, GitHub, and community sources"
+icon: "🔍"
+color: "#9C27B0"
+order: 5
+bookcases:
+  - social
+  - web
+  - code
+owner: LIBRARY_PM
+version: "1.0"

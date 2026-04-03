@@ -1,0 +1,13 @@
+{
+  "id": "TASK-PM-001",
+  "title": "Populate ai_research/llms/context_window shelf",
+  "description": "Research GitHub repos related to LLM context windows, context length, attention mechanisms, and long-context models. Target the shelf ai_research/bookcases/llms/shelves/context_window. Find repos about: extending context windows, sparse attention, ring attention, position interpolation, etc.",
+  "priority": 2,
+  "assigned_to": "GitHubQueueAnalysis",
+  "target_shelf": "ai_research/llms/context_window",
+  "status": "done",
+  "created_at": "2026-03-20T00:00:00Z",
+  "completed_at": "2026-03-20T14:30:00Z",
+  "from": "LIBRARY_PM heartbeat",
+  "summary": "Created 22 pages and 1 book (b_001) populating the context_window shelf with GitHub repos covering ring attention, sparse attention, RoPE extensions, KV cache optimization, and streaming attention. Tier A: 11 repos, Tier B: 9 repos, Tier C: 2 repos."
+}

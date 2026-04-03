@@ -1,0 +1,199 @@
+# People Leaderboard — Tier S/A/B AI Leaders
+# Insight credibility is weighted by tier: S=4x, A=3x, B=2x, C=1x
+
+leaderboard:
+  # === TIER S: Company Founders/CEOs — highest credibility for company strategy ===
+  - name: Jensen Huang
+    title: CEO, NVIDIA
+    tier: S
+    sources:
+      - type: twitter
+        url: https://twitter.com/jensen_xai
+      - type: youtube
+        url: https://youtube.com/@nvidia
+    topics: [gpu, inference, AI infrastructure, deep learning]
+    weight: 4.0
+
+  - name: Elon Musk
+    title: CEO, xAI / Tesla / SpaceX
+    tier: S
+    sources:
+      - type: twitter
+        url: https://twitter.com/elonmusk
+    topics: [agi, autonomous, llms, rockets, robotics]
+    weight: 4.0
+
+  - name: Sam Altman
+    title: CEO, OpenAI
+    tier: S
+    sources:
+      - type: twitter
+        url: https://twitter.com/sama
+    topics: [agi, llms, safety, gpt, reasoning]
+    weight: 4.0
+
+  - name: Dario Amodei
+    title: CEO, Anthropic
+    tier: S
+    sources:
+      - type: twitter
+        url: https://twitter.com/daborni
+    topics: [claude, safety, constitutional ai, llms]
+    weight: 4.0
+
+  - name: Sundar Pichai
+    title: CEO, Google / Alphabet
+    tier: S
+    sources:
+      - type: twitter
+        url: https://twitter.com/sundarpichai
+    topics: [gemini, search, google ai, enterprise]
+    weight: 4.0
+
+  - name: Satya Nadella
+    title: CEO, Microsoft
+    tier: S
+    sources:
+      - type: twitter
+        url: https://twitter.com/satyanadella
+    topics: [azure ai, copilot, enterprise, infrastructure]
+    weight: 4.0
+
+  - name: Mark Zuckerberg
+    title: CEO, Meta
+    tier: S
+    sources:
+      - type: twitter
+        url: https://twitter.com/finkd
+    topics: [llama, open source, ai infrastructure, vr, ai at meta]
+    weight: 4.0
+
+  - name: Demis Hassabis
+    title: CEO, Google DeepMind
+    tier: S
+    sources:
+      - type: twitter
+        url: https://twitter.com/demishassabis
+    topics: [gemini, alphafold, reasoning, research, agi]
+    weight: 4.0
+
+  # === TIER A: Top AI Researchers / Builders ===
+  - name: Andrej Karpathy
+    title: Former Tesla AI Director, AI Educator
+    tier: A
+    sources:
+      - type: twitter
+        url: https://twitter.com/karpathy
+      - type: youtube
+        url: https://youtube.com/@AndrejKarpathy
+    topics: [llms, nlp, computer vision, ai education, gpt, llm]
+    weight: 3.0
+
+  - name: Jim Fan
+    title: Senior Research Scientist, NVIDIA
+    tier: A
+    sources:
+      - type: twitter
+        url: https://twitter.com/DrJimFan
+    topics: [physical ai, robotics, llms, agentic, foundation models]
+    weight: 3.0
+
+  - name: Yann LeCun
+    title: Chief AI Scientist, Meta
+    tier: A
+    sources:
+      - type: twitter
+        url: https://twitter.com/ylecun
+    topics: [self-supervised learning, llms, agi, deep learning, open source]
+    weight: 3.0
+
+  - name: Andrew Ng
+    title: Founder, DeepLearning.AI / Landing AI
+    tier: A
+    sources:
+      - type: twitter
+        url: https://twitter.com/AndrewYNg
+      - type: youtube
+        url: https://youtube.com/@deeplearningai
+    topics: [mlops, llms, ai education, llm applications, ai business]
+    weight: 3.0
+
+  - name: Jim Keller
+    title:芯片架构师 / Processor Architect
+    tier: A
+    sources:
+      - type: twitter
+        url: https://twitter.com/jim_keller
+    topics: [hardware, silicon, ai chips, isa, risc-v]
+    weight: 3.0
+
+  - name: Simon Willison
+    title: AI Developer & Researcher
+    tier: A
+    sources:
+      - type: twitter
+        url: https://twitter.com/simonw
+    topics: [llms, python, tools, ai ethics, llm applications]
+    weight: 3.0
+
+  - name: Simon Olson
+    title: AI Strategy Advisor
+    tier: A
+    sources:
+      - type: linkedin
+        url: https://linkedin.com/in/simonolson
+    topics: [ai strategy, enterprise ai, llm adoption]
+    weight: 3.0
+
+  # === TIER B: Practitioners / Active Builders ===
+  - name: swyx (Shawn Wang)
+    title: Latent Space Podcast Host
+    tier: B
+    sources:
+      - type: twitter
+        url: https://twitter.com/swyx
+      - type: youtube
+        url: https://youtube.com/@LatentSpace
+    topics: [ai engineering, llms, podcast, ai infrastructure]
+    weight: 2.0
+
+  - name: Theo Browne
+    title: CEO, T3.gg
+    tier: B
+    sources:
+      - type: twitter
+        url: https://twitter.com/t3dotgg
+      - type: youtube
+        url: https://youtube.com/@t3dotgg
+    topics: [ai applications, next.js, typescript, llm apps]
+    weight: 2.0
+
+  - name: Matthew Berman
+    title: AI YouTuber
+    tier: B
+    sources:
+      - type: twitter
+        url: https://twitter.com/matthew_berman
+      - type: youtube
+        url: https://youtube.com/@MatthewBermanAI
+    topics: [ai news, llm comparisons, ai tools, llm research]
+    weight: 2.0
+
+# Tier definitions
+tiers:
+  S:
+    description: "Company founders/CEOs — highest authority on company strategy and direction"
+    weight: 4.0
+    color: "#FFD700"
+  A:
+    description: "Top researchers and builders — deep technical credibility"
+    weight: 3.0
+    color: "#C0C0C0"
+  B:
+    description: "Active practitioners with track record of quality output"
+    weight: 2.0
+    color: "#CD7F32"
+  C:
+    description: "Emerging voices worth monitoring"
+    weight: 1.0
+    color: "#808080"

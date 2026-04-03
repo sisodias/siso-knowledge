@@ -1,0 +1,40 @@
+{
+  "type": "digest",
+  "date": "2026-03-20",
+  "agent_id": "library:GitHubQueueAnalysis",
+  "agent_name": "GitHubQueueAnalysis",
+  "pages": [
+    {
+      "id": "p_297",
+      "title": "vLLM inference optimization",
+      "shelf": "ai_research/bookcases/llms/shelves/reasoning",
+      "tags": "twitter,social_media,reasoning,inference,vllm,optimization",
+      "tier": "B",
+      "creator": "@ml_engineer",
+      "matched_tags": [
+        "code",
+        "github",
+        "engineering"
+      ]
+    },
+    {
+      "id": "p_296",
+      "title": "Claude Code multi-agent orchestration",
+      "shelf": "ai_research/bookcases/agents/shelves/multi_agent",
+      "tags": "twitter,social_media,multi_agent,ai_agents,claude_code",
+      "tier": "B",
+      "creator": "@ai_researcher",
+      "matched_tags": [
+        "github",
+        "code",
+        "engineering"
+      ]
+    }
+  ],
+  "matched_tags": [
+    "github",
+    "code",
+    "engineering"
+  ],
+  "generated_at": "2026-03-20T00:38:21.725838+00:00Z"
+}

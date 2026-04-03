@@ -1,0 +1,12 @@
+{
+  "type": "integration_review",
+  "source": "os_insights",
+  "timestamp": "2026-03-20T22:44:36.785445",
+  "tier": "critical",
+  "title": "Mcp Use",
+  "source_detail": "Unknown",
+  "components": "mcp, devops",
+  "insight": "**Repository**: [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) **Description**: Fullstack MCP framework to build MCP Apps for ChatGPT/Claude and MCP Servers for AI Agents. **Research**: A full-stack MCP framework from Manufact for building MCP servers and MCP apps. Provides TypeScript and Pyt",
+  "url": "https://github.com/mcp-use/mcp-use",
+  "status": "pending_review"
+}

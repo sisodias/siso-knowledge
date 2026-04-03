@@ -1,0 +1,9 @@
+{
+  "agent": {"id": "library:LIBRARY_PM", "name": "LIBRARY_PM", "version": "4.0.0"},
+  "status": "idle",
+  "current_task": null,
+  "last_task": null,
+  "started_at": null,
+  "last_updated": null,
+  "capabilities": ["fs", "terminal", "web"]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "integration_review",
+  "source": "os_insights",
+  "timestamp": "2026-03-20T22:44:36.785960",
+  "tier": "critical",
+  "title": "Claude Code Development Kit",
+  "source_detail": "Unknown",
+  "components": "memory, mcp, orchestration",
+  "insight": "**Repository**: [peterkrueck/Claude-Code-Development-Kit](https://github.com/peterkrueck/Claude-Code-Development-Kit) **Description**: Handle context at scale - my custom Claude Code workflow including hooks, mcp and sub agents **Research**: A personal Claude Code development workflow system with ho",
+  "url": "https://github.com/peterkrueck/Claude-Code-Development-Kit",
+  "status": "pending_review"
+}

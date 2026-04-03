@@ -1,0 +1,104 @@
+{
+  "description": "Agent OS standard hooks for YouTubeQueueAnalysis",
+  "env": {
+    "AGENT_NAME": "YouTubeQueueAnalysis",
+    "AGENT_DIR": "/Users/shaansisodia/SISO_Workspace/SISO_Library/agents/YouTubeQueueAnalysis"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /Users/shaansisodia/SISO_Workspace/agent_os/skills_hub/registry/skills/global/os-database/scripts/log_hook.py BOOT",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "python3 /Users/shaansisodia/SISO_Workspace/agent_os/hooks_hub/pipeline/context-injector/inject_context.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /Users/shaansisodia/SISO_Workspace/agent_os/hooks_hub/pipeline/context-preserver/preserve_context.py",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /Users/shaansisodia/SISO_Workspace/agent_os/skills_hub/registry/skills/global/os-database/scripts/log_hook.py USER_PROMPT",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "python3 /Users/shaansisodia/SISO_Workspace/agent_os/hooks_hub/pipeline/skill-activation-prompt/activate_skills.py",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "python3 /Users/shaansisodia/SISO_Workspace/agent_os/hooks_hub/pipeline/trace-compactor/compact_trace.py",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "python3 /Users/shaansisodia/SISO_Workspace/agent_os/hooks_hub/pipeline/session-context-injection/inject_context.py",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /Users/shaansisodia/SISO_Workspace/agent_os/hooks_hub/pipeline/no-bad-formatting/format_file.py",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "python3 /Users/shaansisodia/SISO_Workspace/agent_os/hooks_hub/pipeline/sqlite-time-machine/log_edit.py",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /Users/shaansisodia/SISO_Workspace/agent_os/skills_hub/registry/skills/global/os-database/scripts/log_hook.py COMPLETED",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "python3 /Users/shaansisodia/SISO_Workspace/agent_os/hooks_hub/pipeline/vibe-coding-self-corrector/stop_hook.py",
+            "timeout": 15
+          },
+          {
+            "type": "command",
+            "command": "python3 /Users/shaansisodia/SISO_Workspace/agent_os/hooks_hub/pipeline/gentle-philosophy/gentle_reminder.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

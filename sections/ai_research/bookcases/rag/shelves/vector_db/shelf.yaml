@@ -1,0 +1,16 @@
+bookcase: rag
+created: 2026-03-19
+description: Vector databases and similarity search
+name: Vector Db
+page_count: 0
+section: ai_research
+type: shelf
+slug: vector_db
+owner: LIBRARY_PM
+version: '1.0'
+content_type: insights
+routing_keywords: []
+tier_targets:
+  A: 0.1
+  B: 0.3
+  C: 0.6

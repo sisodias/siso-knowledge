@@ -1,0 +1,10 @@
+name: Opensource
+description: Open source models and alternatives
+section: ecosystem
+shelves:
+- models
+created: 2026-03-19
+type: bookcase
+slug: opensource
+owner: LIBRARY_PM
+version: '1.0'

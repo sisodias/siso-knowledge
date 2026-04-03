@@ -1,0 +1,31 @@
+---
+type: shelf
+name: ""          # Human-readable name (e.g., "Multi-Agent Systems")
+slug: ""          # URL-safe identifier (e.g., "multi_agent")
+bookcase: ""      # Parent bookcase slug (e.g., "agents")
+section: ""       # Parent section slug (e.g., "ai_research")
+description: ""   # 1-2 sentence description
+
+# Content type: "insights" | "reference" | "case_studies" | "tutorials"
+content_type: insights
+
+# Routing hints — keywords that suggest this shelf
+routing_keywords: []
+# Examples:
+#   - multi-agent, orchestration, swarm, coordination
+#   - code agent, coding, devin, claude code
+
+# Tier distribution targets
+tier_targets:
+  A: 0.10   # 10% of pages should be Tier A
+  B: 0.30   # 30% Tier B
+  C: 0.60   # 60% Tier C
+
+# Min/max score for auto-tiering
+score_range:
+  min: 0.0
+  max: 10.0
+
+# Governance
+owner: LIBRARY_PM
+version: "1.0"

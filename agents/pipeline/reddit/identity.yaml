@@ -1,0 +1,19 @@
+name: RedditQueueAnalysis
+description: Scrapes Reddit for AI/ML research content and feeds to SISO_Library
+owner: LIBRARY_PM
+capabilities:
+  - reddit_scraping
+  - content_ingestion
+  - research_extraction
+subreddits:
+  - LocalLLaMA
+  - MachineLearning
+  - AIagents
+  - SideProject
+schedules:
+  - id: reddit-ingest
+    description: Ingest Reddit posts from inbox
+    command: python3 pipelines/reddit/ingest.py
+    schedule: "*/20 * * * *"
+    timeout: 300
+    priority: 1

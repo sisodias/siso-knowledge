@@ -1,0 +1,14 @@
+type: section
+name: "Infrastructure"
+slug: infrastructure
+description: "DevOps, cloud infrastructure, and deployment patterns"
+icon: "🖥️"
+color: "#34A853"
+order: 3
+bookcases:
+  - devops
+  - frontend
+  - kubernetes
+  - llm_serving
+owner: LIBRARY_PM
+version: "1.0"

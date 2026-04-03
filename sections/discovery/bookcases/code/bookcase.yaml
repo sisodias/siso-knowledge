@@ -1,0 +1,10 @@
+name: Code
+description: GitHub repositories and code-centric discoveries
+section: discovery
+shelves:
+  - repos
+created: 2026-03-23
+type: bookcase
+slug: code
+owner: LIBRARY_PM
+version: '1.0'

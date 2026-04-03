@@ -1,0 +1,11 @@
+type: section
+name: "People"
+slug: people
+description: "Person-anchored AI intelligence. Curated influencers, researchers, and builders with prediction tracking."
+icon: "👤"
+color: "#9C27B0"
+order: 10
+bookcases:
+  - people
+owner: LIBRARY_PM
+version: "1.0"

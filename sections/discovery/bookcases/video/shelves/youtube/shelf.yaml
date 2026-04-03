@@ -1,0 +1,16 @@
+bookcase: video
+created: 2026-03-23
+description: YouTube video intelligence with extracted key insights.
+name: YouTube
+page_count: 0
+section: discovery
+type: shelf
+slug: youtube
+owner: LIBRARY_PM
+version: "1.0"
+content_type: video_insights
+routing_keywords: [youtube, video, podcast, talk, lecture, tutorial]
+tier_targets:
+  A: 0.1
+  B: 0.3
+  C: 0.6

@@ -1,0 +1,16 @@
+bookcase: anthropic
+created: 2026-03-19
+description: Model capabilities, pricing, and comparisons
+name: Models
+page_count: 0
+section: ecosystem
+type: shelf
+slug: models
+owner: LIBRARY_PM
+version: '1.0'
+content_type: insights
+routing_keywords: []
+tier_targets:
+  A: 0.1
+  B: 0.3
+  C: 0.6

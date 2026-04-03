@@ -1,0 +1,17 @@
+---
+type: section
+name: ""          # Human-readable name (e.g., "AI Research")
+slug: ""          # URL-safe identifier (e.g., "ai_research")
+description: ""   # 1-2 sentence description
+icon: ""          # Optional emoji or icon
+color: ""         # Hex color for graph visualization (e.g., "#4285F4")
+
+# Order in the library sidebar
+order: 0
+
+# Bookcases contained in this section
+bookcases: []
+
+# Governance
+owner: LIBRARY_PM
+version: "1.0"

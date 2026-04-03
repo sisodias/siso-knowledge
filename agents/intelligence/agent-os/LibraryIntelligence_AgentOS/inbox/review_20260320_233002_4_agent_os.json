@@ -1,0 +1,13 @@
+{
+  "type": "integration_review",
+  "source": "os_insights",
+  "timestamp": "2026-03-20T23:30:02.563481",
+  "tier": "critical",
+  "title": "Claude Code Mcp",
+  "source_detail": "Unknown",
+  "components": "mcp, evals",
+  "insight": "**Repository**: [steipete/claude-code-mcp](https://github.com/steipete/claude-code-mcp) **Description**: Claude Code as one-shot MCP server to have an agent in your agent. **Research**: An MCP server that wraps Claude Code in one-shot mode with automatic permission bypass. Enables Claude Code to be",
+  "url": "https://github.com/steipete/claude-code-mcp",
+  "status": "pending_review",
+  "routed_to": "agent_os"
+}

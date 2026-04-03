@@ -1,0 +1,10 @@
+{
+  "id": "TASK-EXAMPLE-001",
+  "title": "Example Task",
+  "description": "This is an example task file. Delete when you receive your first real task.",
+  "priority": 5,
+  "assigned_to": "LIBRARY_PM",
+  "status": "pending",
+  "created_at": "2026-03-20T00:00:00Z",
+  "from": "system"
+}

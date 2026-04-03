@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SISO Library — Knowledge Graph</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="controls">
+    <div id="search-container">
+      <input id="search" type="text" placeholder="Search pages...">
+    </div>
+    <div id="filter-controls">
+      <select id="shelf-filter">
+        <option value="">All Shelves</option>
+      </select>
+      <div id="tier-buttons">
+        <button class="tier-btn active" data-tier="all">All</button>
+        <button class="tier-btn" data-tier="A">A</button>
+        <button class="tier-btn" data-tier="B">B</button>
+        <button class="tier-btn" data-tier="C">C</button>
+      </div>
+      <div id="tag-chips"></div>
+    </div>
+  </div>
+  <div id="stats">Loading...</div>
+  <div id="legend"></div>
+  <div id="tooltip"></div>
+  <div id="modal-overlay">
+    <div id="modal">
+      <button id="modal-close">&times;</button>
+      <h2 id="modal-title"></h2>
+      <div id="modal-meta"></div>
+      <div id="modal-content"></div>
+      <a id="modal-link" href="#" target="_blank">Open in file</a>
+    </div>
+  </div>
+  <svg id="graph"></svg>
+  <script>
+    const COLORS = {
+      'ai_research/agents': '#4A90D9',
+      'ai_research/llms': '#7B68EE',
+      'ai_research/rag': '#20B2AA',
+      'ai_research/claude_code': '#9370DB',
+      'ai_research/evals': '#5DADE2',
+      'ai_research': '#4A90D9',
+      'infrastructure': '#4CAF50',
+      'infrastructure/devops': '#4CAF50',
+      'infrastructure/kubernetes': '#8BC34A',
+      'infrastructure/llm_serving': '#009688',
+      'infrastructure/frontend': '#00BCD4',
+      'ecosystem': '#FF9800',
+      'ecosystem/anthropic': '#FF9800',
+      'ecosystem/openai': '#F44336',
+      'ecosystem/opensource': '#FF5722',
+      'product': '#9C27B0',
+      'default': '#888888'
+    };
+
+    function getColor(shelf) {
+      if (!shelf) return COLORS.default;
+      // Handle shelf paths like "infrastructure/llm_serving/inference/pages" -> "infrastructure/llm_serving"
+      const normalized = shelf.replace('/pages', '').replace('/shelves/', '/');
+      for (const key of Object.keys(COLORS)) {
+        if (normalized.startsWith(key)) return COLORS[key];
+      }
+      return COLORS.default;
+    }
+
+    function getNodeTitle(n) {
+      return n.title || n.label || n.id;
+    }
+
+    function getNodeTier(n) {
+      const t = n.tier || 'C';
+      return t.replace('Tier ', '');
+    }
+
+    function getSection(shelf) {
+      if (!shelf) return 'unknown';
+      return shelf.split('/')[0];
+    }
+
+    let graphData = {nodes: [], edges: []};
+    let filteredData = {nodes: [], edges: []};
+    let simulation;
+    let selectedNode = null;
+    let currentFilters = { shelf: '', tier: 'all', tags: [], search: '' };
+
+    async function loadGraph() {
+      try {
+        const resp = await fetch('graph.json');
+        graphData = await resp.json();
+        // Convert edge source/target to objects if needed
+        if (graphData.edges.length > 0 && typeof graphData.edges[0].source === 'string') {
+          const nodeMap = new Map(graphData.nodes.map(n => [n.id, n]));
+          graphData.edges = graphData.edges.map(e => ({
+            source: nodeMap.get(e.source),
+            target: nodeMap.get(e.target),
+            type: e.type
+          })).filter(e => e.source && e.target);
+        }
+      } catch(e) {
+        console.log('No graph data:', e);
+      }
+      initFilters();
+      applyFilters();
+      render();
+    }
+
+    function initFilters() {
+      // Shelf dropdown
+      const shelves = [...new Set(graphData.nodes.map(n => {
+        const parts = (n.shelf || '').split('/');
+        return parts.slice(0, 2).join('/');
+      })).values()].filter(Boolean).sort();
+
+      const shelfSelect = document.getElementById('shelf-filter');
+      shelves.forEach(shelf => {
+        const opt = document.createElement('option');
+        opt.value = shelf;
+        opt.textContent = shelf;
+        shelfSelect.appendChild(opt);
+      });
+
+      // Tag chips
+      const tagCounts = {};
+      graphData.nodes.forEach(n => {
+        (n.tags || []).forEach(t => tagCounts[t] = (tagCounts[t] || 0) + 1);
+      });
+      const topTags = Object.entries(tagCounts)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 10);
+
+      const tagChips = document.getElementById('tag-chips');
+      topTags.forEach(([tag, count]) => {
+        const chip = document.createElement('span');
+        chip.className = 'tag-chip';
+        chip.textContent = `${tag} (${count})`;
+        chip.dataset.tag = tag;
+        tagChips.appendChild(chip);
+      });
+
+      // Tier buttons
+      document.querySelectorAll('.tier-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.tier-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          currentFilters.tier = btn.dataset.tier;
+          applyFilters();
+          render();
+        });
+      });
+
+      // Shelf filter
+      shelfSelect.addEventListener('change', () => {
+        currentFilters.shelf = shelfSelect.value;
+        applyFilters();
+        render();
+      });
+
+      // Tag chips click
+      tagChips.addEventListener('click', (e) => {
+        if (e.target.classList.contains('tag-chip')) {
+          e.target.classList.toggle('selected');
+          currentFilters.tags = [...document.querySelectorAll('.tag-chip.selected')].map(c => c.dataset.tag);
+          applyFilters();
+          render();
+        }
+      });
+
+      // Search
+      document.getElementById('search').addEventListener('input', (e) => {
+        currentFilters.search = e.target.value.toLowerCase();
+        applyFilters();
+        render();
+      });
+    }
+
+    function applyFilters() {
+      filteredData.nodes = graphData.nodes.filter(n => {
+        const normalizedShelf = (n.shelf || '').replace('/pages', '').replace('/shelves/', '/');
+        if (currentFilters.shelf && !normalizedShelf.startsWith(currentFilters.shelf)) return false;
+        if (currentFilters.tier !== 'all' && getNodeTier(n) !== currentFilters.tier) return false;
+        if (currentFilters.tags.length > 0 && !currentFilters.tags.some(t => (n.tags || []).includes(t))) return false;
+        return true;
+      });
+
+      const nodeIds = new Set(filteredData.nodes.map(n => n.id));
+      filteredData.edges = graphData.edges.filter(e =>
+        nodeIds.has(e.source.id) && nodeIds.has(e.target.id)
+      );
+    }
+
+    function render() {
+      const svg = d3.select('#graph');
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+
+      svg.selectAll('*').remove();
+
+      // Update stats
+      document.getElementById('stats').innerHTML =
+        `${filteredData.nodes.length} pages | ${filteredData.edges.length} connections`;
+
+      // Update legend
+      const sections = [...new Set(filteredData.nodes.map(n => getSection(n.shelf)))];
+      const legendColors = {};
+      sections.forEach(s => {
+        legendColors[s] = getColor(s);
+      });
+
+      const legend = document.getElementById('legend');
+      legend.innerHTML = '<strong>Legend</strong><br>' +
+        Object.entries(legendColors).map(([s, c]) =>
+          `<span class="legend-item" data-section="${s}">
+            <span style="display:inline-block;width:12px;height:12px;background:${c};margin-right:4px;border-radius:2px;"></span>${s}
+           </span>`
+        ).join('<br>');
+
+      legend.querySelectorAll('.legend-item').forEach(item => {
+        item.style.cursor = 'pointer';
+        item.addEventListener('click', () => {
+          currentFilters.shelf = item.dataset.section;
+          document.getElementById('shelf-filter').value = currentFilters.shelf;
+          applyFilters();
+          render();
+        });
+      });
+
+      if (filteredData.nodes.length === 0) {
+        svg.append('text')
+          .attr('class', 'empty-message')
+          .attr('x', width / 2)
+          .attr('y', height / 2)
+          .attr('text-anchor', 'middle')
+          .text('Library is empty — no pages yet');
+        return;
+      }
+
+      // Zoom behavior
+      const zoom = d3.zoom()
+        .scaleExtent([0.1, 4])
+        .on('zoom', (event) => {
+          container.attr('transform', event.transform);
+        });
+
+      svg.call(zoom);
+
+      const container = svg.append('g');
+
+      simulation = d3.forceSimulation(filteredData.nodes)
+        .force('link', d3.forceLink(filteredData.edges)
+          .id(d => d.id)
+          .distance(d => d.type === 'contradict' ? 150 : 100))
+        .force('charge', d3.forceManyBody().strength(-300))
+        .force('center', d3.forceCenter(width / 2, height / 2))
+        .force('collision', d3.forceCollide().radius(d => 5 + (d.score || 0) * 1.5 + 5));
+
+      const link = container.append('g')
+        .selectAll('line')
+        .data(filteredData.edges)
+        .join('line')
+        .attr('class', d => d.type === 'contradict' ? 'link contradict' : 'link')
+        .attr('stroke', d => d.type === 'contradict' ? '#e74c3c' : '#555')
+        .attr('stroke-width', d => d.type === 'contradict' ? 2 : 1);
+
+      const node = container.append('g')
+        .selectAll('g')
+        .data(filteredData.nodes)
+        .join('g')
+        .attr('class', 'node')
+        .call(d3.drag()
+          .on('start', dragstarted)
+          .on('drag', dragged)
+          .on('end', dragended));
+
+      node.append('circle')
+        .attr('r', d => 5 + (d.score || 0) * 1.5)
+        .attr('fill', d => getColor(d.shelf || ''))
+        .attr('stroke', 'white')
+        .attr('stroke-width', 1);
+
+      // Tooltip
+      node.on('mouseover', (event, d) => {
+        const tooltip = document.getElementById('tooltip');
+        tooltip.style.display = 'block';
+        tooltip.style.left = (event.pageX + 15) + 'px';
+        tooltip.style.top = (event.pageY + 15) + 'px';
+        tooltip.style.borderLeftColor = getColor(d.shelf || '');
+        tooltip.innerHTML = `
+          <strong>${getNodeTitle(d).substring(0, 60)}</strong><br>
+          <span style="color:#aaa">Score:</span> ${d.score || 0}<br>
+          <span style="color:#aaa">Tags:</span> ${(d.tags || []).join(', ') || 'none'}<br>
+          <span style="color:#aaa">Shelf:</span> ${(d.shelf || 'N/A').replace('/pages', '').substring(0, 40)}<br>
+          <span style="color:#aaa">Tier:</span> ${getNodeTier(d)}
+        `;
+      }).on('mouseout', () => {
+        document.getElementById('tooltip').style.display = 'none';
+      });
+
+      // Click - highlight connections
+      node.on('click', (event, d) => {
+        event.stopPropagation();
+        if (selectedNode && selectedNode.id === d.id) {
+          // Reset
+          selectedNode = null;
+          link.attr('opacity', 0.6);
+          node.attr('opacity', 1);
+        } else {
+          selectedNode = d;
+          link.attr('opacity', l =>
+            l.source.id === d.id || l.target.id === d.id ? 1 : 0.05
+          );
+          node.attr('opacity', n =>
+            n.id === d.id ||
+            filteredData.edges.some(l => (l.source.id === d.id && l.target.id === n.id) ||
+                                          (l.target.id === d.id && l.source.id === n.id)) ? 1 : 0.1
+          );
+        }
+      });
+
+      // Double-click - show modal
+      node.on('dblclick', (event, d) => {
+        showModal(d);
+      });
+
+      // Background click to reset
+      svg.on('click', () => {
+        selectedNode = null;
+        link.attr('opacity', 0.6);
+        node.attr('opacity', 1);
+      });
+
+      // Search highlighting
+      if (currentFilters.search) {
+        node.attr('opacity', d =>
+          (getNodeTitle(d).toLowerCase().includes(currentFilters.search)) ||
+          ((d.tags || []).some(t => t.toLowerCase().includes(currentFilters.search))) ? 1 : 0.1
+        );
+        link.attr('opacity', l =>
+          (getNodeTitle(l.source).toLowerCase().includes(currentFilters.search)) ||
+          (getNodeTitle(l.target).toLowerCase().includes(currentFilters.search)) ? 0.6 : 0.05
+        );
+      }
+
+      simulation.on('tick', () => {
+        link
+          .attr('x1', d => d.source.x)
+          .attr('y1', d => d.source.y)
+          .attr('x2', d => d.target.x)
+          .attr('y2', d => d.target.y);
+        node.attr('transform', d => `translate(${d.x},${d.y})`);
+      });
+
+      function dragstarted(event) {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        event.subject.fx = event.subject.x;
+        event.subject.fy = event.subject.y;
+      }
+      function dragged(event) {
+        event.subject.fx = event.x;
+        event.subject.fy = event.y;
+      }
+      function dragended(event) {
+        if (!event.active) simulation.alphaTarget(0);
+        event.subject.fx = null;
+        event.subject.fy = null;
+      }
+    }
+
+    function showModal(d) {
+      const modal = document.getElementById('modal-overlay');
+      const title = document.getElementById('modal-title');
+      const meta = document.getElementById('modal-meta');
+      const content = document.getElementById('modal-content');
+      const link = document.getElementById('modal-link');
+
+      title.textContent = getNodeTitle(d);
+      meta.innerHTML = `
+        <span><strong>Score:</strong> ${d.score || 0}</span>
+        <span><strong>Tier:</strong> ${getNodeTier(d)}</span>
+        <span><strong>Tags:</strong> ${(d.tags || []).join(', ') || 'none'}</span>
+      `;
+      content.textContent = getNodeTitle(d).substring(0, 300) + '...';
+
+      // Generate file path from page ID
+      const pageId = d.id;
+      const filePath = `../bookcases/${(d.shelf || '').replace(/shelves\//, 'pages/') || 'uncategorized'}/${pageId}.md`;
+      link.href = filePath;
+
+      modal.style.display = 'flex';
+    }
+
+    function hideModal() {
+      document.getElementById('modal-overlay').style.display = 'none';
+    }
+
+    document.getElementById('modal-close').addEventListener('click', hideModal);
+    document.getElementById('modal-overlay').addEventListener('click', (e) => {
+      if (e.target.id === 'modal-overlay') hideModal();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') hideModal();
+    });
+
+    // Handle window resize
+    window.addEventListener('resize', () => {
+      if (filteredData.nodes.length > 0) render();
+    });
+
+    loadGraph();
+  </script>
+</body>
+</html>

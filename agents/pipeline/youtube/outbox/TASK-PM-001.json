@@ -1,0 +1,18 @@
+{
+  "id": "TASK-PM-001",
+  "title": "Populate ai_research/evals/methodology shelf",
+  "description": "Research and extract content about AI evaluation methodology, eval frameworks, benchmark design, and LLM assessment. Target the shelf ai_research/bookcases/evals/shelves/methodology. Find YouTube videos on topics like: how to design evals, benchmark creation, red-teaming LLMs, evaluation metrics, etc.",
+  "priority": 1,
+  "assigned_to": "YouTubeQueueAnalysis",
+  "target_shelf": "ai_research/evals/methodology",
+  "status": "completed",
+  "created_at": "2026-03-20T00:00:00Z",
+  "from": "LIBRARY_PM heartbeat",
+  "completed_at": "2026-03-20T22:50:00Z",
+  "result": {
+    "pages_created": 5,
+    "book_created": "b_663",
+    "page_ids": ["p_663", "p_664", "p_665", "p_666", "p_667"],
+    "research_log": "workspace/research-log.md"
+  }
+}

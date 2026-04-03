@@ -1,0 +1,10 @@
+name: Video Intelligence
+description: Video content with extracted insights, annotated chapters, and key claims.
+section: discovery
+shelves:
+  - youtube
+created: 2026-03-23
+type: bookcase
+slug: video
+owner: LIBRARY_PM
+version: "1.0"

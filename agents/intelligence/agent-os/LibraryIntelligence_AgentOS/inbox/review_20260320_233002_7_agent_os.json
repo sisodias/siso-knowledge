@@ -1,0 +1,13 @@
+{
+  "type": "integration_review",
+  "source": "os_insights",
+  "timestamp": "2026-03-20T23:30:02.563753",
+  "tier": "critical",
+  "title": "Buildwithclaude",
+  "source_detail": "Unknown",
+  "components": "mcp, agent_os, rag",
+  "insight": "**Repository**: [davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude) **Description**: A single hub to find Claude Skills, Agents, Commands, Hooks, Plugins, and Marketplace collections to extend Claude Code, Claude Desktop, Agent SDK and OpenClaw **Research**: Plugin marketplace an",
+  "url": "https://github.com/davepoon/buildwithclaude",
+  "status": "pending_review",
+  "routed_to": "agent_os"
+}

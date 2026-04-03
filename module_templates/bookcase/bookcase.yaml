@@ -1,0 +1,16 @@
+---
+type: bookcase
+name: ""          # Human-readable name (e.g., "Agents")
+slug: ""          # URL-safe identifier (e.g., "agents")
+section: ""       # Parent section slug (e.g., "ai_research")
+description: ""   # 1-2 sentence description
+
+# Shelves contained in this bookcase
+shelves: []
+
+# Tags auto-applied to pages in this bookcase
+auto_tags: []
+
+# Governance
+owner: LIBRARY_PM
+version: "1.0"

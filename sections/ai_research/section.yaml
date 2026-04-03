@@ -1,0 +1,15 @@
+type: section
+name: "AI Research"
+slug: ai_research
+description: "Research, analysis, and technical deep-dives on AI, LLMs, and agents"
+icon: "🤖"
+color: "#4285F4"
+order: 1
+bookcases:
+  - agents
+  - claude_code
+  - evals
+  - llms
+  - rag
+owner: LIBRARY_PM
+version: "1.0"

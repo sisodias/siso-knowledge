@@ -1,0 +1,19 @@
+{
+  "last_run": "2026-03-21T00:23:58.721301",
+  "last_action": "run_ingest",
+  "consecutive_empty_runs": 0,
+  "pending_tasks": [],
+  "recent_completions": [
+    "TASK-PM-001"
+  ],
+  "pipeline_health": {
+    "total_pages": 1407,
+    "manifest_age": "fresh",
+    "youtube_inbox": 0,
+    "github_inbox": 0,
+    "twitter_inbox": 1,
+    "reddit_inbox": 4,
+    "web_inbox": 0,
+    "digest_today": false
+  }
+}
