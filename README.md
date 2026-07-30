@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/repository-header.png" width="100%" alt="A luminous structured knowledge graph growing inside a dark archival chamber">
+</p>
+
 # SISO Knowledge
 
 The durable knowledge-production system for SISO.
