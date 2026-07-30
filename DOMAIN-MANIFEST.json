@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "domain": "SISO_Knowledge",
+  "observed_at": "2026-07-30",
+  "outcome": "Acquire, curate, store, index, relate, and retrieve durable knowledge",
+  "human_map": "DOMAIN.html",
+  "data_contract": "DATA-MANIFEST.json",
+  "zones": [
+    {"path":"sections","role":"canonical atomic knowledge corpus","authority":"authored"},
+    {"path":"books","role":"cross-page synthesis and manifests","authority":"authored or generated according to each book contract"},
+    {"path":"module_templates","role":"canonical hierarchy schemas and templates","authority":"authored"},
+    {"path":"pipelines","role":"knowledge acquisition, normalization, scoring, and routing code","authority":"authored source; acquired payloads are external data"},
+    {"path":"agents","role":"Knowledge-specific feeder and curator operator definitions","authority":"mixed legacy; generic agent capabilities forbidden"},
+    {"path":"queries","role":"deterministic query and rebuild commands","authority":"authored"},
+    {"path":"scripts","role":"maintenance and publication utilities","authority":"mixed experimental; dry-run-first where applicable"},
+    {"path":"_index","role":"rebuildable search and relationship projections","authority":"generated; never hand-edit"},
+    {"path":"graph","role":"generated graph and local visualization","authority":"generated projection"},
+    {"path":"research","role":"independent research-production Works","authority":"separate Git repositories"},
+    {"path":"source-inventories","role":"preserved historical source awaiting evidence-led promotion","authority":"preserve histories and provenance"},
+    {"path":"memory","role":"legacy operator state","authority":"compatibility debt; not new source authority"}
+  ],
+  "research_works": [
+    {"path":"research/siso-foundry","remote":"https://github.com/Lordsisodia/siso-foundry.git","state":"dirty_1_preserved"},
+    {"path":"research/siso-evidence-engines","remote":"https://github.com/Lordsisodia/siso-evidence-engines.git","state":"clean"}
+  ],
+  "boundary_exceptions": [
+    {"path":"apps/library-web","actual_role":"deployable legacy Knowledge web product","target_domain":"SISO_Agency/apps","blocker":"28 uncommitted entries plus active local data coupling"},
+    {"path":"design-system","actual_role":"shared UI component bank, viewer, CLI, and MCP package","target_domain":"shared product/UI ownership","blocker":"746 uncommitted entries; Agency is frozen"}
+  ],
+  "generated_zones": ["_index","graph"],
+  "runtime_state_zones": [".omc",".firecrawl","memory","agents/**/memory","agents/**/inbox","agents/**/outbox","agents/**/heartbeat"],
+  "forbidden_top_level": ["component_library","Section_Templates","Great_Library_of_SISO","SISO_Library"],
+  "debt_baseline": {
+    "tracked_files_with_personal_absolute_paths_max": 41,
+    "tracked_runtime_or_data_looking_files_max": 91,
+    "compatibility_symlinks_inside_domain_max": 8
+  },
+  "split_rule": "Create a repository only for an independently adoptable, ownable, secure, or separately releasable Work; a large folder or generated dataset is not sufficient."
+}

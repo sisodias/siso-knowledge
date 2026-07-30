@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "domain": "SISO_Knowledge",
+  "policy": "Git stores source, schemas, canonical knowledge records, small fixtures, and provenance. Acquired payloads, queues, transcripts, databases, caches, logs, and rebuildable reports stay in the local data plane.",
+  "canonical_git_data": [
+    {"path":"sections","kind":"atomic knowledge pages and hierarchy metadata"},
+    {"path":"books","kind":"reviewable knowledge synthesis"},
+    {"path":"module_templates","kind":"schemas and templates"}
+  ],
+  "generated_git_projections": [
+    {"path":"_index","kind":"search/index projection","rebuild":"python3 queries/rebuild_index.py"},
+    {"path":"graph","kind":"graph projection and local viewer","rebuild":"python3 queries/rebuild_index.py"}
+  ],
+  "local_data_plane": [
+    {"path":"pipelines/people/corpus","kind":"large acquired and normalized people corpora","git":"ignored"},
+    {"path":"pipelines/people/raw_sources","kind":"rights-bearing acquired source material","git":"ignored"},
+    {"path":"pipelines/people/dossiers","kind":"rebuildable collection reports","git":"ignored"},
+    {"path":"pipelines/people/source_plans","kind":"rebuildable acquisition plans","git":"ignored"},
+    {"path":"pipelines/youtube/inbox","kind":"operator-supplied transcript imports","git":"ignored"},
+    {"path":"pipelines/youtube/transcripts","kind":"normalized transcripts","git":"ignored"},
+    {"path":"pipelines/youtube/search_results","kind":"provider/search exports","git":"ignored"},
+    {"path":"pipelines/youtube/reports","kind":"rebuildable collection reports","git":"ignored"},
+    {"pattern":"*.sqlite, *.sqlite-*, *.db","kind":"local databases and WAL state","git":"ignored"},
+    {"path":"_index/events.jsonl","kind":"append-only runtime telemetry","git":"ignored"},
+    {"path":"_index/agent-status.json","kind":"runtime status projection","git":"ignored"}
+  ],
+  "known_large_local_assets": [
+    {"path":"pipelines/people/corpus/elon-musk/social/normalized/elon_musk_tweets_normalized.jsonl","observed_size_mib":59},
+    {"path":"pipelines/people/corpus/elon-musk/extraction/chunks.jsonl","observed_size_mib":50},
+    {"path":"pipelines/people/corpus/elon-musk/extraction/elon_extraction.sqlite","observed_size_mib":56}
+  ],
+  "rights_rule": "Every acquired source keeps its source URL, owner, license or rights status, retrieval time, and transformation provenance. Unknown rights block public promotion."
+}

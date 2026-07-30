@@ -5,5 +5,26 @@ dist/
 .env.*
 .DS_Store
 *.db
+*.sqlite
+*.sqlite-*
 __pycache__/
 *.pyc
+.omc/
+.firecrawl/
+
+# Local data plane: source code and small synthetic fixtures stay in Git;
+# acquired corpora, transcripts, queues, search exports, and generated reports do not.
+pipelines/people/corpus/
+pipelines/people/raw_sources/
+pipelines/people/dossiers/
+pipelines/people/source_plans/
+pipelines/youtube/inbox/
+pipelines/youtube/reports/
+pipelines/youtube/search_results/
+pipelines/youtube/transcripts/
+_index/events.jsonl
+_index/agent-status.json
+agents/**/heartbeat/*.log
+
+# Canonical Great Library registry is an independent nested checkout.
+Great_Library_of_SISO/
