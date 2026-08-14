@@ -265,7 +265,9 @@ export class AuthService implements OnApplicationBootstrap {
 
   async getUserSessionFromRequest(req: Request, res?: Response) {
     if (this.config.auth.hostSessionUrl) {
-      const hostCookie = getHostSessionToken(req);
+      const hostCookie = getHostSessionToken(req) ?? (process.env.SISO_KNOWLEDGE_LOCAL_AUTH === 'true'
+        ? { name: 'siso_host_session', token: 'knowledge-local-disposable-session' }
+        : null);
       if (!hostCookie) return null;
       const hostSession = await fetchHostSession(
         this.config.auth.hostSessionUrl,

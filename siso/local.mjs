@@ -42,6 +42,7 @@ function sharedEnv() {
     SISO_NOTES_SERVER_PORT: String(backendPort),
     SISO_NOTES_SERVER_EXTERNAL_URL: `http://127.0.0.1:${backendPort}`,
     SISO_HOST_SESSION_URL: 'http://127.0.0.1:4320/api/auth/session',
+    SISO_KNOWLEDGE_LOCAL_AUTH: 'true',
     SISO_KNOWLEDGE_CONTEXT_SECRET: 'knowledge-local-disposable-secret',
     SISO_ENABLE_NATIVE_RUNTIME: 'true',
     TS_NODE_TRANSPILE_ONLY: 'true',
