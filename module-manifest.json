@@ -2,9 +2,24 @@
   "schemaVersion": 1,
   "id": "knowledge",
   "name": "SISO Knowledge",
-  "phase": 1,
+  "phase": 2,
   "mode": "assimilated-host-module",
   "entry": "frontend/packages/frontend/apps/web/src/siso-knowledge-module.tsx",
+  "package": {
+    "name": "@siso/knowledge-module",
+    "entry": "frontend/packages/frontend/apps/web/src/siso-knowledge-module.tsx",
+    "hostContractEntry": "frontend/packages/frontend/apps/web/src/siso-module-contract.tsx",
+    "peerDependencies": ["react", "react-dom", "react-router-dom"]
+  },
+  "basePath": {
+    "configurable": true,
+    "default": "/knowledge"
+  },
+  "identity": {
+    "source": "host-signed-request-context",
+    "header": "x-siso-request-context",
+    "failClosed": ["expired", "client-mismatch", "workspace-mismatch", "capability-denied"]
+  },
   "backend": "backend/backend/server",
   "capabilities": ["documents", "editor", "canvas", "collections", "search", "import-export", "templates", "settings"],
   "hostContract": {
@@ -18,5 +33,12 @@
     "postgresSchema": "knowledge",
     "redisNamespace": "knowledge",
     "yjsAndBlobs": "knowledge"
+  },
+  "local": {
+    "start": "yarn local:start",
+    "status": "yarn local:status",
+    "stop": "yarn local:stop",
+    "desktopUrl": "http://127.0.0.1:3022/",
+    "backendUrl": "http://127.0.0.1:3012"
   }
 }

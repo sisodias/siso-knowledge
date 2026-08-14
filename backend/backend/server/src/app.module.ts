@@ -119,8 +119,6 @@ export const FunctionalityModules = [
   JobModule.forRoot(),
   RealtimeModule,
   ModelsModule,
-  BackendRuntimeModule,
-  StorageRuntimeModule,
   ScheduleModule.forRoot(),
   MonitorModule,
 ];
@@ -161,6 +159,14 @@ export function buildAppModule(env: Env) {
   factor
     // basic
     .use(...FunctionalityModules)
+    // Native runtime migrations currently require a dedicated schema search
+    // path and vector/blob authority. Keep HTTP/GraphQL startup usable on the
+    // shared local ACL; enable them explicitly once that authority is ready.
+    .useIf(
+      () => process.env.SISO_ENABLE_NATIVE_RUNTIME === 'true',
+      BackendRuntimeModule,
+      StorageRuntimeModule
+    )
 
     // enable indexer module on graphql, doc and front service
     .useIf(

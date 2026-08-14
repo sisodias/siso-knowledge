@@ -47,6 +47,7 @@ export class StorageRuntimeProvider
   }
 
   async start() {
+    if (process.env.SISO_ENABLE_NATIVE_RUNTIME !== 'true') return;
     this.configureRuntime();
     await this.runtime.start();
     await this.runMigrationsOnce();

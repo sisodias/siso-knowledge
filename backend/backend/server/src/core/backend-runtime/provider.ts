@@ -208,6 +208,7 @@ export class BackendRuntimeProvider
   }
 
   async start() {
+    if (process.env.SISO_ENABLE_NATIVE_RUNTIME !== 'true') return;
     await this.runtime.start();
     await this.runMigrationsOnce();
     const health = await this.runtime.health();

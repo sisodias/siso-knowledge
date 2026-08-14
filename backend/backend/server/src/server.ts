@@ -103,8 +103,13 @@ export async function run() {
     app.enableShutdownHooks();
   }
 
-  const adapter = new SocketIoAdapter(app);
-  app.useWebSocketAdapter(adapter);
+  // The shared module ACL intentionally excludes pub/sub. Knowledge can run
+  // its HTTP/GraphQL surface without a Socket.IO Redis adapter; collaboration
+  // remains a later authority seam when the host grants the required ACL.
+  if (process.env.SISO_DISABLE_SOCKET_REDIS !== 'true') {
+    const adapter = new SocketIoAdapter(app);
+    app.useWebSocketAdapter(adapter);
+  }
 
   if (env.dev) {
     const { SwaggerModule, DocumentBuilder } = await import("@nestjs/swagger");

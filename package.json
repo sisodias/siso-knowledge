@@ -1,0 +1,14 @@
+{
+  "name": "@siso/knowledge-module",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./frontend/packages/frontend/apps/web/src/siso-knowledge-module.tsx",
+    "./host-contract": "./frontend/packages/frontend/apps/web/src/siso-module-contract.tsx"
+  },
+  "scripts": {
+    "local:start": "node siso/local.mjs start",
+    "local:status": "node siso/local.mjs status",
+    "local:stop": "node siso/local.mjs stop"
+  }
+}
