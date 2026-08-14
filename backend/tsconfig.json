@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "exactOptionalPropertyTypes": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "lib": ["ES2024"],
+    "target": "ES2024",
+    "useDefineForClassFields": false,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "composite": true
+  },
+  "include": [],
+  "files": [],
+  "exclude": ["node_modules", "dist"],
+  "references": [
+    { "path": "./common/debug" },
+    { "path": "./common/error" },
+    { "path": "./common/graphql" },
+    { "path": "./common/realtime" },
+    { "path": "./common/s3-compat" },
+    { "path": "./backend/native" },
+    { "path": "./backend/server" }
+  ]
+}

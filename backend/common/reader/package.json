@@ -1,0 +1,27 @@
+{
+  "name": "@siso/reader",
+  "type": "module",
+  "version": "0.27.0",
+  "private": true,
+  "sideEffects": false,
+  "module": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./dist": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "sisonotes bundle -p @siso/reader",
+    "bundle": "sisonotes bundle -p @siso/reader"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.23",
+    "yjs": "^13.6.27"
+  },
+  "devDependencies": {
+    "@blocksuite/sisonotes": "workspace:*",
+    "vitest": "^4.1.8"
+  },
+  "peerDependencies": {
+    "@blocksuite/sisonotes": "workspace:*"
+  }
+}

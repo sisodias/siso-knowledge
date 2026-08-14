@@ -1,0 +1,56 @@
+[workspace]
+members = ["./backend/native", "./common/native"]
+resolver = "3"
+
+[workspace.package]
+edition = "2024"
+
+[workspace.dependencies]
+aes-gcm = "0.10"
+sisonotes_common = { path = "./common/native" }
+sisonotes_doc_loader = { package = "affine_doc_loader", version = "0.1.4" }
+anyhow = "1"
+base64 = "0.22.1"
+chrono = "0.4"
+criterion = { version = "0.5", features = ["html_reports"] }
+doc_extractor = "0.1.1"
+file-format = { version = "0.28", features = ["reader"] }
+hex = "0.4"
+homedir = "0.3"
+image = { version = "0.25.9", default-features = false, features = ["bmp", "gif", "jpeg", "png", "webp"] }
+infer = "0.19.0"
+little_exif = "0.6.23"
+llm_adapter = { version = "0.2", default-features = false }
+llm_runtime = { version = "0.2", default-features = false }
+matroska = "0.30"
+mimalloc = "0.1"
+mp4parse = "0.17"
+napi = { version = "3.7.0", features = ["async", "chrono_date", "error_anyhow", "napi9", "serde"] }
+napi-build = "2"
+napi-derive = "3.4"
+p256 = { version = "0.13", features = ["ecdsa", "pem"] }
+rand = "0.9"
+rayon = "1.10"
+safefetch = "0.1.0"
+schemars = "1.2"
+serde = "1"
+serde_json = "1"
+sha2 = "0.11"
+sha3 = "0.12"
+sqlx = { version = "0.8", default-features = false, features = ["chrono", "macros", "migrate", "runtime-tokio", "sqlite"] }
+thiserror = "2"
+tiktoken-rs = "0.7"
+tokio = "1.45"
+url = "2.5"
+uuid = "1.8"
+v_htmlescape = "0.15"
+y-octo = "0.1.0"
+
+[profile.dev.package.sqlx-macros]
+opt-level = 3
+
+[profile.release]
+codegen-units = 1
+lto = "fat"
+opt-level = 3
+strip = "symbols"

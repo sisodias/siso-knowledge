@@ -1,0 +1,25 @@
+{
+  "extends": "../../tsconfig.node.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "verbatimModuleSyntax": false,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo"
+  },
+  "include": ["./src"],
+  "exclude": [
+    "./src/**/__tests__/**",
+    "./src/**/*.spec.ts",
+    "./src/**/*.e2e.ts"
+  ],
+  "references": [
+    { "path": "../../common/s3-compat" },
+    { "path": "../native" },
+    { "path": "../../common/graphql" },
+    { "path": "../../common/realtime" }
+  ]
+}

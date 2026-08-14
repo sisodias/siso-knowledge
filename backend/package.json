@@ -1,0 +1,32 @@
+{
+  "name": "@siso/docs-backend",
+  "version": "0.27.0",
+  "private": true,
+  "packageManager": "yarn@4.13.0",
+  "engines": {
+    "node": ">=22.12.0 <23.0.0"
+  },
+  "workspaces": [
+    "backend/native",
+    "backend/server",
+    "common/debug",
+    "common/error",
+    "common/graphql",
+    "common/realtime",
+    "common/s3-compat"
+  ],
+  "scripts": {
+    "build:native": "yarn workspace @siso/server-native build",
+    "dev": "yarn workspace @siso/server dev",
+    "start": "yarn workspace @siso/server start",
+    "prisma:generate": "yarn workspace @siso/server prisma generate",
+    "prisma:migrate": "yarn workspace @siso/server prisma migrate deploy",
+    "typecheck": "tsc -b tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
