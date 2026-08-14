@@ -1,4 +1,4 @@
-import { cpSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
+import { readFileSync, renameSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
 import { resolve } from 'node:path';
@@ -20,8 +20,11 @@ execFileSync('corepack', ['yarn', 'affine', '@affine/web', 'build'], {
 });
 
 rmSync(output, { recursive: true, force: true });
-mkdirSync(output, { recursive: true });
-cpSync(sourceDist, output, { recursive: true });
+// The package is the final consumer of the generated dist. Move it instead
+// of duplicating ~200 MiB of assets, which also keeps low-space build hosts
+// from producing a partially copied package.
+rmSync(output, { recursive: true, force: true });
+renameSync(sourceDist, output);
 
 const html = readFileSync(resolve(output, 'index.html'), 'utf8');
 const scripts = [...html.matchAll(/<script[^>]+src="([^"]+)"/g)].map(match => match[1]);
@@ -62,7 +65,9 @@ let activeUnmount;
 function installRequestBridge(host, backendBase) {
   if (!backendBase || globalThis.__SISO_KNOWLEDGE_FETCH_BRIDGE) return;
   const nativeFetch = window.fetch.bind(window);
-  const target = backendBase.replace(/\\/$/, '');
+  // The host may pass an explicit backend base; compiled package mounts that
+  // omit it still need the cookie-bearing same-origin CMS prefix.
+  const target = (backendBase || new URL('/admin/api/cms/affine', location.origin).href).replace(/\\/$/, '');
   window.fetch = (input, init = {}) => {
     const request = new Request(input, init);
     const url = new URL(request.url, location.href);

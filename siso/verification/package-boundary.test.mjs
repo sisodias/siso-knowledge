@@ -32,6 +32,7 @@ test('compiled package has a nested-host asset contract', () => {
   assert.match(entry, /identity\?\.workspaceId/);
   assert.match(entry, /__SISO_KNOWLEDGE_FETCH_BRIDGE/);
   assert.match(entry, /backendBase/);
+  assert.match(entry, /new URL\('\/admin\/api\/cms\/affine', location\.origin\)/);
   assert.match(entry, /url\.pathname === '\/api'/);
   assert.match(entry, /url\.pathname === '\/graphql'/);
   assert.match(entry, /target \+ url\.pathname \+ url\.search/);
