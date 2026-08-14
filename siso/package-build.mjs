@@ -38,6 +38,7 @@ for (const file of textFiles) {
   let source = readFileSync(file, 'utf8');
   if (file.includes('/js/runtime.') && file.endsWith('.js')) {
     source = source.replace(/h\.p="?\/?"?/, 'h.p=globalThis.__SISO_KNOWLEDGE_ASSET_BASE__||new URL("./",document.currentScript?.src||location.href).href');
+    source = source.replace('var t=h.p+h.u(e),c=Error();', 'var t=new URL(h.u(e),globalThis.__SISO_KNOWLEDGE_ASSET_BASE__||new URL("./",document.currentScript?.src||location.href).href).href,c=Error();');
   }
   if (/\.(?:css|html)$/.test(file)) {
     source = source.replace(/(["'(])\/(?!\/)/g, '$1');

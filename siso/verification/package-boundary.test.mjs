@@ -34,6 +34,7 @@ test('compiled package has a nested-host asset contract', () => {
   assert.match(runtimeSource, /\/\^\(3146\|4014\|8200\)\$\//, 'runtime regex literals remain syntactically intact');
   assert.match(runtimeSource, /h\.p=globalThis\.__SISO_KNOWLEDGE_ASSET_BASE__\|\|new URL\("\.\/",document\.currentScript\?\.src\|\|location\.href\)\.href/);
   assert.match(runtimeSource, /h\.u=e=>"js\/"/);
+  assert.match(runtimeSource, /new URL\(h\.u\(e\),globalThis\.__SISO_KNOWLEDGE_ASSET_BASE__/);
   for (const name of ['npm-async-@lottiefiles', 'npm-async-@shikijs']) {
     assert.ok(manifest.files.some(file => file.path.startsWith(`js/${name}.`) && file.path.endsWith('.js')), `${name} async chunk is shipped`);
   }
