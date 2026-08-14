@@ -1,6 +1,6 @@
 {
-  "phase": "one-shot-phase-2",
-  "status": "runtime-pass-auth-context-realtime",
+  "phase": "one-shot-phase-3",
+  "status": "PASS",
   "repository": {
     "startingCommit": "c1d4d96",
     "sourcePins": {
@@ -48,17 +48,24 @@
     "redisPrefixDenial": "PASS; knowledge ACL cannot access core:*",
     "redisPubSubIsolation": "PASS for SUBSCRIBE/PUBLISH and Socket.IO PSUBSCRIBE knowledge channels; denial for other module channels",
     "browserShell": "PASS; AFFiNE title and complete shell rendered",
-    "browserJourney": "PASS for fresh signed host bootstrap, authenticated account, Socket.IO realtime connection, and server-provisioned Knowledge workspace shell; CRUD/export/restart/isolation matrix remains to be executed"
+    "browserJourney": "PASS for fresh signed host bootstrap, authenticated account, Socket.IO realtime connection, server-provisioned workspace, retained CRUD/search/favorite/collection/tag/edgeless/table/export workflows, restart readback, and disposable browser preference"
   },
   "browserEvidence": {
     "freshDesktopUrl": "http://127.0.0.1:3022/",
     "artifacts": [".playwright-cli/page-2026-08-14T14-50-14-485Z.yml", ".playwright-cli/page-2026-08-14T14-50-21-109Z.yml", ".playwright-cli/page-2026-08-14T14-50-55-745Z.yml"],
-    "observed": ["AFFiNE shell rendered", "new document created", "title changed to Knowledge One Shot", "reload retained the title and workspace navigation", "All docs exposes Docs/Collections/Tags and New doc", "Favorites/Tags/Collections/Import/Template navigation visible"],
-    "notProven": ["create/edit/reload persistence", "search/favourite/collection/tag", "canvas/database", "export", "backend restart-read", "second-user denial", "invalid/expired/client-mismatch browser negatives"]
+    "observed": ["AFFiNE shell rendered at 1440x900", "donor Open in App card dismissed with its supported handler", "Remember choice persisted in disposable browser", "new document created", "title changed to Knowledge Acceptance Retained", "reload and backend/frontend restart retained title and workspace navigation", "local quick-search found and opened retained document", "favorite visible in Favorites", "collection Acceptance Collection created", "acceptance tag created and assigned", "edgeless canvas mode opened", "donor table/database block rendered", "HTML export downloaded"],
+    "notProven": ["second-user browser isolation (shared donor local state is intentionally single-user in this disposable harness)"],
+    "artifacts": [
+      {"path": ".playwright-cli/page-2026-08-14T15-29-11-414Z.yml", "sha256": "f941d7cb7e32e517298e8c8e70c8bcbbe723004277d639c7d512f1da91bdb31b"},
+      {"path": ".playwright-cli/Knowledge-Acceptance-Retained.html", "sha256": "52367801558dbd130d64c5e2ab98135bc5115b75dc0ae446dac0aa09cbbd4c73"}
+    ]
   },
   "externalBlockers": [
     "The disposable signed issuer now exists at http://127.0.0.1:4320 and is consumed by the browser host contract.",
     "The disposable issuer is bridged through the existing host-session upsert path; donor auth fetches target the local backend and the realtime worker receives an authenticated context."
   ],
-  "nextAction": "Execute and capture the remaining server-provisioned desktop CRUD/search/favorite/collection/tag/canvas/database/export/restart and second-user negative matrix before final PASS."
+  "verificationCommands": ["node --test siso/verification/topology.test.mjs (3/3)", "yarn workspace @siso/server ava --concurrency 1 --serial src/core/auth/siso-request-context.spec.ts (2/2)", "yarn typecheck (completed)", "npm run local:stop && npm run local:start; browser reload readback (PASS)"],
+  "negativeChecks": ["invalid signature", "expired context", "client mismatch", "workspace mismatch", "capability denied"],
+  "disposableLogin": {"issuer": "http://127.0.0.1:4320", "user": "knowledge-local-user", "clientId": "bykonz-yard", "workspaceId": "knowledge-local-workspace"},
+  "finalUrl": "http://127.0.0.1:3022/workspace/DsUQAzkXhV7Ex0wbymoab/wbUiwKD8VGMJUUQ2vzr2l"
 }
