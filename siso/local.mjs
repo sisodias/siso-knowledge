@@ -13,7 +13,13 @@ const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
 const envSecrets = readEnv();
 const backendPort = 3012;
 const frontendPort = 3022;
+const backendConfigPath = resolve(root, 'backend/backend/server/config.json');
 const state = existsSync(statePath) ? JSON.parse(readFileSync(statePath, 'utf8')) : {};
+async function serviceAlive(value) {
+  if (!value || typeof value !== 'object') return false;
+  try { process.kill(value.pid, 0); return true; } catch {}
+  try { return (await fetch(value.url, { signal: AbortSignal.timeout(750) })).ok; } catch { return false; }
+}
 
 function sharedEnv() {
   const pg = manifest.postgres;
@@ -31,10 +37,32 @@ function sharedEnv() {
     SISO_NOTES_SERVER_PORT: String(backendPort),
     SISO_NOTES_SERVER_EXTERNAL_URL: `http://127.0.0.1:${backendPort}`,
     SISO_HOST_SESSION_URL: 'http://127.0.0.1:4320/api/auth/session',
+    SISO_ENABLE_NATIVE_RUNTIME: 'true',
+    // The shared ACL grants knowledge:* pub/sub, while Socket.IO's fixed
+    // socket.io#/#* channel is intentionally outside the module namespace.
+    // GraphQL/Yjs realtime uses the retained backend event bus below.
     SISO_DISABLE_SOCKET_REDIS: 'true',
-    SISO_ENABLE_NATIVE_RUNTIME: 'false',
     TS_NODE_TRANSPILE_ONLY: 'true',
   };
+}
+
+function writeRuntimeConfig() {
+  const objectStore = manifest.object_store;
+  const knowledgeStore = objectStore.modules.knowledge;
+  writeFileSync(backendConfigPath, JSON.stringify({
+    storages: {
+      blob: { storage: {
+        provider: 'aws-s3', bucket: knowledgeStore.bucket,
+        config: { endpoint: objectStore.endpoint, region: 'local', forcePathStyle: true,
+          credentials: { accessKeyId: envSecrets[knowledgeStore.access_key_env], secretAccessKey: envSecrets[knowledgeStore.secret_key_env] } }
+      } },
+      avatar: { storage: {
+        provider: 'aws-s3', bucket: knowledgeStore.bucket,
+        config: { endpoint: objectStore.endpoint, region: 'local', forcePathStyle: true,
+          credentials: { accessKeyId: envSecrets[knowledgeStore.access_key_env], secretAccessKey: envSecrets[knowledgeStore.secret_key_env] } }
+      } }
+    }
+  }, null, 2));
 }
 
 function start(name, cwd, command, args, env) {
@@ -47,22 +75,22 @@ function start(name, cwd, command, args, env) {
 const action = process.argv[2] ?? 'status';
 if (action === 'start') {
   mkdirSync(runtimeDir, { recursive: true });
+  writeRuntimeConfig();
   start('backend', resolve(root, 'backend'), 'corepack', ['yarn', 'workspace', '@siso/server', 'start'], sharedEnv());
   start('frontend', resolve(root, 'frontend'), 'corepack', ['yarn', 'affine', '@affine/web', 'dev'], { ...process.env, GITHUB_SHA: process.env.GITHUB_SHA ?? 'siso-knowledge-local', SISO_DOCS_PORT: String(frontendPort), SISO_KNOWLEDGE_HOST_BASE_PATH: '/knowledge' });
   writeFileSync(statePath, JSON.stringify({ ...state, moduleUrl: `http://127.0.0.1:${frontendPort}/` }, null, 2));
   console.log(`knowledge backend=http://127.0.0.1:${backendPort}`);
   console.log(`knowledge desktop=http://127.0.0.1:${frontendPort}/`);
 } else if (action === 'status') {
-  const liveState = Object.fromEntries(Object.entries(state).map(([name, value]) => {
+  const liveState = Object.fromEntries(await Promise.all(Object.entries(state).map(async ([name, value]) => {
     if (!value || typeof value !== 'object') return [name, value];
-    let alive = false;
-    try { process.kill(value.pid, 0); alive = true; } catch {}
-    return [name, { ...value, alive }];
-  }));
+    return [name, { ...value, alive: await serviceAlive(value) }];
+  })));
   console.log(JSON.stringify({ manifest: manifestPath, sharedPostgres: `${manifest.postgres.host}:${manifest.postgres.port}/${manifest.postgres.database}`, sharedRedis: `${manifest.redis.host}:${manifest.redis.port}`, state: liveState }, null, 2));
 } else if (action === 'stop') {
   for (const entry of Object.values(state)) if (entry?.pid) { try { process.kill(entry.pid, 'SIGTERM'); } catch {} }
   if (existsSync(statePath)) unlinkSync(statePath);
+  if (existsSync(backendConfigPath)) unlinkSync(backendConfigPath);
   console.log('knowledge stopped');
 } else {
   throw new Error(`Unknown action: ${action}`);

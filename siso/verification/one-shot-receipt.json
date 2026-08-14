@@ -11,10 +11,11 @@
   },
   "sharedInfrastructure": {
     "manifest": "/Users/shaansisodia/SISO_Workspace/SISO_Agency/apps/siso-client-platform/infra/local/module-infra.json",
-    "manifestSha256": "4b5873a5e55596eeed39253070effd8e1bd0a447352ebe75bc734660b5c31679",
+    "manifestVersion": 3,
+    "manifestSha256": "138b6454d45245051d3069ee1f440d7a9716a1b1742dace8633b900672aa4f3d",
     "postgres": "127.0.0.1:55440/siso_platform schema=knowledge",
     "redis": "127.0.0.1:56390 namespace=knowledge",
-    "blobAndYjsAuthority": "local module authority (not proven through authenticated browser journey)"
+    "blobAndYjsAuthority": "shared S3-compatible object store bucket knowledge; native runtime migration started successfully"
   },
   "packageContract": {
     "package": "@siso/knowledge-module",
@@ -25,14 +26,14 @@
   },
   "runtime": {
     "localStart": "PASS",
-    "localStatus": "PASS; backend pid 15194 and frontend pid 15203 alive",
+    "localStatus": "PASS; backend and frontend service URLs probe alive",
     "localStop": "PASS (script exercised before latest start)",
     "frontendUrl": "http://127.0.0.1:3022/",
     "backendUrl": "http://127.0.0.1:3012",
     "http": { "frontend": 200, "backendApiDocs": 200 },
     "compatibilityNotes": [
-      "SISO_ENABLE_NATIVE_RUNTIME=false is required for this shared local ACL because donor runtime provisioning expects unavailable storage privileges.",
-      "SISO_DISABLE_SOCKET_REDIS=true is required because the shared Redis ACL denies INFO/pubsub operations; HTTP/GraphQL still boots."
+      "SISO_ENABLE_NATIVE_RUNTIME=true; knowledge schema tables are owned by knowledge and native runtime migrations start.",
+      "SISO_DISABLE_SOCKET_REDIS=true remains required because donor Socket.IO subscribes to fixed socket.io#/#* outside the knowledge:* ACL; GraphQL/Yjs event services remain enabled."
     ]
   },
   "checks": {
@@ -46,18 +47,19 @@
     "crossSchemaDenial": "PASS; knowledge role cannot query core schema",
     "redisPrefixDenial": "PASS; knowledge ACL cannot access core:*",
     "browserShell": "PASS; AFFiNE title and complete shell rendered",
-    "browserJourney": "NOT PROVEN"
+    "browserJourney": "PARTIAL; create/title/reload and contextual navigation observed"
   },
   "browserEvidence": {
     "freshDesktopUrl": "http://127.0.0.1:3022/",
-    "artifacts": [".playwright-cli/page-2026-08-14T13-22-44-316Z.yml", ".playwright-cli/console-2026-08-14T13-22-42-105Z.log"],
-    "observed": ["AFFiNE shell rendered", "first-workspace local state created", "donor realtime reports unauthenticated"],
+    "artifacts": [".playwright-cli/page-2026-08-14T14-50-14-485Z.yml", ".playwright-cli/page-2026-08-14T14-50-21-109Z.yml", ".playwright-cli/page-2026-08-14T14-50-55-745Z.yml"],
+    "observed": ["AFFiNE shell rendered", "new document created", "title changed to Knowledge One Shot", "reload retained the title and workspace navigation", "All docs exposes Docs/Collections/Tags and New doc", "Favorites/Tags/Collections/Import/Template navigation visible"],
     "notProven": ["create/edit/reload persistence", "search/favourite/collection/tag", "canvas/database", "export", "backend restart-read", "second-user denial", "invalid/expired/client-mismatch browser negatives"]
   },
   "externalBlockers": [
     "The repository has no host SISO session issuer/harness; the host route assembler is explicitly owned by Ticketing, so a real single-login browser journey cannot be completed in this module-only scope.",
     "The retained donor browser realtime path requires authenticated host context and therefore reports RealtimeUnauthenticated without that host seam.",
-    "Shared Redis ACL does not grant donor INFO/pubsub/mutex operations; HTTP backend is available with the bounded socket/runtime compatibility flags above, but full realtime/Yjs persistence is not honestly claimable."
+    "Shared Redis ACL permits knowledge:* but donor Socket.IO requests fixed socket.io#/#* channels; the module disables only that adapter to preserve the host-owned namespace boundary.",
+    "Full authenticated server-backed edit/search/export/second-user journey remains unproven because AFFiNE local browser mode has no disposable signed SISO issuer fixture yet."
   ],
   "nextAction": "Ticketing publishes the host SISO session/context seam; then rerun the documented desktop journey against the same local URLs and remove compatibility flags only when shared Redis/storage authority grants are available."
 }
