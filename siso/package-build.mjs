@@ -52,6 +52,7 @@ for (const file of textFiles) {
   if (file.includes('/js/nbstore-') && file.endsWith('.worker.js')) {
     // The nbstore worker owns its HTTP fetches and cannot see the page fetch
     // bridge. Keep its GraphQL/API requests on the cookie-bearing host path.
+    source = `globalThis.__SISO_KNOWLEDGE_COMPILED_PACKAGE__=true;globalThis.__SISO_KNOWLEDGE_BACKEND_BASE__=new URL("/admin/api/cms/affine",globalThis.location.origin).href;\n${source}`;
     const workerBackend = 'globalThis.__SISO_KNOWLEDGE_BACKEND_BASE__||new URL("/admin/api/cms/affine",globalThis.location.origin).href';
     source = source.replaceAll('new URL(e,this.serverBaseUrl)', `new URL(e,${workerBackend})`);
     source = source.replaceAll('new URL("/graphql",this.serverBaseUrl)', `new URL("/graphql",${workerBackend})`);

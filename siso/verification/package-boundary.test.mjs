@@ -48,6 +48,9 @@ test('compiled package has a nested-host asset contract', () => {
   const worker = manifest.files.find(file => file.path.startsWith('js/nbstore-') && file.path.endsWith('.worker.js'));
   assert.ok(worker, 'nbstore worker is included in the manifest');
   const workerSource = fs.readFileSync(`${root}dist/${worker.path}`, 'utf8');
+  const workerFlag = workerSource.indexOf('__SISO_KNOWLEDGE_COMPILED_PACKAGE__=true');
+  const workerSocketPath = workerSource.indexOf('admin/api/cms/affine/socket.io');
+  assert.ok(workerFlag >= 0 && workerFlag < workerSocketPath, 'worker compiled flag is assigned before SocketManager code');
   assert.match(workerSource, /admin\/api\/cms\/affine/);
   const index = manifest.files.find(file => file.path.startsWith('js/index.') && file.path.endsWith('.js'));
   assert.ok(index, 'index chunk is included in the manifest');
