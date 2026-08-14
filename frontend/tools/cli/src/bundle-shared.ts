@@ -58,16 +58,16 @@ export const DEFAULT_DEV_SERVER_CONFIG: RspackDevServerConfiguration = {
   proxy: [
     {
       context: '/api',
-      target: 'http://localhost:3010',
+      target: process.env.SISO_LOCAL_BACKEND_URL ?? 'http://localhost:3010',
     },
     {
       context: '/socket.io',
-      target: 'http://localhost:3010',
+      target: process.env.SISO_LOCAL_BACKEND_URL ?? 'http://localhost:3010',
       ws: true,
     },
     {
       context: '/graphql',
-      target: 'http://localhost:3010',
+      target: process.env.SISO_LOCAL_BACKEND_URL ?? 'http://localhost:3010',
     },
   ],
 };

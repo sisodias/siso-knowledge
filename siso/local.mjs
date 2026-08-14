@@ -80,7 +80,7 @@ if (action === 'start') {
   writeRuntimeConfig();
   start('backend', resolve(root, 'backend'), 'corepack', ['yarn', 'workspace', '@siso/server', 'start'], sharedEnv());
   start('issuer', root, process.execPath, ['siso/issuer.mjs'], { ...process.env, SISO_KNOWLEDGE_ISSUER_PORT: String(issuerPort), SISO_KNOWLEDGE_CONTEXT_SECRET: 'knowledge-local-disposable-secret' });
-  start('frontend', resolve(root, 'frontend'), 'corepack', ['yarn', 'affine', '@affine/web', 'dev'], { ...process.env, GITHUB_SHA: process.env.GITHUB_SHA ?? 'siso-knowledge-local', SISO_DOCS_PORT: String(frontendPort), SISO_KNOWLEDGE_HOST_BASE_PATH: '/knowledge' });
+  start('frontend', resolve(root, 'frontend'), 'corepack', ['yarn', 'affine', '@affine/web', 'dev'], { ...process.env, GITHUB_SHA: process.env.GITHUB_SHA ?? 'siso-knowledge-local', SISO_DOCS_PORT: String(frontendPort), SISO_LOCAL_BACKEND_URL: `http://127.0.0.1:${backendPort}`, SISO_KNOWLEDGE_HOST_BASE_PATH: '/knowledge' });
   writeFileSync(statePath, JSON.stringify({ ...state, moduleUrl: `http://127.0.0.1:${frontendPort}/`, issuerUrl: `http://127.0.0.1:${issuerPort}` }, null, 2));
   console.log(`knowledge backend=http://127.0.0.1:${backendPort}`);
   console.log(`knowledge desktop=http://127.0.0.1:${frontendPort}/`);
