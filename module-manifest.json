@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "knowledge",
+  "name": "SISO Knowledge",
+  "phase": 1,
+  "mode": "assimilated-host-module",
+  "entry": "frontend/packages/frontend/apps/web/src/siso-knowledge-module.tsx",
+  "backend": "backend/backend/server",
+  "capabilities": ["documents", "editor", "canvas", "collections", "search", "import-export", "templates", "settings"],
+  "hostContract": {
+    "singleSession": true,
+    "hostRoute": true,
+    "globalRailOwner": "host",
+    "contextualNavigationOwner": "knowledge",
+    "tokensOwner": "host"
+  },
+  "dataAuthority": {
+    "postgresSchema": "knowledge",
+    "redisNamespace": "knowledge",
+    "yjsAndBlobs": "knowledge"
+  }
+}

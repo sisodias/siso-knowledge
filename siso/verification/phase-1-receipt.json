@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "phase": "1",
+  "status": "local-complete",
+  "repository": "siso-knowledge",
+  "sourcePins": {
+    "frontend": "837a5c285caf2078e340a6220de38bdd8ab1da9a",
+    "backend": "4b5d79282be91fd529dcff84b066f00b3784496a"
+  },
+  "checks": {
+    "completeDonorSurfaceRetained": true,
+    "hostNativeModuleRoot": true,
+    "singleSessionSeam": true,
+    "forbiddenTopologyAbsent": true,
+    "runtimeDataMigration": false
+  },
+  "phase2Seams": [
+    "host router registration for Knowledge route",
+    "host identity adapter binding",
+    "knowledge PostgreSQL schema and least-privilege role",
+    "shared Redis/Valkey prefix and Yjs/blob authority",
+    "assembled desktop browser journey"
+  ],
+  "verification": {
+    "commit": "pending-local-commit",
+    "tree": "pending-local-commit"
+  }
+}

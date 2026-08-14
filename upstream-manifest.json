@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "policy": "local-pins-only; upstream remotes are fetch-only",
+  "sources": {
+    "frontend": {
+      "repository": "https://github.com/sisodias/siso-docs.git",
+      "upstream": "https://github.com/toeverything/AFFiNE.git",
+      "commit": "837a5c285caf2078e340a6220de38bdd8ab1da9a",
+      "path": "frontend",
+      "history": "preserved source commit object and fetch-only remote"
+    },
+    "backend": {
+      "repository": "https://github.com/sisodias/sisonotes-backend.git",
+      "commit": "4b5d79282be91fd529dcff84b066f00b3784496a",
+      "path": "backend",
+      "history": "preserved source commit object and fetch-only remote"
+    }
+  }
+}
