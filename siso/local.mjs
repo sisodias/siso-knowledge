@@ -13,6 +13,7 @@ const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
 const envSecrets = readEnv();
 const backendPort = 3012;
 const frontendPort = 3022;
+const issuerPort = 4320;
 const backendConfigPath = resolve(root, 'backend/backend/server/config.json');
 const state = existsSync(statePath) ? JSON.parse(readFileSync(statePath, 'utf8')) : {};
 async function serviceAlive(value) {
@@ -35,13 +36,13 @@ function sharedEnv() {
     REDIS_SERVER_PASSWORD: envSecrets.REDIS_knowledge_PASSWORD,
     REDIS_SERVER_DATABASE: '0',
     SISO_KNOWLEDGE_REDIS_NAMESPACE: 'true',
-    // The live ACL currently permits SUBSCRIBE knowledge:* but rejects
-    // PSUBSCRIBE, which the Socket.IO adapter requires even with its
-    // knowledge:socket.io prefix. Keep the HTTP/Yjs path available locally.
-    SISO_DISABLE_SOCKET_REDIS: 'true',
+    // Shared infra grants the module-scoped PSUBSCRIBE pattern required by
+    // Socket.IO; realtime must remain enabled in the acceptance runtime.
+    SISO_DISABLE_SOCKET_REDIS: 'false',
     SISO_NOTES_SERVER_PORT: String(backendPort),
     SISO_NOTES_SERVER_EXTERNAL_URL: `http://127.0.0.1:${backendPort}`,
     SISO_HOST_SESSION_URL: 'http://127.0.0.1:4320/api/auth/session',
+    SISO_KNOWLEDGE_CONTEXT_SECRET: 'knowledge-local-disposable-secret',
     SISO_ENABLE_NATIVE_RUNTIME: 'true',
     TS_NODE_TRANSPILE_ONLY: 'true',
   };
@@ -78,8 +79,9 @@ if (action === 'start') {
   mkdirSync(runtimeDir, { recursive: true });
   writeRuntimeConfig();
   start('backend', resolve(root, 'backend'), 'corepack', ['yarn', 'workspace', '@siso/server', 'start'], sharedEnv());
+  start('issuer', root, process.execPath, ['siso/issuer.mjs'], { ...process.env, SISO_KNOWLEDGE_ISSUER_PORT: String(issuerPort), SISO_KNOWLEDGE_CONTEXT_SECRET: 'knowledge-local-disposable-secret' });
   start('frontend', resolve(root, 'frontend'), 'corepack', ['yarn', 'affine', '@affine/web', 'dev'], { ...process.env, GITHUB_SHA: process.env.GITHUB_SHA ?? 'siso-knowledge-local', SISO_DOCS_PORT: String(frontendPort), SISO_KNOWLEDGE_HOST_BASE_PATH: '/knowledge' });
-  writeFileSync(statePath, JSON.stringify({ ...state, moduleUrl: `http://127.0.0.1:${frontendPort}/` }, null, 2));
+  writeFileSync(statePath, JSON.stringify({ ...state, moduleUrl: `http://127.0.0.1:${frontendPort}/`, issuerUrl: `http://127.0.0.1:${issuerPort}` }, null, 2));
   console.log(`knowledge backend=http://127.0.0.1:${backendPort}`);
   console.log(`knowledge desktop=http://127.0.0.1:${frontendPort}/`);
 } else if (action === 'status') {
