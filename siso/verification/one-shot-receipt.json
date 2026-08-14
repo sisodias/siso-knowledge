@@ -1,6 +1,6 @@
 {
   "phase": "one-shot-phase-2",
-  "status": "runtime-pass-auth-context-partial",
+  "status": "runtime-pass-auth-context-realtime",
   "repository": {
     "startingCommit": "c1d4d96",
     "sourcePins": {
@@ -48,7 +48,7 @@
     "redisPrefixDenial": "PASS; knowledge ACL cannot access core:*",
     "redisPubSubIsolation": "PASS for SUBSCRIBE/PUBLISH and Socket.IO PSUBSCRIBE knowledge channels; denial for other module channels",
     "browserShell": "PASS; AFFiNE title and complete shell rendered",
-    "browserJourney": "PARTIAL; fresh desktop shell and local signed host bootstrap observed; donor local workspace rendered"
+    "browserJourney": "PASS for fresh signed host bootstrap, authenticated account, Socket.IO realtime connection, and server-provisioned Knowledge workspace shell; CRUD/export/restart/isolation matrix remains to be executed"
   },
   "browserEvidence": {
     "freshDesktopUrl": "http://127.0.0.1:3022/",
@@ -58,7 +58,7 @@
   },
   "externalBlockers": [
     "The disposable signed issuer now exists at http://127.0.0.1:4320 and is consumed by the browser host contract.",
-    "The retained donor AFFiNE auth store still expects a server auth session plus GraphQL currentUser/access token; the module-scoped signed context is not yet translated into that donor auth store, so the browser logs RealtimeUnauthenticated and server-backed authenticated CRUD/search/export/second-user journey remains unproven."
+    "The disposable issuer is bridged through the existing host-session upsert path; donor auth fetches target the local backend and the realtime worker receives an authenticated context."
   ],
-  "nextAction": "Translate the disposable signed SISO context into the retained donor auth/token broker (or consume the canonical host token exchange) before claiming authenticated browser PASS; then rerun the full desktop journey."
+  "nextAction": "Execute and capture the remaining server-provisioned desktop CRUD/search/favorite/collection/tag/canvas/database/export/restart and second-user negative matrix before final PASS."
 }
