@@ -208,7 +208,7 @@ class SocketManager {
     this.socketIOManager = new SocketIOManager(endpoint, {
       autoConnect: false,
       path: compiledHost ? '/admin/api/cms/affine/socket.io' : undefined,
-      transports: isSelfHosted ? ['polling', 'websocket'] : ['websocket'], // self-hosted server may not support websocket
+      transports: compiledHost || isSelfHosted ? ['polling', 'websocket'] : ['websocket'], // compiled host proxy exposes polling under its nested auth path
       secure: new URL(endpoint).protocol === 'https:',
       withCredentials: true,
       // we will handle reconnection by ourselves

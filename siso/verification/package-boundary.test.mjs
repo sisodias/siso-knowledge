@@ -52,6 +52,7 @@ test('compiled package has a nested-host asset contract', () => {
   const workerSocketPath = workerSource.indexOf('admin/api/cms/affine/socket.io');
   assert.ok(workerFlag >= 0 && workerFlag < workerSocketPath, 'worker compiled flag is assigned before SocketManager code');
   assert.match(workerSource, /admin\/api\/cms\/affine/);
+  assert.match(workerSource, /polling.*websocket/, 'compiled worker permits polling through the nested proxy');
   const index = manifest.files.find(file => file.path.startsWith('js/index.') && file.path.endsWith('.js'));
   assert.ok(index, 'index chunk is included in the manifest');
   const indexSource = fs.readFileSync(`${root}dist/${index.path}`, 'utf8');
