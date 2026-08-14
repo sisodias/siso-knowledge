@@ -1,0 +1,39 @@
+{
+  "phase": "2",
+  "status": "stopped-by-priority-correction",
+  "scope": "owned repository only",
+  "filesChanged": [
+    "backend/backend/server/src/core/auth/siso-request-context.ts",
+    "backend/backend/server/src/core/auth/siso-request-context.spec.ts",
+    "siso/identity.ts",
+    "siso/module-root.tsx",
+    "siso/verification/phase-2-checkpoint.json"
+  ],
+  "implemented": [
+    "HMAC-signed SISO request context with timing-safe signature validation",
+    "expiry, issued-at, client, workspace, and capability checks",
+    "Express middleware that fails closed with 401/403",
+    "module-root identity expiry and client-boundary checks",
+    "view/edit/share/admin capability types"
+  ],
+  "checks": {
+    "frontendInstall": "PASS_WITH_YARN_PEER_WARNINGS",
+    "backendInstall": "PASS_WITH_YARN_PEER_WARNINGS",
+    "phase1TopologyTests": "PASS (3 tests, prior commit)",
+    "phase2AuthTests": "NOT_RUN_AFTER_PRIORITY_CORRECTION",
+    "sharedInfraManifest": "NOT_PRESENT_AT_CHECKPOINT_PATH",
+    "runtimeStartStatusStop": "NOT_STARTED",
+    "databaseMigration": "NOT_STARTED",
+    "desktopJourney": "NOT_STARTED"
+  },
+  "commitsBeforeCheckpoint": [
+    "60d185b3a32957c572c449ba6bae4280f71f96b5"
+  ],
+  "remainingBoundedWork": [
+    "run targeted backend signed-context tests and frontend typecheck",
+    "consume shared module-infra.json when present",
+    "add shared-infra native-local lifecycle scripts",
+    "wire request-context middleware into the backend module route",
+    "write phase-2 receipt only after runtime and persistence proof"
+  ]
+}

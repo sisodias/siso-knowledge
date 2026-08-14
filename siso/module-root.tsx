@@ -4,6 +4,15 @@ import { createContext, useContext } from 'react';
 import type { SisoKnowledgeIdentity } from './identity';
 import { knowledgeDatabaseConfig, type KnowledgeDatabaseAdapter } from './database-adapter';
 
+export function assertSisoKnowledgeIdentity(identity: SisoKnowledgeIdentity, expectedClientId: string) {
+  if (identity.clientId !== expectedClientId) throw new Error('SISO Knowledge client mismatch');
+  if (Date.parse(identity.expiresAt) <= Date.now()) throw new Error('SISO Knowledge identity expired');
+  if (!identity.userId || !identity.workspaceId || identity.capabilities.length === 0) {
+    throw new Error('SISO Knowledge identity is incomplete');
+  }
+  return identity;
+}
+
 export interface SisoKnowledgeHostContext {
   identity: SisoKnowledgeIdentity;
   database: KnowledgeDatabaseAdapter;
@@ -20,12 +29,14 @@ export function useSisoKnowledgeHost() {
 
 export interface SisoKnowledgeModuleRootProps {
   host: SisoKnowledgeHostContext;
+  expectedClientId?: string;
   /** The complete AFFiNE-derived App, including its providers and internal router. */
   donorApp: ComponentType;
   children?: ReactNode;
 }
 
-export function SisoKnowledgeModuleRoot({ host, donorApp: DonorApp, children }: PropsWithChildren<SisoKnowledgeModuleRootProps>) {
+export function SisoKnowledgeModuleRoot({ host, donorApp: DonorApp, children, expectedClientId = 'bykonz-yard' }: PropsWithChildren<SisoKnowledgeModuleRootProps>) {
+  assertSisoKnowledgeIdentity(host.identity, expectedClientId);
   return (
     <HostContext.Provider value={host}>
       {children}
