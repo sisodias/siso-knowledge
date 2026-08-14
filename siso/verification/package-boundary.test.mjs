@@ -45,6 +45,10 @@ test('compiled package has a nested-host asset contract', () => {
   assert.match(runtimeSource, /h\.u=e=>"js\/"/);
   assert.match(runtimeSource, /new URL\(h\.u\(e\),globalThis\.__SISO_KNOWLEDGE_ASSET_BASE__/);
   assert.match(runtimeSource, /new URL\(t,globalThis\.__SISO_KNOWLEDGE_ASSET_BASE__/);
+  const worker = manifest.files.find(file => file.path.startsWith('js/nbstore-') && file.path.endsWith('.worker.js'));
+  assert.ok(worker, 'nbstore worker is included in the manifest');
+  const workerSource = fs.readFileSync(`${root}dist/${worker.path}`, 'utf8');
+  assert.match(workerSource, /admin\/api\/cms\/affine/);
   const index = manifest.files.find(file => file.path.startsWith('js/index.') && file.path.endsWith('.js'));
   assert.ok(index, 'index chunk is included in the manifest');
   const indexSource = fs.readFileSync(`${root}dist/${index.path}`, 'utf8');

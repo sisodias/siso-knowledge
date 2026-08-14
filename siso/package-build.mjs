@@ -49,6 +49,13 @@ for (const file of textFiles) {
     source = source.replaceAll('return(environment.subPath||"/")+"js/"+', 'return (globalThis.__SISO_KNOWLEDGE_ASSET_BASE__||new URL("./",document.currentScript?.src||location.href).href)+"js/"+');
     source = source.replace(/:\"\/imgs\//g, ':globalThis.__SISO_KNOWLEDGE_ASSET_BASE__+"imgs/');
   }
+  if (file.includes('/js/nbstore-') && file.endsWith('.worker.js')) {
+    // The nbstore worker owns its HTTP fetches and cannot see the page fetch
+    // bridge. Keep its GraphQL/API requests on the cookie-bearing host path.
+    const workerBackend = 'globalThis.__SISO_KNOWLEDGE_BACKEND_BASE__||new URL("/admin/api/cms/affine",globalThis.location.origin).href';
+    source = source.replaceAll('new URL(e,this.serverBaseUrl)', `new URL(e,${workerBackend})`);
+    source = source.replaceAll('new URL("/graphql",this.serverBaseUrl)', `new URL("/graphql",${workerBackend})`);
+  }
   if (/\.(?:css|html)$/.test(file)) {
     source = source.replace(/(["'(])\/(?!\/)/g, '$1');
   }
