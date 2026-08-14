@@ -39,6 +39,7 @@ export const CORS_ALLOWED_HEADERS = [
   "x-captcha-provider",
   "x-sisonotes-csrf-token",
   "x-affine-csrf-token",
+  "x-siso-request-context",
   "x-requested-with",
   "range",
 ];
