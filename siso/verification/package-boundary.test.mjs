@@ -43,6 +43,14 @@ test('compiled package has a nested-host asset contract', () => {
   const indexSource = fs.readFileSync(`${root}dist/${index.path}`, 'utf8');
   assert.match(indexSource, /i\.p=globalThis\.__SISO_KNOWLEDGE_ASSET_BASE__/);
   assert.match(indexSource, /globalThis\.__SISO_KNOWLEDGE_ASSET_BASE__\+"imgs\//);
+  // SocketManager is bundled into a vendor/async chunk rather than index in
+  // some AFFiNE builds. Scan every shipped JS chunk so this contract covers
+  // the emitted code that actually constructs the Socket.IO manager.
+  const javascript = manifest.files
+    .filter(file => file.path.endsWith('.js'))
+    .map(file => fs.readFileSync(`${root}dist/${file.path}`, 'utf8'))
+    .join('\n');
+  assert.match(javascript, /admin\/api\/cms\/affine\/socket\.io/);
   for (const name of ['npm-async-@lottiefiles', 'npm-async-@shikijs']) {
     assert.ok(manifest.files.some(file => file.path.startsWith(`js/${name}.`) && file.path.endsWith('.js')), `${name} async chunk is shipped`);
   }

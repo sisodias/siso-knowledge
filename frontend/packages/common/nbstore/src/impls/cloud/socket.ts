@@ -202,8 +202,12 @@ class SocketManager {
   refCount = 0;
 
   constructor(endpoint: string, isSelfHosted: boolean) {
+    const compiledHost = (globalThis as typeof globalThis & {
+      __SISO_KNOWLEDGE_COMPILED_PACKAGE__?: boolean;
+    }).__SISO_KNOWLEDGE_COMPILED_PACKAGE__;
     this.socketIOManager = new SocketIOManager(endpoint, {
       autoConnect: false,
+      path: compiledHost ? '/admin/api/cms/affine/socket.io' : undefined,
       transports: isSelfHosted ? ['polling', 'websocket'] : ['websocket'], // self-hosted server may not support websocket
       secure: new URL(endpoint).protocol === 'https:',
       withCredentials: true,
