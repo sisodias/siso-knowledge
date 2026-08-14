@@ -30,6 +30,11 @@ test('compiled package has a nested-host asset contract', () => {
   assert.match(entry, /stylesheet failed/);
   assert.match(entry, /__SISO_KNOWLEDGE_INITIAL_PATH__/);
   assert.match(entry, /identity\?\.workspaceId/);
+  assert.match(entry, /__SISO_KNOWLEDGE_FETCH_BRIDGE/);
+  assert.match(entry, /backendBase/);
+  assert.match(entry, /url\.pathname === '\/api'/);
+  assert.match(entry, /url\.pathname === '\/graphql'/);
+  assert.match(entry, /target \+ url\.pathname \+ url\.search/);
   const runtime = manifest.files.find(file => file.path.startsWith('js/runtime.') && file.path.endsWith('.js'));
   assert.ok(runtime, 'runtime chunk is included in the manifest');
   const runtimeSource = fs.readFileSync(`${root}dist/${runtime.path}`, 'utf8');

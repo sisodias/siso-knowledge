@@ -59,6 +59,25 @@ globalThis.__SISO_KNOWLEDGE_COMPILED_PACKAGE__ = true;
 globalThis.__SISO_KNOWLEDGE_ASSET_BASE__ = assetBase.href;
 let ready;
 let activeUnmount;
+function installRequestBridge(host, backendBase) {
+  if (!backendBase || globalThis.__SISO_KNOWLEDGE_FETCH_BRIDGE) return;
+  const nativeFetch = window.fetch.bind(window);
+  const target = backendBase.replace(/\\/$/, '');
+  window.fetch = (input, init = {}) => {
+    const request = new Request(input, init);
+    const url = new URL(request.url, location.href);
+    const rootRequest = url.origin === location.origin &&
+      (url.pathname === '/api' || url.pathname.startsWith('/api/') ||
+       url.pathname === '/graphql' || url.pathname.startsWith('/graphql/'));
+    if (!rootRequest && !request.url.startsWith(target)) return nativeFetch(input, init);
+    const backendRequest = rootRequest
+      ? new Request(target + url.pathname + url.search, request)
+      : request;
+    backendRequest.headers.set('x-siso-request-context', host?.tokens?.sisoRequestContext ?? '');
+    return nativeFetch(backendRequest, { ...init, credentials: 'include' });
+  };
+  globalThis.__SISO_KNOWLEDGE_FETCH_BRIDGE = true;
+}
 function loadAssets() {
   if (ready) return ready;
   ready = Promise.all([
@@ -76,6 +95,9 @@ export async function mount(target, host) {
   const workspaceId = options.host?.identity?.workspaceId;
   globalThis.__SISO_KNOWLEDGE_INITIAL_PATH__ = options.initialPath ??
     (workspaceId ? '/workspace/' + workspaceId + '/all' : '/workspace/DsUQAzkXhV7Ex0wbymoab/all');
+  // Install before evaluating donor scripts: AFFiNE captures fetch during
+  // module initialization, before its React mount callback runs.
+  installRequestBridge(options.host, options.backendBase);
   await loadAssets();
   if (!globalThis.SisoKnowledgeModule?.mount) throw new Error('SISO Knowledge compiled entry did not initialize');
   activeUnmount = globalThis.SisoKnowledgeModule.mount(target, options);
