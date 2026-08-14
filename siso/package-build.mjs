@@ -37,7 +37,7 @@ const textFiles = readdirSync(output, { recursive: true })
 for (const file of textFiles) {
   let source = readFileSync(file, 'utf8');
   if (file.includes('/js/runtime.') && file.endsWith('.js')) {
-    source = source.replace(/h\.p="?\/?"?/, 'h.p=globalThis.__SISO_KNOWLEDGE_ASSET_BASE__||"/"');
+    source = source.replace(/h\.p="?\/?"?/, 'h.p=globalThis.__SISO_KNOWLEDGE_ASSET_BASE__||new URL("./",document.currentScript?.src||location.href).href');
   }
   if (/\.(?:css|html)$/.test(file)) {
     source = source.replace(/(["'(])\/(?!\/)/g, '$1');
@@ -59,7 +59,7 @@ function loadAssets() {
       const link = document.createElement('link'); link.rel = 'stylesheet'; link.href = new URL(href.replace(/^\\//, ''), assetBase); link.onload = resolve; link.onerror = () => reject(new Error('SISO Knowledge stylesheet failed: ' + link.href)); document.head.append(link);
     })),
     ...assets.scripts.map(src => new Promise((resolve, reject) => {
-      const script = document.createElement('script'); script.src = new URL(src.replace(/^\\//, ''), assetBase); script.onload = resolve; script.onerror = () => reject(new Error('SISO Knowledge script failed: ' + script.src)); document.head.append(script);
+      const script = document.createElement('script'); script.async = false; script.src = new URL(src.replace(/^\\//, ''), assetBase); script.onload = resolve; script.onerror = () => reject(new Error('SISO Knowledge script failed: ' + script.src)); document.head.append(script);
     })),
   ]);
   return ready;
