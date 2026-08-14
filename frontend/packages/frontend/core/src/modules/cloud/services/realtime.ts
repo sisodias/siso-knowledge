@@ -35,7 +35,10 @@ export class RealtimeService extends Service {
       )
       .flat()
       .map(([server, account, selfHosted]) => ({
-        endpoint: server?.baseUrl ?? '',
+        endpoint:
+          typeof window !== 'undefined' && window.location.port === '3022'
+            ? 'http://127.0.0.1:3012'
+            : server?.baseUrl ?? '',
         authenticated: !!account,
         isSelfHosted: !!selfHosted,
       }))
