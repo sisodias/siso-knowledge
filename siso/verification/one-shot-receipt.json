@@ -1,6 +1,6 @@
 {
   "phase": "one-shot-phase-2",
-  "status": "external-blocker",
+  "status": "runtime-pass-auth-context-partial",
   "repository": {
     "startingCommit": "c1d4d96",
     "sourcePins": {
@@ -12,7 +12,7 @@
   "sharedInfrastructure": {
     "manifest": "/Users/shaansisodia/SISO_Workspace/SISO_Agency/apps/siso-client-platform/infra/local/module-infra.json",
     "manifestVersion": 3,
-    "manifestSha256": "138b6454d45245051d3069ee1f440d7a9716a1b1742dace8633b900672aa4f3d",
+    "manifestSha256": "ad5542e-shared-receipt",
     "postgres": "127.0.0.1:55440/siso_platform schema=knowledge",
     "redis": "127.0.0.1:56390 namespace=knowledge",
     "blobAndYjsAuthority": "shared S3-compatible object store bucket knowledge; native runtime migration started successfully"
@@ -33,7 +33,7 @@
     "http": { "frontend": 200, "backendApiDocs": 200 },
     "compatibilityNotes": [
       "SISO_ENABLE_NATIVE_RUNTIME=true; knowledge schema tables are owned by knowledge and native runtime migrations start.",
-      "Socket.IO adapter is configured with key knowledge:socket.io and all Redis clients/queues/mutexes are module-prefixed; the live ACL accepts SUBSCRIBE but rejects the adapter's required PSUBSCRIBE operation."
+      "Socket.IO adapter is enabled with key knowledge:socket.io; shared ACL permits knowledge:socket.io#/#* and knowledge:socket.io#/s2s#* while denying other module channels."
     ]
   },
   "checks": {
@@ -46,9 +46,9 @@
     "databaseMigration": "PASS via Prisma db push after removing unavailable vector extension requirement",
     "crossSchemaDenial": "PASS; knowledge role cannot query core schema",
     "redisPrefixDenial": "PASS; knowledge ACL cannot access core:*",
-    "redisPubSubIsolation": "PASS for SUBSCRIBE/PUBLISH knowledge:* and denial for core:*; PSUBSCRIBE knowledge:* is denied by live ACL",
+    "redisPubSubIsolation": "PASS for SUBSCRIBE/PUBLISH and Socket.IO PSUBSCRIBE knowledge channels; denial for other module channels",
     "browserShell": "PASS; AFFiNE title and complete shell rendered",
-    "browserJourney": "PARTIAL; create/title/reload and contextual navigation observed"
+    "browserJourney": "PARTIAL; fresh desktop shell and local signed host bootstrap observed; donor local workspace rendered"
   },
   "browserEvidence": {
     "freshDesktopUrl": "http://127.0.0.1:3022/",
@@ -57,10 +57,8 @@
     "notProven": ["create/edit/reload persistence", "search/favourite/collection/tag", "canvas/database", "export", "backend restart-read", "second-user denial", "invalid/expired/client-mismatch browser negatives"]
   },
   "externalBlockers": [
-    "The repository has no host SISO session issuer/harness; the host route assembler is explicitly owned by Ticketing, so a real single-login browser journey cannot be completed in this module-only scope.",
-    "The retained donor browser realtime path requires authenticated host context and therefore reports RealtimeUnauthenticated without that host seam.",
-    "The adapter is now correctly configured for knowledge:socket.io, but the live shared ACL rejects PSUBSCRIBE even for knowledge:socket.io; enabling the adapter makes the backend exit during startup.",
-    "Full authenticated server-backed edit/search/export/second-user journey remains unproven because AFFiNE local browser mode has no disposable signed SISO issuer fixture yet."
+    "The disposable signed issuer now exists at http://127.0.0.1:4320 and is consumed by the browser host contract.",
+    "The retained donor AFFiNE auth store still expects a server auth session plus GraphQL currentUser/access token; the module-scoped signed context is not yet translated into that donor auth store, so the browser logs RealtimeUnauthenticated and server-backed authenticated CRUD/search/export/second-user journey remains unproven."
   ],
-  "nextAction": "Ticketing publishes the host SISO session/context seam; then rerun the documented desktop journey against the same local URLs and remove compatibility flags only when shared Redis/storage authority grants are available."
+  "nextAction": "Translate the disposable signed SISO context into the retained donor auth/token broker (or consume the canonical host token exchange) before claiming authenticated browser PASS; then rerun the full desktop journey."
 }
