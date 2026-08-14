@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import type { RouteObject } from 'react-router-dom';
 import {
   createBrowserRouter as reactRouterCreateBrowserRouter,
+  createMemoryRouter,
   redirect,
   useNavigate,
 } from 'react-router-dom';
@@ -194,11 +195,30 @@ export const topLevelRoutes = [
 const createBrowserRouter = wrapCreateBrowserRouterV6(
   reactRouterCreateBrowserRouter
 );
-export const router = (
-  window.SENTRY_RELEASE ? createBrowserRouter : reactRouterCreateBrowserRouter
-)(topLevelRoutes, {
-  basename: environment.subPath,
+const routerOptions = {
   future: {
     v7_normalizeFormMethod: true,
   },
-});
+} as const;
+
+const compiledHost = (globalThis as typeof globalThis & {
+  __SISO_KNOWLEDGE_COMPILED_PACKAGE__?: boolean;
+  __SISO_KNOWLEDGE_INITIAL_PATH__?: string;
+}).__SISO_KNOWLEDGE_COMPILED_PACKAGE__;
+
+export const router = compiledHost
+  ? createMemoryRouter(topLevelRoutes, {
+      ...routerOptions,
+      initialEntries: [
+        (globalThis as typeof globalThis & {
+          __SISO_KNOWLEDGE_INITIAL_PATH__?: string;
+        }).__SISO_KNOWLEDGE_INITIAL_PATH__ ??
+          '/workspace/DsUQAzkXhV7Ex0wbymoab/all',
+      ],
+    })
+  : (
+      window.SENTRY_RELEASE ? createBrowserRouter : reactRouterCreateBrowserRouter
+    )(topLevelRoutes, {
+      ...routerOptions,
+      basename: environment.subPath,
+    });

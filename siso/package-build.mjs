@@ -66,9 +66,10 @@ function loadAssets() {
   return ready;
 }
 export async function mount(target, host) {
+  const options = host?.host ? host : { host };
+  globalThis.__SISO_KNOWLEDGE_INITIAL_PATH__ = options.initialPath ?? '/workspace/DsUQAzkXhV7Ex0wbymoab/all';
   await loadAssets();
   if (!globalThis.SisoKnowledgeModule?.mount) throw new Error('SISO Knowledge compiled entry did not initialize');
-  const options = host?.host ? host : { host };
   activeUnmount = globalThis.SisoKnowledgeModule.mount(target, options);
   return activeUnmount;
 }
