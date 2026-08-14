@@ -19,6 +19,15 @@ async function loadLocalHostContext() {
     workspaceId: string; expiresAt: string; capabilities: Array<'view' | 'edit' | 'share' | 'admin'>;
     token: string;
   };
+  const nativeFetch = window.fetch.bind(window);
+  window.fetch = (input, init = {}) => {
+    const request = new Request(input, init);
+    if (request.url.startsWith(location.origin) || request.url.startsWith('http://127.0.0.1:3012')) {
+      request.headers.set('x-siso-request-context', session.token);
+      return nativeFetch(request, { ...init, credentials: 'include' });
+    }
+    return nativeFetch(input, init);
+  };
   return {
     host: {
       identity: session,
