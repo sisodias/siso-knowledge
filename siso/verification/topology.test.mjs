@@ -3,7 +3,7 @@ import fs from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import test from 'node:test';
 
-const root = new URL('../', import.meta.url).pathname;
+const root = new URL('../../', import.meta.url).pathname;
 const read = file => fs.readFileSync(`${root}${file}`, 'utf8');
 
 test('pins and module-root contract are present', () => {
