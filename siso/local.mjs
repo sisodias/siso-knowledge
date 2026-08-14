@@ -19,7 +19,7 @@ const state = existsSync(statePath) ? JSON.parse(readFileSync(statePath, 'utf8')
 async function serviceAlive(value) {
   if (!value || typeof value !== 'object') return false;
   try { process.kill(value.pid, 0); return true; } catch {}
-  try { return (await fetch(value.url, { signal: AbortSignal.timeout(750) })).ok; } catch { return false; }
+  try { return (await fetch(value.healthUrl ?? value.url, { signal: AbortSignal.timeout(750) })).ok; } catch { return false; }
 }
 
 function sharedEnv() {
@@ -72,7 +72,17 @@ function start(name, cwd, command, args, env) {
   const log = openSync(resolve(runtimeDir, `${name}.log`), 'a');
   const child = spawn(command, args, { cwd, env, detached: true, stdio: ['ignore', log, log] });
   child.unref();
-  state[name] = { pid: child.pid, url: name === 'backend' ? `http://127.0.0.1:${backendPort}` : `http://127.0.0.1:${frontendPort}` };
+  const url = name === 'backend'
+    ? `http://127.0.0.1:${backendPort}`
+    : name === 'issuer'
+      ? `http://127.0.0.1:${issuerPort}`
+      : `http://127.0.0.1:${frontendPort}`;
+  const healthUrl = name === 'backend'
+    ? `${url}/api/auth/session`
+    : name === 'issuer'
+      ? `${url}/api/auth/session`
+      : url;
+  state[name] = { pid: child.pid, url, healthUrl };
 }
 
 const action = process.argv[2] ?? 'status';

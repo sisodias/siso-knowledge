@@ -26,14 +26,16 @@
   },
   "runtime": {
     "localStart": "PASS",
-    "localStatus": "PASS; backend and frontend service URLs probe alive",
+    "localStatus": "PASS; backend /api/auth/session, issuer /api/auth/session, and frontend root probe alive",
     "localStop": "PASS (script exercised before latest start)",
     "frontendUrl": "http://127.0.0.1:3022/",
     "backendUrl": "http://127.0.0.1:3012",
-    "http": { "frontend": 200, "backendApiDocs": 200 },
+    "http": { "frontendRoot": 200, "backendSession": 200, "issuerSession": 200, "backendRoot": 500, "backendDocs": 500 },
+    "backendHealthProbe": { "url": "http://127.0.0.1:3012/api/auth/session", "status": 200, "freshRestart": true, "unsupportedRouteEvidence": { "url": "http://127.0.0.1:3012/docs", "status": 500, "requestId": "sisonotes:http:1081e41f-27ae-4413-8231-112b0b1c27d1", "rootCause": "ENOENT backend/backend/server/static/index.html; API-only local runtime has no static UI bundle" } },
     "compatibilityNotes": [
       "SISO_ENABLE_NATIVE_RUNTIME=true; knowledge schema tables are owned by knowledge and native runtime migrations start.",
-      "Socket.IO adapter is enabled with key knowledge:socket.io; shared ACL permits knowledge:socket.io#/#* and knowledge:socket.io#/s2s#* while denying other module channels."
+      "Socket.IO adapter is enabled with key knowledge:socket.io; shared ACL permits knowledge:socket.io#/#* and knowledge:socket.io#/s2s#* while denying other module channels.",
+      "The backend is API-only in this local module runtime: / and /docs fall through to the donor static UI handler and return 500 when static/index.html is absent. Canonical backend health is /api/auth/session (200), not /docs."
     ]
   },
   "checks": {
