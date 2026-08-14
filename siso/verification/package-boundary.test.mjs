@@ -28,4 +28,8 @@ test('compiled package has a nested-host asset contract', () => {
   assert.match(entry, /new URL\('\.\/', import\.meta\.url\)/);
   assert.match(entry, /__SISO_KNOWLEDGE_ASSET_BASE__/);
   assert.match(entry, /stylesheet failed/);
+  const runtime = manifest.files.find(file => file.path.startsWith('js/runtime.') && file.path.endsWith('.js'));
+  assert.ok(runtime, 'runtime chunk is included in the manifest');
+  const runtimeSource = fs.readFileSync(`${root}dist/${runtime.path}`, 'utf8');
+  assert.match(runtimeSource, /\/\^\(3146\|4014\|8200\)\$\//, 'runtime regex literals remain syntactically intact');
 });
