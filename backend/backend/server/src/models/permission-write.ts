@@ -1,4 +1,5 @@
 import assert from 'node:assert';
+import { randomUUID } from 'node:crypto';
 
 import { Injectable } from '@nestjs/common';
 import { Transactional } from '@nestjs-cls/transactional';
@@ -168,6 +169,9 @@ export class WorkspaceMemberModel extends BaseModel {
         source: 'legacy',
       },
       create: {
+        // The Knowledge schema is provisioned independently and does not
+        // inherit AFFiNE's database-side dbgeneration default.
+        id: randomUUID(),
         workspaceId,
         userId,
         role: 'owner',
