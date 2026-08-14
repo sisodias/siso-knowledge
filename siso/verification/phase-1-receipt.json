@@ -22,7 +22,13 @@
     "assembled desktop browser journey"
   ],
   "verification": {
-    "commit": "pending-local-commit",
-    "tree": "pending-local-commit"
+    "integrationCommits": [
+      "f0cb4ceb76aa198f03cf069a270d70bffe560279",
+      "c4af324d5bc10cffc24506c9e01f609e14613dbc",
+      "3617e5bfdf4d15197b99fce2d0d17570dab57917"
+    ],
+    "verifiedTreeBeforeReceipt": "28d8140876ef27511a3a8e2ec836030abe197dd9",
+    "focusedCommand": "node --test siso/verification/topology.test.mjs",
+    "focusedResult": "3 passed"
   }
 }
