@@ -39,7 +39,9 @@ for (const file of textFiles) {
   if (file.includes('/js/runtime.') && file.endsWith('.js')) {
     source = source.replace(/h\.p="?\/?"?/, 'h.p=globalThis.__SISO_KNOWLEDGE_ASSET_BASE__||"/"');
   }
-  source = source.replace(/(["'(])\/(?!\/)/g, '$1');
+  if (/\.(?:css|html)$/.test(file)) {
+    source = source.replace(/(["'(])\/(?!\/)/g, '$1');
+  }
   writeFileSync(file, source);
 }
 
@@ -65,7 +67,8 @@ function loadAssets() {
 export async function mount(target, host) {
   await loadAssets();
   if (!globalThis.SisoKnowledgeModule?.mount) throw new Error('SISO Knowledge compiled entry did not initialize');
-  activeUnmount = globalThis.SisoKnowledgeModule.mount(target, host);
+  const options = host?.host ? host : { host };
+  activeUnmount = globalThis.SisoKnowledgeModule.mount(target, options);
   return activeUnmount;
 }
 export function unmount() { activeUnmount?.(); activeUnmount = undefined; }

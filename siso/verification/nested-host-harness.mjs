@@ -17,7 +17,7 @@ export function createNestedHostServer() {
     const pathname = decodeURIComponent(new URL(request.url, 'http://nested-host.test').pathname);
     if (pathname === '/admin/docs/host.html') {
       response.setHeader('content-type', 'text/html');
-      response.end('<!doctype html><div id="knowledge-host"></div><script type="module">import { mount } from "./siso-knowledge-module.js"; window.__nestedHostImport = mount;</script>');
+      response.end('<!doctype html><div id="knowledge-host"></div><script>window.__errors=[];addEventListener("error",e=>window.__errors.push({message:e.message,filename:e.filename,lineno:e.lineno,colno:e.colno}));</script><script type="module">import { mount } from "./siso-knowledge-module.js"; window.__nestedHostImport = mount;</script>');
       return;
     }
     if (!pathname.startsWith('/admin/docs/')) return void response.writeHead(404).end();
