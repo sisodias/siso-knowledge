@@ -63,7 +63,7 @@ globalThis.__SISO_KNOWLEDGE_ASSET_BASE__ = assetBase.href;
 let ready;
 let activeUnmount;
 function installRequestBridge(host, backendBase) {
-  if (!backendBase || globalThis.__SISO_KNOWLEDGE_FETCH_BRIDGE) return;
+  if (globalThis.__SISO_KNOWLEDGE_FETCH_BRIDGE) return;
   const nativeFetch = window.fetch.bind(window);
   // The host may pass an explicit backend base; compiled package mounts that
   // omit it still need the cookie-bearing same-origin CMS prefix.
