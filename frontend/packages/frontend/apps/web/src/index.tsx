@@ -19,6 +19,7 @@ async function loadLocalHostContext() {
     workspaceId: string; expiresAt: string; capabilities: Array<'view' | 'edit' | 'share' | 'admin'>;
     token: string;
   };
+  (window as any).__SISO_KNOWLEDGE_CONTEXT_TOKEN = session.token;
   const nativeFetch = window.fetch.bind(window);
   window.fetch = (input, init = {}) => {
     const request = new Request(input, init);

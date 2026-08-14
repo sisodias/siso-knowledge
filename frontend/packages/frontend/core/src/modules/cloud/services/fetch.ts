@@ -51,14 +51,22 @@ export class FetchService extends Service {
     let res: Response;
 
     try {
+      const target = new URL(input, this.serverService.server.serverMetadata.baseUrl);
+      const localKnowledge = typeof window !== 'undefined' && window.location.port === '3022';
+      if (localKnowledge && (target.pathname.startsWith('/api') || target.pathname === '/graphql')) {
+        target.port = '3012';
+      }
       res = await globalThis.fetch(
-        new URL(input, this.serverService.server.serverMetadata.baseUrl),
+        target,
         {
           credentials: 'include',
           ...init,
           signal: abortController.signal,
           headers: {
             ...init?.headers,
+            ...(localKnowledge && (target.pathname.startsWith('/api') || target.pathname === '/graphql') && (window as any).__SISO_KNOWLEDGE_CONTEXT_TOKEN
+              ? { 'x-siso-request-context': (window as any).__SISO_KNOWLEDGE_CONTEXT_TOKEN }
+              : {}),
             'x-affine-version': BUILD_CONFIG.appVersion,
             'x-affine-client-kind': BUILD_CONFIG.isNative ? 'native' : 'web',
           },
