@@ -39,6 +39,13 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   for (const file of manifest.files) {
     assert.equal((await fetch(`http://127.0.0.1:${port}/admin/docs/${encodeURI(file.path)}`)).status, 200, file.path);
   }
+  for (const file of [
+    'npm-async-@vanilla-extract.8be0bdd4.css',
+    'imgs/app-icon-canary.ico',
+    'assets/500.light.74fb0cf7.png',
+  ]) {
+    assert.equal((await fetch(`http://127.0.0.1:${port}/admin/docs/${file}`)).status, 200, file);
+  }
   server.close();
   console.log(`nested host asset harness passed (${manifest.files.length} files)`);
 }

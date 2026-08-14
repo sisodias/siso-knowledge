@@ -36,6 +36,12 @@ test('compiled package has a nested-host asset contract', () => {
   assert.match(runtimeSource, /h\.p=globalThis\.__SISO_KNOWLEDGE_ASSET_BASE__\|\|new URL\("\.\/",document\.currentScript\?\.src\|\|location\.href\)\.href/);
   assert.match(runtimeSource, /h\.u=e=>"js\/"/);
   assert.match(runtimeSource, /new URL\(h\.u\(e\),globalThis\.__SISO_KNOWLEDGE_ASSET_BASE__/);
+  assert.match(runtimeSource, /new URL\(t,globalThis\.__SISO_KNOWLEDGE_ASSET_BASE__/);
+  const index = manifest.files.find(file => file.path.startsWith('js/index.') && file.path.endsWith('.js'));
+  assert.ok(index, 'index chunk is included in the manifest');
+  const indexSource = fs.readFileSync(`${root}dist/${index.path}`, 'utf8');
+  assert.match(indexSource, /i\.p=globalThis\.__SISO_KNOWLEDGE_ASSET_BASE__/);
+  assert.match(indexSource, /globalThis\.__SISO_KNOWLEDGE_ASSET_BASE__\+"imgs\//);
   for (const name of ['npm-async-@lottiefiles', 'npm-async-@shikijs']) {
     assert.ok(manifest.files.some(file => file.path.startsWith(`js/${name}.`) && file.path.endsWith('.js')), `${name} async chunk is shipped`);
   }
