@@ -33,7 +33,7 @@
     "http": { "frontend": 200, "backendApiDocs": 200 },
     "compatibilityNotes": [
       "SISO_ENABLE_NATIVE_RUNTIME=true; knowledge schema tables are owned by knowledge and native runtime migrations start.",
-      "SISO_DISABLE_SOCKET_REDIS=true remains required because donor Socket.IO subscribes to fixed socket.io#/#* outside the knowledge:* ACL; GraphQL/Yjs event services remain enabled."
+      "Socket.IO adapter is configured with key knowledge:socket.io and all Redis clients/queues/mutexes are module-prefixed; the live ACL accepts SUBSCRIBE but rejects the adapter's required PSUBSCRIBE operation."
     ]
   },
   "checks": {
@@ -46,6 +46,7 @@
     "databaseMigration": "PASS via Prisma db push after removing unavailable vector extension requirement",
     "crossSchemaDenial": "PASS; knowledge role cannot query core schema",
     "redisPrefixDenial": "PASS; knowledge ACL cannot access core:*",
+    "redisPubSubIsolation": "PASS for SUBSCRIBE/PUBLISH knowledge:* and denial for core:*; PSUBSCRIBE knowledge:* is denied by live ACL",
     "browserShell": "PASS; AFFiNE title and complete shell rendered",
     "browserJourney": "PARTIAL; create/title/reload and contextual navigation observed"
   },
@@ -58,7 +59,7 @@
   "externalBlockers": [
     "The repository has no host SISO session issuer/harness; the host route assembler is explicitly owned by Ticketing, so a real single-login browser journey cannot be completed in this module-only scope.",
     "The retained donor browser realtime path requires authenticated host context and therefore reports RealtimeUnauthenticated without that host seam.",
-    "Shared Redis ACL permits knowledge:* but donor Socket.IO requests fixed socket.io#/#* channels; the module disables only that adapter to preserve the host-owned namespace boundary.",
+    "The adapter is now correctly configured for knowledge:socket.io, but the live shared ACL rejects PSUBSCRIBE even for knowledge:socket.io; enabling the adapter makes the backend exit during startup.",
     "Full authenticated server-backed edit/search/export/second-user journey remains unproven because AFFiNE local browser mode has no disposable signed SISO issuer fixture yet."
   ],
   "nextAction": "Ticketing publishes the host SISO session/context seam; then rerun the documented desktop journey against the same local URLs and remove compatibility flags only when shared Redis/storage authority grants are available."

@@ -34,14 +34,15 @@ function sharedEnv() {
     REDIS_SERVER_USERNAME: redis.modules.knowledge.user,
     REDIS_SERVER_PASSWORD: envSecrets.REDIS_knowledge_PASSWORD,
     REDIS_SERVER_DATABASE: '0',
+    SISO_KNOWLEDGE_REDIS_NAMESPACE: 'true',
+    // The live ACL currently permits SUBSCRIBE knowledge:* but rejects
+    // PSUBSCRIBE, which the Socket.IO adapter requires even with its
+    // knowledge:socket.io prefix. Keep the HTTP/Yjs path available locally.
+    SISO_DISABLE_SOCKET_REDIS: 'true',
     SISO_NOTES_SERVER_PORT: String(backendPort),
     SISO_NOTES_SERVER_EXTERNAL_URL: `http://127.0.0.1:${backendPort}`,
     SISO_HOST_SESSION_URL: 'http://127.0.0.1:4320/api/auth/session',
     SISO_ENABLE_NATIVE_RUNTIME: 'true',
-    // The shared ACL grants knowledge:* pub/sub, while Socket.IO's fixed
-    // socket.io#/#* channel is intentionally outside the module namespace.
-    // GraphQL/Yjs realtime uses the retained backend event bus below.
-    SISO_DISABLE_SOCKET_REDIS: 'true',
     TS_NODE_TRANSPILE_ONLY: 'true',
   };
 }

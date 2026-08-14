@@ -73,7 +73,13 @@ export class SocketIoAdapter extends IoAdapter {
     const pubClient = this.app.get(SocketIoRedis);
     const subClient = pubClient.duplicate();
 
-    server.adapter(createAdapter(pubClient, subClient));
+    server.adapter(
+      createAdapter(pubClient, subClient, {
+        key: process.env.SISO_KNOWLEDGE_REDIS_NAMESPACE === 'true'
+          ? 'knowledge:socket.io'
+          : undefined,
+      })
+    );
     const close = server.close;
 
     server.close = async fn => {

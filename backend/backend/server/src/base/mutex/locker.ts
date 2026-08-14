@@ -43,7 +43,9 @@ export class Locker {
   constructor(private readonly redis: SessionRedis) {}
 
   async lock(owner: string, key: string): Promise<Lock> {
-    const lockKey = `MutexLock:${key}`;
+    const lockKey = process.env.SISO_KNOWLEDGE_REDIS_NAMESPACE === 'true'
+      ? `knowledge:MutexLock:${key}`
+      : `MutexLock:${key}`;
     this.logger.verbose(`Client ${owner} is trying to lock resource ${key}`);
 
     const success = await this.redis.sendCommand(

@@ -8,7 +8,14 @@ import { Redis as IORedis, RedisOptions } from 'ioredis';
 
 import { Config } from '../config';
 
-function redisOptions(options: RedisOptions) {
+function redisOptions(options: RedisOptions, allowKeyPrefix = true) {
+  if (allowKeyPrefix && process.env.SISO_KNOWLEDGE_REDIS_NAMESPACE === 'true') {
+    options = {
+      ...options,
+      db: 0,
+      keyPrefix: options.keyPrefix ?? 'knowledge:',
+    };
+  }
   return {
     ...(env.testing ? { lazyConnect: true } : {}),
     ...options,
@@ -94,7 +101,7 @@ export class QueueRedis extends Redis {
         db: (config.redis.db ?? 0) + 4,
         // required explicitly set to `null` by bullmq
         maxRetriesPerRequest: null,
-      })
+      }, false)
     );
   }
 }

@@ -26,6 +26,9 @@ export class JobModule {
             } else if (!env.namespaces.production) {
               prefix += '_' + env.NAMESPACE;
             }
+            if (process.env.SISO_KNOWLEDGE_REDIS_NAMESPACE === 'true') {
+              prefix = 'knowledge:' + prefix;
+            }
             return {
               // NOTE(@forehalo):
               //   we distinguish jobs by namespace,
