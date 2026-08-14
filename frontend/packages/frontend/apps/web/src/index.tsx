@@ -103,8 +103,10 @@ async function mountApp() {
   }
 }
 
-try {
-  await mountApp();
-} catch (err) {
-  console.error('Failed to bootstrap app', err);
+if (!(globalThis as typeof globalThis & { __SISO_KNOWLEDGE_COMPILED_PACKAGE__?: boolean }).__SISO_KNOWLEDGE_COMPILED_PACKAGE__) {
+  try {
+    await mountApp();
+  } catch (err) {
+    console.error('Failed to bootstrap app', err);
+  }
 }

@@ -1,5 +1,6 @@
-import { cpSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { cpSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
+import { createHash } from 'node:crypto';
 import { resolve } from 'node:path';
 
 const root = resolve(new URL('..', import.meta.url).pathname);
@@ -28,18 +29,35 @@ const styles = [...html.matchAll(/<link[^>]+href="([^"]+\.css)"/g)].map(match =>
 const mainScript = scripts.at(-1);
 if (!mainScript) throw new Error('Rspack output has no browser entry script');
 
+// The upstream app is root-hosted. Rewrite all root-relative URLs so a copied
+// package remains self-contained under any nested host path.
+const textFiles = readdirSync(output, { recursive: true })
+  .map(file => resolve(output, String(file)))
+  .filter(file => /\.(?:css|js|html)$/.test(file));
+for (const file of textFiles) {
+  let source = readFileSync(file, 'utf8');
+  if (file.includes('/js/runtime.') && file.endsWith('.js')) {
+    source = source.replace(/h\.p="?\/?"?/, 'h.p=globalThis.__SISO_KNOWLEDGE_ASSET_BASE__||"/"');
+  }
+  source = source.replace(/(["'(])\/(?!\/)/g, '$1');
+  writeFileSync(file, source);
+}
+
 writeFileSync(resolve(output, 'siso-knowledge-module.js'), `
 const assets = ${JSON.stringify({ scripts, styles })};
+const assetBase = new URL('./', import.meta.url);
+globalThis.__SISO_KNOWLEDGE_COMPILED_PACKAGE__ = true;
+globalThis.__SISO_KNOWLEDGE_ASSET_BASE__ = assetBase.href;
 let ready;
 let activeUnmount;
 function loadAssets() {
   if (ready) return ready;
   ready = Promise.all([
-    ...assets.styles.map(href => new Promise(resolve => {
-      const link = document.createElement('link'); link.rel = 'stylesheet'; link.href = new URL(href.replace(/^\\//, ''), import.meta.url); link.onload = link.onerror = resolve; document.head.append(link);
+    ...assets.styles.map(href => new Promise((resolve, reject) => {
+      const link = document.createElement('link'); link.rel = 'stylesheet'; link.href = new URL(href.replace(/^\\//, ''), assetBase); link.onload = resolve; link.onerror = () => reject(new Error('SISO Knowledge stylesheet failed: ' + link.href)); document.head.append(link);
     })),
-    ...assets.scripts.map(src => new Promise(resolve => {
-      const script = document.createElement('script'); script.src = new URL(src.replace(/^\\//, ''), import.meta.url); script.onload = script.onerror = resolve; document.head.append(script);
+    ...assets.scripts.map(src => new Promise((resolve, reject) => {
+      const script = document.createElement('script'); script.src = new URL(src.replace(/^\\//, ''), assetBase); script.onload = resolve; script.onerror = () => reject(new Error('SISO Knowledge script failed: ' + script.src)); document.head.append(script);
     })),
   ]);
   return ready;
@@ -54,13 +72,25 @@ export function unmount() { activeUnmount?.(); activeUnmount = undefined; }
 export const entry = ${JSON.stringify(mainScript)};
 `.trimStart());
 
+const files = readdirSync(output, { recursive: true })
+  .map(file => String(file).replaceAll('\\', '/'))
+  .filter(file => statSync(resolve(output, file)).isFile())
+  .filter(file => file !== 'package-manifest.json')
+  .sort()
+  .map(file => {
+    const bytes = readFileSync(resolve(output, file));
+    return { path: file, bytes: bytes.byteLength, sha256: createHash('sha256').update(bytes).digest('hex') };
+  });
+
 writeFileSync(resolve(output, 'package-manifest.json'), JSON.stringify({
   package: '@siso/knowledge-module',
   entry: 'siso-knowledge-module.js',
   html: 'index.html',
   compiled: true,
   sourceBoundary: 'Rspack output only; no AFFiNE source files are shipped',
+  assetBase: 'relative-to-entry-directory',
   assets: { scripts, styles },
+  files,
   mount: { target: 'HTMLElement', host: 'SisoKnowledgeHostContext', returns: '() => void' },
 }, null, 2));
-console.log(JSON.stringify({ output, entry: resolve(output, 'siso-knowledge-module.js'), assets: scripts.length + styles.length }));
+console.log(JSON.stringify({ output, entry: resolve(output, 'siso-knowledge-module.js'), assets: scripts.length + styles.length, files: files.length }));

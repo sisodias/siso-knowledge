@@ -20,3 +20,12 @@ test('compiled package boundary contains no raw AFFiNE source', () => {
   assert.equal(files.some(file => /\.(?:tsx|jsx|ts)$/.test(String(file))), false);
   assert.equal(entry.includes('affineassets.com'), false);
 });
+
+test('compiled package has a nested-host asset contract', () => {
+  assert.equal(manifest.assetBase, 'relative-to-entry-directory');
+  assert.ok(manifest.files.length > 1000, 'manifest enumerates the complete copied asset graph');
+  assert.ok(manifest.files.every(file => file.sha256.length === 64 && file.bytes > 0));
+  assert.match(entry, /new URL\('\.\/', import\.meta\.url\)/);
+  assert.match(entry, /__SISO_KNOWLEDGE_ASSET_BASE__/);
+  assert.match(entry, /stylesheet failed/);
+});
