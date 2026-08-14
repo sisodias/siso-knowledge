@@ -9,6 +9,9 @@ import { SisoKnowledgeModuleRoot } from './siso-module-contract';
 
 async function loadLocalHostContext() {
   if (location.hostname !== '127.0.0.1' || location.port !== '3022') return null;
+  // The host cookie is opaque to the browser and is only forwarded to the
+  // issuer by the server. The signing secret never leaves the issuer.
+  document.cookie = 'siso_host_session=knowledge-local-disposable-session; Path=/; SameSite=Lax';
   const response = await fetch('http://127.0.0.1:4320/api/siso/knowledge-context');
   if (!response.ok) throw new Error(`SISO local issuer unavailable (${response.status})`);
   const session = await response.json() as {

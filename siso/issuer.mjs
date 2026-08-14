@@ -22,7 +22,13 @@ const server = createServer((req, res) => {
   res.setHeader('Access-Control-Allow-Origin', 'http://127.0.0.1:3022');
   res.setHeader('Access-Control-Allow-Headers', 'content-type');
   if (req.method === 'OPTIONS') { res.writeHead(204); res.end(); return; }
-  if (req.url === '/api/auth/session' || req.url === '/api/siso/knowledge-context') {
+  if (req.url === '/api/auth/session') {
+    res.setHeader('content-type', 'application/json');
+    res.writeHead(200);
+    res.end(JSON.stringify({ user: { id: claims.userId, email: claims.email, name: claims.displayName, workspaceId: claims.workspaceId }, expiresAt: new Date(claims.exp * 1000).toISOString() }));
+    return;
+  }
+  if (req.url === '/api/siso/knowledge-context') {
     res.setHeader('content-type', 'application/json');
     res.writeHead(200);
     res.end(JSON.stringify({ ...claims, token, issuedAt: new Date(now * 1000).toISOString(), expiresAt: new Date(claims.exp * 1000).toISOString() }));
