@@ -4,9 +4,11 @@
   "type": "module",
   "exports": {
     ".": "./frontend/packages/frontend/apps/web/src/siso-knowledge-module.tsx",
-    "./host-contract": "./frontend/packages/frontend/apps/web/src/siso-module-contract.tsx"
+    "./host-contract": "./frontend/packages/frontend/apps/web/src/siso-module-contract.tsx",
+    "./browser": "./dist/siso-knowledge-module.js"
   },
   "scripts": {
+    "package:build": "node siso/package-build.mjs",
     "local:start": "node siso/local.mjs start",
     "local:status": "node siso/local.mjs status",
     "local:stop": "node siso/local.mjs stop"

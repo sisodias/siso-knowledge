@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "commitBase": "50dfd2a",
+  "build": {
+    "command": "yarn package:build",
+    "system": "AFFiNE Rspack 2.0.8",
+    "output": "dist/",
+    "outputBytesApprox": 216006656,
+    "entry": "dist/siso-knowledge-module.js",
+    "entrySha256": "0ae91372117b6824f8c8f37e09fd0af31716964f203258f5a4a6af93d4ae078b",
+    "manifest": "dist/package-manifest.json",
+    "manifestSha256": "18e274014957bdb2c40ac22c295591790d2b088c5df1a40526ade3823d3e89b9",
+    "html": "dist/index.html",
+    "htmlSha256": "250a33414abec63aa687167a5b2ba3bd9bf19289241f7742290db31fa22f4527",
+    "assetCount": 848,
+    "rawSourceFiles": 0,
+    "remotePublicAssetMatches": 0
+  },
+  "contract": {
+    "mount": "mount(target: HTMLElement, { host, backendBase? })",
+    "unmount": "unmount() or returned function",
+    "sameDocument": true,
+    "iframe": false,
+    "secondLogin": false,
+    "hostContext": "SisoKnowledgeHostContext",
+    "requestBridge": "x-siso-request-context plus configurable backendBase for API/GraphQL"
+  },
+  "checks": {
+    "topologyAndPackageBoundary": "PASS (5 tests)",
+    "frontendTypecheck": "PASS",
+    "rspackBuild": "PASS with donor asset-size warnings",
+    "standaloneDesktop": "PASS; compiled dist served on loopback 3042, AFFiNE shell and All docs/New doc surface rendered"
+  },
+  "desktopEvidence": {
+    "url": "http://127.0.0.1:3042/",
+    "marker": "compiled dist shell rendered with AFFiNE title, workspace navigation, Docs/Collections/Tags/Favorites/Import/Template surfaces",
+    "note": "Server-backed auth/persistence remains exercised by the existing local harness at http://127.0.0.1:3022/; 3042 is an asset/package boundary smoke server."
+  }
+}

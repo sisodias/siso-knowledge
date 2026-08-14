@@ -1,6 +1,7 @@
 .siso-local/
 .playwright-cli/
 backend/backend/server/config.json
+dist/
 frontend/.yarn/install-state.gz
 frontend/.pnp.*
 backend/.yarn/install-state.gz

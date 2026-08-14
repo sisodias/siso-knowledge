@@ -9,6 +9,9 @@
     "name": "@siso/knowledge-module",
     "entry": "frontend/packages/frontend/apps/web/src/siso-knowledge-module.tsx",
     "hostContractEntry": "frontend/packages/frontend/apps/web/src/siso-module-contract.tsx",
+    "compiledBrowserEntry": "dist/siso-knowledge-module.js",
+    "compiledAssetManifest": "dist/package-manifest.json",
+    "build": "yarn package:build",
     "peerDependencies": ["react", "react-dom", "react-router-dom"]
   },
   "basePath": {
