@@ -6,9 +6,11 @@ const root = new URL('../../', import.meta.url).pathname;
 const manifest = JSON.parse(fs.readFileSync(`${root}dist/package-manifest.json`, 'utf8'));
 const entry = fs.readFileSync(`${root}dist/${manifest.entry}`, 'utf8');
 
-test('compiled package exposes stable mount/unmount entry', () => {
+test('compiled package exposes stable preload/mount/unmount entry', () => {
   assert.equal(manifest.compiled, true);
   assert.equal(manifest.entry, 'siso-knowledge-module.js');
+  assert.equal(manifest.preload.returns, 'Promise<void>');
+  assert.match(entry, /export async function preload/);
   assert.match(entry, /export async function mount/);
   assert.match(entry, /export function unmount/);
   assert.match(entry, /SisoKnowledgeModule/);

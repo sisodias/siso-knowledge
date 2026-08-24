@@ -110,11 +110,15 @@ export async function mount(target, host) {
     (workspaceId ? '/workspace/' + workspaceId + '/all' : '/workspace/DsUQAzkXhV7Ex0wbymoab/all');
   // Install before evaluating donor scripts: AFFiNE captures fetch during
   // module initialization, before its React mount callback runs.
-  installRequestBridge(options.host, options.backendBase);
-  await loadAssets();
+  await preload(options);
   if (!globalThis.SisoKnowledgeModule?.mount) throw new Error('SISO Knowledge compiled entry did not initialize');
   activeUnmount = globalThis.SisoKnowledgeModule.mount(target, options);
   return activeUnmount;
+}
+export async function preload(host) {
+  const options = host?.host ? host : { host };
+  installRequestBridge(options.host, options.backendBase);
+  await loadAssets();
 }
 export function unmount() { activeUnmount?.(); activeUnmount = undefined; }
 export const entry = ${JSON.stringify(mainScript)};
@@ -139,6 +143,7 @@ writeFileSync(resolve(output, 'package-manifest.json'), JSON.stringify({
   assetBase: 'relative-to-entry-directory',
   assets: { scripts, styles },
   files,
+  preload: { host: 'SisoKnowledgeHostContext', returns: 'Promise<void>' },
   mount: { target: 'HTMLElement', host: 'SisoKnowledgeHostContext', returns: '() => void' },
 }, null, 2));
 console.log(JSON.stringify({ output, entry: resolve(output, 'siso-knowledge-module.js'), assets: scripts.length + styles.length, files: files.length }));
