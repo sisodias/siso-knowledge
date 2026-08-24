@@ -110,14 +110,13 @@ export async function mount(target, host) {
     (workspaceId ? '/workspace/' + workspaceId + '/all' : '/workspace/DsUQAzkXhV7Ex0wbymoab/all');
   // Install before evaluating donor scripts: AFFiNE captures fetch during
   // module initialization, before its React mount callback runs.
-  await preload(options);
+  installRequestBridge(options.host, options.backendBase);
+  await loadAssets();
   if (!globalThis.SisoKnowledgeModule?.mount) throw new Error('SISO Knowledge compiled entry did not initialize');
   activeUnmount = globalThis.SisoKnowledgeModule.mount(target, options);
   return activeUnmount;
 }
-export async function preload(host) {
-  const options = host?.host ? host : { host };
-  installRequestBridge(options.host, options.backendBase);
+export async function preload() {
   await loadAssets();
 }
 export function unmount() { activeUnmount?.(); activeUnmount = undefined; }
