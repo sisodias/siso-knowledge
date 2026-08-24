@@ -103,6 +103,22 @@ function loadAssets() {
   ]);
   return ready;
 }
+let prefetchReady;
+function prefetchAssets() {
+  if (prefetchReady) return prefetchReady;
+  const preload = (href, as) => new Promise(resolve => {
+    const link = document.createElement('link');
+    link.rel = 'preload'; link.as = as; link.href = new URL(href.replace(/^\\//, ''), assetBase);
+    // A preload is an optimization only. If an edge refuses it, mount() will
+    // still load the real stylesheet/script after installing the request bridge.
+    link.onload = resolve; link.onerror = resolve; document.head.append(link);
+  });
+  prefetchReady = Promise.all([
+    ...assets.styles.map(href => preload(href, 'style')),
+    ...assets.scripts.map(src => preload(src, 'script')),
+  ]).then(() => undefined);
+  return prefetchReady;
+}
 export async function mount(target, host) {
   const options = host?.host ? host : { host };
   const workspaceId = options.host?.identity?.workspaceId;
@@ -117,7 +133,7 @@ export async function mount(target, host) {
   return activeUnmount;
 }
 export async function preload() {
-  await loadAssets();
+  await prefetchAssets();
 }
 export function unmount() { activeUnmount?.(); activeUnmount = undefined; }
 export const entry = ${JSON.stringify(mainScript)};

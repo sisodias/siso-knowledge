@@ -11,7 +11,9 @@ test('compiled package exposes stable preload/mount/unmount entry', () => {
   assert.equal(manifest.entry, 'siso-knowledge-module.js');
   assert.equal(manifest.preload.returns, 'Promise<void>');
   assert.match(entry, /export async function preload/);
-  assert.match(entry, /export async function preload\(\)\s*\{\s*await loadAssets\(\);/);
+  assert.match(entry, /function prefetchAssets\(\)/);
+  assert.match(entry, /export async function preload\(\)\s*\{\s*await prefetchAssets\(\);/);
+  assert.match(entry, /link\.rel = 'preload'/);
   assert.match(entry, /export async function mount/);
   assert.match(entry, /export function unmount/);
   assert.match(entry, /SisoKnowledgeModule/);
