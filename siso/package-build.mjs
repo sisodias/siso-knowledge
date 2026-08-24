@@ -71,22 +71,27 @@ globalThis.__SISO_KNOWLEDGE_ASSET_BASE__ = assetBase.href;
 let ready;
 let activeUnmount;
 function installRequestBridge(host, backendBase) {
+  const target = (backendBase || new URL('/admin/api/cms/affine', location.origin).href).replace(/\\/$/, '');
+  const bridgeState = globalThis.__SISO_KNOWLEDGE_FETCH_BRIDGE_STATE || { target, context: '' };
+  bridgeState.target = target;
+  bridgeState.context = host?.tokens?.sisoRequestContext ?? '';
+  globalThis.__SISO_KNOWLEDGE_FETCH_BRIDGE_STATE = bridgeState;
   if (globalThis.__SISO_KNOWLEDGE_FETCH_BRIDGE) return;
   const nativeFetch = window.fetch.bind(window);
   // The host may pass an explicit backend base; compiled package mounts that
   // omit it still need the cookie-bearing same-origin CMS prefix.
-  const target = (backendBase || new URL('/admin/api/cms/affine', location.origin).href).replace(/\\/$/, '');
   window.fetch = (input, init = {}) => {
     const request = new Request(input, init);
     const url = new URL(request.url, location.href);
     const rootRequest = url.origin === location.origin &&
       (url.pathname === '/api' || url.pathname.startsWith('/api/') ||
        url.pathname === '/graphql' || url.pathname.startsWith('/graphql/'));
-    if (!rootRequest && !request.url.startsWith(target)) return nativeFetch(input, init);
+    const state = globalThis.__SISO_KNOWLEDGE_FETCH_BRIDGE_STATE;
+    if (!rootRequest && !request.url.startsWith(state.target)) return nativeFetch(input, init);
     const backendRequest = rootRequest
-      ? new Request(target + url.pathname + url.search, request)
+      ? new Request(state.target + url.pathname + url.search, request)
       : request;
-    backendRequest.headers.set('x-siso-request-context', host?.tokens?.sisoRequestContext ?? '');
+    backendRequest.headers.set('x-siso-request-context', state.context);
     return nativeFetch(backendRequest, { ...init, credentials: 'include' });
   };
   globalThis.__SISO_KNOWLEDGE_FETCH_BRIDGE = true;
@@ -132,7 +137,13 @@ export async function mount(target, host) {
   activeUnmount = globalThis.SisoKnowledgeModule.mount(target, options);
   return activeUnmount;
 }
-export async function preload() {
+export async function preload(host) {
+  if (host) {
+    const options = host.host ? host : { host };
+    installRequestBridge(options.host, options.backendBase);
+    await loadAssets();
+    return;
+  }
   await prefetchAssets();
 }
 export function unmount() { activeUnmount?.(); activeUnmount = undefined; }

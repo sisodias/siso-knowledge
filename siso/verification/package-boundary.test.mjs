@@ -12,7 +12,9 @@ test('compiled package exposes stable preload/mount/unmount entry', () => {
   assert.equal(manifest.preload.returns, 'Promise<void>');
   assert.match(entry, /export async function preload/);
   assert.match(entry, /function prefetchAssets\(\)/);
-  assert.match(entry, /export async function preload\(\)\s*\{\s*await prefetchAssets\(\);/);
+  assert.match(entry, /export async function preload\(host\)/);
+  assert.match(entry, /if \(host\)[\s\S]*?installRequestBridge\(options\.host, options\.backendBase\);[\s\S]*?await loadAssets\(\);/);
+  assert.match(entry, /await prefetchAssets\(\);/);
   assert.match(entry, /link\.rel = 'preload'/);
   assert.match(entry, /export async function mount/);
   assert.match(entry, /export function unmount/);
@@ -36,6 +38,7 @@ test('compiled package has a nested-host asset contract', () => {
   assert.match(entry, /__SISO_KNOWLEDGE_INITIAL_PATH__/);
   assert.match(entry, /identity\?\.workspaceId/);
   assert.match(entry, /__SISO_KNOWLEDGE_FETCH_BRIDGE/);
+  assert.match(entry, /__SISO_KNOWLEDGE_FETCH_BRIDGE_STATE/);
   assert.match(entry, /backendBase/);
   assert.doesNotMatch(entry, /if \(!backendBase \|\| globalThis\.__SISO_KNOWLEDGE_FETCH_BRIDGE\)/);
   assert.match(entry, /new URL\('\/admin\/api\/cms\/affine', location\.origin\)/);
