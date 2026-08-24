@@ -13,6 +13,7 @@ test('compiled package exposes stable preload/mount/unmount entry', () => {
   assert.match(entry, /export async function preload/);
   assert.match(entry, /function prefetchAssets\(\)/);
   assert.match(entry, /export async function preload\(host\)/);
+  assert.match(entry, /setInitialPath\(options\);[\s\S]*?installRequestBridge\(options\.host, options\.backendBase\);/);
   assert.match(entry, /if \(host\)[\s\S]*?installRequestBridge\(options\.host, options\.backendBase\);[\s\S]*?await loadAssets\(\);/);
   assert.match(entry, /await prefetchAssets\(\);/);
   assert.match(entry, /link\.rel = 'preload'/);

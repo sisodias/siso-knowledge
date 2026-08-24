@@ -108,6 +108,11 @@ function loadAssets() {
   ]);
   return ready;
 }
+function setInitialPath(options) {
+  const workspaceId = options.host?.identity?.workspaceId;
+  globalThis.__SISO_KNOWLEDGE_INITIAL_PATH__ = options.initialPath ??
+    (workspaceId ? '/workspace/' + workspaceId + '/all' : '/workspace/DsUQAzkXhV7Ex0wbymoab/all');
+}
 let prefetchReady;
 function prefetchAssets() {
   if (prefetchReady) return prefetchReady;
@@ -126,9 +131,7 @@ function prefetchAssets() {
 }
 export async function mount(target, host) {
   const options = host?.host ? host : { host };
-  const workspaceId = options.host?.identity?.workspaceId;
-  globalThis.__SISO_KNOWLEDGE_INITIAL_PATH__ = options.initialPath ??
-    (workspaceId ? '/workspace/' + workspaceId + '/all' : '/workspace/DsUQAzkXhV7Ex0wbymoab/all');
+  setInitialPath(options);
   // Install before evaluating donor scripts: AFFiNE captures fetch during
   // module initialization, before its React mount callback runs.
   installRequestBridge(options.host, options.backendBase);
@@ -140,6 +143,7 @@ export async function mount(target, host) {
 export async function preload(host) {
   if (host) {
     const options = host.host ? host : { host };
+    setInitialPath(options);
     installRequestBridge(options.host, options.backendBase);
     await loadAssets();
     return;
