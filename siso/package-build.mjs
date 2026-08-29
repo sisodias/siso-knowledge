@@ -36,9 +36,12 @@ if (!mainScript) throw new Error('Rspack output has no browser entry script');
 // package remains self-contained under any nested host path.
 const textFiles = readdirSync(output, { recursive: true })
   .map(file => resolve(output, String(file)))
-  .filter(file => /\.(?:css|js|html)$/.test(file));
+  .filter(file => /\.(?:css|js|html|map)$/.test(file));
 for (const file of textFiles) {
   let source = readFileSync(file, 'utf8');
+  // Source maps and WASM fallbacks can retain the local checkout path. Keep
+  // the compiled package portable and do not disclose the build machine.
+  source = source.replaceAll(root, '/siso-knowledge-build');
   if (file.includes('/js/runtime.') && file.endsWith('.js')) {
     source = source.replace(/h\.p="?\/?"?/, 'h.p=globalThis.__SISO_KNOWLEDGE_ASSET_BASE__||new URL("./",document.currentScript?.src||location.href).href');
     source = source.replace('var t=h.p+h.u(e),c=Error();', 'var t=new URL(h.u(e),globalThis.__SISO_KNOWLEDGE_ASSET_BASE__||new URL("./",document.currentScript?.src||location.href).href).href,c=Error();');
@@ -48,14 +51,20 @@ for (const file of textFiles) {
     source = source.replaceAll('i.p=environment.publicPath', 'i.p=globalThis.__SISO_KNOWLEDGE_ASSET_BASE__||new URL("./",document.currentScript?.src||location.href).href');
     source = source.replaceAll('return(environment.subPath||"/")+"js/"+', 'return (globalThis.__SISO_KNOWLEDGE_ASSET_BASE__||new URL("./",document.currentScript?.src||location.href).href)+"js/"+');
     source = source.replace(/:\"\/imgs\//g, ':globalThis.__SISO_KNOWLEDGE_ASSET_BASE__+"imgs/');
+    source = source.replaceAll('url:environment.publicPath+"fonts/"+e.url.split("/").pop()', 'url:(globalThis.__SISO_KNOWLEDGE_ASSET_BASE__||new URL("./",document.currentScript?.src||location.href).href)+"fonts/"+e.url.split("/").pop()');
+    source = source.replace('let tj=(0,tr.M)("nbstore");', 'let tj=new URL((0,tr.M)("nbstore"),location.href);tj.searchParams.set("siso_backend",globalThis.__SISO_KNOWLEDGE_WORKER_BACKEND_BASE__||"/knowledge-backend/");');
   }
   if (file.includes('/js/nbstore-') && file.endsWith('.worker.js')) {
     // The nbstore worker owns its HTTP fetches and cannot see the page fetch
-    // bridge. Keep its GraphQL/API requests on the cookie-bearing host path.
-    source = `globalThis.__SISO_KNOWLEDGE_COMPILED_PACKAGE__=true;globalThis.__SISO_KNOWLEDGE_BACKEND_BASE__=new URL("/admin/api/cms/affine",globalThis.location.origin).href;\n${source}`;
-    const workerBackend = 'globalThis.__SISO_KNOWLEDGE_BACKEND_BASE__||new URL("/admin/api/cms/affine",globalThis.location.origin).href';
-    source = source.replaceAll('new URL(e,this.serverBaseUrl)', `new URL(e,${workerBackend})`);
-    source = source.replaceAll('new URL("/graphql",this.serverBaseUrl)', `new URL("/graphql",${workerBackend})`);
+    // bridge. Pass the host backend base through the worker URL (it is not a
+    // credential), then preserve the configured nested path for API/GraphQL
+    // requests and Socket.IO.
+    source = `globalThis.__SISO_KNOWLEDGE_COMPILED_PACKAGE__=true;globalThis.__SISO_KNOWLEDGE_BACKEND_BASE__=new URL(new URLSearchParams(globalThis.location.search).get("siso_backend")||"/knowledge-backend/",globalThis.location.origin).href;globalThis.__SISO_KNOWLEDGE_BACKEND_REQUEST__=e=>new URL(String(e).replace(/^\\/+/,""),globalThis.__SISO_KNOWLEDGE_BACKEND_BASE__.replace(/\\/?$/, "/")).href;globalThis.__SISO_KNOWLEDGE_SOCKET_PATH__=new URL("socket.io",globalThis.__SISO_KNOWLEDGE_BACKEND_BASE__.replace(/\\/?$/, "/")).pathname;\n${source}`;
+    const workerRequest = 'globalThis.__SISO_KNOWLEDGE_BACKEND_REQUEST__';
+    source = source.replaceAll('path:r?"/admin/api/cms/affine/socket.io":void 0', 'path:r?globalThis.__SISO_KNOWLEDGE_SOCKET_PATH__:void 0');
+    source = source.replaceAll('new URL(e,this.serverBaseUrl)', `${workerRequest}(e)`);
+    source = source.replaceAll('new URL("/graphql",this.serverBaseUrl)', `${workerRequest}("/graphql")`);
+    source = source.replaceAll('new URL(e,this.options.serverBaseUrl)', `${workerRequest}(e)`);
   }
   if (/\.(?:css|html)$/.test(file)) {
     source = source.replace(/(["'(])\/(?!\/)/g, '$1');
@@ -71,7 +80,8 @@ globalThis.__SISO_KNOWLEDGE_ASSET_BASE__ = assetBase.href;
 let ready;
 let activeUnmount;
 function installRequestBridge(host, backendBase) {
-  const target = (backendBase || new URL('/admin/api/cms/affine', location.origin).href).replace(/\\/$/, '');
+  const target = new URL(backendBase || '/knowledge-backend', location.origin).href.replace(/\\/$/, '');
+  globalThis.__SISO_KNOWLEDGE_WORKER_BACKEND_BASE__ = target;
   const bridgeState = globalThis.__SISO_KNOWLEDGE_FETCH_BRIDGE_STATE || { target, context: '' };
   bridgeState.target = target;
   bridgeState.context = host?.tokens?.sisoRequestContext ?? '';
