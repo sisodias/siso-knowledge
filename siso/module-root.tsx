@@ -3,6 +3,8 @@ import { createContext, useContext } from 'react';
 
 import type { SisoKnowledgeIdentity } from './identity';
 import { knowledgeDatabaseConfig, type KnowledgeDatabaseAdapter } from './database-adapter';
+import { sisoKnowledgeBrand, sisoKnowledgeChromePolicy } from './assimilation/brand-chrome-policy';
+import { createSisoKnowledgeThemeStyle, type SisoKnowledgeThemeMode } from './theme-adapter';
 
 export function assertSisoKnowledgeIdentity(identity: SisoKnowledgeIdentity, expectedClientId: string) {
   if (identity.clientId !== expectedClientId) throw new Error('SISO Knowledge client mismatch');
@@ -30,17 +32,26 @@ export function useSisoKnowledgeHost() {
 export interface SisoKnowledgeModuleRootProps {
   host: SisoKnowledgeHostContext;
   expectedClientId?: string;
+  themeMode?: SisoKnowledgeThemeMode;
   /** The complete AFFiNE-derived App, including its providers and internal router. */
   donorApp: ComponentType;
   children?: ReactNode;
 }
 
-export function SisoKnowledgeModuleRoot({ host, donorApp: DonorApp, children, expectedClientId = 'bykonz-yard' }: PropsWithChildren<SisoKnowledgeModuleRootProps>) {
+export function SisoKnowledgeModuleRoot({ host, donorApp: DonorApp, children, expectedClientId = 'bykonz-yard', themeMode }: PropsWithChildren<SisoKnowledgeModuleRootProps>) {
   assertSisoKnowledgeIdentity(host.identity, expectedClientId);
   return (
     <HostContext.Provider value={host}>
-      {children}
-      <DonorApp />
+      <div
+        data-siso-knowledge-brand={`${sisoKnowledgeBrand.product} ${sisoKnowledgeBrand.block}`}
+        data-siso-knowledge-chrome={sisoKnowledgeChromePolicy.globalNavigation}
+        data-siso-knowledge-contextual-navigation={sisoKnowledgeChromePolicy.contextualNavigation}
+        data-siso-knowledge-theme={themeMode ?? 'host'}
+        style={createSisoKnowledgeThemeStyle(themeMode)}
+      >
+        {children}
+        <DonorApp />
+      </div>
     </HostContext.Provider>
   );
 }
