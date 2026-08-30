@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Bill Gates",
+  "slug": "bill-gates",
+  "status": "candidate",
+  "tier": "S",
+  "line": "big-tech-platform-ceos",
+  "role": "Co-founder, Microsoft",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "software",
+    "platforms",
+    "philanthropy",
+    "climate",
+    "global health"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/BillGates"
+    }
+  ],
+  "notes": "",
+  "next_action": "import_transcript",
+  "video_next_action": "import_transcript",
+  "search_queries": [
+    "\"Bill Gates\" interview",
+    "\"Bill Gates\" keynote",
+    "\"Bill Gates\" podcast",
+    "\"Bill Gates\" lecture",
+    "\"Bill Gates\" Co-founder interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Bill Gates x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/BillGates",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Bill+Gates%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Bill+Gates%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Bill+Gates%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Bill+Gates%22+software",
+      "https://www.google.com/search?q=%22Bill+Gates%22+platforms"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 4,
+    "transcript_ready": 0,
+    "total": 4
+  },
+  "videos": [
+    {
+      "video_id": "croxobxz1bU",
+      "title": "massive TWITTER HACK! (Elon Musk, Bill Gates, Mr. Beast, Kanye)",
+      "url": "https://www.youtube.com/watch?v=croxobxz1bU",
+      "channel_name": "Networkchuck",
+      "priority": "P0",
+      "score": 8.0,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "bill-gates__croxobxz1bU__massive-TWITTER-HACK-Elon-Musk-Bill-Gates-Mr-Beast-Kanye.txt"
+    },
+    {
+      "video_id": "iFVmNDTJQOQ",
+      "title": "Bill Gates Surprising AI Statement \" Humans Will No Longer Be Needed\"",
+      "url": "https://www.youtube.com/watch?v=iFVmNDTJQOQ",
+      "channel_name": "Ai Grid",
+      "priority": "P1",
+      "score": 6.0,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "bill-gates__iFVmNDTJQOQ__Bill-Gates-Surprising-AI-Statement-Humans-Will-No-Longer-Be-Needed.txt"
+    },
+    {
+      "video_id": "7qg3LTrARZM",
+      "title": "Bill Gates Reveals The Next Big Thing In AI, Humanoid  Robots Get To work",
+      "url": "https://www.youtube.com/watch?v=7qg3LTrARZM",
+      "channel_name": "Ai Grid",
+      "priority": "P3",
+      "score": 3.0,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "bill-gates__7qg3LTrARZM__Bill-Gates-Reveals-The-Next-Big-Thing-In-AI-Humanoid-Robots-Get-To-work.txt"
+    },
+    {
+      "video_id": "k63-eElwz2k",
+      "title": "Bill Gates Shocking New 2024 AI Prediction ( AGI + AI Agents)",
+      "url": "https://www.youtube.com/watch?v=k63-eElwz2k",
+      "channel_name": "Ai Grid",
+      "priority": "P3",
+      "score": 3.0,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "bill-gates__k63-eElwz2k__Bill-Gates-Shocking-New-2024-AI-Prediction-AGI-AI-Agents.txt"
+    }
+  ]
+}

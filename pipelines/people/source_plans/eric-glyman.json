@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Eric Glyman",
+  "slug": "eric-glyman",
+  "status": "candidate",
+  "tier": "B",
+  "line": "fast-growing-company-builders",
+  "role": "Co-founder and CEO, Ramp",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "finance automation",
+    "operations",
+    "ai agents",
+    "spend management"
+  ],
+  "source_counts": {
+    "targets": 1,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Eric Glyman x",
+      "repository": "x",
+      "type": "registry_source",
+      "url": "https://x.com/eglyman",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Eric+Glyman%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Eric+Glyman%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Eric+Glyman%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Eric+Glyman%22+finance+automation",
+    "https://www.google.com/search?q=%22Eric+Glyman%22+operations"
+  ],
+  "curation_notes": []
+}

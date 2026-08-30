@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Eliezer Yudkowsky",
+  "slug": "eliezer-yudkowsky",
+  "status": "candidate",
+  "tier": "A",
+  "line": "ai-researchers-technical-thinkers",
+  "role": "AI risk and rationality writer",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "ai risk",
+    "rationality",
+    "alignment",
+    "decision theory"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/ESYudkowsky"
+    }
+  ],
+  "notes": "",
+  "next_action": "collect_direct_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Eliezer Yudkowsky\" interview",
+    "\"Eliezer Yudkowsky\" keynote",
+    "\"Eliezer Yudkowsky\" podcast",
+    "\"Eliezer Yudkowsky\" lecture",
+    "\"Eliezer Yudkowsky\" AI risk and rationality writer interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Eliezer Yudkowsky x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/ESYudkowsky",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Eliezer+Yudkowsky%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Eliezer+Yudkowsky%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Eliezer+Yudkowsky%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Eliezer+Yudkowsky%22+ai+risk",
+      "https://www.google.com/search?q=%22Eliezer+Yudkowsky%22+rationality"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

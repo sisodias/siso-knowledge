@@ -8,7 +8,7 @@ from pathlib import Path
 
 import yaml
 
-LIB_PATH = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+LIB_PATH = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 INDEX_PATH = LIB_PATH / "_index"
 MEMORY_PATH = LIB_PATH / "memory" / "daily_digest"
 

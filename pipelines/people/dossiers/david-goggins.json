@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "David Goggins",
+  "slug": "david-goggins",
+  "status": "maybe",
+  "tier": "B",
+  "line": "business-wealth-persuasion-self-mastery",
+  "role": "Author and endurance athlete",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "discipline",
+    "resilience",
+    "identity",
+    "endurance"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/davidgoggins"
+    }
+  ],
+  "notes": "Added as likely match for 'David Andre'; confirm intended person.",
+  "next_action": "collect_direct_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"David Goggins\" interview",
+    "\"David Goggins\" keynote",
+    "\"David Goggins\" podcast",
+    "\"David Goggins\" lecture",
+    "\"David Goggins\" Author and endurance athlete interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "David Goggins x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/davidgoggins",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22David+Goggins%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22David+Goggins%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22David+Goggins%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22David+Goggins%22+discipline",
+      "https://www.google.com/search?q=%22David+Goggins%22+resilience"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

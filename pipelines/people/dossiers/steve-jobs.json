@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Steve Jobs",
+  "slug": "steve-jobs",
+  "status": "candidate",
+  "tier": "S",
+  "line": "big-tech-platform-ceos",
+  "role": "Co-founder, Apple",
+  "collection_mode": "corpus-first",
+  "topics": [
+    "product taste",
+    "focus",
+    "storytelling",
+    "design",
+    "company building"
+  ],
+  "sources": [],
+  "notes": "",
+  "next_action": "collect_corpus_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [],
+  "source_plan": {
+    "source_strategy": "corpus",
+    "next_source_action": "collect_corpus_sources",
+    "source_counts": {
+      "targets": 4,
+      "discovery_urls": 4
+    },
+    "source_targets": [
+      {
+        "title": "Steve Jobs source search",
+        "repository": "Project Gutenberg",
+        "type": "archive_search",
+        "url": "https://www.gutenberg.org/ebooks/search/?query=Steve+Jobs",
+        "rights_status": "public_domain_or_translation_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      },
+      {
+        "title": "Steve Jobs source search",
+        "repository": "Wikisource",
+        "type": "archive_search",
+        "url": "https://en.wikisource.org/w/index.php?search=Steve+Jobs",
+        "rights_status": "public_domain_or_translation_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      },
+      {
+        "title": "Steve Jobs source search",
+        "repository": "Internet Archive",
+        "type": "archive_search",
+        "url": "https://archive.org/search?query=Steve+Jobs",
+        "rights_status": "public_domain_or_translation_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      },
+      {
+        "title": "Steve Jobs source search",
+        "repository": "Open Library",
+        "type": "archive_search",
+        "url": "https://openlibrary.org/search?q=Steve+Jobs",
+        "rights_status": "public_domain_or_translation_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.gutenberg.org/ebooks/search/?query=Steve+Jobs",
+      "https://en.wikisource.org/w/index.php?search=Steve+Jobs",
+      "https://archive.org/search?query=Steve+Jobs",
+      "https://openlibrary.org/search?q=Steve+Jobs"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Hock Tan",
+  "slug": "hock-tan",
+  "status": "candidate",
+  "tier": "A",
+  "line": "big-tech-platform-ceos",
+  "role": "President and CEO, Broadcom",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "semiconductors",
+    "infrastructure software",
+    "acquisitions",
+    "ai networking"
+  ],
+  "source_counts": {
+    "targets": 0,
+    "discovery_urls": 5
+  },
+  "source_targets": [],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Hock+Tan%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Hock+Tan%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Hock+Tan%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Hock+Tan%22+semiconductors",
+    "https://www.google.com/search?q=%22Hock+Tan%22+infrastructure+software"
+  ],
+  "curation_notes": []
+}

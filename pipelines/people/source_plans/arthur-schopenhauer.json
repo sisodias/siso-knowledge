@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Arthur Schopenhauer",
+  "slug": "arthur-schopenhauer",
+  "status": "candidate",
+  "tier": "A",
+  "line": "historic-philosophy-fundamental-thinkers",
+  "role": "Philosopher",
+  "collection_mode": "corpus-first",
+  "source_strategy": "corpus",
+  "next_source_action": "collect_corpus_sources",
+  "topics": [
+    "desire",
+    "suffering",
+    "pessimism",
+    "will",
+    "aesthetics"
+  ],
+  "source_counts": {
+    "targets": 4,
+    "discovery_urls": 4
+  },
+  "source_targets": [
+    {
+      "title": "Arthur Schopenhauer source search",
+      "repository": "Project Gutenberg",
+      "type": "archive_search",
+      "url": "https://www.gutenberg.org/ebooks/search/?query=Arthur+Schopenhauer",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Arthur Schopenhauer source search",
+      "repository": "Wikisource",
+      "type": "archive_search",
+      "url": "https://en.wikisource.org/w/index.php?search=Arthur+Schopenhauer",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Arthur Schopenhauer source search",
+      "repository": "Internet Archive",
+      "type": "archive_search",
+      "url": "https://archive.org/search?query=Arthur+Schopenhauer",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Arthur Schopenhauer source search",
+      "repository": "Open Library",
+      "type": "archive_search",
+      "url": "https://openlibrary.org/search?q=Arthur+Schopenhauer",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.gutenberg.org/ebooks/search/?query=Arthur+Schopenhauer",
+    "https://en.wikisource.org/w/index.php?search=Arthur+Schopenhauer",
+    "https://archive.org/search?query=Arthur+Schopenhauer",
+    "https://openlibrary.org/search?q=Arthur+Schopenhauer"
+  ],
+  "curation_notes": []
+}

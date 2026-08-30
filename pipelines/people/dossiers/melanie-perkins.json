@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Melanie Perkins",
+  "slug": "melanie-perkins",
+  "status": "candidate",
+  "tier": "A",
+  "line": "fast-growing-company-builders",
+  "role": "Co-founder and CEO, Canva",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "design",
+    "consumer software",
+    "company scaling",
+    "product"
+  ],
+  "sources": [],
+  "notes": "",
+  "next_action": "collect_direct_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Melanie Perkins\" interview",
+    "\"Melanie Perkins\" keynote",
+    "\"Melanie Perkins\" podcast",
+    "\"Melanie Perkins\" lecture",
+    "\"Melanie Perkins\" Co-founder and CEO interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 0,
+      "discovery_urls": 5
+    },
+    "source_targets": [],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Melanie+Perkins%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Melanie+Perkins%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Melanie+Perkins%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Melanie+Perkins%22+design",
+      "https://www.google.com/search?q=%22Melanie+Perkins%22+consumer+software"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

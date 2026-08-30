@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Satya Nadella",
+  "slug": "satya-nadella",
+  "status": "approved",
+  "tier": "S",
+  "line": "frontier-ai-company-leaders",
+  "role": "Chairman and CEO, Microsoft",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "azure ai",
+    "copilot",
+    "enterprise ai",
+    "cloud",
+    "productivity"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/satyanadella"
+    },
+    {
+      "type": "official",
+      "url": "https://www.microsoft.com/investor"
+    }
+  ],
+  "notes": "",
+  "next_action": "import_transcript",
+  "video_next_action": "import_transcript",
+  "search_queries": [
+    "\"Satya Nadella\" interview",
+    "\"Satya Nadella\" keynote",
+    "\"Satya Nadella\" podcast",
+    "\"Satya Nadella\" lecture",
+    "\"Satya Nadella\" Chairman and CEO interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 2,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Satya Nadella x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/satyanadella",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      },
+      {
+        "title": "Satya Nadella official",
+        "repository": "official",
+        "type": "registry_source",
+        "url": "https://www.microsoft.com/investor",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Satya+Nadella%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Satya+Nadella%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Satya+Nadella%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Satya+Nadella%22+azure+ai",
+      "https://www.google.com/search?q=%22Satya+Nadella%22+copilot"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 1,
+    "transcript_ready": 0,
+    "total": 1
+  },
+  "videos": [
+    {
+      "video_id": "w87UvmMcmW4",
+      "title": "Microsoft CEO Satya Nadella on the Future of AI",
+      "url": "https://www.youtube.com/watch?v=w87UvmMcmW4",
+      "channel_name": "Matthew Berman",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "satya-nadella__w87UvmMcmW4__Microsoft-CEO-Satya-Nadella-on-the-Future-of-AI.txt"
+    }
+  ]
+}

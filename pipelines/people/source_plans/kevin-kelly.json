@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Kevin Kelly",
+  "slug": "kevin-kelly",
+  "status": "candidate",
+  "tier": "B",
+  "line": "writers-sensemakers",
+  "role": "Writer and technology thinker",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "technology",
+    "abundance",
+    "tools",
+    "long-term trends"
+  ],
+  "source_counts": {
+    "targets": 1,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Kevin Kelly x",
+      "repository": "x",
+      "type": "registry_source",
+      "url": "https://x.com/kevin2kelly",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Kevin+Kelly%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Kevin+Kelly%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Kevin+Kelly%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Kevin+Kelly%22+technology",
+    "https://www.google.com/search?q=%22Kevin+Kelly%22+abundance"
+  ],
+  "curation_notes": []
+}

@@ -15,4 +15,4 @@ This folder contains Claude Code native configurations.
 
 ## Skills
 
-This agent uses the xsearch skill from `~/SISO_Library/agents/YouTubeQueueAnalysis/.claude/skills/xsearch/`.
+This agent uses the xsearch skill from `~/SISO_Knowledge/agents/YouTubeQueueAnalysis/.claude/skills/xsearch/`.

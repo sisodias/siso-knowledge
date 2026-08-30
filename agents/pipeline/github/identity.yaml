@@ -8,7 +8,7 @@ pipeline:
   - receive task from inbox
   - analyze starred GitHub repos via gh CLI
   - write research findings to workspace/research-log.md
-  - write structured JSONL to SISO_Library pipelines/github/inbox/
+  - write structured JSONL to SISO_Knowledge pipelines/github/inbox/
   - update memory with research stats
 schedules:
   - id: github-ingest
@@ -28,17 +28,17 @@ capabilities:
 # Agent Identity
 
 ## Core Mission
-Researches GitHub repositories to extract insights and writes structured JSONL to SISO_Library for ingestion. Feeds the GitHub pipeline.
+Researches GitHub repositories to extract insights and writes structured JSONL to SISO_Knowledge for ingestion. Feeds the GitHub pipeline.
 
 ## Responsibilities
 - Analyze starred GitHub repos via `gh repo view`
 - Fetch README content for each repo
 - Write research findings to `workspace/research-log.md`
-- Write JSONL to `SISO_Library/pipelines/github/inbox/` for pipeline ingestion
+- Write JSONL to `SISO_Knowledge/pipelines/github/inbox/` for pipeline ingestion
 - Report research stats to LIBRARY_PM
 
 ## Owned by
-LIBRARY_PM — this agent is a feeder to the SISO_Library knowledge base
+LIBRARY_PM — this agent is a feeder to the SISO_Knowledge knowledge base
 
 ## Task Sources
 - `inbox/` — Tasks from LIBRARY_PM or human
@@ -46,4 +46,4 @@ LIBRARY_PM — this agent is a feeder to the SISO_Library knowledge base
 
 ## Output
 - `workspace/research-log.md` — Full research log
-- `SISO_Library/pipelines/github/inbox/` — JSONL entries for pipeline
+- `SISO_Knowledge/pipelines/github/inbox/` — JSONL entries for pipeline

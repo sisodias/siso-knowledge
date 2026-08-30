@@ -1,0 +1,219 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Elon Musk",
+  "slug": "elon-musk",
+  "status": "approved",
+  "tier": "S",
+  "line": "frontier-ai-company-leaders",
+  "role": "CEO, xAI / Tesla / SpaceX",
+  "collection_mode": "social-first",
+  "source_strategy": "social",
+  "next_source_action": "collect_social_and_longform_sources",
+  "topics": [
+    "agi",
+    "autonomous vehicles",
+    "robotics",
+    "rockets",
+    "brain-computer interfaces"
+  ],
+  "source_counts": {
+    "targets": 22,
+    "discovery_urls": 15
+  },
+  "source_targets": [
+    {
+      "title": "Elon Musk x",
+      "repository": "x",
+      "type": "registry_source",
+      "url": "https://x.com/elonmusk",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    },
+    {
+      "title": "Elon Musk official",
+      "repository": "official",
+      "type": "registry_source",
+      "url": "https://www.tesla.com/elon-musk",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    },
+    {
+      "title": "Every Elon Musk Interview year index",
+      "repository": "Every Elon Musk Interview",
+      "type": "lifetime_interview_index",
+      "url": "https://www.everyelonmuskinterview.com/",
+      "rights_status": "discovery_only_rights_review",
+      "notes": "Use as the spine for lifetime interview discovery across years; store event date, host, venue, media URL, transcript availability, and original source URL."
+    },
+    {
+      "title": "Elon Musk Interviews transcript archive",
+      "repository": "Elon Musk Interviews",
+      "type": "fan_transcript_archive",
+      "url": "https://elon-musk-interviews.com/",
+      "rights_status": "rights_review",
+      "notes": "Contains segmented English/German transcripts for major interviews such as Joe Rogan and TED; treat as secondary unless original transcript/source is verified."
+    },
+    {
+      "title": "Lex Fridman Elon Musk transcript pages",
+      "repository": "Lex Fridman",
+      "type": "official_podcast_transcripts",
+      "url": "https://lexfridman.com/?s=Elon+Musk+transcript",
+      "rights_status": "rights_review",
+      "notes": "Official Lex transcript pages/PDFs cover multiple longform Elon interviews; preserve episode number, date, timestamps, and transcript page URL."
+    },
+    {
+      "title": "TED Elon Musk speaker page",
+      "repository": "TED",
+      "type": "official_talk_index",
+      "url": "https://www.ted.com/speakers/elon_musk",
+      "rights_status": "rights_review",
+      "notes": "Official TED index for 2013, 2017, and 2022 Elon talks/interviews; use talk pages as primary metadata and transcript/caption sources where permitted."
+    },
+    {
+      "title": "The Henry Ford OnInnovation Elon Musk oral history",
+      "repository": "The Henry Ford",
+      "type": "official_oral_history_transcript",
+      "url": "https://www.thehenryford.org/docs/thehenryfordlibraries/innovator-transcripts/transcript_musk_full-length5a30f6547bde445e8119d53fb454b300.pdf",
+      "rights_status": "rights_review",
+      "notes": "Full-length 2008 oral-history interview transcript; high-priority early-career primary-ish source."
+    },
+    {
+      "title": "Tesla Investor Relations events and presentations",
+      "repository": "Tesla Investor Relations",
+      "type": "official_company_event_index",
+      "url": "https://ir.tesla.com/#events-and-presentations",
+      "rights_status": "rights_review",
+      "notes": "Official source for earnings calls, shareholder meetings, AI Day, Autonomy Day, Battery Day, product/event presentations, and webcast metadata."
+    },
+    {
+      "title": "Tesla SEC EDGAR company filings",
+      "repository": "SEC EDGAR",
+      "type": "regulatory_filings",
+      "url": "https://www.sec.gov/edgar/browse/?CIK=1318605",
+      "rights_status": "public_regulatory_records",
+      "notes": "Use for letters, exhibits, proxy statements, 10-K/10-Q/8-K, and quoted executive statements; connect to Musk only when speaker/author is explicit."
+    },
+    {
+      "title": "Tesla press releases and company blog",
+      "repository": "Tesla",
+      "type": "official_company_archive",
+      "url": "https://www.tesla.com/blog",
+      "rights_status": "rights_review",
+      "notes": "Official company posts and announcements; identify Musk-authored or Musk-quoted items separately from generic company copy."
+    },
+    {
+      "title": "SpaceX news and updates",
+      "repository": "SpaceX",
+      "type": "official_company_archive",
+      "url": "https://www.spacex.com/updates/",
+      "rights_status": "rights_review",
+      "notes": "Official SpaceX update archive; useful for launch talks, Starship updates, and Musk-quoted company material."
+    },
+    {
+      "title": "xAI news and blog",
+      "repository": "xAI",
+      "type": "official_company_archive",
+      "url": "https://x.ai/news",
+      "rights_status": "rights_review",
+      "notes": "Official xAI announcements and Grok-related material; connect to Musk only where authored, quoted, or primary-source-linked."
+    },
+    {
+      "title": "Neuralink blog",
+      "repository": "Neuralink",
+      "type": "official_company_archive",
+      "url": "https://neuralink.com/blog/",
+      "rights_status": "rights_review",
+      "notes": "Official Neuralink updates; cross-link with Musk talks/interviews about brain-computer interfaces."
+    },
+    {
+      "title": "X account and social archive",
+      "repository": "X",
+      "type": "social_archive",
+      "url": "https://x.com/elonmusk",
+      "rights_status": "api_or_user_export_required",
+      "notes": "Do not scrape logged-in X pages blindly. Prefer user export, official API, archived public URLs, or licensed datasets; preserve post ID, timestamp, reply/quote context, and deletion status."
+    },
+    {
+      "title": "Podchaser Elon Musk podcast appearances",
+      "repository": "Podchaser API",
+      "type": "podcast_appearance_discovery",
+      "url": "https://www.podchaser.com/api",
+      "rights_status": "api_terms",
+      "notes": "Use person/credit search to discover podcast appearances and transcript availability across millions of episodes."
+    },
+    {
+      "title": "Podscan Elon Musk transcript/entity search",
+      "repository": "Podscan API",
+      "type": "podcast_transcript_search",
+      "url": "https://help.podscan.fm/en/article/building-podcast-powered-applications-with-the-podscan-api-13741kz/",
+      "rights_status": "api_terms",
+      "notes": "Use for rolling monitoring of new Elon mentions/appearances and transcript availability; entity matches require verification."
+    },
+    {
+      "title": "spoken.md targeted transcript fetch",
+      "repository": "spoken.md",
+      "type": "on_demand_transcript_fetch",
+      "url": "https://spoken.md/",
+      "rights_status": "commercial_api_terms",
+      "notes": "Use after the interview index identifies high-priority podcast episodes needing transcripts."
+    },
+    {
+      "title": "Kurry S&P 500 earnings transcripts",
+      "repository": "Hugging Face",
+      "type": "earnings_call_dataset",
+      "url": "https://huggingface.co/datasets/kurry/sp500_earnings_transcripts",
+      "rights_status": "rights_review",
+      "notes": "Use to backfill Tesla earnings-call transcript rows from 2005-2025 and map speaker/date/company edges."
+    },
+    {
+      "title": "YouTube Commons CC-BY transcript corpus",
+      "repository": "Hugging Face",
+      "type": "cc_by_youtube_transcript_search",
+      "url": "https://huggingface.co/datasets/PleIAs/YouTube-Commons",
+      "rights_status": "cc-by-4.0_with_attribution",
+      "notes": "Filter CC-BY YouTube transcripts by Elon/Tesla/SpaceX/xAI titles and channels for rights-clean backfill."
+    },
+    {
+      "title": "Internet Archive Elon Musk media search",
+      "repository": "Internet Archive",
+      "type": "media_archive_search",
+      "url": "https://archive.org/search?query=%22Elon+Musk%22",
+      "rights_status": "item_level_rights_review",
+      "notes": "Use for older talks, TV appearances, event recordings, and archived web/media items; rights vary per item."
+    },
+    {
+      "title": "CourtListener Elon Musk search",
+      "repository": "CourtListener",
+      "type": "legal_records_search",
+      "url": "https://www.courtlistener.com/?q=%22Elon%20Musk%22",
+      "rights_status": "public_records_with_item_terms",
+      "notes": "Use for depositions, exhibits, opinions, and filings containing Musk statements; distinguish quoted speech from lawyer narration."
+    },
+    {
+      "title": "Google Patents Elon Musk inventor search",
+      "repository": "Google Patents",
+      "type": "patent_records_search",
+      "url": "https://patents.google.com/?inventor=Elon+Musk",
+      "rights_status": "public_patent_records",
+      "notes": "Use for early technical/inventor records; likely metadata-first, not worldview text."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Elon+Musk%22+interview+transcript",
+    "https://www.google.com/search?q=%22Elon+Musk%22+podcast+transcript",
+    "https://www.google.com/search?q=%22Elon+Musk%22+%22Joe+Rogan%22+transcript",
+    "https://www.google.com/search?q=%22Elon+Musk%22+%22Lex+Fridman%22+transcript",
+    "https://www.google.com/search?q=%22Elon+Musk%22+TED+transcript",
+    "https://www.google.com/search?q=%22Elon+Musk%22+%22Code+Conference%22+transcript",
+    "https://www.google.com/search?q=%22Elon+Musk%22+%22SXSW%22+transcript",
+    "https://www.google.com/search?q=%22Elon+Musk%22+%22World+Government+Summit%22+transcript",
+    "https://www.google.com/search?q=%22Elon+Musk%22+%22Tesla+earnings+call%22+transcript",
+    "https://www.google.com/search?q=%22Elon+Musk%22+%22AI+Day%22+transcript",
+    "https://www.google.com/search?q=%22Elon+Musk%22+%22Autonomy+Day%22+transcript",
+    "https://www.google.com/search?q=%22Elon+Musk%22+%22Starship%22+presentation+transcript",
+    "https://www.google.com/search?q=%22Elon+Musk%22+%22Neuralink%22+presentation+transcript",
+    "https://www.youtube.com/results?search_query=%22Elon+Musk%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Elon+Musk%22+site%3Ayoutube.com+keynote"
+  ],
+  "curation_notes": []
+}

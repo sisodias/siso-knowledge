@@ -1,0 +1,117 @@
+# Elon Musk Source Plan
+
+- Slug: `elon-musk`
+- Status: `approved`
+- Tier: `S`
+- Collection mode: `social-first`
+- Source strategy: `social`
+- Next source action: `collect_social_and_longform_sources`
+
+## Source Targets
+
+- `x / registry_source` Elon Musk x
+  - URL: https://x.com/elonmusk
+  - Rights: `rights_review`
+  - Notes: Registry-provided source; verify page-specific reuse rights before bulk ingestion.
+- `official / registry_source` Elon Musk official
+  - URL: https://www.tesla.com/elon-musk
+  - Rights: `rights_review`
+  - Notes: Registry-provided source; verify page-specific reuse rights before bulk ingestion.
+- `Every Elon Musk Interview / lifetime_interview_index` Every Elon Musk Interview year index
+  - URL: https://www.everyelonmuskinterview.com/
+  - Rights: `discovery_only_rights_review`
+  - Notes: Use as the spine for lifetime interview discovery across years; store event date, host, venue, media URL, transcript availability, and original source URL.
+- `Elon Musk Interviews / fan_transcript_archive` Elon Musk Interviews transcript archive
+  - URL: https://elon-musk-interviews.com/
+  - Rights: `rights_review`
+  - Notes: Contains segmented English/German transcripts for major interviews such as Joe Rogan and TED; treat as secondary unless original transcript/source is verified.
+- `Lex Fridman / official_podcast_transcripts` Lex Fridman Elon Musk transcript pages
+  - URL: https://lexfridman.com/?s=Elon+Musk+transcript
+  - Rights: `rights_review`
+  - Notes: Official Lex transcript pages/PDFs cover multiple longform Elon interviews; preserve episode number, date, timestamps, and transcript page URL.
+- `TED / official_talk_index` TED Elon Musk speaker page
+  - URL: https://www.ted.com/speakers/elon_musk
+  - Rights: `rights_review`
+  - Notes: Official TED index for 2013, 2017, and 2022 Elon talks/interviews; use talk pages as primary metadata and transcript/caption sources where permitted.
+- `The Henry Ford / official_oral_history_transcript` The Henry Ford OnInnovation Elon Musk oral history
+  - URL: https://www.thehenryford.org/docs/thehenryfordlibraries/innovator-transcripts/transcript_musk_full-length5a30f6547bde445e8119d53fb454b300.pdf
+  - Rights: `rights_review`
+  - Notes: Full-length 2008 oral-history interview transcript; high-priority early-career primary-ish source.
+- `Tesla Investor Relations / official_company_event_index` Tesla Investor Relations events and presentations
+  - URL: https://ir.tesla.com/#events-and-presentations
+  - Rights: `rights_review`
+  - Notes: Official source for earnings calls, shareholder meetings, AI Day, Autonomy Day, Battery Day, product/event presentations, and webcast metadata.
+- `SEC EDGAR / regulatory_filings` Tesla SEC EDGAR company filings
+  - URL: https://www.sec.gov/edgar/browse/?CIK=1318605
+  - Rights: `public_regulatory_records`
+  - Notes: Use for letters, exhibits, proxy statements, 10-K/10-Q/8-K, and quoted executive statements; connect to Musk only when speaker/author is explicit.
+- `Tesla / official_company_archive` Tesla press releases and company blog
+  - URL: https://www.tesla.com/blog
+  - Rights: `rights_review`
+  - Notes: Official company posts and announcements; identify Musk-authored or Musk-quoted items separately from generic company copy.
+- `SpaceX / official_company_archive` SpaceX news and updates
+  - URL: https://www.spacex.com/updates/
+  - Rights: `rights_review`
+  - Notes: Official SpaceX update archive; useful for launch talks, Starship updates, and Musk-quoted company material.
+- `xAI / official_company_archive` xAI news and blog
+  - URL: https://x.ai/news
+  - Rights: `rights_review`
+  - Notes: Official xAI announcements and Grok-related material; connect to Musk only where authored, quoted, or primary-source-linked.
+- `Neuralink / official_company_archive` Neuralink blog
+  - URL: https://neuralink.com/blog/
+  - Rights: `rights_review`
+  - Notes: Official Neuralink updates; cross-link with Musk talks/interviews about brain-computer interfaces.
+- `X / social_archive` X account and social archive
+  - URL: https://x.com/elonmusk
+  - Rights: `api_or_user_export_required`
+  - Notes: Do not scrape logged-in X pages blindly. Prefer user export, official API, archived public URLs, or licensed datasets; preserve post ID, timestamp, reply/quote context, and deletion status.
+- `Podchaser API / podcast_appearance_discovery` Podchaser Elon Musk podcast appearances
+  - URL: https://www.podchaser.com/api
+  - Rights: `api_terms`
+  - Notes: Use person/credit search to discover podcast appearances and transcript availability across millions of episodes.
+- `Podscan API / podcast_transcript_search` Podscan Elon Musk transcript/entity search
+  - URL: https://help.podscan.fm/en/article/building-podcast-powered-applications-with-the-podscan-api-13741kz/
+  - Rights: `api_terms`
+  - Notes: Use for rolling monitoring of new Elon mentions/appearances and transcript availability; entity matches require verification.
+- `spoken.md / on_demand_transcript_fetch` spoken.md targeted transcript fetch
+  - URL: https://spoken.md/
+  - Rights: `commercial_api_terms`
+  - Notes: Use after the interview index identifies high-priority podcast episodes needing transcripts.
+- `Hugging Face / earnings_call_dataset` Kurry S&P 500 earnings transcripts
+  - URL: https://huggingface.co/datasets/kurry/sp500_earnings_transcripts
+  - Rights: `rights_review`
+  - Notes: Use to backfill Tesla earnings-call transcript rows from 2005-2025 and map speaker/date/company edges.
+- `Hugging Face / cc_by_youtube_transcript_search` YouTube Commons CC-BY transcript corpus
+  - URL: https://huggingface.co/datasets/PleIAs/YouTube-Commons
+  - Rights: `cc-by-4.0_with_attribution`
+  - Notes: Filter CC-BY YouTube transcripts by Elon/Tesla/SpaceX/xAI titles and channels for rights-clean backfill.
+- `Internet Archive / media_archive_search` Internet Archive Elon Musk media search
+  - URL: https://archive.org/search?query=%22Elon+Musk%22
+  - Rights: `item_level_rights_review`
+  - Notes: Use for older talks, TV appearances, event recordings, and archived web/media items; rights vary per item.
+- `CourtListener / legal_records_search` CourtListener Elon Musk search
+  - URL: https://www.courtlistener.com/?q=%22Elon%20Musk%22
+  - Rights: `public_records_with_item_terms`
+  - Notes: Use for depositions, exhibits, opinions, and filings containing Musk statements; distinguish quoted speech from lawyer narration.
+- `Google Patents / patent_records_search` Google Patents Elon Musk inventor search
+  - URL: https://patents.google.com/?inventor=Elon+Musk
+  - Rights: `public_patent_records`
+  - Notes: Use for early technical/inventor records; likely metadata-first, not worldview text.
+
+## Discovery URLs
+
+- https://www.google.com/search?q=%22Elon+Musk%22+interview+transcript
+- https://www.google.com/search?q=%22Elon+Musk%22+podcast+transcript
+- https://www.google.com/search?q=%22Elon+Musk%22+%22Joe+Rogan%22+transcript
+- https://www.google.com/search?q=%22Elon+Musk%22+%22Lex+Fridman%22+transcript
+- https://www.google.com/search?q=%22Elon+Musk%22+TED+transcript
+- https://www.google.com/search?q=%22Elon+Musk%22+%22Code+Conference%22+transcript
+- https://www.google.com/search?q=%22Elon+Musk%22+%22SXSW%22+transcript
+- https://www.google.com/search?q=%22Elon+Musk%22+%22World+Government+Summit%22+transcript
+- https://www.google.com/search?q=%22Elon+Musk%22+%22Tesla+earnings+call%22+transcript
+- https://www.google.com/search?q=%22Elon+Musk%22+%22AI+Day%22+transcript
+- https://www.google.com/search?q=%22Elon+Musk%22+%22Autonomy+Day%22+transcript
+- https://www.google.com/search?q=%22Elon+Musk%22+%22Starship%22+presentation+transcript
+- https://www.google.com/search?q=%22Elon+Musk%22+%22Neuralink%22+presentation+transcript
+- https://www.youtube.com/results?search_query=%22Elon+Musk%22+site%3Ayoutube.com+interview
+- https://www.youtube.com/results?search_query=%22Elon+Musk%22+site%3Ayoutube.com+keynote

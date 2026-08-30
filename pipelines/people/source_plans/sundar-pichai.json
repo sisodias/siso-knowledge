@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Sundar Pichai",
+  "slug": "sundar-pichai",
+  "status": "approved",
+  "tier": "S",
+  "line": "frontier-ai-company-leaders",
+  "role": "CEO, Google and Alphabet",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "gemini",
+    "search",
+    "google ai",
+    "cloud",
+    "enterprise"
+  ],
+  "source_counts": {
+    "targets": 2,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Sundar Pichai x",
+      "repository": "x",
+      "type": "registry_source",
+      "url": "https://x.com/sundarpichai",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    },
+    {
+      "title": "Sundar Pichai official",
+      "repository": "official",
+      "type": "registry_source",
+      "url": "https://abc.xyz",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Sundar+Pichai%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Sundar+Pichai%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Sundar+Pichai%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Sundar+Pichai%22+gemini",
+    "https://www.google.com/search?q=%22Sundar+Pichai%22+search"
+  ],
+  "curation_notes": []
+}

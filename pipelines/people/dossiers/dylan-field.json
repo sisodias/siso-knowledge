@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Dylan Field",
+  "slug": "dylan-field",
+  "status": "candidate",
+  "tier": "A",
+  "line": "big-tech-platform-ceos",
+  "role": "Co-founder and CEO, Figma",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "design",
+    "product",
+    "collaboration",
+    "ai design tools"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/zoink"
+    }
+  ],
+  "notes": "",
+  "next_action": "import_transcript",
+  "video_next_action": "import_transcript",
+  "search_queries": [
+    "\"Dylan Field\" interview",
+    "\"Dylan Field\" keynote",
+    "\"Dylan Field\" podcast",
+    "\"Dylan Field\" lecture",
+    "\"Dylan Field\" Co-founder and CEO interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Dylan Field x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/zoink",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Dylan+Field%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Dylan+Field%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Dylan+Field%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Dylan+Field%22+design",
+      "https://www.google.com/search?q=%22Dylan+Field%22+product"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 1,
+    "transcript_ready": 0,
+    "total": 1
+  },
+  "videos": [
+    {
+      "video_id": "wGEnr0Jba0g",
+      "title": "Taste is your Moat (Dylan Field of Figma)",
+      "url": "https://www.youtube.com/watch?v=wGEnr0Jba0g",
+      "channel_name": "Latent Space",
+      "priority": "P1",
+      "score": 6.0,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "dylan-field__wGEnr0Jba0g__Taste-is-your-Moat-Dylan-Field-of-Figma.txt"
+    }
+  ]
+}

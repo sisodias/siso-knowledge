@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Warren Buffett",
+  "slug": "warren-buffett",
+  "status": "candidate",
+  "tier": "S",
+  "line": "business-wealth-persuasion-self-mastery",
+  "role": "Chairman and CEO, Berkshire Hathaway",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "investing",
+    "capital allocation",
+    "temperament",
+    "business quality"
+  ],
+  "sources": [],
+  "notes": "",
+  "next_action": "import_transcript",
+  "video_next_action": "import_transcript",
+  "search_queries": [
+    "\"Warren Buffett\" interview",
+    "\"Warren Buffett\" keynote",
+    "\"Warren Buffett\" podcast",
+    "\"Warren Buffett\" lecture",
+    "\"Warren Buffett\" Chairman and CEO interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 0,
+      "discovery_urls": 5
+    },
+    "source_targets": [],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Warren+Buffett%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Warren+Buffett%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Warren+Buffett%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Warren+Buffett%22+investing",
+      "https://www.google.com/search?q=%22Warren+Buffett%22+capital+allocation"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 1,
+    "transcript_ready": 0,
+    "total": 1
+  },
+  "videos": [
+    {
+      "video_id": "pyYk5WPcPm4",
+      "title": "6 startup ideas from the Tech Warren Buffett (make $120k/mo)",
+      "url": "https://www.youtube.com/watch?v=pyYk5WPcPm4",
+      "channel_name": "Greg Isenberg",
+      "priority": "P0",
+      "score": 8.0,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "warren-buffett__pyYk5WPcPm4__6-startup-ideas-from-the-Tech-Warren-Buffett-make-120k-mo.txt"
+    }
+  ]
+}

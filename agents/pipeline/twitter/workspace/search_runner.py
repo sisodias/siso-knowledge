@@ -10,7 +10,7 @@ from datetime import datetime
 
 # Paths
 AGENT_DIR = Path(__file__).parent
-ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 INBOX_DIR = ROOT / "pipelines" / "twitter" / "inbox"
 TASKS_DIR = AGENT_DIR.parent / "inbox"
 

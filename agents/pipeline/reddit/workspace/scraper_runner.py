@@ -3,7 +3,7 @@
 RedditQueueAnalysis agent - scraper runner.
 
 Checks inbox for tasks, runs scraper, writes to pipeline inbox,
-then runs ingest.py to add to SISO_Library.
+then runs ingest.py to add to SISO_Knowledge.
 
 Usage:
     python3 agents/RedditQueueAnalysis/workspace/scraper_runner.py
@@ -16,10 +16,10 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-AGENT_DIR = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library/agents/RedditQueueAnalysis")
+AGENT_DIR = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/agents/RedditQueueAnalysis")
 INBOX_DIR = AGENT_DIR / "inbox"
 WORKSPACE_DIR = AGENT_DIR / "workspace"
-PIPELINE_DIR = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library/pipelines/reddit")
+PIPELINE_DIR = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/reddit")
 SCRAPER_SCRIPT = PIPELINE_DIR / "scraper.py"
 INGEST_SCRIPT = PIPELINE_DIR / "ingest.py"
 

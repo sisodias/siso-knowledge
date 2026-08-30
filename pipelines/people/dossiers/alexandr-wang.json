@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Alexandr Wang",
+  "slug": "alexandr-wang",
+  "status": "candidate",
+  "tier": "A",
+  "line": "frontier-ai-company-leaders",
+  "role": "Founder, Scale AI; Meta AI leader",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "data",
+    "ai infrastructure",
+    "government ai",
+    "meta ai"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/alexandr_wang"
+    }
+  ],
+  "notes": "",
+  "next_action": "collect_direct_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Alexandr Wang\" interview",
+    "\"Alexandr Wang\" keynote",
+    "\"Alexandr Wang\" podcast",
+    "\"Alexandr Wang\" lecture",
+    "\"Alexandr Wang\" Founder interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Alexandr Wang x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/alexandr_wang",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Alexandr+Wang%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Alexandr+Wang%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Alexandr+Wang%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Alexandr+Wang%22+data",
+      "https://www.google.com/search?q=%22Alexandr+Wang%22+ai+infrastructure"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

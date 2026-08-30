@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Claire Hughes Johnson",
+  "slug": "claire-hughes-johnson",
+  "status": "candidate",
+  "tier": "A",
+  "line": "fast-growing-company-builders",
+  "role": "Former COO, Stripe",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "operations",
+    "management",
+    "scaling",
+    "company culture",
+    "leadership"
+  ],
+  "sources": [],
+  "notes": "",
+  "next_action": "collect_direct_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Claire Hughes Johnson\" interview",
+    "\"Claire Hughes Johnson\" keynote",
+    "\"Claire Hughes Johnson\" podcast",
+    "\"Claire Hughes Johnson\" lecture",
+    "\"Claire Hughes Johnson\" Former COO interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 0,
+      "discovery_urls": 5
+    },
+    "source_targets": [],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Claire+Hughes+Johnson%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Claire+Hughes+Johnson%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Claire+Hughes+Johnson%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Claire+Hughes+Johnson%22+operations",
+      "https://www.google.com/search?q=%22Claire+Hughes+Johnson%22+management"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

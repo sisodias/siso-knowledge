@@ -17,7 +17,7 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 sys_path_inserted = False
 
 # Known tools we care about for linking

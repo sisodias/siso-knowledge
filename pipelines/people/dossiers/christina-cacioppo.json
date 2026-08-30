@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Christina Cacioppo",
+  "slug": "christina-cacioppo",
+  "status": "candidate",
+  "tier": "B",
+  "line": "fast-growing-company-builders",
+  "role": "Co-founder and CEO, Vanta",
+  "collection_mode": "social-first",
+  "topics": [
+    "security",
+    "compliance",
+    "b2b saas",
+    "startups",
+    "company building"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/christinacaci"
+    }
+  ],
+  "notes": "",
+  "next_action": "collect_social_and_longform_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Christina Cacioppo\" interview",
+    "\"Christina Cacioppo\" keynote",
+    "\"Christina Cacioppo\" podcast",
+    "\"Christina Cacioppo\" lecture",
+    "\"Christina Cacioppo\" Co-founder and CEO interview"
+  ],
+  "source_plan": {
+    "source_strategy": "social",
+    "next_source_action": "collect_social_and_longform_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Christina Cacioppo x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/christinacaci",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Christina+Cacioppo%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Christina+Cacioppo%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Christina+Cacioppo%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Christina+Cacioppo%22+security",
+      "https://www.google.com/search?q=%22Christina+Cacioppo%22+compliance"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

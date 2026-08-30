@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Gwern Branwen",
+  "slug": "gwern-branwen",
+  "status": "candidate",
+  "tier": "B",
+  "line": "ai-researchers-technical-thinkers",
+  "role": "Independent researcher and writer",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "research synthesis",
+    "ai",
+    "statistics",
+    "long-form writing"
+  ],
+  "source_counts": {
+    "targets": 1,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Gwern Branwen website",
+      "repository": "website",
+      "type": "registry_source",
+      "url": "https://gwern.net",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Gwern+Branwen%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Gwern+Branwen%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Gwern+Branwen%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Gwern+Branwen%22+research+synthesis",
+    "https://www.google.com/search?q=%22Gwern+Branwen%22+ai"
+  ],
+  "curation_notes": []
+}

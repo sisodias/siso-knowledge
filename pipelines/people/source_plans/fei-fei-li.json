@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Fei-Fei Li",
+  "slug": "fei-fei-li",
+  "status": "candidate",
+  "tier": "A",
+  "line": "ai-researchers-technical-thinkers",
+  "role": "AI researcher and professor",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "computer vision",
+    "human-centered ai",
+    "imagenet",
+    "healthcare ai"
+  ],
+  "source_counts": {
+    "targets": 1,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Fei-Fei Li x",
+      "repository": "x",
+      "type": "registry_source",
+      "url": "https://x.com/drfeifei",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Fei-Fei+Li%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Fei-Fei+Li%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Fei-Fei+Li%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Fei-Fei+Li%22+computer+vision",
+    "https://www.google.com/search?q=%22Fei-Fei+Li%22+human-centered+ai"
+  ],
+  "curation_notes": []
+}

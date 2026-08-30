@@ -1,0 +1,188 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Jensen Huang",
+  "slug": "jensen-huang",
+  "status": "approved",
+  "tier": "S",
+  "line": "frontier-ai-company-leaders",
+  "role": "Co-founder, President and CEO, NVIDIA",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "ai infrastructure",
+    "gpu",
+    "accelerated computing",
+    "inference",
+    "deep learning"
+  ],
+  "sources": [
+    {
+      "type": "official",
+      "url": "https://www.nvidia.com/en-us/about-nvidia/leadership/"
+    },
+    {
+      "type": "youtube",
+      "url": "https://youtube.com/@nvidia"
+    }
+  ],
+  "notes": "",
+  "next_action": "ready_for_extraction",
+  "video_next_action": "ready_for_extraction",
+  "search_queries": [
+    "\"Jensen Huang\" interview",
+    "\"Jensen Huang\" keynote",
+    "\"Jensen Huang\" podcast",
+    "\"Jensen Huang\" lecture",
+    "\"Jensen Huang\" Co-founder interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 2,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Jensen Huang official",
+        "repository": "official",
+        "type": "registry_source",
+        "url": "https://www.nvidia.com/en-us/about-nvidia/leadership/",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      },
+      {
+        "title": "Jensen Huang youtube",
+        "repository": "youtube",
+        "type": "registry_source",
+        "url": "https://youtube.com/@nvidia",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Jensen+Huang%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Jensen+Huang%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Jensen+Huang%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Jensen+Huang%22+ai+infrastructure",
+      "https://www.google.com/search?q=%22Jensen+Huang%22+gpu"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 6,
+    "transcript_ready": 4,
+    "total": 10
+  },
+  "videos": [
+    {
+      "video_id": "avWhreBUYF0",
+      "title": "#define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang)",
+      "url": "https://www.youtube.com/watch?v=avWhreBUYF0",
+      "channel_name": "Ai Engineer",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "jensen-huang__avWhreBUYF0__define-AI-Engineer-Greg-Brockman-OpenAI-ft-Jensen-Huang.txt"
+    },
+    {
+      "video_id": "slhh1wyK9JY",
+      "title": "AI News E4: Huge ChatGPT Updates, Apple AI, Disney AI, New Nvidia Chip, AI Clones, Musk v Zuck!",
+      "url": "https://www.youtube.com/watch?v=slhh1wyK9JY",
+      "channel_name": "Matthew Berman",
+      "priority": "P1",
+      "score": 7.3,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "jensen-huang__slhh1wyK9JY__AI-News-E4-Huge-ChatGPT-Updates-Apple-AI-Disney-AI-New-Nvidia-Chip-AI-Clones-Mus.txt"
+    },
+    {
+      "video_id": "qx0tPXwHYYA",
+      "title": "AI News: ChatGPT Pulse, Gemini Robotics, Qwen3-Max, Stargate, OpenAI and Nvidia, and more!",
+      "url": "https://www.youtube.com/watch?v=qx0tPXwHYYA",
+      "channel_name": "Matthew Berman",
+      "priority": "P1",
+      "score": 7.3,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "jensen-huang__qx0tPXwHYYA__AI-News-ChatGPT-Pulse-Gemini-Robotics-Qwen3-Max-Stargate-OpenAI-and-Nvidia-and-m.txt"
+    },
+    {
+      "video_id": "YzpHiVNE7Bw",
+      "title": "AI News: Gemini 3 Flash, GPT Image 1.5, NVIDIA Nemotron 3, Bernie Sanders DOOMER, and more!",
+      "url": "https://www.youtube.com/watch?v=YzpHiVNE7Bw",
+      "channel_name": "Matthew Berman",
+      "priority": "P1",
+      "score": 7.3,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "jensen-huang__YzpHiVNE7Bw__AI-News-Gemini-3-Flash-GPT-Image-1-5-NVIDIA-Nemotron-3-Bernie-Sanders-DOOMER-and.txt"
+    },
+    {
+      "video_id": "MW8YXn-_-AE",
+      "title": "AI News: GPT-6 2025, NVIDIA DGX-1, Claude Skills, Waymo DDOS, Datacenters in Space, and more!",
+      "url": "https://www.youtube.com/watch?v=MW8YXn-_-AE",
+      "channel_name": "Matthew Berman",
+      "priority": "P1",
+      "score": 7.3,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "jensen-huang__MW8YXn-_-AE__AI-News-GPT-6-2025-NVIDIA-DGX-1-Claude-Skills-Waymo-DDOS-Datacenters-in-Space-an.txt"
+    },
+    {
+      "video_id": "n107rk38hww",
+      "title": "AI News: Meta Movie Gen, Hinton Wins Nobel Prize, NVIDIA's New Open SOTA Model, Flux1.1 Pro",
+      "url": "https://www.youtube.com/watch?v=n107rk38hww",
+      "channel_name": "Matthew Berman",
+      "priority": "P1",
+      "score": 7.3,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "jensen-huang__n107rk38hww__AI-News-Meta-Movie-Gen-Hinton-Wins-Nobel-Prize-NVIDIA-s-New-Open-SOTA-Model-Flux.txt"
+    },
+    {
+      "video_id": "t5pwwCOyim8",
+      "title": "Nvidia Just Changed Robotics Forever.... ( Nvidia GR00T N1,Nvidia Newton)",
+      "url": "https://www.youtube.com/watch?v=t5pwwCOyim8",
+      "channel_name": "Ai Grid",
+      "priority": "P2",
+      "score": 5.3,
+      "status": "transcript_ready",
+      "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/t5pwwCOyim8.txt",
+      "suggested_transcript_filename": ""
+    },
+    {
+      "video_id": "lMo5eVjQ2jI",
+      "title": "AI News : Deceptive AI Agents, OpenAIs Big Change, Deepseek R2 Leak, Nvidias New Model...And More",
+      "url": "https://www.youtube.com/watch?v=lMo5eVjQ2jI",
+      "channel_name": "Ai Grid",
+      "priority": "P3",
+      "score": 2.3,
+      "status": "transcript_ready",
+      "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/lMo5eVjQ2jI.txt",
+      "suggested_transcript_filename": ""
+    },
+    {
+      "video_id": "LPpbAujagdM",
+      "title": "Nvidia CEO SHOCKS Everyone: \u201cChina Will WIN The AI Race!\u201d",
+      "url": "https://www.youtube.com/watch?v=LPpbAujagdM",
+      "channel_name": "Ai Grid",
+      "priority": "P3",
+      "score": 2.3,
+      "status": "transcript_ready",
+      "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/LPpbAujagdM.txt",
+      "suggested_transcript_filename": ""
+    },
+    {
+      "video_id": "lBwh6_V_d8Q",
+      "title": "Nvidia Ceo STUNS \"China Are NOT Behind...\"",
+      "url": "https://www.youtube.com/watch?v=lBwh6_V_d8Q",
+      "channel_name": "Ai Grid",
+      "priority": "P3",
+      "score": 2.3,
+      "status": "transcript_ready",
+      "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/lBwh6_V_d8Q.txt",
+      "suggested_transcript_filename": ""
+    }
+  ]
+}

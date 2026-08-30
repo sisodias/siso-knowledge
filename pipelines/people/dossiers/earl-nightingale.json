@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Earl Nightingale",
+  "slug": "earl-nightingale",
+  "status": "candidate",
+  "tier": "B",
+  "line": "business-wealth-persuasion-self-mastery",
+  "role": "Personal development author and broadcaster",
+  "collection_mode": "corpus-first",
+  "topics": [
+    "personal development",
+    "goals",
+    "mindset",
+    "success"
+  ],
+  "sources": [],
+  "notes": "",
+  "next_action": "rights_review_before_ingest",
+  "video_next_action": "discover_candidates",
+  "search_queries": [],
+  "source_plan": {
+    "source_strategy": "corpus",
+    "next_source_action": "rights_review_before_ingest",
+    "source_counts": {
+      "targets": 4,
+      "discovery_urls": 4
+    },
+    "source_targets": [
+      {
+        "title": "Earl Nightingale source search",
+        "repository": "Project Gutenberg",
+        "type": "archive_search",
+        "url": "https://www.gutenberg.org/ebooks/search/?query=Earl+Nightingale",
+        "rights_status": "rights_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      },
+      {
+        "title": "Earl Nightingale source search",
+        "repository": "Wikisource",
+        "type": "archive_search",
+        "url": "https://en.wikisource.org/w/index.php?search=Earl+Nightingale",
+        "rights_status": "rights_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      },
+      {
+        "title": "Earl Nightingale source search",
+        "repository": "Internet Archive",
+        "type": "archive_search",
+        "url": "https://archive.org/search?query=Earl+Nightingale",
+        "rights_status": "rights_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      },
+      {
+        "title": "Earl Nightingale source search",
+        "repository": "Open Library",
+        "type": "archive_search",
+        "url": "https://openlibrary.org/search?q=Earl+Nightingale",
+        "rights_status": "rights_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.gutenberg.org/ebooks/search/?query=Earl+Nightingale",
+      "https://en.wikisource.org/w/index.php?search=Earl+Nightingale",
+      "https://archive.org/search?query=Earl+Nightingale",
+      "https://openlibrary.org/search?q=Earl+Nightingale"
+    ],
+    "curation_notes": [
+      "Modern corpus entry: use official archives, public-domain items, or user-supplied material only after rights review."
+    ]
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

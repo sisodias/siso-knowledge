@@ -13,7 +13,7 @@ from typing import Optional
 
 import yaml
 
-LIB_PATH = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+LIB_PATH = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 INDEX_PATH = LIB_PATH / "_index"
 MANIFEST_LOCK_TIMEOUT = 30  # seconds for rebuild
 

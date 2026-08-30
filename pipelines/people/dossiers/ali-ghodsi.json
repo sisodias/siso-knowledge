@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Ali Ghodsi",
+  "slug": "ali-ghodsi",
+  "status": "candidate",
+  "tier": "A",
+  "line": "fast-growing-company-builders",
+  "role": "Co-founder and CEO, Databricks",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "data",
+    "lakehouse",
+    "enterprise ai",
+    "open source",
+    "cloud"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/alighodsi"
+    }
+  ],
+  "notes": "",
+  "next_action": "collect_direct_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Ali Ghodsi\" interview",
+    "\"Ali Ghodsi\" keynote",
+    "\"Ali Ghodsi\" podcast",
+    "\"Ali Ghodsi\" lecture",
+    "\"Ali Ghodsi\" Co-founder and CEO interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Ali Ghodsi x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/alighodsi",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Ali+Ghodsi%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Ali+Ghodsi%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Ali+Ghodsi%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Ali+Ghodsi%22+data",
+      "https://www.google.com/search?q=%22Ali+Ghodsi%22+lakehouse"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

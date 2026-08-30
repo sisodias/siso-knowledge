@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Carl Sagan",
+  "slug": "carl-sagan",
+  "status": "candidate",
+  "tier": "A",
+  "line": "writers-sensemakers",
+  "role": "Scientist and communicator",
+  "collection_mode": "corpus-first",
+  "source_strategy": "corpus",
+  "next_source_action": "rights_review_before_ingest",
+  "topics": [
+    "science communication",
+    "skepticism",
+    "astronomy",
+    "wonder"
+  ],
+  "source_counts": {
+    "targets": 4,
+    "discovery_urls": 4
+  },
+  "source_targets": [
+    {
+      "title": "Carl Sagan source search",
+      "repository": "Project Gutenberg",
+      "type": "archive_search",
+      "url": "https://www.gutenberg.org/ebooks/search/?query=Carl+Sagan",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Carl Sagan source search",
+      "repository": "Wikisource",
+      "type": "archive_search",
+      "url": "https://en.wikisource.org/w/index.php?search=Carl+Sagan",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Carl Sagan source search",
+      "repository": "Internet Archive",
+      "type": "archive_search",
+      "url": "https://archive.org/search?query=Carl+Sagan",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Carl Sagan source search",
+      "repository": "Open Library",
+      "type": "archive_search",
+      "url": "https://openlibrary.org/search?q=Carl+Sagan",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.gutenberg.org/ebooks/search/?query=Carl+Sagan",
+    "https://en.wikisource.org/w/index.php?search=Carl+Sagan",
+    "https://archive.org/search?query=Carl+Sagan",
+    "https://openlibrary.org/search?q=Carl+Sagan"
+  ],
+  "curation_notes": [
+    "Modern corpus entry: use official archives, public-domain items, or user-supplied material only after rights review."
+  ]
+}

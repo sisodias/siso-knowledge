@@ -1,0 +1,155 @@
+# People Source Backlog
+
+Generated: `2026-07-25T20:27:05+00:00`
+People: `140`
+
+## Totals
+
+- `collect_corpus_sources`: `30`
+- `collect_direct_sources`: `60`
+- `collect_social_and_longform_sources`: `25`
+- `manual_review`: `4`
+- `rights_review_before_ingest`: `21`
+
+## People
+
+- [Jensen Huang](jensen-huang.md) - `collect_direct_sources` - targets `2`
+- [Elon Musk](elon-musk.md) - `collect_social_and_longform_sources` - targets `22`
+- [Sam Altman](sam-altman.md) - `collect_direct_sources` - targets `2`
+- [Dario Amodei](dario-amodei.md) - `collect_direct_sources` - targets `2`
+- [Sundar Pichai](sundar-pichai.md) - `collect_direct_sources` - targets `2`
+- [Satya Nadella](satya-nadella.md) - `collect_direct_sources` - targets `2`
+- [Mark Zuckerberg](mark-zuckerberg.md) - `collect_direct_sources` - targets `2`
+- [Demis Hassabis](demis-hassabis.md) - `collect_direct_sources` - targets `2`
+- [Andrej Karpathy](andrej-karpathy.md) - `collect_social_and_longform_sources` - targets `2`
+- [Jim Fan](jim-fan.md) - `collect_social_and_longform_sources` - targets `1`
+- [Yann LeCun](yann-lecun.md) - `collect_social_and_longform_sources` - targets `1`
+- [Andrew Ng](andrew-ng.md) - `collect_direct_sources` - targets `2`
+- [Jim Keller](jim-keller.md) - `collect_social_and_longform_sources` - targets `1`
+- [Simon Willison](simon-willison.md) - `collect_direct_sources` - targets `2`
+- [Simon Olson](simon-olson.md) - `manual_review` - targets `2`
+- [swyx](swyx.md) - `collect_social_and_longform_sources` - targets `2`
+- [Theo Browne](theo-browne.md) - `collect_social_and_longform_sources` - targets `2`
+- [Matthew Berman](matthew-berman.md) - `collect_social_and_longform_sources` - targets `2`
+- [Mustafa Suleyman](mustafa-suleyman.md) - `collect_direct_sources` - targets `1`
+- [Fidji Simo](fidji-simo.md) - `collect_direct_sources` - targets `1`
+- [Mira Murati](mira-murati.md) - `collect_direct_sources` - targets `0`
+- [Ilya Sutskever](ilya-sutskever.md) - `collect_direct_sources` - targets `1`
+- [Alexandr Wang](alexandr-wang.md) - `collect_direct_sources` - targets `1`
+- [Jason Droege](jason-droege.md) - `manual_review` - targets `1`
+- [Andy Jassy](andy-jassy.md) - `collect_direct_sources` - targets `1`
+- [Tim Cook](tim-cook.md) - `collect_direct_sources` - targets `1`
+- [John Ternus](john-ternus.md) - `collect_direct_sources` - targets `0`
+- [Patrick Collison](patrick-collison.md) - `collect_social_and_longform_sources` - targets `1`
+- [Dylan Field](dylan-field.md) - `collect_direct_sources` - targets `1`
+- [Brian Chesky](brian-chesky.md) - `collect_direct_sources` - targets `1`
+- [Brian Armstrong](brian-armstrong.md) - `collect_social_and_longform_sources` - targets `1`
+- [Tobi Lutke](tobi-lutke.md) - `collect_social_and_longform_sources` - targets `1`
+- [Lisa Su](lisa-su.md) - `collect_direct_sources` - targets `1`
+- [C. C. Wei](cc-wei.md) - `collect_direct_sources` - targets `0`
+- [Hock Tan](hock-tan.md) - `collect_direct_sources` - targets `0`
+- [Cristiano Amon](cristiano-amon.md) - `collect_direct_sources` - targets `1`
+- [Safra Catz](safra-catz.md) - `collect_direct_sources` - targets `0`
+- [Arvind Krishna](arvind-krishna.md) - `collect_direct_sources` - targets `1`
+- [Bill Gates](bill-gates.md) - `collect_direct_sources` - targets `1`
+- [Jeff Bezos](jeff-bezos.md) - `collect_direct_sources` - targets `1`
+- [Steve Jobs](steve-jobs.md) - `collect_corpus_sources` - targets `4`
+- [Aravind Srinivas](aravind-srinivas.md) - `collect_social_and_longform_sources` - targets `1`
+- [Michael Truell](michael-truell.md) - `manual_review` - targets `1`
+- [Guillermo Rauch](guillermo-rauch.md) - `collect_social_and_longform_sources` - targets `1`
+- [Ali Ghodsi](ali-ghodsi.md) - `collect_direct_sources` - targets `1`
+- [Karri Saarinen](karri-saarinen.md) - `collect_social_and_longform_sources` - targets `1`
+- [Eric Glyman](eric-glyman.md) - `collect_direct_sources` - targets `1`
+- [Christina Cacioppo](christina-cacioppo.md) - `collect_social_and_longform_sources` - targets `1`
+- [Mathilde Collin](mathilde-collin.md) - `collect_social_and_longform_sources` - targets `1`
+- [Melanie Perkins](melanie-perkins.md) - `collect_direct_sources` - targets `0`
+- [Stewart Butterfield](stewart-butterfield.md) - `collect_social_and_longform_sources` - targets `1`
+- [Tony Xu](tony-xu.md) - `collect_direct_sources` - targets `1`
+- [Ritesh Agarwal](ritesh-agarwal.md) - `collect_social_and_longform_sources` - targets `1`
+- [Sam Blond](sam-blond.md) - `collect_social_and_longform_sources` - targets `1`
+- [Lenny Rachitsky](lenny-rachitsky.md) - `collect_direct_sources` - targets `2`
+- [Claire Hughes Johnson](claire-hughes-johnson.md) - `collect_direct_sources` - targets `0`
+- [Geoffrey Hinton](geoffrey-hinton.md) - `collect_direct_sources` - targets `0`
+- [Yoshua Bengio](yoshua-bengio.md) - `collect_direct_sources` - targets `1`
+- [Fei-Fei Li](fei-fei-li.md) - `collect_direct_sources` - targets `1`
+- [Francois Chollet](francois-chollet.md) - `collect_social_and_longform_sources` - targets `1`
+- [Noam Shazeer](noam-shazeer.md) - `collect_direct_sources` - targets `0`
+- [Jeff Dean](jeff-dean.md) - `collect_direct_sources` - targets `1`
+- [Ilia Polosukhin](ilia-polosukhin.md) - `collect_social_and_longform_sources` - targets `1`
+- [Matei Zaharia](matei-zaharia.md) - `collect_direct_sources` - targets `1`
+- [Jonathan Frankle](jonathan-frankle.md) - `collect_social_and_longform_sources` - targets `1`
+- [Chris Olah](chris-olah.md) - `collect_direct_sources` - targets `1`
+- [Paul Christiano](paul-christiano.md) - `collect_direct_sources` - targets `0`
+- [Eliezer Yudkowsky](eliezer-yudkowsky.md) - `collect_direct_sources` - targets `1`
+- [Gwern Branwen](gwern-branwen.md) - `collect_direct_sources` - targets `1`
+- [Alex Hormozi](alex-hormozi.md) - `collect_social_and_longform_sources` - targets `2`
+- [Bob Proctor](bob-proctor.md) - `rights_review_before_ingest` - targets `4`
+- [David Goggins](david-goggins.md) - `collect_direct_sources` - targets `1`
+- [Naval Ravikant](naval-ravikant.md) - `collect_direct_sources` - targets `1`
+- [Paul Graham](paul-graham.md) - `collect_direct_sources` - targets `2`
+- [Charlie Munger](charlie-munger.md) - `collect_corpus_sources` - targets `4`
+- [Warren Buffett](warren-buffett.md) - `collect_direct_sources` - targets `0`
+- [Ray Dalio](ray-dalio.md) - `collect_direct_sources` - targets `1`
+- [Peter Thiel](peter-thiel.md) - `collect_direct_sources` - targets `0`
+- [Ben Horowitz](ben-horowitz.md) - `collect_direct_sources` - targets `1`
+- [Marc Andreessen](marc-andreessen.md) - `collect_social_and_longform_sources` - targets `1`
+- [Keith Rabois](keith-rabois.md) - `collect_social_and_longform_sources` - targets `1`
+- [Ed Catmull](ed-catmull.md) - `collect_direct_sources` - targets `0`
+- [James Clear](james-clear.md) - `collect_direct_sources` - targets `1`
+- [Tony Robbins](tony-robbins.md) - `collect_direct_sources` - targets `1`
+- [Earl Nightingale](earl-nightingale.md) - `rights_review_before_ingest` - targets `4`
+- [Jim Rohn](jim-rohn.md) - `rights_review_before_ingest` - targets `4`
+- [Socrates](socrates.md) - `collect_corpus_sources` - targets `7`
+- [Plato](plato.md) - `collect_corpus_sources` - targets `7`
+- [Aristotle](aristotle.md) - `collect_corpus_sources` - targets `4`
+- [Marcus Aurelius](marcus-aurelius.md) - `collect_corpus_sources` - targets `7`
+- [Seneca](seneca.md) - `collect_corpus_sources` - targets `4`
+- [Epictetus](epictetus.md) - `collect_corpus_sources` - targets `8`
+- [Confucius](confucius.md) - `collect_corpus_sources` - targets `4`
+- [Laozi](laozi.md) - `collect_corpus_sources` - targets `4`
+- [Sun Tzu](sun-tzu.md) - `collect_corpus_sources` - targets `4`
+- [Machiavelli](machiavelli.md) - `collect_corpus_sources` - targets `4`
+- [Friedrich Nietzsche](friedrich-nietzsche.md) - `collect_corpus_sources` - targets `4`
+- [Arthur Schopenhauer](arthur-schopenhauer.md) - `collect_corpus_sources` - targets `4`
+- [Immanuel Kant](immanuel-kant.md) - `collect_corpus_sources` - targets `4`
+- [David Hume](david-hume.md) - `collect_corpus_sources` - targets `4`
+- [Rene Descartes](rene-descartes.md) - `collect_corpus_sources` - targets `4`
+- [Baruch Spinoza](baruch-spinoza.md) - `collect_corpus_sources` - targets `4`
+- [John Stuart Mill](john-stuart-mill.md) - `collect_corpus_sources` - targets `4`
+- [Adam Smith](adam-smith.md) - `collect_corpus_sources` - targets `5`
+- [Carl Jung](carl-jung.md) - `rights_review_before_ingest` - targets `4`
+- [Viktor Frankl](viktor-frankl.md) - `rights_review_before_ingest` - targets `4`
+- [Rene Girard](rene-girard.md) - `rights_review_before_ingest` - targets `4`
+- [Joseph Campbell](joseph-campbell.md) - `rights_review_before_ingest` - targets `4`
+- [Winston Churchill](winston-churchill.md) - `rights_review_before_ingest` - targets `4`
+- [Abraham Lincoln](abraham-lincoln.md) - `collect_corpus_sources` - targets `4`
+- [Benjamin Franklin](benjamin-franklin.md) - `collect_corpus_sources` - targets `7`
+- [Napoleon Bonaparte](napoleon-bonaparte.md) - `collect_corpus_sources` - targets `4`
+- [Julius Caesar](julius-caesar.md) - `collect_corpus_sources` - targets `5`
+- [Alexander the Great](alexander-the-great.md) - `collect_corpus_sources` - targets `4`
+- [Genghis Khan](genghis-khan.md) - `collect_corpus_sources` - targets `4`
+- [George Washington](george-washington.md) - `collect_corpus_sources` - targets `4`
+- [Thomas Jefferson](thomas-jefferson.md) - `collect_corpus_sources` - targets `4`
+- [Frederick Douglass](frederick-douglass.md) - `collect_corpus_sources` - targets `5`
+- [Martin Luther King Jr.](martin-luther-king-jr.md) - `rights_review_before_ingest` - targets `4`
+- [Nelson Mandela](nelson-mandela.md) - `rights_review_before_ingest` - targets `4`
+- [Lee Kuan Yew](lee-kuan-yew.md) - `rights_review_before_ingest` - targets `4`
+- [Henry Kissinger](henry-kissinger.md) - `rights_review_before_ingest` - targets `4`
+- [Peter Drucker](peter-drucker.md) - `rights_review_before_ingest` - targets `4`
+- [W. Edwards Deming](w-edwards-deming.md) - `rights_review_before_ingest` - targets `4`
+- [Nassim Nicholas Taleb](nassim-nicholas-taleb.md) - `collect_direct_sources` - targets `1`
+- [Daniel Kahneman](daniel-kahneman.md) - `rights_review_before_ingest` - targets `4`
+- [Richard Feynman](richard-feynman.md) - `rights_review_before_ingest` - targets `4`
+- [Carl Sagan](carl-sagan.md) - `rights_review_before_ingest` - targets `4`
+- [Isaac Asimov](isaac-asimov.md) - `rights_review_before_ingest` - targets `4`
+- [George Orwell](george-orwell.md) - `rights_review_before_ingest` - targets `5`
+- [Aldous Huxley](aldous-huxley.md) - `rights_review_before_ingest` - targets `4`
+- [Marshall McLuhan](marshall-mcluhan.md) - `rights_review_before_ingest` - targets `4`
+- [Kevin Kelly](kevin-kelly.md) - `collect_direct_sources` - targets `1`
+- [Stewart Brand](stewart-brand.md) - `collect_corpus_sources` - targets `4`
+- [Tyler Cowen](tyler-cowen.md) - `collect_direct_sources` - targets `1`
+- [Patrick McKenzie](patrick-mckenzie.md) - `collect_direct_sources` - targets `1`
+- [Byrne Hobart](byrne-hobart.md) - `collect_direct_sources` - targets `1`
+- [Packy McCormick](packy-mccormick.md) - `collect_direct_sources` - targets `1`
+- [Ben Thompson](ben-thompson.md) - `collect_direct_sources` - targets `1`
+- [Bob Lazar](bob-lazar.md) - `manual_review` - targets `1`

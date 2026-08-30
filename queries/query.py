@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Query the SISO Library."""
+"""Query SISO Knowledge."""
 import argparse
 import json
 import sqlite3
@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 from typing import Optional
 
-LIB_PATH = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+LIB_PATH = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 
 
 def load_manifest() -> dict:
@@ -82,7 +82,7 @@ def search_json(query_text: str, shelf: Optional[str] = None,
 
 def query(query_text: str, shelf: Optional[str] = None,
            tier: Optional[str] = None, limit: int = 10, format: str = "md"):
-    """Search pages in the SISO Library."""
+    """Search pages in SISO Knowledge."""
     # Try FTS5 first, fall back to JSON
     results = search_fts(query_text, shelf, tier, limit)
     if not results:
@@ -127,7 +127,7 @@ def query(query_text: str, shelf: Optional[str] = None,
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Query SISO Library",
+        description="Query SISO Knowledge",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:

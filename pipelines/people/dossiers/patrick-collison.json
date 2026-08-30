@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Patrick Collison",
+  "slug": "patrick-collison",
+  "status": "candidate",
+  "tier": "S",
+  "line": "big-tech-platform-ceos",
+  "role": "Co-founder and CEO, Stripe",
+  "collection_mode": "social-first",
+  "topics": [
+    "payments",
+    "internet economy",
+    "startups",
+    "progress studies",
+    "writing"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/patrickc"
+    }
+  ],
+  "notes": "",
+  "next_action": "collect_social_and_longform_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Patrick Collison\" interview",
+    "\"Patrick Collison\" keynote",
+    "\"Patrick Collison\" podcast",
+    "\"Patrick Collison\" lecture",
+    "\"Patrick Collison\" Co-founder and CEO interview"
+  ],
+  "source_plan": {
+    "source_strategy": "social",
+    "next_source_action": "collect_social_and_longform_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Patrick Collison x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/patrickc",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Patrick+Collison%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Patrick+Collison%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Patrick+Collison%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Patrick+Collison%22+payments",
+      "https://www.google.com/search?q=%22Patrick+Collison%22+internet+economy"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

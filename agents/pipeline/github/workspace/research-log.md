@@ -646,7 +646,7 @@ Research for indices 0-89. Researched via `gh repo view` and README fetch.
 **URL:** https://github.com/jarvis-raven/agent-distillations
 **Description:** A communal memory for ephemeral agents. Structured knowledge transfer, agent-to-agent
 
-**Research:** An agent-to-agent knowledge transfer system. Agents document their learnings (memory architecture patterns, voice interface lessons, working with humans) in a structured format designed for other agents to consume and adapt. Uses a YAML frontmatter format with TL;DR sections. This is a fascinating pattern for agent memory persistence - instead of human documentation, agents write for agents. Directly relevant to SISO's memory system research. The "knowledge that survives sessions" concept aligns with SISO's SISO_Library vision.
+**Research:** An agent-to-agent knowledge transfer system. Agents document their learnings (memory architecture patterns, voice interface lessons, working with humans) in a structured format designed for other agents to consume and adapt. Uses a YAML frontmatter format with TL;DR sections. This is a fascinating pattern for agent memory persistence - instead of human documentation, agents write for agents. Directly relevant to SISO's memory system research. The "knowledge that survives sessions" concept aligns with SISO's SISO_Knowledge vision.
 ---
 
 **URL:** https://github.com/643search/openclaw-command-center
@@ -1761,7 +1761,7 @@ Research entries for indices 120-149.
 **URL:** https://github.com/memovai/memov
 **Description:** Give git-like & traceable memory to OpenClaw and any coding agents. By https://memov.ai/ aka Entire CLI for every coding agents by MCP.
 
-**Research:** Git-like version control layer for AI coding sessions -- every prompt, context change, and code diff is checkpointed with branch exploration and rollback. Key differentiator from standard git: branch-based exploration of coding trajectories, rollback that preserves all history (unlike git reset which erases), and cross-session trajectory tracking. VibeGit is their brand for auto-tracing prompts and context. MCP server available. Directly competes with the memory layer concept in Agent OS and SISO_Library -- represents the emerging pattern of "agent memory as versioned state." Filed under agent memory systems, Claude Code ecosystem.
+**Research:** Git-like version control layer for AI coding sessions -- every prompt, context change, and code diff is checkpointed with branch exploration and rollback. Key differentiator from standard git: branch-based exploration of coding trajectories, rollback that preserves all history (unlike git reset which erases), and cross-session trajectory tracking. VibeGit is their brand for auto-tracing prompts and context. MCP server available. Directly competes with the memory layer concept in Agent OS and SISO_Knowledge -- represents the emerging pattern of "agent memory as versioned state." Filed under agent memory systems, Claude Code ecosystem.
 ---
 
 ### slhleosun/EvoClaw (161 stars)

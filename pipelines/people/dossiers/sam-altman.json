@@ -1,0 +1,188 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Sam Altman",
+  "slug": "sam-altman",
+  "status": "approved",
+  "tier": "S",
+  "line": "frontier-ai-company-leaders",
+  "role": "CEO, OpenAI",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "agi",
+    "frontier models",
+    "ai policy",
+    "reasoning",
+    "deployment"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/sama"
+    },
+    {
+      "type": "official",
+      "url": "https://openai.com"
+    }
+  ],
+  "notes": "",
+  "next_action": "ready_for_extraction",
+  "video_next_action": "ready_for_extraction",
+  "search_queries": [
+    "\"Sam Altman\" interview",
+    "\"Sam Altman\" keynote",
+    "\"Sam Altman\" podcast",
+    "\"Sam Altman\" lecture",
+    "\"Sam Altman\" CEO interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 2,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Sam Altman x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/sama",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      },
+      {
+        "title": "Sam Altman official",
+        "repository": "official",
+        "type": "registry_source",
+        "url": "https://openai.com",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Sam+Altman%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Sam+Altman%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Sam+Altman%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Sam+Altman%22+agi",
+      "https://www.google.com/search?q=%22Sam+Altman%22+frontier+models"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 3,
+    "transcript_ready": 7,
+    "total": 10
+  },
+  "videos": [
+    {
+      "video_id": "IdP4L7cpx2k",
+      "title": "ASI/AGI, Open vs Closed AI, Founding with Sam Altman, and Verifying Humanness! (Interview)",
+      "url": "https://www.youtube.com/watch?v=IdP4L7cpx2k",
+      "channel_name": "Matthew Berman",
+      "priority": "P0",
+      "score": 12.3,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "sam-altman__IdP4L7cpx2k__ASI-AGI-Open-vs-Closed-AI-Founding-with-Sam-Altman-and-Verifying-Humanness-Inter.txt"
+    },
+    {
+      "video_id": "ViMW5pM95Qo",
+      "title": "Sam Altman\u2019s Secret Interview",
+      "url": "https://www.youtube.com/watch?v=ViMW5pM95Qo",
+      "channel_name": "David Ondrej",
+      "priority": "P0",
+      "score": 12.3,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "sam-altman__ViMW5pM95Qo__Sam-Altman-s-Secret-Interview.txt"
+    },
+    {
+      "video_id": "FKSXoyvmcyM",
+      "title": "Sam Altman Talks AI, Elon Musk, ChatGPT, Google\u2026",
+      "url": "https://www.youtube.com/watch?v=FKSXoyvmcyM",
+      "channel_name": "David Ondrej",
+      "priority": "P0",
+      "score": 10.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "sam-altman__FKSXoyvmcyM__Sam-Altman-Talks-AI-Elon-Musk-ChatGPT-Google.txt"
+    },
+    {
+      "video_id": "aI3M9gUrDdg",
+      "title": "Sam Altman Loses Cool During Interview \"Ive Had ENOUGH!!",
+      "url": "https://www.youtube.com/watch?v=aI3M9gUrDdg",
+      "channel_name": "Ai Grid",
+      "priority": "P1",
+      "score": 7.3,
+      "status": "transcript_ready",
+      "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/aI3M9gUrDdg.txt",
+      "suggested_transcript_filename": ""
+    },
+    {
+      "video_id": "qc5cc7L3kF4",
+      "title": "Sam Altman's New AI Prediction For 2035 (Life In 2035)",
+      "url": "https://www.youtube.com/watch?v=qc5cc7L3kF4",
+      "channel_name": "Ai Grid",
+      "priority": "P1",
+      "score": 6.8,
+      "status": "transcript_ready",
+      "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/qc5cc7L3kF4.txt",
+      "suggested_transcript_filename": ""
+    },
+    {
+      "video_id": "dOsDZNO-jmc",
+      "title": "Sam Altmans STUNNING New Statement, EVERYTHING Is About to Change",
+      "url": "https://www.youtube.com/watch?v=dOsDZNO-jmc",
+      "channel_name": "Ai Grid",
+      "priority": "P1",
+      "score": 6.8,
+      "status": "transcript_ready",
+      "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/dOsDZNO-jmc.txt",
+      "suggested_transcript_filename": ""
+    },
+    {
+      "video_id": "6Wxh5Cd33XU",
+      "title": "AI Community Stunned As Sam Altman Warns Of AI Bubble",
+      "url": "https://www.youtube.com/watch?v=6Wxh5Cd33XU",
+      "channel_name": "Ai Grid",
+      "priority": "P3",
+      "score": 3.8,
+      "status": "transcript_ready",
+      "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/6Wxh5Cd33XU.txt",
+      "suggested_transcript_filename": ""
+    },
+    {
+      "video_id": "YtGMrpG2U6A",
+      "title": "MAJOR AI News :  Sam Altman Reveals Perfect AI, GPT-5 Details, Apple Stuns AI Industry, and more",
+      "url": "https://www.youtube.com/watch?v=YtGMrpG2U6A",
+      "channel_name": "Ai Grid",
+      "priority": "P3",
+      "score": 3.8,
+      "status": "transcript_ready",
+      "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/YtGMrpG2U6A.txt",
+      "suggested_transcript_filename": ""
+    },
+    {
+      "video_id": "P1S3wDeP-Co",
+      "title": "Sam Altman Just REVEALED The Future Of AI..",
+      "url": "https://www.youtube.com/watch?v=P1S3wDeP-Co",
+      "channel_name": "Ai Grid",
+      "priority": "P3",
+      "score": 3.8,
+      "status": "transcript_ready",
+      "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/P1S3wDeP-Co.txt",
+      "suggested_transcript_filename": ""
+    },
+    {
+      "video_id": "Vd8hL6ubJiU",
+      "title": "Sam Altman Left STUNNED As He\u2019s Ambushed on Stage | The Real Reason Explained",
+      "url": "https://www.youtube.com/watch?v=Vd8hL6ubJiU",
+      "channel_name": "Ai Grid",
+      "priority": "P3",
+      "score": 3.8,
+      "status": "transcript_ready",
+      "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/Vd8hL6ubJiU.txt",
+      "suggested_transcript_filename": ""
+    }
+  ]
+}

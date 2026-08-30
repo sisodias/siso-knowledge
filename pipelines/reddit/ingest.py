@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Ingest Reddit research from RedditQueueAnalysis workspace into SISO_Library.
+Ingest Reddit research from RedditQueueAnalysis workspace into SISO_Knowledge.
 
 Reads inbox JSONL files, parses each Reddit post entry,
 routes by domain to the appropriate shelf, creates pages via add_book.py,
@@ -16,7 +16,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 INBOX_DIR = ROOT / "pipelines" / "reddit" / "inbox"
 OUTBOX_DIR = ROOT / "pipelines" / "reddit" / "outbox"
 TRACKER_FILE = ROOT / "pipelines" / "reddit" / ".last_ingested"
@@ -175,7 +175,7 @@ def ingest_entry(entry: dict, dry_run: bool = False) -> dict | None:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Ingest Reddit posts into SISO_Library")
+    parser = argparse.ArgumentParser(description="Ingest Reddit posts into SISO_Knowledge")
     parser.add_argument("--dry-run", action="store_true", help="Show what would be ingested")
     parser.add_argument("--limit", type=int, default=0, help="Limit number of entries (0=all)")
     args = parser.parse_args()

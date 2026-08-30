@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Jim Keller",
+  "slug": "jim-keller",
+  "status": "approved",
+  "tier": "A",
+  "line": "ai-researchers-technical-thinkers",
+  "role": "Processor architect",
+  "collection_mode": "social-first",
+  "topics": [
+    "hardware",
+    "silicon",
+    "ai chips",
+    "risc-v",
+    "processor architecture"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/jimkxa"
+    }
+  ],
+  "notes": "",
+  "next_action": "collect_social_and_longform_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Jim Keller\" interview",
+    "\"Jim Keller\" keynote",
+    "\"Jim Keller\" podcast",
+    "\"Jim Keller\" lecture",
+    "\"Jim Keller\" Processor architect interview"
+  ],
+  "source_plan": {
+    "source_strategy": "social",
+    "next_source_action": "collect_social_and_longform_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Jim Keller x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/jimkxa",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Jim+Keller%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Jim+Keller%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Jim+Keller%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Jim+Keller%22+hardware",
+      "https://www.google.com/search?q=%22Jim+Keller%22+silicon"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

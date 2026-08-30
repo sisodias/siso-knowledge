@@ -1,0 +1,86 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Plato",
+  "slug": "plato",
+  "status": "candidate",
+  "tier": "S",
+  "line": "historic-philosophy-fundamental-thinkers",
+  "role": "Classical Greek philosopher",
+  "collection_mode": "corpus-first",
+  "topics": [
+    "forms",
+    "politics",
+    "education",
+    "virtue",
+    "metaphysics"
+  ],
+  "sources": [],
+  "notes": "",
+  "next_action": "collect_corpus_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [],
+  "source_plan": {
+    "source_strategy": "corpus",
+    "next_source_action": "collect_corpus_sources",
+    "source_counts": {
+      "targets": 7,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Books by Plato",
+        "repository": "Project Gutenberg",
+        "type": "author_collection",
+        "url": "https://www.gutenberg.org/ebooks/author/93",
+        "rights_status": "public_domain_source",
+        "notes": "Download individual dialogue texts rather than scraping search pages."
+      },
+      {
+        "title": "Plato corpus search",
+        "repository": "Perseus Digital Library",
+        "type": "classical_text_search",
+        "url": "https://www.perseus.tufts.edu/hopper/searchresults?q=Plato",
+        "rights_status": "public_domain_source",
+        "notes": "Use for Greek/English text references and stable passage identifiers."
+      },
+      {
+        "title": "Plato source search",
+        "repository": "Project Gutenberg",
+        "type": "archive_search",
+        "url": "https://www.gutenberg.org/ebooks/search/?query=Plato",
+        "rights_status": "public_domain_or_translation_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      },
+      {
+        "title": "Plato source search",
+        "repository": "Wikisource",
+        "type": "archive_search",
+        "url": "https://en.wikisource.org/w/index.php?search=Plato",
+        "rights_status": "public_domain_or_translation_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      },
+      {
+        "title": "Plato source search",
+        "repository": "Internet Archive",
+        "type": "archive_search",
+        "url": "https://archive.org/search?query=Plato",
+        "rights_status": "public_domain_or_translation_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.gutenberg.org/ebooks/search/?query=Plato",
+      "https://en.wikisource.org/w/index.php?search=Plato",
+      "https://archive.org/search?query=Plato",
+      "https://openlibrary.org/search?q=Plato",
+      "https://www.perseus.tufts.edu/hopper/searchresults?q=Plato"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

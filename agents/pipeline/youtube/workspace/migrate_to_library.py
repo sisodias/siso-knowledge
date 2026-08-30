@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Migrate YouTube research data to SISO_Library pages."""
+"""Migrate YouTube research data to SISO_Knowledge pages."""
 
 import json
 import yaml
@@ -8,7 +8,7 @@ from pathlib import Path
 from collections import defaultdict
 from datetime import datetime
 
-LIB = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+LIB = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 INDEX = Path("/Users/shaansisodia/SISO_Workspace/agent_os/agents/research/YouTubeQueueAnalysis/workspace/library_index.json")
 EXTRACTED = Path("/tmp/youtube-ai-research/extracted/by_date/2026/03-March")
 

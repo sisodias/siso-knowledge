@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "George Orwell",
+  "slug": "george-orwell",
+  "status": "candidate",
+  "tier": "A",
+  "line": "writers-sensemakers",
+  "role": "Writer and essayist",
+  "collection_mode": "corpus-first",
+  "source_strategy": "corpus",
+  "next_source_action": "rights_review_before_ingest",
+  "topics": [
+    "language",
+    "power",
+    "propaganda",
+    "politics",
+    "clarity"
+  ],
+  "source_counts": {
+    "targets": 5,
+    "discovery_urls": 4
+  },
+  "source_targets": [
+    {
+      "title": "Essays and other works",
+      "repository": "The Orwell Foundation",
+      "type": "official_archive",
+      "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/",
+      "rights_status": "rights_review",
+      "notes": "Use as a discovery and citation guide; do not bulk-ingest without rights review."
+    },
+    {
+      "title": "George Orwell source search",
+      "repository": "Project Gutenberg",
+      "type": "archive_search",
+      "url": "https://www.gutenberg.org/ebooks/search/?query=George+Orwell",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "George Orwell source search",
+      "repository": "Wikisource",
+      "type": "archive_search",
+      "url": "https://en.wikisource.org/w/index.php?search=George+Orwell",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "George Orwell source search",
+      "repository": "Internet Archive",
+      "type": "archive_search",
+      "url": "https://archive.org/search?query=George+Orwell",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "George Orwell source search",
+      "repository": "Open Library",
+      "type": "archive_search",
+      "url": "https://openlibrary.org/search?q=George+Orwell",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.gutenberg.org/ebooks/search/?query=George+Orwell",
+    "https://en.wikisource.org/w/index.php?search=George+Orwell",
+    "https://archive.org/search?query=George+Orwell",
+    "https://openlibrary.org/search?q=George+Orwell"
+  ],
+  "curation_notes": [
+    "Modern corpus entry: use official archives, public-domain items, or user-supplied material only after rights review."
+  ]
+}

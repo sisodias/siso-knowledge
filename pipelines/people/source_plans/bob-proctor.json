@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Bob Proctor",
+  "slug": "bob-proctor",
+  "status": "approved",
+  "tier": "B",
+  "line": "business-wealth-persuasion-self-mastery",
+  "role": "Personal development teacher",
+  "collection_mode": "corpus-first",
+  "source_strategy": "corpus",
+  "next_source_action": "rights_review_before_ingest",
+  "topics": [
+    "self-image",
+    "mindset",
+    "goals",
+    "personal development"
+  ],
+  "source_counts": {
+    "targets": 4,
+    "discovery_urls": 4
+  },
+  "source_targets": [
+    {
+      "title": "Bob Proctor source search",
+      "repository": "Project Gutenberg",
+      "type": "archive_search",
+      "url": "https://www.gutenberg.org/ebooks/search/?query=Bob+Proctor",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Bob Proctor source search",
+      "repository": "Wikisource",
+      "type": "archive_search",
+      "url": "https://en.wikisource.org/w/index.php?search=Bob+Proctor",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Bob Proctor source search",
+      "repository": "Internet Archive",
+      "type": "archive_search",
+      "url": "https://archive.org/search?query=Bob+Proctor",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Bob Proctor source search",
+      "repository": "Open Library",
+      "type": "archive_search",
+      "url": "https://openlibrary.org/search?q=Bob+Proctor",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.gutenberg.org/ebooks/search/?query=Bob+Proctor",
+    "https://en.wikisource.org/w/index.php?search=Bob+Proctor",
+    "https://archive.org/search?query=Bob+Proctor",
+    "https://openlibrary.org/search?q=Bob+Proctor"
+  ],
+  "curation_notes": [
+    "Modern corpus entry: use official archives, public-domain items, or user-supplied material only after rights review."
+  ]
+}

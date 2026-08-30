@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Ben Thompson",
+  "slug": "ben-thompson",
+  "status": "candidate",
+  "tier": "B",
+  "line": "writers-sensemakers",
+  "role": "Technology strategy analyst",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "aggregation theory",
+    "tech strategy",
+    "business models",
+    "platforms"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/benthompson"
+    }
+  ],
+  "notes": "",
+  "next_action": "collect_direct_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Ben Thompson\" interview",
+    "\"Ben Thompson\" keynote",
+    "\"Ben Thompson\" podcast",
+    "\"Ben Thompson\" lecture",
+    "\"Ben Thompson\" Technology strategy analyst interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Ben Thompson x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/benthompson",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Ben+Thompson%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Ben+Thompson%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Ben+Thompson%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Ben+Thompson%22+aggregation+theory",
+      "https://www.google.com/search?q=%22Ben+Thompson%22+tech+strategy"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

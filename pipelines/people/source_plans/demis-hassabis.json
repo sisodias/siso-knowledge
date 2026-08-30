@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Demis Hassabis",
+  "slug": "demis-hassabis",
+  "status": "approved",
+  "tier": "S",
+  "line": "frontier-ai-company-leaders",
+  "role": "Co-founder and CEO, Google DeepMind",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "agi",
+    "gemini",
+    "alphafold",
+    "reasoning",
+    "science"
+  ],
+  "source_counts": {
+    "targets": 2,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Demis Hassabis x",
+      "repository": "x",
+      "type": "registry_source",
+      "url": "https://x.com/demishassabis",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    },
+    {
+      "title": "Demis Hassabis official",
+      "repository": "official",
+      "type": "registry_source",
+      "url": "https://deepmind.google",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Demis+Hassabis%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Demis+Hassabis%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Demis+Hassabis%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Demis+Hassabis%22+agi",
+    "https://www.google.com/search?q=%22Demis+Hassabis%22+gemini"
+  ],
+  "curation_notes": []
+}

@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Cristiano Amon",
+  "slug": "cristiano-amon",
+  "status": "candidate",
+  "tier": "A",
+  "line": "big-tech-platform-ceos",
+  "role": "President and CEO, Qualcomm",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "mobile chips",
+    "edge ai",
+    "wireless",
+    "semiconductors"
+  ],
+  "source_counts": {
+    "targets": 1,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Cristiano Amon x",
+      "repository": "x",
+      "type": "registry_source",
+      "url": "https://x.com/cristianoamon",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Cristiano+Amon%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Cristiano+Amon%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Cristiano+Amon%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Cristiano+Amon%22+mobile+chips",
+    "https://www.google.com/search?q=%22Cristiano+Amon%22+edge+ai"
+  ],
+  "curation_notes": []
+}

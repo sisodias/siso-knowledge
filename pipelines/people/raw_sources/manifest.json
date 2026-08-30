@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "sources_count": 7,
+  "output_dir": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/raw_sources",
+  "sources": [
+    {
+      "person_slug": "socrates",
+      "person_name": "Socrates",
+      "title": "Apology, Crito, and Phaedo of Socrates",
+      "repository": "Project Gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/13726",
+      "download_url": "https://www.gutenberg.org/ebooks/13726.txt.utf-8",
+      "local_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/raw_sources/socrates/apology-crito-and-phaedo-of-socrates.txt",
+      "rights_status": "public_domain_source",
+      "retrieved_at": "2026-07-25T20:27:05+00:00",
+      "downloaded": false,
+      "bytes": 304818,
+      "notes": "Plato dialogues centered on Socrates; use as attributed Plato source material.",
+      "provenance_fields_required": [
+        "source_url",
+        "download_url",
+        "local_path",
+        "rights_status",
+        "retrieved_at",
+        "repository",
+        "title"
+      ]
+    },
+    {
+      "person_slug": "marcus-aurelius",
+      "person_name": "Marcus Aurelius",
+      "title": "Meditations",
+      "repository": "Project Gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/2680",
+      "download_url": "https://www.gutenberg.org/ebooks/2680.txt.utf-8",
+      "local_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/raw_sources/marcus-aurelius/meditations.txt",
+      "rights_status": "public_domain_source",
+      "retrieved_at": "2026-07-25T20:27:05+00:00",
+      "downloaded": false,
+      "bytes": 418078,
+      "notes": "Public-domain translation suitable for full-text ingestion.",
+      "provenance_fields_required": [
+        "source_url",
+        "download_url",
+        "local_path",
+        "rights_status",
+        "retrieved_at",
+        "repository",
+        "title"
+      ]
+    },
+    {
+      "person_slug": "epictetus",
+      "person_name": "Epictetus",
+      "title": "The Enchiridion",
+      "repository": "Project Gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/45109",
+      "download_url": "https://www.gutenberg.org/ebooks/45109.txt.utf-8",
+      "local_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/raw_sources/epictetus/the-enchiridion.txt",
+      "rights_status": "public_domain_source",
+      "retrieved_at": "2026-07-25T20:27:05+00:00",
+      "downloaded": false,
+      "bytes": 89935,
+      "notes": "Public-domain English translation; store Arrian/compiler and translator metadata.",
+      "provenance_fields_required": [
+        "source_url",
+        "download_url",
+        "local_path",
+        "rights_status",
+        "retrieved_at",
+        "repository",
+        "title"
+      ]
+    },
+    {
+      "person_slug": "epictetus",
+      "person_name": "Epictetus",
+      "title": "A Selection from the Discourses of Epictetus with the Encheiridion",
+      "repository": "Project Gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/10661",
+      "download_url": "https://www.gutenberg.org/ebooks/10661.txt.utf-8",
+      "local_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/raw_sources/epictetus/a-selection-from-the-discourses-of-epictetus-with-the-encheiridion.txt",
+      "rights_status": "public_domain_source",
+      "retrieved_at": "2026-07-25T20:27:05+00:00",
+      "downloaded": false,
+      "bytes": 346170,
+      "notes": "Public-domain selection; preserve edition and translator metadata.",
+      "provenance_fields_required": [
+        "source_url",
+        "download_url",
+        "local_path",
+        "rights_status",
+        "retrieved_at",
+        "repository",
+        "title"
+      ]
+    },
+    {
+      "person_slug": "adam-smith",
+      "person_name": "Adam Smith",
+      "title": "An Inquiry into the Nature and Causes of the Wealth of Nations",
+      "repository": "Project Gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/3300",
+      "download_url": "https://www.gutenberg.org/ebooks/3300.txt.utf-8",
+      "local_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/raw_sources/adam-smith/an-inquiry-into-the-nature-and-causes-of-the-wealth-of-nations.txt",
+      "rights_status": "public_domain_source",
+      "retrieved_at": "2026-07-25T20:27:05+00:00",
+      "downloaded": false,
+      "bytes": 2434024,
+      "notes": "Core economics text; segment by book/chapter.",
+      "provenance_fields_required": [
+        "source_url",
+        "download_url",
+        "local_path",
+        "rights_status",
+        "retrieved_at",
+        "repository",
+        "title"
+      ]
+    },
+    {
+      "person_slug": "benjamin-franklin",
+      "person_name": "Benjamin Franklin",
+      "title": "Autobiography of Benjamin Franklin",
+      "repository": "Project Gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/20203",
+      "download_url": "https://www.gutenberg.org/ebooks/20203.txt.utf-8",
+      "local_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/raw_sources/benjamin-franklin/autobiography-of-benjamin-franklin.txt",
+      "rights_status": "public_domain_source",
+      "retrieved_at": "2026-07-25T20:27:05+00:00",
+      "downloaded": false,
+      "bytes": 458873,
+      "notes": "Public-domain edition; distinguish Franklin-authored text from editor/illustrator metadata.",
+      "provenance_fields_required": [
+        "source_url",
+        "download_url",
+        "local_path",
+        "rights_status",
+        "retrieved_at",
+        "repository",
+        "title"
+      ]
+    },
+    {
+      "person_slug": "frederick-douglass",
+      "person_name": "Frederick Douglass",
+      "title": "Narrative of the Life of Frederick Douglass",
+      "repository": "Project Gutenberg",
+      "source_url": "https://www.gutenberg.org/ebooks/23",
+      "download_url": "https://www.gutenberg.org/ebooks/23.txt.utf-8",
+      "local_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/raw_sources/frederick-douglass/narrative-of-the-life-of-frederick-douglass.txt",
+      "rights_status": "public_domain_source",
+      "retrieved_at": "2026-07-25T20:27:05+00:00",
+      "downloaded": false,
+      "bytes": 244964,
+      "notes": "Public-domain autobiography; segment by chapter and preserve edition info.",
+      "provenance_fields_required": [
+        "source_url",
+        "download_url",
+        "local_path",
+        "rights_status",
+        "retrieved_at",
+        "repository",
+        "title"
+      ]
+    }
+  ]
+}

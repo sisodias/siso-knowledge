@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Mira Murati",
+  "slug": "mira-murati",
+  "status": "candidate",
+  "tier": "A",
+  "line": "frontier-ai-company-leaders",
+  "role": "AI product and research leader",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "ai products",
+    "frontier models",
+    "research leadership",
+    "deployment"
+  ],
+  "sources": [],
+  "notes": "",
+  "next_action": "import_transcript",
+  "video_next_action": "import_transcript",
+  "search_queries": [
+    "\"Mira Murati\" interview",
+    "\"Mira Murati\" keynote",
+    "\"Mira Murati\" podcast",
+    "\"Mira Murati\" lecture",
+    "\"Mira Murati\" AI product and research leader interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 0,
+      "discovery_urls": 5
+    },
+    "source_targets": [],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Mira+Murati%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Mira+Murati%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Mira+Murati%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Mira+Murati%22+ai+products",
+      "https://www.google.com/search?q=%22Mira+Murati%22+frontier+models"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 1,
+    "transcript_ready": 0,
+    "total": 1
+  },
+  "videos": [
+    {
+      "video_id": "ssYl11_pjuA",
+      "title": "Who Is Mira Murati? - New OpenAI CEO",
+      "url": "https://www.youtube.com/watch?v=ssYl11_pjuA",
+      "channel_name": "David Ondrej",
+      "priority": "P1",
+      "score": 6.0,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "mira-murati__ssYl11_pjuA__Who-Is-Mira-Murati-New-OpenAI-CEO.txt"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Ingest GitHub research from GitHubQueueAnalysis workspace into SISO_Library.
+Ingest GitHub research from GitHubQueueAnalysis workspace into SISO_Knowledge.
 
 Reads research-log.md (or inbox JSONL files), parses each repo entry,
 routes by domain to the appropriate shelf, creates pages via add_book.py,
@@ -18,10 +18,10 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 INBOX_DIR = ROOT / "pipelines" / "github" / "inbox"
 OUTBOX_DIR = ROOT / "pipelines" / "github" / "outbox"
-RESEARCH_LOG = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library/agents/GitHubQueueAnalysis/workspace/research-log.md")
+RESEARCH_LOG = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/agents/GitHubQueueAnalysis/workspace/research-log.md")
 TRACKER_FILE = ROOT / "pipelines" / "github" / ".last_ingested"
 
 sys.path.insert(0, str(ROOT / "pipelines"))
@@ -228,7 +228,7 @@ def ingest_entry(entry: dict, dry_run: bool = False) -> dict | None:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Ingest GitHub research into SISO_Library")
+    parser = argparse.ArgumentParser(description="Ingest GitHub research into SISO_Knowledge")
     parser.add_argument("--dry-run", action="store_true", help="Show what would be ingested")
     parser.add_argument("--inbox", action="store_true", help="Ingest from inbox JSONL instead of research-log.md")
     parser.add_argument("--limit", type=int, default=0, help="Limit number of entries (0=all)")

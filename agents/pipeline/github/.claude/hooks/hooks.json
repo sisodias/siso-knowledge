@@ -2,7 +2,7 @@
   "description": "Agent OS standard hooks for GitHubQueueAnalysis",
   "env": {
     "AGENT_NAME": "GitHubQueueAnalysis",
-    "AGENT_DIR": "/Users/shaansisodia/SISO_Workspace/SISO_Library/agents/GitHubQueueAnalysis"
+    "AGENT_DIR": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/agents/GitHubQueueAnalysis"
   },
   "hooks": {
     "SessionStart": [

@@ -1,0 +1,76 @@
+{
+  "data": {
+    "web": [
+      {
+        "title": "Joe Rogan Experience #1315 - Bob Lazar & Jeremy Corbell",
+        "url": "https://www.youtube.com/watch?v=BEWz4SXfyCQ",
+        "source": "subagent_seed",
+        "channel": "PowerfulJRE / The Joe Rogan Experience",
+        "description": "Major long-form 2019 interview. Treat as controversial source material, not verified factual authority."
+      },
+      {
+        "title": "Joe Rogan Experience #2479 - Bob Lazar & Luigi Vendittelli",
+        "url": "https://www.youtube.com/watch?v=Lb_1d68vx-g",
+        "source": "subagent_seed",
+        "channel": "PowerfulJRE / The Joe Rogan Experience",
+        "description": "2026 long-form return appearance tied to Project Gravitaur / S4: The Bob Lazar Story."
+      },
+      {
+        "title": "Bob Lazar Finally Goes Deep on S-4 - The Interview You Haven't Seen",
+        "url": "https://www.youtube.com/watch?v=lP69E2NE-vI",
+        "source": "subagent_seed",
+        "channel": "The Richard Dolan Show",
+        "description": "Long-form 2026 interview focused on S-4, propulsion descriptions, and Project Gravitaur claims."
+      },
+      {
+        "title": "Bob Lazar Tells me Everything in NEW Interview - DEBRIEFED",
+        "url": "https://www.youtube.com/watch?v=fZyKcJQZrDA",
+        "source": "subagent_seed",
+        "channel": "AREA52 / DEBRIEFED With Chris Ramsay",
+        "description": "Recent direct long-form Lazar interview connected to the Project Gravitaur release cycle."
+      },
+      {
+        "title": "BOB LAZAR : OFFICIAL Q&A : AREA 51 & FLYING SAUCERS",
+        "url": "https://www.youtube.com/watch?v=Zx0xQH8zh94",
+        "source": "subagent_seed",
+        "channel": "Jeremy Corbell",
+        "description": "Official Corbell-era Q&A with Lazar after the Area 51 & Flying Saucers documentary."
+      },
+      {
+        "title": "The Lazar Tape... and Excerpts from the Government Bible",
+        "url": "https://www.youtube.com/watch?v=C6TAby0J9v8",
+        "source": "subagent_seed",
+        "channel": "Archive upload / Tri-Dot Productions source material",
+        "description": "Early 1991 Lazar-produced/source documentary material."
+      },
+      {
+        "title": "Bob Lazar, Gene Huff, & Stan Deyo - UFOs and Area 51 /w Art Bell (1997-09-26)",
+        "url": "https://www.youtube.com/watch?v=YmksJxmIaX4",
+        "source": "subagent_seed",
+        "channel": "Archive upload / Art Bell-Coast to Coast AM material",
+        "description": "Long Art Bell / Coast to Coast AM interview from September 26, 1997."
+      },
+      {
+        "title": "Bob Lazar & John Lear /w Art Bell (1992-12-12)",
+        "url": "https://www.youtube.com/watch?v=mXwGHWVKYgw",
+        "source": "subagent_seed",
+        "channel": "Archive upload / Art Bell-Coast to Coast AM material",
+        "description": "Early Art Bell appearance useful for comparing Lazar's early-1990s account against later versions."
+      },
+      {
+        "title": "Das Dennis Interview von Lazar / Anonymous Bob Lazar Dennis Interview",
+        "url": "https://www.youtube.com/watch?v=I9EnIRhhtf4",
+        "source": "subagent_seed",
+        "channel": "Archive upload / George Knapp-KLAS material",
+        "description": "Candidate archive of the early anonymous Dennis interview associated with George Knapp/KLAS reporting."
+      },
+      {
+        "title": "UFOs, Area-51 and S-4 | Bob Lazar, Gene Huff Interview Pt.2 1997",
+        "url": "https://www.youtube.com/watch?v=joLuGk2U7Mc",
+        "source": "subagent_seed",
+        "channel": "Archive upload",
+        "description": "Candidate long-form 1997 Lazar/Gene Huff material."
+      }
+    ]
+  }
+}

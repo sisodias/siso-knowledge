@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Yann LeCun",
+  "slug": "yann-lecun",
+  "status": "approved",
+  "tier": "A",
+  "line": "ai-researchers-technical-thinkers",
+  "role": "Chief AI Scientist, Meta",
+  "collection_mode": "social-first",
+  "topics": [
+    "deep learning",
+    "self-supervised learning",
+    "open source ai",
+    "agi",
+    "world models"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/ylecun"
+    }
+  ],
+  "notes": "",
+  "next_action": "import_transcript",
+  "video_next_action": "import_transcript",
+  "search_queries": [
+    "\"Yann LeCun\" interview",
+    "\"Yann LeCun\" keynote",
+    "\"Yann LeCun\" podcast",
+    "\"Yann LeCun\" lecture",
+    "\"Yann LeCun\" Chief AI Scientist interview"
+  ],
+  "source_plan": {
+    "source_strategy": "social",
+    "next_source_action": "collect_social_and_longform_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Yann LeCun x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/ylecun",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Yann+LeCun%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Yann+LeCun%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Yann+LeCun%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Yann+LeCun%22+deep+learning",
+      "https://www.google.com/search?q=%22Yann+LeCun%22+self-supervised+learning"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 2,
+    "transcript_ready": 0,
+    "total": 2
+  },
+  "videos": [
+    {
+      "video_id": "nAT3-W1sDKU",
+      "title": "Googles $100 BILLION A.I Masterplan, Secret HUMANOID Robot, Yann Lecun  On AGI, Grok 1.5 AI",
+      "url": "https://www.youtube.com/watch?v=nAT3-W1sDKU",
+      "channel_name": "Ai Grid",
+      "priority": "P2",
+      "score": 4.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "yann-lecun__nAT3-W1sDKU__Googles-100-BILLION-A-I-Masterplan-Secret-HUMANOID-Robot-Yann-Lecun-On-AGI-Grok.txt"
+    },
+    {
+      "video_id": "ArG8GiIHmjE",
+      "title": "Yann LeCun Just Called Out the Entire Robotics Industry",
+      "url": "https://www.youtube.com/watch?v=ArG8GiIHmjE",
+      "channel_name": "Ai Grid",
+      "priority": "P2",
+      "score": 4.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "yann-lecun__ArG8GiIHmjE__Yann-LeCun-Just-Called-Out-the-Entire-Robotics-Industry.txt"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 name: RedditQueueAnalysis
-description: Scrapes Reddit for AI/ML research content and feeds to SISO_Library
+description: Scrapes Reddit for AI/ML research content and feeds to SISO_Knowledge
 owner: LIBRARY_PM
 capabilities:
   - reddit_scraping

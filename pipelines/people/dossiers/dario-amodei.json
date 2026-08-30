@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Dario Amodei",
+  "slug": "dario-amodei",
+  "status": "approved",
+  "tier": "S",
+  "line": "frontier-ai-company-leaders",
+  "role": "Co-founder and CEO, Anthropic",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "claude",
+    "ai safety",
+    "constitutional ai",
+    "frontier models",
+    "scaling"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/darioamodei"
+    },
+    {
+      "type": "official",
+      "url": "https://www.anthropic.com"
+    }
+  ],
+  "notes": "",
+  "next_action": "import_transcript",
+  "video_next_action": "import_transcript",
+  "search_queries": [
+    "\"Dario Amodei\" interview",
+    "\"Dario Amodei\" keynote",
+    "\"Dario Amodei\" podcast",
+    "\"Dario Amodei\" lecture",
+    "\"Dario Amodei\" Co-founder and CEO interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 2,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Dario Amodei x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/darioamodei",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      },
+      {
+        "title": "Dario Amodei official",
+        "repository": "official",
+        "type": "registry_source",
+        "url": "https://www.anthropic.com",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Dario+Amodei%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Dario+Amodei%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Dario+Amodei%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Dario+Amodei%22+claude",
+      "https://www.google.com/search?q=%22Dario+Amodei%22+ai+safety"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 3,
+    "transcript_ready": 0,
+    "total": 3
+  },
+  "videos": [
+    {
+      "video_id": "Nlkk3glap_U",
+      "title": "Dario Amodei (Anthropic CEO) - $10 Billion Models, OpenAI, Scaling, & Alignment",
+      "url": "https://www.youtube.com/watch?v=Nlkk3glap_U",
+      "channel_name": "Dwarkesh Patel",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "dario-amodei__Nlkk3glap_U__Dario-Amodei-Anthropic-CEO-10-Billion-Models-OpenAI-Scaling-Alignment.txt"
+    },
+    {
+      "video_id": "n1E9IZfvGMA",
+      "title": "Dario Amodei \u2014 We are near the end of the exponential",
+      "url": "https://www.youtube.com/watch?v=n1E9IZfvGMA",
+      "channel_name": "Dwarkesh Patel",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "dario-amodei__n1E9IZfvGMA__Dario-Amodei-We-are-near-the-end-of-the-exponential.txt"
+    },
+    {
+      "video_id": "y8ZEJe2Ss9k",
+      "title": "Avoiding Bankruptcy Before AGI - Dario Amodei",
+      "url": "https://www.youtube.com/watch?v=y8ZEJe2Ss9k",
+      "channel_name": "Dwarkesh Clips",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "dario-amodei__y8ZEJe2Ss9k__Avoiding-Bankruptcy-Before-AGI-Dario-Amodei.txt"
+    }
+  ]
+}

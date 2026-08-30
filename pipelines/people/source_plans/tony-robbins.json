@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Tony Robbins",
+  "slug": "tony-robbins",
+  "status": "candidate",
+  "tier": "B",
+  "line": "business-wealth-persuasion-self-mastery",
+  "role": "Performance coach and author",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "performance psychology",
+    "persuasion",
+    "coaching",
+    "self-mastery"
+  ],
+  "source_counts": {
+    "targets": 1,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Tony Robbins x",
+      "repository": "x",
+      "type": "registry_source",
+      "url": "https://x.com/TonyRobbins",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Tony+Robbins%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Tony+Robbins%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Tony+Robbins%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Tony+Robbins%22+performance+psychology",
+    "https://www.google.com/search?q=%22Tony+Robbins%22+persuasion"
+  ],
+  "curation_notes": []
+}

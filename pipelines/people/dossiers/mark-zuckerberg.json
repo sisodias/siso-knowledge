@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Mark Zuckerberg",
+  "slug": "mark-zuckerberg",
+  "status": "approved",
+  "tier": "S",
+  "line": "frontier-ai-company-leaders",
+  "role": "Founder, Chairman and CEO, Meta",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "llama",
+    "open source ai",
+    "social platforms",
+    "ai infrastructure",
+    "vr"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/finkd"
+    },
+    {
+      "type": "official",
+      "url": "https://about.meta.com"
+    }
+  ],
+  "notes": "",
+  "next_action": "ready_for_extraction",
+  "video_next_action": "ready_for_extraction",
+  "search_queries": [
+    "\"Mark Zuckerberg\" interview",
+    "\"Mark Zuckerberg\" keynote",
+    "\"Mark Zuckerberg\" podcast",
+    "\"Mark Zuckerberg\" lecture",
+    "\"Mark Zuckerberg\" Founder interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 2,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Mark Zuckerberg x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/finkd",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      },
+      {
+        "title": "Mark Zuckerberg official",
+        "repository": "official",
+        "type": "registry_source",
+        "url": "https://about.meta.com",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Mark+Zuckerberg%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Mark+Zuckerberg%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Mark+Zuckerberg%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Mark+Zuckerberg%22+llama",
+      "https://www.google.com/search?q=%22Mark+Zuckerberg%22+open+source+ai"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 3,
+    "transcript_ready": 1,
+    "total": 4
+  },
+  "videos": [
+    {
+      "video_id": "e1gFkvLGpBM",
+      "title": "Priscilla Chan and Mark Zuckerberg: Frontier AI + Virtual Biology To Solve All Diseases",
+      "url": "https://www.youtube.com/watch?v=e1gFkvLGpBM",
+      "channel_name": "Latent Space",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "mark-zuckerberg__e1gFkvLGpBM__Priscilla-Chan-and-Mark-Zuckerberg-Frontier-AI-Virtual-Biology-To-Solve-All-Dise.txt"
+    },
+    {
+      "video_id": "0e2gGRdE4PE",
+      "title": "Mark Zuckerberg\u2019s AI Dream is Becoming a Nightmare",
+      "url": "https://www.youtube.com/watch?v=0e2gGRdE4PE",
+      "channel_name": "Ai Grid",
+      "priority": "P1",
+      "score": 6.8,
+      "status": "transcript_ready",
+      "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/0e2gGRdE4PE.txt",
+      "suggested_transcript_filename": ""
+    },
+    {
+      "video_id": "-Ivbfv_VAnQ",
+      "title": "IT JUST HAPPENED! Microsoft And MARK Zuckerberg RELEASE NEW AI (NOW RELEASED!)",
+      "url": "https://www.youtube.com/watch?v=-Ivbfv_VAnQ",
+      "channel_name": "Ai Grid",
+      "priority": "P1",
+      "score": 6.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "mark-zuckerberg__-Ivbfv_VAnQ__IT-JUST-HAPPENED-Microsoft-And-MARK-Zuckerberg-RELEASE-NEW-AI-NOW-RELEASED.txt"
+    },
+    {
+      "video_id": "8md5EgOa5vM",
+      "title": "Mark Zuckerberg NEW STATEMENT Changes EVERYTHING!",
+      "url": "https://www.youtube.com/watch?v=8md5EgOa5vM",
+      "channel_name": "Ai Grid",
+      "priority": "P1",
+      "score": 6.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "mark-zuckerberg__8md5EgOa5vM__Mark-Zuckerberg-NEW-STATEMENT-Changes-EVERYTHING.txt"
+    }
+  ]
+}

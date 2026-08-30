@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Sam Altman",
+  "slug": "sam-altman",
+  "status": "approved",
+  "tier": "S",
+  "line": "frontier-ai-company-leaders",
+  "role": "CEO, OpenAI",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "agi",
+    "frontier models",
+    "ai policy",
+    "reasoning",
+    "deployment"
+  ],
+  "source_counts": {
+    "targets": 2,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Sam Altman x",
+      "repository": "x",
+      "type": "registry_source",
+      "url": "https://x.com/sama",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    },
+    {
+      "title": "Sam Altman official",
+      "repository": "official",
+      "type": "registry_source",
+      "url": "https://openai.com",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Sam+Altman%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Sam+Altman%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Sam+Altman%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Sam+Altman%22+agi",
+    "https://www.google.com/search?q=%22Sam+Altman%22+frontier+models"
+  ],
+  "curation_notes": []
+}

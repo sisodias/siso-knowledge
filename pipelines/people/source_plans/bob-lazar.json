@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Bob Lazar",
+  "slug": "bob-lazar",
+  "status": "maybe",
+  "tier": "C",
+  "line": "manual-review-interview-subjects",
+  "role": "Interview subject and controversial aerospace claimant",
+  "collection_mode": "manual-curation",
+  "source_strategy": "manual",
+  "next_source_action": "manual_review",
+  "topics": [
+    "interviews",
+    "ufology",
+    "aerospace claims",
+    "propulsion claims",
+    "controversy"
+  ],
+  "source_counts": {
+    "targets": 1,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Bob Lazar manual evidence file",
+      "repository": "manual",
+      "type": "manual_review",
+      "url": "",
+      "rights_status": "manual_review",
+      "notes": "Curate claims, interviews, transcripts, and counter-sources before extraction."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Bob+Lazar%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Bob+Lazar%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Bob+Lazar%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Bob+Lazar%22+interviews",
+    "https://www.google.com/search?q=%22Bob+Lazar%22+ufology"
+  ],
+  "curation_notes": []
+}

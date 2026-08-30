@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Peter Thiel",
+  "slug": "peter-thiel",
+  "status": "candidate",
+  "tier": "A",
+  "line": "business-wealth-persuasion-self-mastery",
+  "role": "Entrepreneur and investor",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "zero to one",
+    "monopoly",
+    "contrarian thinking",
+    "startups"
+  ],
+  "source_counts": {
+    "targets": 0,
+    "discovery_urls": 5
+  },
+  "source_targets": [],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Peter+Thiel%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Peter+Thiel%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Peter+Thiel%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Peter+Thiel%22+zero+to+one",
+    "https://www.google.com/search?q=%22Peter+Thiel%22+monopoly"
+  ],
+  "curation_notes": []
+}

@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Mathilde Collin",
+  "slug": "mathilde-collin",
+  "status": "candidate",
+  "tier": "B",
+  "line": "fast-growing-company-builders",
+  "role": "Co-founder, Front",
+  "collection_mode": "social-first",
+  "topics": [
+    "saas",
+    "management",
+    "product",
+    "customer communication"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/CollinMathilde"
+    }
+  ],
+  "notes": "",
+  "next_action": "collect_social_and_longform_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Mathilde Collin\" interview",
+    "\"Mathilde Collin\" keynote",
+    "\"Mathilde Collin\" podcast",
+    "\"Mathilde Collin\" lecture",
+    "\"Mathilde Collin\" Co-founder interview"
+  ],
+  "source_plan": {
+    "source_strategy": "social",
+    "next_source_action": "collect_social_and_longform_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Mathilde Collin x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/CollinMathilde",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Mathilde+Collin%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Mathilde+Collin%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Mathilde+Collin%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Mathilde+Collin%22+saas",
+      "https://www.google.com/search?q=%22Mathilde+Collin%22+management"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

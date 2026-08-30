@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Peter Drucker",
+  "slug": "peter-drucker",
+  "status": "candidate",
+  "tier": "A",
+  "line": "strategy-power-history-civilization",
+  "role": "Management thinker",
+  "collection_mode": "corpus-first",
+  "topics": [
+    "management",
+    "organizations",
+    "knowledge work",
+    "effectiveness"
+  ],
+  "sources": [],
+  "notes": "",
+  "next_action": "rights_review_before_ingest",
+  "video_next_action": "discover_candidates",
+  "search_queries": [],
+  "source_plan": {
+    "source_strategy": "corpus",
+    "next_source_action": "rights_review_before_ingest",
+    "source_counts": {
+      "targets": 4,
+      "discovery_urls": 4
+    },
+    "source_targets": [
+      {
+        "title": "Peter Drucker source search",
+        "repository": "Project Gutenberg",
+        "type": "archive_search",
+        "url": "https://www.gutenberg.org/ebooks/search/?query=Peter+Drucker",
+        "rights_status": "rights_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      },
+      {
+        "title": "Peter Drucker source search",
+        "repository": "Wikisource",
+        "type": "archive_search",
+        "url": "https://en.wikisource.org/w/index.php?search=Peter+Drucker",
+        "rights_status": "rights_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      },
+      {
+        "title": "Peter Drucker source search",
+        "repository": "Internet Archive",
+        "type": "archive_search",
+        "url": "https://archive.org/search?query=Peter+Drucker",
+        "rights_status": "rights_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      },
+      {
+        "title": "Peter Drucker source search",
+        "repository": "Open Library",
+        "type": "archive_search",
+        "url": "https://openlibrary.org/search?q=Peter+Drucker",
+        "rights_status": "rights_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.gutenberg.org/ebooks/search/?query=Peter+Drucker",
+      "https://en.wikisource.org/w/index.php?search=Peter+Drucker",
+      "https://archive.org/search?query=Peter+Drucker",
+      "https://openlibrary.org/search?q=Peter+Drucker"
+    ],
+    "curation_notes": [
+      "Modern corpus entry: use official archives, public-domain items, or user-supplied material only after rights review."
+    ]
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Laozi",
+  "slug": "laozi",
+  "status": "candidate",
+  "tier": "S",
+  "line": "historic-philosophy-fundamental-thinkers",
+  "role": "Taoist philosopher",
+  "collection_mode": "corpus-first",
+  "source_strategy": "corpus",
+  "next_source_action": "collect_corpus_sources",
+  "topics": [
+    "taoism",
+    "simplicity",
+    "non-force",
+    "nature",
+    "leadership"
+  ],
+  "source_counts": {
+    "targets": 4,
+    "discovery_urls": 4
+  },
+  "source_targets": [
+    {
+      "title": "Laozi source search",
+      "repository": "Project Gutenberg",
+      "type": "archive_search",
+      "url": "https://www.gutenberg.org/ebooks/search/?query=Laozi",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Laozi source search",
+      "repository": "Wikisource",
+      "type": "archive_search",
+      "url": "https://en.wikisource.org/w/index.php?search=Laozi",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Laozi source search",
+      "repository": "Internet Archive",
+      "type": "archive_search",
+      "url": "https://archive.org/search?query=Laozi",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Laozi source search",
+      "repository": "Open Library",
+      "type": "archive_search",
+      "url": "https://openlibrary.org/search?q=Laozi",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.gutenberg.org/ebooks/search/?query=Laozi",
+    "https://en.wikisource.org/w/index.php?search=Laozi",
+    "https://archive.org/search?query=Laozi",
+    "https://openlibrary.org/search?q=Laozi"
+  ],
+  "curation_notes": []
+}

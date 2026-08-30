@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "C. C. Wei",
+  "slug": "cc-wei",
+  "status": "candidate",
+  "tier": "S",
+  "line": "big-tech-platform-ceos",
+  "role": "Chairman and CEO, TSMC",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "semiconductors",
+    "foundry",
+    "manufacturing",
+    "ai supply chain"
+  ],
+  "source_counts": {
+    "targets": 0,
+    "discovery_urls": 5
+  },
+  "source_targets": [],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22C.+C.+Wei%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22C.+C.+Wei%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22C.+C.+Wei%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22C.+C.+Wei%22+semiconductors",
+    "https://www.google.com/search?q=%22C.+C.+Wei%22+foundry"
+  ],
+  "curation_notes": []
+}

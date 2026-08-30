@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Andy Jassy",
+  "slug": "andy-jassy",
+  "status": "candidate",
+  "tier": "S",
+  "line": "big-tech-platform-ceos",
+  "role": "President and CEO, Amazon",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "aws",
+    "cloud",
+    "marketplaces",
+    "operations",
+    "ai infrastructure"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/ajassy"
+    }
+  ],
+  "notes": "",
+  "next_action": "collect_direct_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Andy Jassy\" interview",
+    "\"Andy Jassy\" keynote",
+    "\"Andy Jassy\" podcast",
+    "\"Andy Jassy\" lecture",
+    "\"Andy Jassy\" President and CEO interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Andy Jassy x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/ajassy",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Andy+Jassy%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Andy+Jassy%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Andy+Jassy%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Andy+Jassy%22+aws",
+      "https://www.google.com/search?q=%22Andy+Jassy%22+cloud"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

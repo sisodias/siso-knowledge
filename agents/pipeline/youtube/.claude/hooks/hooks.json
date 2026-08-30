@@ -2,7 +2,7 @@
   "description": "Agent OS standard hooks for YouTubeQueueAnalysis",
   "env": {
     "AGENT_NAME": "YouTubeQueueAnalysis",
-    "AGENT_DIR": "/Users/shaansisodia/SISO_Workspace/SISO_Library/agents/YouTubeQueueAnalysis"
+    "AGENT_DIR": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/agents/YouTubeQueueAnalysis"
   },
   "hooks": {
     "SessionStart": [

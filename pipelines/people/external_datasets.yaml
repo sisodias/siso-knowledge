@@ -1,0 +1,1640 @@
+generated_at: "2026-05-08"
+last_checked_at: "2026-05-08"
+purpose: >
+  External people/source datasets discovered for the SISO people graph. Treat
+  these as candidate upstreams; import only after license, provenance, and
+  source-quality review.
+
+discovery_runs:
+  - run_id: "2026-05-08-external-people-datasets"
+    date: "2026-05-08"
+    tools:
+      - web_search
+      - github_api
+      - github_cli
+      - huggingface_api
+      - sourcegraph_cli
+      - minimax_explorer_agents
+    notes:
+      - Sourcegraph CLI Homebrew install stalled during fetch; direct release download installed Sourcegraph src-cli 7.2.1 at ~/.local/bin/src.
+      - Firecrawl search skill is available but still needs authentication for full runs.
+      - Dataset freshness should be tracked separately from repo freshness.
+
+freshness_fields:
+  observed_at: Date this dataset candidate was inspected by us.
+  source_last_updated: Repo/dataset/page updated timestamp when visible.
+  data_coverage_start: Earliest source content date covered when visible.
+  data_coverage_end: Latest source content date covered when visible.
+  freshness_notes: Human notes about whether the data is stale, rolling, partial, or current.
+
+dataset_statuses:
+  p0_import_candidate: High-value and plausibly importable with review.
+  p1_research_candidate: Useful, but needs deeper inspection or rights review.
+  p2_reference_only: Useful for ideas/code/product shape, not direct corpus import yet.
+  blocked: Do not import without explicit permission or a different source path.
+
+datasets:
+  - id: scribesalad
+    status: p0_import_candidate
+    name: ScribeSalad
+    url: https://github.com/wa3dbk/ScribeSalad
+    source_type: youtube_transcript_corpus
+    platform: github
+    license_observed: GPL-3.0
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-04-13T21:47:38Z"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    data_volume:
+      count: "940k+"
+      unit: YouTube transcripts
+      qualifier: README claim; import selected channel/person slices only.
+    freshness_notes: Large corpus appears recently maintained; per-channel/video title lists need per-video publish dates during import.
+    coverage_notes:
+      - Giant multilingual YouTube transcript corpus.
+      - Git tree includes metadata lists for Alex Hormozi under meta/titles/en/AlexHormozi.en.lst.
+      - Metadata lists include video IDs and titles; transcripts are organized by language/channel/source when present.
+    mapped_people:
+      - alex-hormozi
+      - lex-fridman-adjacent
+      - joe-rogan-adjacent
+      - tim-ferriss-adjacent
+      - y-combinator-adjacent
+    import_strategy: >
+      Start by importing metadata/title/video-id lists as candidate videos, then
+      selectively mirror transcript files only where present and compatible with
+      our rights policy. Keep GPL contamination risk isolated from core source
+      code and tag imported text with upstream license/provenance.
+    cautions:
+      - Transcript rights are not the same as repository license.
+      - Some transcripts are auto-generated YouTube captions.
+      - Repo is large; import by selected person/channel only.
+
+  - id: hormozi-wiki
+    status: p1_research_candidate
+    name: cdeistopened/hormozi-wiki
+    url: https://github.com/cdeistopened/hormozi-wiki
+    source_type: creator_knowledge_base
+    platform: github
+    license_observed: unknown
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-04-05T04:59:48Z"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    freshness_notes: Distilled framework files; source recency depends on referenced creator archive, not repo update alone.
+    coverage_notes:
+      - Ask Hormozi plugin built from creator archives.
+      - Includes framework markdown under references/frameworks.
+      - Useful for distilled framework candidates like CLOSER, value equation, grand slam offers, lead magnets, pricing psychology.
+    mapped_people:
+      - alex-hormozi
+    import_strategy: >
+      Treat as secondary/distilled knowledge until source citations are traced.
+      Import framework titles as research leads, not as primary claims.
+    cautions:
+      - No license observed.
+      - Likely derivative summaries; needs source-trace before extraction.
+
+  - id: hormozigpt-wombyz
+    status: p2_reference_only
+    name: wombyz/HormoziGPT
+    url: https://github.com/wombyz/HormoziGPT
+    source_type: creator_rag_app
+    platform: github
+    license_observed: unknown
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-05-07T22:37:52Z"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    freshness_notes: Repo is recently updated, but raw transcript corpus was not visible in root inspection.
+    coverage_notes:
+      - Streamlit-style app for Alex Hormozi advice.
+      - Repo metadata indicates high community interest; contents visible were mostly app code/prompts, not an obvious transcript corpus.
+    mapped_people:
+      - alex-hormozi
+    import_strategy: Inspect as product/interface reference, not as direct data source.
+    cautions:
+      - No license observed.
+      - Corpus may be external or absent from repo.
+
+  - id: harmozigpt-gristle18
+    status: p1_research_candidate
+    name: Gristle18/HarmoziGPT
+    url: https://github.com/Gristle18/HarmoziGPT
+    source_type: creator_transcription_pipeline
+    platform: github
+    license_observed: unknown
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-05-08T04:51:45Z"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    freshness_notes: Recently updated transcription pipeline; actual committed data still needs inspection.
+    coverage_notes:
+      - Repo description says it is trained on Alex Hormozi content and includes Whisper transcription plus speaker diarization.
+    mapped_people:
+      - alex-hormozi
+    import_strategy: Inspect for reusable processing pipeline or manifest, not bulk import until data/license are clear.
+    cautions:
+      - Need verify whether actual transcripts are present.
+      - No license observed during initial search.
+
+  - id: lenny-podcast-transcripts-chatprd
+    status: p0_import_candidate
+    name: ChatPRD/lennys-podcast-transcripts
+    url: https://github.com/ChatPRD/lennys-podcast-transcripts
+    source_type: podcast_transcript_archive
+    platform: github
+    license_observed: personal_educational_use_in_readme
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-05-08T05:47:38Z"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    data_volume:
+      count: "269"
+      unit: podcast transcripts
+      qualifier: README claim for Lenny's Podcast.
+    freshness_notes: Repo is highly current; episode-level publish dates are available in transcript frontmatter and should be imported.
+    coverage_notes:
+      - README states 269 Lenny's Podcast transcripts.
+      - Episode folders include transcript.md with YAML frontmatter, YouTube URL, video ID, guest, title, date, description, duration, view count, and channel.
+      - Includes AI-generated topic indexes.
+      - README lists downstream products including a Lenny knowledge graph.
+    mapped_people:
+      - lenny-rachitsky
+      - brian-chesky
+      - patrick-collison
+      - claire-hughes-johnson
+      - product-founder-leaders
+    import_strategy: >
+      Import as podcast episodes where guest matches our registry. Keep
+      transcripts marked rights_review/personal_educational and link back to
+      YouTube/original episode.
+    cautions:
+      - License is restrictive/educational, not clearly open for redistribution.
+      - Transcripts belong to original creators/guests.
+
+  - id: lenny-official-starter
+    status: p0_import_candidate
+    name: LennysNewsletter/lennys-newsletterpodcastdata
+    url: https://github.com/LennysNewsletter/lennys-newsletterpodcastdata
+    source_type: official_starter_pack
+    platform: github
+    license_observed: custom_license
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-05-08T05:12:38Z"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    data_volume:
+      count: "60"
+      unit: starter records
+      qualifier: 10 newsletter posts plus 50 podcast transcripts.
+    freshness_notes: Official starter pack is current; full paid archive intentionally excludes recent newsletters per README.
+    coverage_notes:
+      - Official/public starter pack.
+      - README states 10 newsletter posts and 50 podcast transcripts.
+      - index.json includes titles, dates, word counts, guests, and descriptions.
+      - Full paid archive has newsletter posts, podcast transcripts, MCP access, and private repo.
+    mapped_people:
+      - lenny-rachitsky
+      - brian-chesky
+      - patrick-collison
+      - product-founder-leaders
+    import_strategy: Import starter metadata first; import content only within custom license terms.
+    cautions:
+      - Custom license; read LICENSE.md before ingesting full text.
+      - Paid archive may be better via authorized access if user subscribes.
+
+  - id: lex-fridman-hf-nmac
+    status: p0_import_candidate
+    name: nmac/lex_fridman_podcast
+    url: https://huggingface.co/datasets/nmac/lex_fridman_podcast
+    source_type: podcast_transcript_dataset
+    platform: huggingface
+    license_observed: not_observed_in_card
+    observed_at: "2026-05-08"
+    source_last_updated: "2023-01-31T16:24:07Z"
+    data_coverage_start: episode_1
+    data_coverage_end: episode_325
+    data_volume:
+      count: "803k"
+      unit: timestamped transcript entries
+      qualifier: Lex episodes 1-325.
+    freshness_notes: Timestamped but stale for newer Lex episodes; useful for older AI leader interviews.
+    coverage_notes:
+      - Dataset card says Lex Fridman Podcast episodes 1 to 325.
+      - About 803K timestamped transcript entries.
+      - Fields include episode id, guest, title, text, start, and end.
+      - Source data attributed to Andrej Karpathy's lexicap.
+    mapped_people:
+      - demis-hassabis
+      - sam-altman
+      - mark-zuckerberg
+      - elon-musk
+      - geoffrey-hinton
+      - yoshua-bengio
+      - yann-lecun
+      - andrej-karpathy
+      - lex-fridman-adjacent
+    import_strategy: >
+      Import by guest-name match into normalized transcript YAML with timestamps;
+      keep upstream attribution to Karpathy lexicap and Hugging Face dataset.
+    cautions:
+      - License not clearly observed in initial dataset card.
+      - Whisper-generated transcripts may need quality review.
+
+  - id: lex-fridman-yassinetb
+    status: p1_research_candidate
+    name: yassinetb/Lex-Fridman-Podcast
+    url: https://github.com/yassinetb/Lex-Fridman-Podcast
+    source_type: lex_transcript_app_or_dataset
+    platform: github
+    license_observed: MIT
+    observed_at: "2026-05-08"
+    source_last_updated: "2025-11-14T10:24:21Z"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    freshness_notes: Repo update is newer than underlying old Lex corpus; inspect transcript folder before relying on freshness.
+    coverage_notes:
+      - GitHub repo returned MIT license and Lex Fridman-related transcript/search description.
+    mapped_people:
+      - lex-fridman-adjacent
+      - ai-researchers-technical-thinkers
+    import_strategy: Inspect file layout and determine whether data or only app code is present.
+    cautions:
+      - MIT may cover code, not necessarily transcript content.
+
+  - id: lex-fridman-hf-aditya0619
+    status: p0_import_candidate
+    name: Aditya0619/lex-fridman-podcast
+    url: https://huggingface.co/datasets/Aditya0619/lex-fridman-podcast
+    source_type: podcast_transcript_dataset
+    platform: huggingface
+    license_observed: MIT_claimed_on_dataset_card
+    observed_at: "2026-05-08"
+    source_last_updated: "2025-01-20T17:35:51Z"
+    data_coverage_start: episode_1
+    data_coverage_end: episode_452_era
+    data_volume:
+      count: "441"
+      unit: full-episode transcripts
+      qualifier: Hugging Face card/preview count.
+    freshness_notes: Newer than nmac; still misses 2025 episodes after January 20, including Jensen #494 and newer Demis #475.
+    coverage_notes:
+      - Dataset card/preview found by subagent says 441 full-episode Lex transcripts.
+      - Visible schema is Title and Transcript.
+      - Preview includes Dario Amodei episode 452 and newer coverage than nmac through January 2025.
+    mapped_people:
+      - dario-amodei
+      - sam-altman
+      - demis-hassabis
+      - andrej-karpathy
+      - ilya-sutskever
+      - ai-researchers-technical-thinkers
+    import_strategy: >
+      Use as broad whole-episode Lex backfill after rights review. Chunk
+      transcripts locally and map episode titles to registry people.
+    cautions:
+      - MIT claim may only cover packaging, not underlying podcast transcript rights.
+      - Whole-episode blobs need chunking, speaker cleanup, and timestamp reconstruction if possible.
+
+  - id: lex-fridman-official-transcripts
+    status: p0_import_candidate
+    name: Official Lex Fridman transcript pages
+    url: https://lexfridman.com/category/transcripts/
+    source_type: official_transcript_pages
+    platform: web
+    license_observed: rights_review
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_site
+    data_coverage_start: unknown
+    data_coverage_end: current_when_page_exists
+    freshness_notes: Best source for newest Lex transcripts; capture individual page publish/episode dates during scraping.
+    coverage_notes:
+      - Subagent found official transcript pages for Dario Amodei, Demis Hassabis, Jensen Huang, Sam Altman, and Andrej Karpathy.
+      - Pages have clickable timestamps and are useful for newest episodes missing from older datasets.
+    mapped_people:
+      - dario-amodei
+      - demis-hassabis
+      - jensen-huang
+      - sam-altman
+      - andrej-karpathy
+      - mark-zuckerberg
+      - elon-musk
+    import_strategy: >
+      Scrape only priority episode transcript pages with provenance and page
+      timestamp anchors; avoid broad crawling unless terms permit.
+    cautions:
+      - Public pages are not necessarily open-licensed for bulk reuse.
+      - Lex notes transcripts may contain errors.
+
+  - id: dwarkesh-official-pages
+    status: p0_import_candidate
+    name: Dwarkesh Podcast official pages
+    url: https://www.dwarkesh.com/archive
+    source_type: official_transcript_pages
+    platform: web
+    license_observed: rights_review
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_site
+    data_coverage_start: unknown
+    data_coverage_end: current_when_page_exists
+    freshness_notes: Strong for current frontier-AI interviews; capture episode publish dates from each page/feed.
+    coverage_notes:
+      - Subagent found transcript pages for Ilya Sutskever, Dario Amodei, Jensen Huang, and other AI leaders.
+      - Archive includes many high-priority AI interviews.
+    mapped_people:
+      - ilya-sutskever
+      - dario-amodei
+      - jensen-huang
+      - demis-hassabis
+      - mark-zuckerberg
+      - satya-nadella
+      - andrej-karpathy
+    import_strategy: >
+      Use targeted page scraping for selected official episode pages, strip
+      boilerplate/sponsor content, and keep episode URL/timestamp provenance.
+    cautions:
+      - Substack-style pages may have subscription or access restrictions.
+      - No explicit dataset license observed.
+
+  - id: youtube-commons-pleias
+    status: p0_import_candidate
+    name: PleIAs/YouTube-Commons
+    url: https://huggingface.co/datasets/PleIAs/YouTube-Commons
+    source_type: cc_by_youtube_transcript_corpus
+    platform: huggingface
+    license_observed: cc-by-4.0
+    observed_at: "2026-05-08"
+    source_last_updated: unknown
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    data_volume:
+      count: "2M+"
+      unit: video transcripts
+      qualifier: CC-BY YouTube transcript corpus.
+    freshness_notes: Large CC-BY corpus; import must preserve video upload date and dataset snapshot/version.
+    coverage_notes:
+      - Subagent found a 2M+ video transcript corpus from CC-BY YouTube videos.
+      - Includes provenance such as title, link, channel, and upload date.
+    mapped_people:
+      - ai-researchers-technical-thinkers
+      - frontier-ai-company-leaders
+      - creator-interview-corpus
+    import_strategy: >
+      Use as rights-clean broad backfill by filtering title/channel/person names.
+      Keep CC-BY attribution fields attached to every imported transcript chunk.
+    cautions:
+      - Only covers CC-BY videos, not standard-license podcasts.
+      - Requires large-scale filtering before import.
+
+  - id: huberman-lab-transcripts
+    status: p1_research_candidate
+    name: lord-denning/Huberman-Lab-Podcast-Transcripts
+    url: https://github.com/lord-denning/Huberman-Lab-Podcast-Transcripts
+    source_type: podcast_transcript_archive
+    platform: github
+    license_observed: unknown
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-02-22T00:55:44Z"
+    data_coverage_start: episode_1
+    data_coverage_end: episode_30_partial
+    freshness_notes: Limited early-episode corpus; not rolling.
+    coverage_notes:
+      - README says Markdown and Word transcripts covering most Huberman Lab episodes 1-30.
+      - Derived from YouTube transcripts.
+    mapped_people:
+      - andrew-huberman-adjacent
+      - lex-fridman-adjacent
+    import_strategy: Low priority unless Huberman or guests are added to registry; useful as podcast-transcript import format example.
+    cautions:
+      - No license observed.
+      - Limited episode coverage.
+
+  - id: lawwu-transcripts
+    status: p1_research_candidate
+    name: lawwu/transcripts
+    url: https://github.com/lawwu/transcripts
+    source_type: multi_channel_transcript_archive
+    platform: github
+    license_observed: unknown
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-04-11T13:24:00Z"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    freshness_notes: Recently maintained multi-channel transcript archive; channel coverage needs inspection.
+    coverage_notes:
+      - Repo description says transcripts for various YouTube channels inspired by Karpathy lexicap.
+    mapped_people:
+      - ai-researchers-technical-thinkers
+      - creator-interview-corpus
+    import_strategy: Inspect channel coverage and map transcript metadata to registry people.
+    cautions:
+      - No license observed.
+      - Need verify contents and whether transcript text is present.
+
+  - id: tapesearch-alex-hormozi
+    status: p1_research_candidate
+    name: Tapesearch Alex Hormozi podcast transcript search
+    url: https://app.tapesearch.com/person/alex-hormozi
+    source_type: podcast_transcript_search_index
+    platform: web
+    license_observed: rights_review
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_index
+    data_coverage_start: unknown
+    data_coverage_end: current_when_indexed
+    freshness_notes: Use as discovery only; capture original episode publish dates from primary sources.
+    coverage_notes:
+      - Search result indicated multiple Alex Hormozi podcast transcripts with timestamps and snippets.
+    mapped_people:
+      - alex-hormozi
+    import_strategy: Use as discovery index for podcast episodes, not direct bulk source unless terms permit.
+    cautions:
+      - Web index terms/rights need review.
+      - Better to import original podcast/YouTube transcript where permitted.
+
+  - id: sozai-alex-hormozi-transcripts
+    status: p1_research_candidate
+    name: Sozai Alex Hormozi channel transcripts
+    url: https://www.sozai.city/youtube-channel-transcripts
+    source_type: web_transcript_archive
+    platform: web
+    license_observed: rights_review
+    observed_at: "2026-05-08"
+    source_last_updated: unknown
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    freshness_notes: Small web archive; verify page dates and source video dates before import.
+    coverage_notes:
+      - Search result indicated seven Alex Hormozi channel transcripts.
+    mapped_people:
+      - alex-hormozi
+    import_strategy: Use as discovery/spot-check source; verify terms before import.
+    cautions:
+      - Need inspect page and rights.
+      - Coverage appears small.
+
+  - id: quote-datasets-wikiquote
+    status: p1_research_candidate
+    name: Wikiquote / quote datasets
+    url: https://www.wikiquote.org/
+    source_type: quote_corpus
+    platform: web
+    license_observed: CC-BY-SA
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_wikimedia
+    data_coverage_start: unknown
+    data_coverage_end: current_dump_when_downloaded
+    freshness_notes: Use dump date/revision IDs during import; page-level quotes change over time.
+    coverage_notes:
+      - Useful for historical and modern attributed quotes.
+      - Can map people slugs to quote pages.
+    mapped_people:
+      - socrates
+      - marcus-aurelius
+      - aristotle
+      - confucius
+      - business-wealth-persuasion-self-mastery
+    import_strategy: Import only as attributed quote candidates with license and verification status; never as canonical source without source trace.
+    cautions:
+      - Quote attribution quality varies.
+      - CC-BY-SA licensing and attribution requirements.
+      - Many internet quotes are misattributed.
+
+  - id: wikidata-official-dumps
+    status: p0_import_candidate
+    name: Wikidata official dumps
+    url: https://www.wikidata.org/wiki/Wikidata:Database_download
+    source_type: identity_knowledge_graph
+    platform: wikimedia
+    license_observed: CC0
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_wikimedia_dumps
+    data_coverage_start: unknown
+    data_coverage_end: current_dump_when_downloaded
+    freshness_notes: Store dump date and revision IDs for every identity import.
+    coverage_notes:
+      - Subagent identified this as the best identity spine for people.
+      - Covers QIDs, labels, aliases, occupations, dates, identifiers, sitelinks, and sameAs-style reconciliation.
+    mapped_people:
+      - all-registry-people
+    import_strategy: >
+      Add QID/alias/sitelink/enrichment fields to our people registry and use
+      Wikidata as the resolver for names across quote, podcast, and corpus datasets.
+    cautions:
+      - Huge dumps require a proper RDF/JSON/parquet pipeline.
+      - Living-person and sensitive claims need conservative display policy.
+      - Media/image licenses are separate from Wikidata CC0 facts.
+
+  - id: quotekg
+    status: p0_import_candidate
+    name: QuoteKG
+    url: https://quotekg.l3s.uni-hannover.de/
+    source_type: quote_knowledge_graph
+    platform: web
+    license_observed: wikiquote_derived_cc_by_sa_expected
+    observed_at: "2026-05-08"
+    source_last_updated: unknown
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    freshness_notes: Needs dataset release/snapshot date before import; likely less current than live Wikiquote dumps.
+    coverage_notes:
+      - Subagent found nearly 1M quotes, nearly 70K persons, and 55 languages.
+      - Built from Wikiquote and designed as a quote knowledge graph.
+    mapped_people:
+      - historic-philosophy-fundamental-thinkers
+      - business-wealth-persuasion-self-mastery
+      - strategy-power-history-civilization
+      - writers-sensemakers
+    import_strategy: >
+      Import quote candidates by linked person where possible, map to Wikidata,
+      and mark quotes as attributed/unverified until source citations are traced.
+    cautions:
+      - Wikiquote-derived licensing/attribution applies.
+      - Quote-level copyright and misattribution remain risks, especially for modern people.
+
+  - id: project-gutenberg-catalog
+    status: p0_import_candidate
+    name: Project Gutenberg catalog metadata
+    url: https://www.gutenberg.org/ebooks/offline_catalogs.html
+    source_type: public_domain_book_catalog
+    platform: project_gutenberg
+    license_observed: public_domain_us_plus_gutenberg_terms
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_catalog
+    data_coverage_start: public_domain_works
+    data_coverage_end: current_catalog_when_downloaded
+    freshness_notes: Store catalog snapshot date and ebook release/update date.
+    coverage_notes:
+      - Subagent identified catalog metadata for 70K+ ebooks.
+      - Useful for author IDs, subjects, aliases, and public-domain source discovery.
+    mapped_people:
+      - historic-philosophy-fundamental-thinkers
+      - strategy-power-history-civilization
+      - writers-sensemakers
+    import_strategy: >
+      Import metadata first, then selectively download public-domain texts using
+      our existing raw source ingest path.
+    cautions:
+      - Public-domain status is U.S.-centric.
+      - Translations/editorial matter can have separate copyright.
+      - Project Gutenberg trademark/license terms matter for redistribution.
+
+  - id: sporc
+    status: p1_research_candidate
+    name: SPoRC Structured Podcast Open Research Corpus
+    url: https://huggingface.co/datasets/blitt/SPoRC
+    source_type: podcast_transcript_research_corpus
+    platform: huggingface
+    license_observed: gated_research_terms
+    observed_at: "2026-05-08"
+    source_last_updated: unknown
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    data_volume:
+      count: "1.1M+"
+      unit: podcast episodes
+      qualifier: transcripts plus metadata and inferred host/guest roles.
+    freshness_notes: Access/terms required before precise coverage and freshness can be trusted.
+    coverage_notes:
+      - Subagent found 1.1M+ podcast episodes with transcripts, metadata, and inferred host/guest roles.
+      - Potentially useful for broad people-on-podcasts appearance graph.
+    mapped_people:
+      - all-registry-people
+    import_strategy: >
+      Use only after access/terms review. Import episode metadata and host/guest
+      role edges first; transcript text second if allowed.
+    cautions:
+      - Access gated and rights likely research-oriented.
+      - ASR/diarization/name inference errors.
+
+  - id: mediasum
+    status: p1_research_candidate
+    name: MediaSum
+    url: https://www.tensorflow.org/datasets/catalog/media_sum
+    source_type: media_interview_transcript_corpus
+    platform: tensorflow_datasets
+    license_observed: research_use_notice
+    observed_at: "2026-05-08"
+    source_last_updated: unknown
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    data_volume:
+      count: "463K+"
+      unit: interview transcripts
+      qualifier: NPR/CNN interview transcript research corpus.
+    freshness_notes: Research dataset; import event date per interview if used.
+    coverage_notes:
+      - Subagent found 463K+ NPR/CNN interview transcripts with speaker sequences and summaries.
+    mapped_people:
+      - public-figures
+      - strategy-power-history-civilization
+      - frontier-ai-company-leaders
+    import_strategy: >
+      Treat as interview event metadata and utterance corpus only if research-use
+      constraints fit the project.
+    cautions:
+      - Research-purpose restriction is a blocker for broader product use.
+      - CNN/NPR source rights need review.
+
+  - id: naval-style-eval-corpus
+    status: p0_import_candidate
+    name: yoonholee/style-eval-corpus
+    url: https://huggingface.co/datasets/yoonholee/style-eval-corpus
+    source_type: author_style_text_dataset
+    platform: huggingface
+    license_observed: cc0-1.0_dataset_with_source_specific_rights
+    observed_at: "2026-05-08"
+    source_last_updated: unknown
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    data_volume:
+      count: "52"
+      unit: Naval pieces
+      qualifier: about 46K words from navalmanack.com.
+    freshness_notes: Static Naval Almanack-derived text; source text is not a live transcript archive.
+    coverage_notes:
+      - Subagent found 52 Naval Ravikant pieces and about 46K words sourced from navalmanack.com.
+      - Schema includes author, title, url, text, and word_count.
+    mapped_people:
+      - naval-ravikant
+    import_strategy: >
+      Filter rows by author == Naval Ravikant and import as written/source-text
+      candidates after checking Navalmanack source license.
+    cautions:
+      - Not podcast transcripts.
+      - Source-specific rights still need review despite dataset curation license.
+
+  - id: naval-gpt-mckaywrigley
+    status: p1_research_candidate
+    name: mckaywrigley/naval-gpt
+    url: https://github.com/mckaywrigley/naval-gpt
+    source_type: creator_rag_app
+    platform: github
+    license_observed: MIT_code
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-04-16T08:01:07Z"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    freshness_notes: App repo is recent; inspect scripts/schema for whether source URLs or committed Naval data exist.
+    coverage_notes:
+      - Next.js app for Naval-style chat/RAG.
+      - Root inspection found app code, schema, scripts, and no obvious corpus in root.
+    mapped_people:
+      - naval-ravikant
+    import_strategy: Inspect scripts and schema for ingestion recipe; treat as app reference unless raw data is committed.
+    cautions:
+      - MIT likely covers code only.
+      - Underlying Naval content rights need separate review.
+
+  - id: naval-skill-alchaincyf
+    status: p1_research_candidate
+    name: alchaincyf/naval-skill
+    url: https://github.com/alchaincyf/naval-skill
+    source_type: distilled_person_skill
+    platform: github
+    license_observed: MIT
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-05-08T07:23:13Z"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    freshness_notes: Very fresh distilled skill; useful as secondary framework/persona lead, not primary corpus.
+    coverage_notes:
+      - Naval Ravikant cognitive operating system skill generated by Nuwa-style distillation workflow.
+    mapped_people:
+      - naval-ravikant
+    import_strategy: Import only as secondary/persona lead after inspecting citations; use to guide primary source collection.
+    cautions:
+      - Distillation may include interpretation and hallucinated structure.
+      - Needs source trace before graph claims.
+
+  - id: naval-almanack-hf-harshalmore31
+    status: p1_research_candidate
+    name: harshalmore31/Eric-Jorgenson_The-Almanack-of-Naval-Ravikant
+    url: https://huggingface.co/datasets/harshalmore31/Eric-Jorgenson_The-Almanack-of-Naval-Ravikant
+    source_type: book_text_dataset
+    platform: huggingface
+    license_observed: MIT_claimed_on_card
+    observed_at: "2026-05-08"
+    source_last_updated: "2025-03-16T01:26:06Z"
+    data_coverage_start: static_book
+    data_coverage_end: static_book
+    freshness_notes: Static Almanack-derived corpus; not a live Naval archive.
+    coverage_notes:
+      - Hugging Face API found this dataset for Naval Ravikant.
+      - Likely focused on Eric Jorgenson's Almanack text.
+    mapped_people:
+      - naval-ravikant
+    import_strategy: Compare against Navalmanack/source license and existing style-eval Naval rows before importing.
+    cautions:
+      - Dataset packaging license may not resolve book/source rights.
+      - Not transcripts.
+
+  - id: hormozi-brain-claude-project
+    status: p1_research_candidate
+    name: jonathanmalkin/hormozi-brain-claude-project
+    url: https://github.com/jonathanmalkin/hormozi-brain-claude-project
+    source_type: distilled_creator_project
+    platform: github
+    license_observed: MIT
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-05-05T19:30:43Z"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    freshness_notes: Recent portable Claude Project; contains source manifest and distilled knowledge, not raw transcript bundle.
+    coverage_notes:
+      - Root includes knowledge folder, evals, project instructions, and sources.csv.
+      - Subagent found it explicitly says it is not a scraped transcript bundle.
+    mapped_people:
+      - alex-hormozi
+    import_strategy: Import sources.csv as source leads and knowledge files as secondary framework candidates with low authority.
+    cautions:
+      - Not primary data.
+      - Distilled summaries need source trace.
+
+  - id: founder-playbook
+    status: p1_research_candidate
+    name: getagentseal/founder-playbook
+    url: https://github.com/getagentseal/founder-playbook
+    source_type: distilled_business_book_skills
+    platform: github
+    license_observed: MIT
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-05-08T00:02:42Z"
+    data_coverage_start: static_books
+    data_coverage_end: static_books
+    freshness_notes: Very recent distilled skill repo; tracks frameworks from business books rather than people transcripts.
+    coverage_notes:
+      - Root includes folders for 100M Leads, 100M Offers, Influence, Lean Startup, Traction, Made to Stick, StoryBrand, and other business books.
+    mapped_people:
+      - alex-hormozi
+      - business-wealth-persuasion-self-mastery
+      - founder-operators
+    import_strategy: Use as framework taxonomy and secondary leads; do not treat as primary claims unless citations are present.
+    cautions:
+      - Book/content rights are separate from repo license.
+      - Distilled skills may flatten nuance.
+
+  - id: nuwa-skill
+    status: p2_reference_only
+    name: alchaincyf/nuwa-skill
+    url: https://github.com/alchaincyf/nuwa-skill
+    source_type: person_distillation_toolkit
+    platform: github
+    license_observed: MIT
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-05-08T09:06:39Z"
+    data_coverage_start: not_applicable
+    data_coverage_end: not_applicable
+    freshness_notes: Extremely current toolkit; useful for method design, not a source dataset.
+    coverage_notes:
+      - Described as a toolkit to distill how anyone thinks into mental models, heuristics, and expression DNA.
+      - Includes SKILL.md, examples, references, scripts, and multilingual docs.
+    mapped_people:
+      - all-registry-people
+    import_strategy: Study as workflow reference for our extraction/persona layer after primary source import is clean.
+    cautions:
+      - Not raw source data.
+      - Use methods critically; our graph still needs provenance-first extraction.
+
+  - id: readyai-podcast-conversations
+    status: p1_research_candidate
+    name: ReadyAi/5000-podcast-conversations-with-metadata-and-embedding-dataset
+    url: https://huggingface.co/datasets/ReadyAi/5000-podcast-conversations-with-metadata-and-embedding-dataset
+    source_type: podcast_conversation_dataset
+    platform: huggingface
+    license_observed: unknown
+    observed_at: "2026-05-08"
+    source_last_updated: "2025-06-19"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    data_volume:
+      count: "11,888"
+      unit: rows
+      qualifier: search result says 5,000 podcast conversations.
+    freshness_notes: Search result shows 11.9k rows and 5,000 podcast conversations; need dataset card inspection for coverage and rights.
+    coverage_notes:
+      - Hugging Face search result indicates chunks, speaker labels, metadata, and embeddings.
+    mapped_people:
+      - podcast-interview-corpus
+      - all-registry-people
+    import_strategy: Inspect dataset card/schema, then use only for discovery or transcript import if source URLs and rights are clear.
+    cautions:
+      - Speaker labels may be generic.
+      - License/rights unknown from quick search.
+
+  - id: beliefengines-podcast-transcripts
+    status: p0_import_candidate
+    name: BeliefEngines/podcast-transcripts
+    url: https://huggingface.co/datasets/BeliefEngines/podcast-transcripts
+    source_type: podcast_belief_quote_graph_dataset
+    platform: huggingface
+    license_observed: MIT_claimed_on_card
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-04-21"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    data_volume:
+      count: "556"
+      unit: rows
+      qualifier: includes persons, beliefs, quotes, transcript chunks, embeddings, and episode metadata.
+    freshness_notes: Recent small dataset; especially interesting because it already has persons, beliefs, quotes, transcript chunks, embeddings, and episode metadata.
+    coverage_notes:
+      - Subagent found 556 visible rows and graph-like tables including persons.parquet.
+      - Sample coverage is Bitcoin/philosophy guests, including Robert Breedlove and Michael Sullivan.
+    mapped_people:
+      - podcast-interview-corpus
+      - bitcoin-finance-thinkers
+      - belief-graph-reference
+    import_strategy: >
+      Inspect schema first, then use as a model for our own belief/quote/person
+      extraction tables. Import content only after rights review.
+    cautions:
+      - Derived belief claims need model-quality review.
+      - Small and niche.
+
+  - id: kurry-sp500-earnings-transcripts
+    status: p0_import_candidate
+    name: kurry/sp500_earnings_transcripts
+    url: https://huggingface.co/datasets/kurry/sp500_earnings_transcripts
+    source_type: earnings_call_transcript_corpus
+    platform: huggingface
+    license_observed: MIT_claimed_on_card
+    observed_at: "2026-05-08"
+    source_last_updated: "2025-05-21"
+    data_coverage_start: "2005"
+    data_coverage_end: "2025"
+    data_volume:
+      count: "33,362"
+      unit: rows
+      qualifier: S&P 500 earnings-call transcripts.
+    freshness_notes: Large executive corpus with explicit 2005-2025 coverage; useful for CEO/company-time edges.
+    coverage_notes:
+      - Subagent found 33,362 rows.
+      - Covers S&P 500 earnings-call transcripts and public-company executives.
+    mapped_people:
+      - big-tech-platform-ceos
+      - public-company-executives
+      - lisa-su
+      - tim-cook
+      - satya-nadella
+      - sundar-pichai
+    import_strategy: >
+      Import metadata and speaker/company/date edges first. Use transcript text
+      only after rights review and speaker normalization.
+    cautions:
+      - Earnings-call transcript redistribution rights need review.
+      - Speaker normalization and role matching required.
+
+  - id: sgoel9-sam-altman-essays
+    status: p0_import_candidate
+    name: sgoel9/sam_altman_essays
+    url: https://huggingface.co/datasets/sgoel9/sam_altman_essays
+    source_type: essay_corpus
+    platform: huggingface
+    license_observed: apache-2.0_card_with_mit_text_inconsistency
+    observed_at: "2026-05-08"
+    source_last_updated: "2024-04-20"
+    data_coverage_start: unknown
+    data_coverage_end: "2023-12-21_sample_visible"
+    data_volume:
+      count: "112"
+      unit: essay rows
+      qualifier: Sam Altman blog essay corpus.
+    freshness_notes: Compact Sam Altman essay corpus; row-level blog dates visible and should drive coverage assessment.
+    coverage_notes:
+      - Subagent found 112 rows.
+      - Samples include blog essay dates such as 2022-07-13 and 2023-12-21.
+    mapped_people:
+      - sam-altman
+    import_strategy: Import as essay/source candidates with source URL and publication date preserved.
+    cautions:
+      - License inconsistency between card and README.
+      - Source blog rights/attribution need preservation.
+
+  - id: sgoel9-paul-graham-essays
+    status: p0_import_candidate
+    name: sgoel9/paul_graham_essays
+    url: https://huggingface.co/datasets/sgoel9/paul_graham_essays
+    source_type: essay_corpus
+    platform: huggingface
+    license_observed: MIT_claimed_on_card
+    observed_at: "2026-05-08"
+    source_last_updated: "2024-04-20"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    data_volume:
+      count: "215"
+      unit: essay rows
+      qualifier: Paul Graham essay corpus.
+    freshness_notes: Compact Paul Graham essay corpus with row-level essay dates; compare with direct paulgraham.com archive before importing text.
+    coverage_notes:
+      - Subagent found 215 rows.
+      - Sample dates include month/year essay dates.
+    mapped_people:
+      - paul-graham
+    import_strategy: Import metadata/date/source URLs first; use content only with rights/attribution review.
+    cautions:
+      - paulgraham.com content rights are external to dataset card.
+
+  - id: jan-hq-youtube-transcripts-raw
+    status: p1_research_candidate
+    name: jan-hq/youtube_transcripts_raw
+    url: https://huggingface.co/datasets/jan-hq/youtube_transcripts_raw
+    source_type: ai_tech_youtube_transcript_chunks
+    platform: huggingface
+    license_observed: unknown
+    observed_at: "2026-05-08"
+    source_last_updated: "2024-03-13"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    data_volume:
+      count: "244"
+      unit: transcript rows
+      qualifier: small AI tech YouTube transcript seed.
+    freshness_notes: Small but high-signal AI-leader seed; sample starts with Jensen Huang Stanford interview.
+    coverage_notes:
+      - Subagent found 244 rows with video IDs and raw transcript text.
+    mapped_people:
+      - jensen-huang
+      - ai-researchers-technical-thinkers
+    import_strategy: Inspect source video IDs and import only as transcript candidates if provenance is sufficient.
+    cautions:
+      - Very small.
+      - No license observed.
+
+  - id: rchiera-podcast-transcripts
+    status: p1_research_candidate
+    name: rchiera/podcast-transcripts
+    url: https://huggingface.co/datasets/rchiera/podcast-transcripts
+    source_type: podcast_transcript_corpus
+    platform: huggingface
+    license_observed: MIT_claimed_on_card
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-02-13"
+    data_coverage_start: unknown
+    data_coverage_end: "2025_sample_episodes"
+    data_volume:
+      count: "52,334"
+      unit: rows
+      qualifier: podcast transcripts with episode metadata and speaker slugs.
+    freshness_notes: Recent finance/Bitcoin podcast corpus with speaker slugs; useful for person-episode graph edges.
+    coverage_notes:
+      - Subagent found 52,334 rows.
+      - Includes episode metadata and speaker_slugs.
+    mapped_people:
+      - bitcoin-finance-thinkers
+      - podcast-interview-corpus
+    import_strategy: Import speaker/episode metadata first; transcript content after rights review.
+    cautions:
+      - Niche domain.
+      - Some speakers are unknown slugs.
+
+  - id: interview-records
+    status: p0_import_candidate
+    name: Interview Records
+    url: https://www.interviewrecords.com/
+    source_type: public_interview_index
+    platform: web
+    license_observed: rights_notes_per_record
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_site
+    data_coverage_start: unknown
+    data_coverage_end: current_bundle_when_fetched
+    freshness_notes: Public interview index advertises a data bundle; record-level date/topic/rights fields are the useful freshness signal.
+    coverage_notes:
+      - Subagent found public interview records by person, date, topic, format, and transcript status.
+      - Complete /data.bundle.json was advertised.
+    mapped_people:
+      - all-registry-people
+    import_strategy: Fetch JSON bundle, import interview metadata/source URLs/transcript availability, and link people to Wikidata.
+    cautions:
+      - Indexes sources rather than owning rights.
+      - Do not bulk-copy transcripts without rights approval.
+
+  - id: podcast-index
+    status: p0_import_candidate
+    name: Podcast Index
+    url: https://podcastindex.org/
+    source_type: podcast_metadata_index
+    platform: web_api
+    license_observed: api_terms_plus_podcast_namespace_cc0
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_index
+    data_coverage_start: unknown
+    data_coverage_end: current_api_when_queried
+    freshness_notes: Best podcast/feed discovery layer; episode pubDate and transcript/person tags should be stored per record.
+    coverage_notes:
+      - API exposes podcasts, episodes, search, RSS URLs, and Podcasting 2.0 tags such as person/transcript/license where feeds provide them.
+    mapped_people:
+      - podcast-interview-corpus
+      - all-registry-people
+    import_strategy: Use feed/episode metadata and transcript URLs as discovery; use Podcast Index IDs as stable podcast keys.
+    cautions:
+      - Audio/transcripts remain publisher-owned.
+      - API key and terms apply.
+
+  - id: nasa-oral-histories
+    status: p0_import_candidate
+    name: NASA Oral Histories
+    url: https://www.nasa.gov/history/history-publications-and-resources/oral-histories/
+    source_type: official_oral_history_archive
+    platform: web
+    license_observed: us_government_public_domain_expected
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-03-09"
+    data_coverage_start: unknown
+    data_coverage_end: current_archive_when_fetched
+    freshness_notes: Official archive; source item interview dates matter more than page update date.
+    coverage_notes:
+      - Covers NASA leadership, missions, aerospace figures, and audio-recorded oral history interviews.
+    mapped_people:
+      - aerospace-science-figures
+      - strategy-power-history-civilization
+    import_strategy: Import interviewee/interviewer/date/project/transcript URL; link people to Wikidata/OpenAlex.
+    cautions:
+      - Some partner-hosted materials may differ in rights/access.
+      - Personal opinions are not official NASA views.
+
+  - id: nara-transition-interviews
+    status: p0_import_candidate
+    name: NARA White House Transition Interviews
+    url: https://www.archives.gov/presidential-libraries/research/transition-interviews
+    source_type: official_oral_history_transcripts
+    platform: web
+    license_observed: public_domain_us_government
+    observed_at: "2026-05-08"
+    source_last_updated: unknown
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    freshness_notes: Official public-domain oral history transcript corpus; interview dates should be captured per record.
+    coverage_notes:
+      - U.S. presidential transition interview transcripts.
+    mapped_people:
+      - strategy-power-history-civilization
+      - public-officials
+    import_strategy: Parse interviewee/interviewer/date/administration/library/transcript text and citation.
+    cautions:
+      - Narrow domain.
+      - Other presidential library material can have separate restrictions.
+
+  - id: bigscience-roots-en-wikiquote
+    status: p1_research_candidate
+    name: bigscience-data/roots_en_wikiquote
+    url: https://huggingface.co/datasets/bigscience-data/roots_en_wikiquote
+    source_type: wikiquote_dump_dataset
+    platform: huggingface
+    license_observed: cc-by-sa-3.0
+    observed_at: "2026-05-08"
+    source_last_updated: "2022-12-12T11:03:08Z"
+    data_coverage_start: unknown
+    data_coverage_end: "2022-12-12_snapshot"
+    freshness_notes: Stale relative to live Wikiquote; useful as a simple snapshot only.
+    coverage_notes:
+      - Hugging Face API found BigScience ROOTS English Wikiquote.
+      - Multilingual variants exist for many languages.
+    mapped_people:
+      - historic-philosophy-fundamental-thinkers
+      - writers-sensemakers
+      - strategy-power-history-civilization
+    import_strategy: Use only if QuoteKG/live Wikiquote dump path is too heavy; preserve CC-BY-SA attribution.
+    cautions:
+      - Snapshot is old.
+      - Wikitext/page parsing still required.
+      - Quote misattribution and copyright issues remain.
+
+  - id: lennyhub-rag
+    status: p1_research_candidate
+    name: traversaal-ai/lennyhub-rag
+    url: https://github.com/traversaal-ai/lennyhub-rag
+    source_type: transcript_rag_knowledge_graph_app
+    platform: github
+    license_observed: Apache-2.0_code
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-05-04T00:09:15Z"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    data_volume:
+      count: "297"
+      unit: transcript files
+      qualifier: Lenny Podcast transcript RAG corpus.
+    freshness_notes: App/data repo appears recent; transcript dates must be read from data files.
+    coverage_notes:
+      - Subagent found a production-style RAG app over 297 Lenny Podcast transcript files.
+      - Includes graph/RAG storage patterns and source-attribution querying.
+    mapped_people:
+      - lenny-rachitsky
+      - product-founder-leaders
+    import_strategy: >
+      Use as architecture/reference and inspect transcript data licensing before
+      importing any raw text.
+    cautions:
+      - Apache-2.0 likely covers code, not underlying podcast transcripts.
+      - Generated storage artifacts may be stale or hard to reproduce.
+
+  - id: nate-jones-transcripts
+    status: p0_import_candidate
+    name: kani3894/nate-jones-transcripts
+    url: https://github.com/kani3894/nate-jones-transcripts
+    source_type: youtube_transcript_archive
+    platform: github
+    license_observed: none_detected
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-05-04T22:43:33Z"
+    data_coverage_start: "2024-07-09"
+    data_coverage_end: "2026-01-13"
+    data_volume:
+      count: "45"
+      unit: Nvidia-indexed AI episodes
+      qualifier: broader repo archive also includes OpenAI, Anthropic, DeepMind, Microsoft, Google, Meta, xAI, Claude, Gemini, GPT-5, and agents.
+    freshness_notes: Sourcegraph found current AI transcript indexes; GitHub metadata shows recent repository activity and index pages expose per-episode dates.
+    coverage_notes:
+      - Sourcegraph found index pages linking to a transcript titled "What Sam Altman and Dario Amodei Disagree About (And Why It Matters for You)" dated 2026-01-12.
+      - Sourcegraph found Nvidia/Jensen coverage, including "Nvidia's Strategy at Jensen Huang's CES 2025 Keynote: Robotics and AI" dated 2025-01-07.
+      - GitHub index/nvidia.md lists 45 Nvidia-related AI episodes from 2024-07-09 through 2026-01-13.
+      - Repository index includes OpenAI, Anthropic, DeepMind, Nvidia, Microsoft, Google, Meta, xAI, Claude, Gemini, GPT-5, AI agents, and AI strategy topics.
+      - Repository description says it is a transcript archive of Nate Jones YouTube videos for AI/RAG use.
+    mapped_people:
+      - sam-altman
+      - dario-amodei
+      - jensen-huang
+      - mark-zuckerberg
+      - sundar-pichai
+      - frontier-ai-leaders
+    import_strategy: Import metadata and episode dates first; inspect markdown episode frontmatter/body before importing transcript text.
+    cautions:
+      - No detected license.
+      - YouTube transcript rights and generated transcript quality need review.
+
+  - id: practical-ai-transcripts-willtheorangeguy
+    status: p0_import_candidate
+    name: willtheorangeguy Practical AI transcript datasets
+    url: https://huggingface.co/datasets/willtheorangeguy/2025-Practical-AI-Transcripts
+    source_type: ai_podcast_transcript_series
+    platform: huggingface
+    license_observed: MIT_claimed_on_card
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-04-17T01:44:48Z"
+    data_coverage_start: "2018"
+    data_coverage_end: "2025"
+    data_volume:
+      count: "343"
+      unit: episode transcripts
+      qualifier: Practical AI yearly Hugging Face datasets for 2018-2025; same run also exposes 343 summaries.
+    freshness_notes: Yearly Hugging Face datasets for Practical AI were all created/updated on 2026-04-17; episode files encode year and title, but episode publish dates should be derived per file/feed.
+    coverage_notes:
+      - Hugging Face API found yearly datasets for 2018 through 2025 Practical AI transcripts.
+      - 2025 dataset sample files include AI hot takes/autonomy, hallucinations to blackmail, AI-assisted coding with GitHub's COO, and other current AI topics.
+      - 2024 dataset sample files include AI in the U.S. Congress, cybersecurity threat landscape, AI predictions for 2024, and other AI policy/product episodes.
+      - Web search also found `ryang2/youtube-podcast-transcripts`, a smaller CC-BY-SA Practical AI/Changelog-style dataset already useful as a supplementary seed.
+    mapped_people:
+      - ai-researchers-technical-thinkers
+      - frontier-ai-company-leaders
+      - open-source-ai-leaders
+      - ai-engineering-practitioners
+    import_strategy: Import yearly dataset metadata first, then resolve guests/speakers from episode title/feed metadata before importing transcript text.
+    cautions:
+      - MIT claim likely covers dataset packaging; underlying podcast transcript rights still need review.
+      - Person names are not guaranteed in every file name and need entity extraction.
+
+  - id: k-dense-mimeo-ai-researcher-skills
+    status: p1_research_candidate
+    name: K-Dense-AI/mimeo
+    url: https://github.com/K-Dense-AI/mimeo
+    source_type: ai_researcher_source_maps_and_agent_skills
+    platform: github
+    license_observed: MIT
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-05-08T04:29:15Z"
+    data_coverage_start: "unknown"
+    data_coverage_end: "2026-04-16"
+    data_volume:
+      count: "20"
+      unit: AI researcher source-map folders
+      qualifier: source maps for major AI researchers and leaders.
+    freshness_notes: Repo is very recent and generated expert source maps expose dated source links; source content dates vary by person and should be captured per source.
+    coverage_notes:
+      - Sourcegraph found output folders for Andrej Karpathy, Andrew Ng, Christopher Manning, Daphne Koller, David Silver, Demis Hassabis, Fei-Fei Li, Geoffrey Hinton, Ian Goodfellow, Ilya Sutskever, Jeff Dean, Judea Pearl, Jurgen Schmidhuber, Kaiming He, Pieter Abbeel, Richard Sutton, Sebastian Thrun, Stuart Russell, Yann LeCun, and Yoshua Bengio.
+      - Ilya Sutskever source map includes Dwarkesh, NeurIPS 2024, Eye on AI transcript, Stanford, LessWrong, CTech 2025, thesis, papers, and talks.
+      - Demis Hassabis source map includes NYT, TED Interview transcript, and a 2025-09-15 All-In Summit transcript lead.
+    mapped_people:
+      - ilya-sutskever
+      - demis-hassabis
+      - andrej-karpathy
+      - andrew-ng
+      - fei-fei-li
+      - geoffrey-hinton
+      - yann-lecun
+      - yoshua-bengio
+      - jeff-dean
+      - stuart-russell
+      - ai-researchers-technical-thinkers
+    import_strategy: Treat as source-map enrichment first; import URLs, dates, categories, and confidence scores, then fetch primary transcript pages directly.
+    cautions:
+      - Repo output is generated and may mix primary sources, summaries, biographies, and secondary pages.
+      - Do not import generated AGENTS/SKILL text as primary claims without tracing citations.
+
+  - id: filipwx-ted-podcast-finetune
+    status: p1_research_candidate
+    name: filipwx/ted-podcast-finetune
+    url: https://huggingface.co/datasets/filipwx/ted-podcast-finetune
+    source_type: mixed_ted_lex_joe_rogan_transcript_finetune_dataset
+    platform: huggingface
+    license_observed: cc-by-4.0
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-04-05T16:56:55Z"
+    data_coverage_start: unknown
+    data_coverage_end: unknown
+    freshness_notes: Recent Hugging Face dataset with structured CSV/JSONL files; content coverage must be computed from episode metadata.
+    coverage_notes:
+      - Dataset card/search describes structured transcripts from TED Talks and podcasts including Lex Fridman and Joe Rogan.
+      - Files include dataset_episodes.csv, dataset_full.csv, dataset_huggingface.jsonl, train/validation JSONL, and text-completion JSONL.
+    mapped_people:
+      - lex-fridman-adjacent
+      - joe-rogan-adjacent
+      - ai-researchers-technical-thinkers
+    import_strategy: Inspect `dataset_episodes.csv` for source names, episode titles, guests, and dates; use as broad supplementary transcript index if provenance is adequate.
+    cautions:
+      - Mixed-source fine-tuning dataset; transcript rights may differ by original source.
+      - Lower priority than source-specific Lex/Dwarkesh/Lenny imports.
+
+  - id: ai-frontier-web-transcript-pages
+    status: p0_import_candidate
+    name: Frontier AI web transcript pages
+    url: https://lexfridman.com/category/transcripts/
+    source_type: curated_web_transcript_sources
+    platform: web
+    license_observed: source_specific_rights_review
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_sites
+    data_coverage_start: "2023"
+    data_coverage_end: "2026"
+    freshness_notes: Web/search and Sourcegraph found multiple current AI interview transcript pages; each page needs its own publish date, modified date, and rights tag.
+    coverage_notes:
+      - Lex has transcript pages for Dario Amodei and Jensen Huang, plus many older AI leaders.
+      - Dwarkesh has current frontier AI pages for Ilya Sutskever, Dario Amodei, Jensen Huang, and related AI leaders.
+      - Web search found Big Technology/Singju transcript pages for Dario Amodei in 2025.
+      - Web search found Rev and Cheeky Pint transcript pages for Greg Brockman/OpenAI/AI safety.
+      - Web search found Eye on AI, Podscripts, LifeArchitect, Stanford eCorner, and LessWrong transcript leads for Ilya Sutskever.
+    mapped_people:
+      - dario-amodei
+      - ilya-sutskever
+      - jensen-huang
+      - greg-brockman
+      - sam-altman
+      - demis-hassabis
+      - frontier-ai-company-leaders
+    import_strategy: Create a targeted page fetcher that records source URL, page title, publish date, transcript availability, rights notes, and person/entity matches before any text import.
+    cautions:
+      - Not a single dataset; this is a curated source cluster for targeted crawling.
+      - Commercial transcript pages may restrict bulk copying.
+      - Need duplicate detection against Lex/Dwarkesh/Hugging Face corpora.
+
+  - id: earnings-calls-nlp-cdubiel08
+    status: p1_research_candidate
+    name: cdubiel08/Earnings-Calls-NLP
+    url: https://github.com/cdubiel08/Earnings-Calls-NLP
+    source_type: earnings_call_transcript_archive
+    platform: github
+    license_observed: MIT
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-04-21T03:51:08Z"
+    data_coverage_start: "2020-08-20"
+    data_coverage_end: "2021-era"
+    freshness_notes: GitHub repo activity is recent but committed transcript corpus appears older; useful for historical Jensen/NVIDIA earnings-call seed only.
+    coverage_notes:
+      - Sourcegraph found NVIDIA CEO Jensen Huang earnings-call transcript files and transcript_list.csv rows for 2020 NVIDIA events.
+      - Overlaps with the broader `kurry/sp500_earnings_transcripts` Hugging Face source, which remains the better modern executive-corpus path.
+    mapped_people:
+      - jensen-huang
+      - lisa-su
+      - public-company-executives
+    import_strategy: Use only as a spot-check/reference for earnings transcript format; prefer kurry S&P500 earnings corpus for scale.
+    cautions:
+      - Older corpus.
+      - Source transcript rights may differ from repo MIT license.
+
+  - id: navalmanac-chatbot-docstore
+    status: p1_research_candidate
+    name: progremir/navalmanac
+    url: https://github.com/progremir/navalmanac
+    source_type: person_rag_docstore
+    platform: github
+    license_observed: none_detected
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-04-16T08:00:56Z"
+    data_coverage_start: "2020"
+    data_coverage_end: "2020"
+    freshness_notes: Sourcegraph found a docstore mirror of the Naval Almanack; repository activity is recent but source text is a static 2020 book/compilation.
+    coverage_notes:
+      - Contains a docstore JSON with chunks from The Almanack of Naval Ravikant and source metadata.
+      - Useful mainly as a RAG-format example because other Naval sources in the registry are cleaner.
+    mapped_people:
+      - naval-ravikant
+    import_strategy: Prefer higher-provenance Naval Almanack sources; use this only to inspect chunking/index design.
+    cautions:
+      - No detected license on the repo.
+      - The underlying book has its own rights and attribution requirements.
+
+  - id: podchaser-api
+    status: p0_import_candidate
+    name: Podchaser API
+    url: https://www.podchaser.com/api
+    source_type: rolling_podcast_transcript_people_index
+    platform: web_api
+    license_observed: api_terms
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_api
+    data_coverage_start: unknown
+    data_coverage_end: current_api_when_queried
+    data_volume:
+      count: "4M+"
+      unit: episode transcripts
+      qualifier: site also advertises 5.5M+ podcasts, 27M+ host/guest/crew credits, and 20K+ Apple/Spotify charts.
+    freshness_notes: Live commercial API with podcast, episode, credit, chart, transcript, sponsor, and audience data; store query time and episode publish dates.
+    coverage_notes:
+      - Public API page advertises a large podcast database with transcripts and host/guest/crew credits.
+      - Especially useful for finding appearances by frontier AI leaders, founders, CEOs, and creators across podcasts.
+      - API docs expose transcript retrieval for individual episodes.
+    mapped_people:
+      - podcast-interview-corpus
+      - frontier-ai-company-leaders
+      - big-tech-platform-ceos
+      - all-registry-people
+    import_strategy: >
+      Use as a discovery and metadata layer first: people/credit lookup, episode
+      IDs, podcast IDs, publish dates, transcript availability, and source URLs.
+      Import transcript text only under API terms and with original-source provenance.
+    cautions:
+      - Commercial API terms apply.
+      - Transcript access may be paid/limited and not equivalent to redistribution rights.
+
+  - id: podscan-api
+    status: p1_research_candidate
+    name: Podscan API
+    url: https://help.podscan.fm/en/article/building-podcast-powered-applications-with-the-podscan-api-13741kz/
+    source_type: rolling_podcast_transcript_search_api
+    platform: web_api
+    license_observed: api_terms
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_api
+    data_coverage_start: unknown
+    data_coverage_end: current_api_when_queried
+    data_volume:
+      count: "46M+"
+      unit: episodes
+      qualifier: help page says 4M+ podcasts with full transcripts, entities, demographics, and real-time updates.
+    freshness_notes: API documentation was current in web search and emphasizes real-time podcast data; exact coverage should be captured at query time.
+    coverage_notes:
+      - API documentation advertises full-text transcripts, extracted entities, and real-time updates.
+      - Good candidate for monitoring new AI-leader podcast appearances.
+    mapped_people:
+      - podcast-interview-corpus
+      - frontier-ai-company-leaders
+      - all-registry-people
+    import_strategy: Query by person/company/topic, store episode metadata and transcript availability, and use entity extraction as candidate edges requiring verification.
+    cautions:
+      - Paid/API terms likely limit bulk export.
+      - Entity extraction can misidentify people and companies.
+
+  - id: listen-notes-api
+    status: p1_research_candidate
+    name: Listen Notes Podcast API
+    url: https://www.listennotes.com/api/
+    source_type: rolling_podcast_metadata_search_api
+    platform: web_api
+    license_observed: api_terms
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_api
+    data_coverage_start: unknown
+    data_coverage_end: current_api_when_queried
+    data_volume:
+      count: "3.7M+"
+      unit: podcasts
+      qualifier: third-party source directory reports 192M+ episodes; verify exact live counts during API onboarding.
+    freshness_notes: Strong broad podcast discovery API; use for latest episode/feed discovery more than transcript text.
+    coverage_notes:
+      - API supports searching publicly accessible podcasts and episodes by keywords and fetching detailed podcast/episode metadata.
+      - Useful as a backstop for finding RSS feeds and episode dates when transcript-focused APIs are incomplete.
+    mapped_people:
+      - podcast-interview-corpus
+      - all-registry-people
+    import_strategy: Use for podcast/feed/episode discovery, then fetch transcripts from publisher-provided transcript URLs or other approved transcript providers.
+    cautions:
+      - Primarily metadata/search, not guaranteed transcripts.
+      - API caching/storage terms need review.
+
+  - id: taddy-podcast-api
+    status: p1_research_candidate
+    name: Taddy Podcast API
+    url: https://taddy.org/developers
+    source_type: rolling_podcast_metadata_transcript_api
+    platform: web_api
+    license_observed: api_terms
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_api
+    data_coverage_start: unknown
+    data_coverage_end: current_api_when_queried
+    data_volume:
+      count: "200M+"
+      unit: episodes
+      qualifier: developer page advertises 4M+ podcasts, episode transcripts, search, and real-time webhooks.
+    freshness_notes: Rolling API with webhooks; useful for monitoring newly published podcast episodes and transcript availability.
+    coverage_notes:
+      - Developer page advertises podcast search, transcripts, real-time webhooks, and comparatively permissive storage/cache rights table.
+    mapped_people:
+      - podcast-interview-corpus
+      - all-registry-people
+    import_strategy: Evaluate alongside Podcast Index and Listen Notes for feed discovery, webhooks, and transcript URL discovery.
+    cautions:
+      - API terms and paid plan limits still apply.
+      - Need validate transcript quality/coverage on target AI podcasts.
+
+  - id: spoken-md-transcript-api
+    status: p0_import_candidate
+    name: spoken.md Podcast Transcript API
+    url: https://spoken.md/
+    source_type: on_demand_podcast_transcript_api
+    platform: web_api
+    license_observed: commercial_api_terms
+    observed_at: "2026-05-08"
+    source_last_updated: "2026-05"
+    data_coverage_start: on_demand
+    data_coverage_end: current_when_requested
+    data_volume:
+      count: "2,000+"
+      unit: transcripts fetched
+      qualifier: public site metric; supports any podcast episode URL/search when available.
+    freshness_notes: Current May 2026 service; best for targeted per-episode transcript fetches after discovery from Podchaser/Podcast Index/Listen Notes.
+    coverage_notes:
+      - Returns speaker-labeled Markdown with timestamps and real speaker names where detected.
+      - Public page lists popular podcasts including Lex Fridman, All-In, Tim Ferriss, Diary of a CEO, and My First Million.
+    mapped_people:
+      - podcast-interview-corpus
+      - frontier-ai-company-leaders
+      - founder-operators
+    import_strategy: Use for paid/on-demand transcript acquisition for high-priority episodes, storing provider, episode URL, fetched_at, credits spent, speaker labels, and confidence.
+    cautions:
+      - Commercial per-transcript cost.
+      - Speaker identification is automatic and needs verification.
+
+  - id: ceointerviews-ai-api
+    status: p1_research_candidate
+    name: CEOInterviews.AI API
+    url: https://ceointerviews.ai/api_docs/
+    source_type: executive_interview_quote_transcript_database
+    platform: web_api
+    license_observed: api_terms
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_api
+    data_coverage_start: unknown
+    data_coverage_end: current_api_when_queried
+    data_volume:
+      count: "20,000+"
+      unit: CEOs/executives
+      qualifier: Sourcegraph/web docs also describe 1M+ verified quotes and full transcripts.
+    freshness_notes: Commercial API for verified executive conversation transcripts; useful for public-company leaders and politicians.
+    coverage_notes:
+      - API docs describe entity lookup and feed search by leader/company/topic.
+      - Sourcegraph search surfaced project docs describing 20,000+ CEOs, 1M+ quotes, and full transcripts.
+    mapped_people:
+      - big-tech-platform-ceos
+      - public-company-executives
+      - frontier-ai-company-leaders
+      - all-registry-people
+    import_strategy: Use as an executive-speech discovery layer; store entity IDs, company IDs, quote IDs, transcript source URLs, and verification metadata before importing text.
+    cautions:
+      - Commercial/proprietary source.
+      - Verify quote/source provenance and reuse permissions before storing full transcripts.
+
+  - id: tapesearch-podcast-transcript-search
+    status: p1_research_candidate
+    name: Tapesearch podcast transcript API/search
+    url: https://www.tapesearch.com/api/tos
+    source_type: rolling_podcast_transcript_search_index
+    platform: web_api
+    license_observed: api_terms_no_database_replication
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_index
+    data_coverage_start: unknown
+    data_coverage_end: current_when_indexed
+    data_volume:
+      count: "4M+"
+      unit: podcast episodes
+      qualifier: third-party directory/search result; terms explicitly prohibit harvesting to replicate the database.
+    freshness_notes: Good search/discovery layer, not a bulk import source.
+    coverage_notes:
+      - Terms allow application use but prohibit scraping/crawling/systematic downloading to clone the database.
+      - Existing Alex Hormozi entry can be treated as a person-specific Tapesearch lead.
+    mapped_people:
+      - podcast-interview-corpus
+      - all-registry-people
+    import_strategy: Use search results to identify episodes and timestamps, then fetch originals or approved transcript sources.
+    cautions:
+      - Do not harvest/replicate database.
+      - Use only within API terms.
+
+  - id: podafi-podcast-transcript-directory
+    status: p1_research_candidate
+    name: Podafi podcast transcript directory
+    url: https://podafi.com/
+    source_type: rolling_podcast_transcript_directory
+    platform: web
+    license_observed: rights_review
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_site
+    data_coverage_start: unknown
+    data_coverage_end: current_site_when_scraped
+    data_volume:
+      count: "1,159"
+      unit: transcripts
+      qualifier: prior search snapshot also showed 198 podcasts and 18 categories; site advertises daily chart updates.
+    freshness_notes: Smaller but browsable/searchable transcript directory with daily rankings; useful for testing ingestion and discovery.
+    coverage_notes:
+      - Public page advertises podcast, episode, and transcript search plus monitoring and daily ranking changes.
+      - Top show list includes current, mainstream interview/news podcasts.
+    mapped_people:
+      - podcast-interview-corpus
+      - creator-interview-corpus
+    import_strategy: Use as a discovery/spot-check source and extract only metadata until rights are reviewed.
+    cautions:
+      - Web directory rights unclear.
+      - Counts should be rechecked because the service is actively updated.
+
+  - id: podgist-transcript-library
+    status: p1_research_candidate
+    name: Podgist transcript library
+    url: https://www.podgist.com/
+    source_type: rolling_podcast_transcript_summary_library
+    platform: web
+    license_observed: rights_review
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_site
+    data_coverage_start: unknown
+    data_coverage_end: current_site_when_scraped
+    data_volume:
+      count: "thousands"
+      unit: shows and episodes
+      qualifier: public page claim; exact count needs catalog/API inspection.
+    freshness_notes: Site says new episodes appear as transcripts are published; good candidate for source discovery and topic/person monitoring.
+    coverage_notes:
+      - Provides searchable transcripts with speaker labels, chapters, links back to original audio, topics, and entity tags.
+    mapped_people:
+      - podcast-interview-corpus
+      - all-registry-people
+    import_strategy: Inspect whether a catalog/feed/API is available; use links and entity tags as discovery metadata first.
+    cautions:
+      - No explicit bulk data license observed.
+      - Exact corpus size not visible from quick search.
+
+  - id: sumbest-ai-podcast-library
+    status: p1_research_candidate
+    name: SumBest AI podcast transcript library
+    url: https://sum.best/
+    source_type: rolling_ai_podcast_transcript_library
+    platform: web
+    license_observed: rights_review
+    observed_at: "2026-05-08"
+    source_last_updated: rolling_site
+    data_coverage_start: unknown
+    data_coverage_end: current_site_when_scraped
+    data_volume:
+      count: "25"
+      unit: ready catalog episodes
+      qualifier: visible search snapshot across 20VC, Lenny, All-In, Dwarkesh, No Priors, and related shows; user-added feeds can expand it.
+    freshness_notes: Small but highly relevant AI/founder podcast catalog; service transcribes past and future episodes from RSS feeds.
+    coverage_notes:
+      - Visible catalog includes Lenny's Podcast, All-In, Dwarkesh, No Priors, 20VC, and Jack Altman-related shows.
+      - Extracts transcript, speaker turns, timecodes, topics, people mentioned, books, tools, and sponsor segments.
+    mapped_people:
+      - frontier-ai-company-leaders
+      - founder-operators
+      - podcast-interview-corpus
+    import_strategy: Use as a narrow AI/founder-source discovery and schema reference; create our own RSS/transcript pipeline for repeatability.
+    cautions:
+      - Small visible catalog at discovery time.
+      - Rights and export terms need review.
+
+  - id: bob-proctor-public-corpus-gap
+    status: blocked
+    name: Bob Proctor public corpus gap
+    url: https://www.youtube.com/results?search_query=Bob+Proctor+interview+transcript
+    source_type: gap_marker
+    platform: web
+    license_observed: not_applicable
+    observed_at: "2026-05-08"
+    source_last_updated: not_applicable
+    data_coverage_start: not_applicable
+    data_coverage_end: not_applicable
+    freshness_notes: No clean public dataset found yet; build corpus from source material and track video/page dates.
+    coverage_notes:
+      - Subagent did not find a clean GitHub/Hugging Face Bob Proctor transcript dataset.
+      - Likely requires building our own corpus from official videos, audio, and pages.
+    mapped_people:
+      - bob-proctor
+    import_strategy: >
+      Build manually via source discovery, official channels, and transcript
+      plugin/import flow; avoid motivational repost slop unless marked secondary.
+    cautions:
+      - High risk of unofficial reposts and unclear rights.
+      - Authenticity filtering is required.

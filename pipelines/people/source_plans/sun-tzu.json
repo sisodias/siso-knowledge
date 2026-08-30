@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Sun Tzu",
+  "slug": "sun-tzu",
+  "status": "candidate",
+  "tier": "S",
+  "line": "historic-philosophy-fundamental-thinkers",
+  "role": "Military strategist",
+  "collection_mode": "corpus-first",
+  "source_strategy": "corpus",
+  "next_source_action": "collect_corpus_sources",
+  "topics": [
+    "strategy",
+    "conflict",
+    "positioning",
+    "deception",
+    "warfare"
+  ],
+  "source_counts": {
+    "targets": 4,
+    "discovery_urls": 4
+  },
+  "source_targets": [
+    {
+      "title": "Sun Tzu source search",
+      "repository": "Project Gutenberg",
+      "type": "archive_search",
+      "url": "https://www.gutenberg.org/ebooks/search/?query=Sun+Tzu",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Sun Tzu source search",
+      "repository": "Wikisource",
+      "type": "archive_search",
+      "url": "https://en.wikisource.org/w/index.php?search=Sun+Tzu",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Sun Tzu source search",
+      "repository": "Internet Archive",
+      "type": "archive_search",
+      "url": "https://archive.org/search?query=Sun+Tzu",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Sun Tzu source search",
+      "repository": "Open Library",
+      "type": "archive_search",
+      "url": "https://openlibrary.org/search?q=Sun+Tzu",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.gutenberg.org/ebooks/search/?query=Sun+Tzu",
+    "https://en.wikisource.org/w/index.php?search=Sun+Tzu",
+    "https://archive.org/search?query=Sun+Tzu",
+    "https://openlibrary.org/search?q=Sun+Tzu"
+  ],
+  "curation_notes": []
+}

@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Lenny Rachitsky",
+  "slug": "lenny-rachitsky",
+  "status": "candidate",
+  "tier": "B",
+  "line": "fast-growing-company-builders",
+  "role": "Product and growth writer",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "product",
+    "growth",
+    "startups",
+    "marketplaces",
+    "newsletter"
+  ],
+  "source_counts": {
+    "targets": 2,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Lenny Rachitsky x",
+      "repository": "x",
+      "type": "registry_source",
+      "url": "https://x.com/lennysan",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    },
+    {
+      "title": "Lenny Rachitsky website",
+      "repository": "website",
+      "type": "registry_source",
+      "url": "https://www.lennysnewsletter.com",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Lenny+Rachitsky%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Lenny+Rachitsky%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Lenny+Rachitsky%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Lenny+Rachitsky%22+product",
+    "https://www.google.com/search?q=%22Lenny+Rachitsky%22+growth"
+  ],
+  "curation_notes": []
+}

@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Jeff Dean",
+  "slug": "jeff-dean",
+  "status": "candidate",
+  "tier": "A",
+  "line": "ai-researchers-technical-thinkers",
+  "role": "Chief Scientist, Google DeepMind and Google Research",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "distributed systems",
+    "ai infrastructure",
+    "google brain",
+    "deep learning"
+  ],
+  "source_counts": {
+    "targets": 1,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Jeff Dean x",
+      "repository": "x",
+      "type": "registry_source",
+      "url": "https://x.com/JeffDean",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Jeff+Dean%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Jeff+Dean%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Jeff+Dean%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Jeff+Dean%22+distributed+systems",
+    "https://www.google.com/search?q=%22Jeff+Dean%22+ai+infrastructure"
+  ],
+  "curation_notes": []
+}

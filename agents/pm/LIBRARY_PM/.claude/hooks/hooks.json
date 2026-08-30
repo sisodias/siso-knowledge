@@ -2,7 +2,7 @@
   "description": "Agent OS standard hooks for LIBRARY_PM",
   "env": {
     "AGENT_NAME": "LIBRARY_PM",
-    "AGENT_DIR": "/Users/shaansisodia/SISO_Workspace/SISO_Library/agents/LIBRARY_PM/"
+    "AGENT_DIR": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/agents/LIBRARY_PM/"
   },
   "hooks": {
     "SessionStart": [

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Find related pages in SISO Library."""
+"""Find related pages in SISO Knowledge."""
 import argparse
 import json
 import yaml
 from pathlib import Path
 
-LIB = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+LIB = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 
 
 def find_related(page_id=None, tag=None, creator=None, limit=20, format="md"):
@@ -77,7 +77,7 @@ def find_related(page_id=None, tag=None, creator=None, limit=20, format="md"):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Find related pages in SISO Library",
+        description="Find related pages in SISO Knowledge",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:

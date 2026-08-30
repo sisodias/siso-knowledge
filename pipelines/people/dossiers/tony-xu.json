@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Tony Xu",
+  "slug": "tony-xu",
+  "status": "candidate",
+  "tier": "A",
+  "line": "fast-growing-company-builders",
+  "role": "Co-founder and CEO, DoorDash",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "marketplaces",
+    "logistics",
+    "operations",
+    "local commerce"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/t_xu"
+    }
+  ],
+  "notes": "",
+  "next_action": "collect_direct_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Tony Xu\" interview",
+    "\"Tony Xu\" keynote",
+    "\"Tony Xu\" podcast",
+    "\"Tony Xu\" lecture",
+    "\"Tony Xu\" Co-founder and CEO interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Tony Xu x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/t_xu",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Tony+Xu%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Tony+Xu%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Tony+Xu%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Tony+Xu%22+marketplaces",
+      "https://www.google.com/search?q=%22Tony+Xu%22+logistics"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

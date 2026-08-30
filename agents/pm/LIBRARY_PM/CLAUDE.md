@@ -7,7 +7,7 @@
 4. Execute pipeline tasks via `pipelines/shared/run.sh` or individual scripts
 
 ## Library Location
-`/Users/shaansisodia/SISO_Workspace/SISO_Library/`
+`/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/`
 
 ## Pipeline Scripts
 - `pipelines/youtube/ingest.py` — ingest new YouTube extractions

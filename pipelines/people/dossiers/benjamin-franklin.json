@@ -1,0 +1,85 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Benjamin Franklin",
+  "slug": "benjamin-franklin",
+  "status": "candidate",
+  "tier": "A",
+  "line": "strategy-power-history-civilization",
+  "role": "Founder, inventor, and diplomat",
+  "collection_mode": "corpus-first",
+  "topics": [
+    "habits",
+    "invention",
+    "diplomacy",
+    "writing",
+    "self-improvement"
+  ],
+  "sources": [],
+  "notes": "",
+  "next_action": "collect_corpus_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [],
+  "source_plan": {
+    "source_strategy": "corpus",
+    "next_source_action": "collect_corpus_sources",
+    "source_counts": {
+      "targets": 7,
+      "discovery_urls": 4
+    },
+    "source_targets": [
+      {
+        "title": "Autobiography of Benjamin Franklin",
+        "repository": "Project Gutenberg",
+        "type": "canonical_text",
+        "url": "https://www.gutenberg.org/ebooks/20203",
+        "rights_status": "public_domain_source",
+        "notes": "Public-domain edition; distinguish Franklin-authored text from editor/illustrator metadata."
+      },
+      {
+        "title": "Books by Benjamin Franklin",
+        "repository": "Project Gutenberg",
+        "type": "author_collection",
+        "url": "https://www.gutenberg.org/ebooks/author/92",
+        "rights_status": "public_domain_source",
+        "notes": "Prefer Autobiography plus selected letters/essays with edition metadata."
+      },
+      {
+        "title": "Benjamin Franklin resources",
+        "repository": "Library of Congress",
+        "type": "archive_guide",
+        "url": "https://www.loc.gov/rr/program/bib/franklin/",
+        "rights_status": "rights_review",
+        "notes": "Use as discovery guide; verify item-level rights before full-text ingestion."
+      },
+      {
+        "title": "Benjamin Franklin source search",
+        "repository": "Project Gutenberg",
+        "type": "archive_search",
+        "url": "https://www.gutenberg.org/ebooks/search/?query=Benjamin+Franklin",
+        "rights_status": "public_domain_or_translation_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      },
+      {
+        "title": "Benjamin Franklin source search",
+        "repository": "Wikisource",
+        "type": "archive_search",
+        "url": "https://en.wikisource.org/w/index.php?search=Benjamin+Franklin",
+        "rights_status": "public_domain_or_translation_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.gutenberg.org/ebooks/search/?query=Benjamin+Franklin",
+      "https://en.wikisource.org/w/index.php?search=Benjamin+Franklin",
+      "https://archive.org/search?query=Benjamin+Franklin",
+      "https://openlibrary.org/search?q=Benjamin+Franklin"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

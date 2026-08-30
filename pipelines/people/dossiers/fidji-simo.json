@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Fidji Simo",
+  "slug": "fidji-simo",
+  "status": "candidate",
+  "tier": "A",
+  "line": "frontier-ai-company-leaders",
+  "role": "CEO of Applications, OpenAI",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "ai applications",
+    "product",
+    "operations",
+    "consumer platforms"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/fidjissimo"
+    }
+  ],
+  "notes": "",
+  "next_action": "collect_direct_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Fidji Simo\" interview",
+    "\"Fidji Simo\" keynote",
+    "\"Fidji Simo\" podcast",
+    "\"Fidji Simo\" lecture",
+    "\"Fidji Simo\" CEO of Applications interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Fidji Simo x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/fidjissimo",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Fidji+Simo%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Fidji+Simo%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Fidji+Simo%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Fidji+Simo%22+ai+applications",
+      "https://www.google.com/search?q=%22Fidji+Simo%22+product"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

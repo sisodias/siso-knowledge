@@ -1,19 +1,19 @@
 # YouTube Queue Analysis - Session Summary
 
-## Status: Migrated to SISO_Library
+## Status: Migrated to SISO_Knowledge
 
 ### Major redesign completed (2026-03-19)
 
-The YouTube research pipeline has been completely redesigned and the data migrated into SISO_Library.
+The YouTube research pipeline has been completely redesigned and the data migrated into SISO_Knowledge.
 
 ### What was built:
 
-1. **Prioritization system** — `workspace/prioritize.py` (now at SISO_Library/pipelines/youtube/)
+1. **Prioritization system** — `workspace/prioritize.py` (now at SISO_Knowledge/pipelines/youtube/)
    - Scored all 2,627 extracted files
    - 39 Tier A, 121 Tier B, 2,467 Tier C
    - Top sources: Latent Space, ai_engineer, Theo
 
-2. **SISO_Library created** at `/Users/shaansisodia/SISO_Workspace/SISO_Library/`
+2. **SISO_Knowledge created** at `/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/`
    - 4 sections: ai_research, infrastructure, ecosystem, product
    - 13 bookcases, 21 shelves
    - 784 pages migrated from YouTube Tier A/B extractions
@@ -23,7 +23,7 @@ The YouTube research pipeline has been completely redesigned and the data migrat
    - Full-text search (FTS5 SQLite)
    - D3.js interactive knowledge graph (784 nodes)
 
-3. **Pipeline scripts moved** to `SISO_Library/pipelines/youtube/`
+3. **Pipeline scripts moved** to `SISO_Knowledge/pipelines/youtube/`
    - prioritize.py, validate_novelty.py, extract_prioritized.py, synthesize.py
    - Old scripts deleted from workspace/
 
@@ -34,15 +34,15 @@ The YouTube research pipeline has been completely redesigned and the data migrat
    - graph/ has the D3.js visualization
 
 ### Current state:
-- YouTubeQueueAnalysis agent: primary role is now running the YouTube pipeline into SISO_Library
-- SISO_Library is the knowledge hub for all agents
+- YouTubeQueueAnalysis agent: primary role is now running the YouTube pipeline into SISO_Knowledge
+- SISO_Knowledge is the knowledge hub for all agents
 - Pipeline: raw transcripts → prioritize → pages → index → graph + queries
 
 ### Key files:
-- `/Users/shaansisodia/SISO_Workspace/SISO_Library/CLAUDE.md` — Library brain
-- `/Users/shaansisodia/SISO_Workspace/SISO_Library/queries/query.py` — Search: `python query.py "agents" --limit 5`
-- `/Users/shaansisodia/SISO_Workspace/SISO_Library/graph/index.html` — Open in browser for graph viz
-- `/Users/shaansisodia/SISO_Workspace/SISO_Library/queries/rebuild_index.py` — Rebuild all indexes
+- `/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/CLAUDE.md` — Library brain
+- `/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/queries/query.py` — Search: `python query.py "agents" --limit 5`
+- `/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/graph/index.html` — Open in browser for graph viz
+- `/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/queries/rebuild_index.py` — Rebuild all indexes
 
 ### Remaining work:
 - Populate links_to edges in pages (run a concept linker)
@@ -51,8 +51,8 @@ The YouTube research pipeline has been completely redesigned and the data migrat
 - Add GitHub research pipeline (pipelines/github/)
 - Build book content (currently books are manifests, not full written books)
 
-### Memory: SISO_Library
-The SISO_Library is now the central knowledge base. All research agents should route findings here.
+### Memory: SISO_Knowledge
+The SISO_Knowledge is now the central knowledge base. All research agents should route findings here.
 
 ---
 ## Heartbeat: 2026-03-20T21:54:30.155624
@@ -139,7 +139,7 @@ The SISO_Library is now the central knowledge base. All research agents should r
 - CLI works: python3 agent_os/skills_hub/registry/skills/system/task-manager/siso-tasks.py list-tasks
 
 ### Review inbox
-- Location: SISO_Library/agents/LibraryIntelligence/inbox/
+- Location: SISO_Knowledge/agents/LibraryIntelligence/inbox/
 - README.md explains the review workflow
 - 5 critical opportunities currently pending review
 
@@ -185,7 +185,7 @@ The SISO_Library is now the central knowledge base. All research agents should r
 - No actual YouTube extraction performed
 
 ### Research log:
-- /Users/shaansisodia/SISO_Workspace/SISO_Library/agents/YouTubeQueueAnalysis/workspace/research-log.md
+- /Users/shaansisodia/SISO_Workspace/SISO_Knowledge/agents/YouTubeQueueAnalysis/workspace/research-log.md
 
 ---
 ## Heartbeat: 2026-03-20T23:03:54.787569

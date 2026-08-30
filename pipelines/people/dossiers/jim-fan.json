@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Jim Fan",
+  "slug": "jim-fan",
+  "status": "approved",
+  "tier": "A",
+  "line": "ai-researchers-technical-thinkers",
+  "role": "Senior Research Scientist, NVIDIA",
+  "collection_mode": "social-first",
+  "topics": [
+    "physical ai",
+    "robotics",
+    "agents",
+    "foundation models",
+    "simulation"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/DrJimFan"
+    }
+  ],
+  "notes": "",
+  "next_action": "import_transcript",
+  "video_next_action": "import_transcript",
+  "search_queries": [
+    "\"Jim Fan\" interview",
+    "\"Jim Fan\" keynote",
+    "\"Jim Fan\" podcast",
+    "\"Jim Fan\" lecture",
+    "\"Jim Fan\" Senior Research Scientist interview"
+  ],
+  "source_plan": {
+    "source_strategy": "social",
+    "next_source_action": "collect_social_and_longform_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Jim Fan x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/DrJimFan",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Jim+Fan%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Jim+Fan%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Jim+Fan%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Jim+Fan%22+physical+ai",
+      "https://www.google.com/search?q=%22Jim+Fan%22+robotics"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 1,
+    "transcript_ready": 0,
+    "total": 1
+  },
+  "videos": [
+    {
+      "video_id": "K1i8Y55DRvQ",
+      "title": "Nvidias NEW \"AI AGENT\" Will Change The WORLD! (Jim Fan)",
+      "url": "https://www.youtube.com/watch?v=K1i8Y55DRvQ",
+      "channel_name": "Ai Grid",
+      "priority": "P2",
+      "score": 4.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "jim-fan__K1i8Y55DRvQ__Nvidias-NEW-AI-AGENT-Will-Change-The-WORLD-Jim-Fan.txt"
+    }
+  ]
+}

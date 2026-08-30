@@ -1,0 +1,145 @@
+# People Dossiers
+
+Generated: `2026-07-25T20:27:06+00:00`
+People: `140`
+
+- [Jensen Huang](jensen-huang.md) - `ready_for_extraction` - videos `10` / transcripts `4`
+- [Elon Musk](elon-musk.md) - `ready_for_extraction` - videos `10` / transcripts `2`
+- [Sam Altman](sam-altman.md) - `ready_for_extraction` - videos `10` / transcripts `7`
+- [Dario Amodei](dario-amodei.md) - `import_transcript` - videos `3` / transcripts `0`
+- [Sundar Pichai](sundar-pichai.md) - `import_transcript` - videos `1` / transcripts `0`
+- [Satya Nadella](satya-nadella.md) - `import_transcript` - videos `1` / transcripts `0`
+- [Mark Zuckerberg](mark-zuckerberg.md) - `ready_for_extraction` - videos `4` / transcripts `1`
+- [Demis Hassabis](demis-hassabis.md) - `import_transcript` - videos `5` / transcripts `0`
+- [Andrej Karpathy](andrej-karpathy.md) - `import_transcript` - videos `4` / transcripts `0`
+- [Jim Fan](jim-fan.md) - `import_transcript` - videos `1` / transcripts `0`
+- [Yann LeCun](yann-lecun.md) - `import_transcript` - videos `2` / transcripts `0`
+- [Andrew Ng](andrew-ng.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Jim Keller](jim-keller.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Simon Willison](simon-willison.md) - `import_transcript` - videos `3` / transcripts `0`
+- [Simon Olson](simon-olson.md) - `manual_review` - videos `0` / transcripts `0`
+- [swyx](swyx.md) - `import_transcript` - videos `7` / transcripts `0`
+- [Theo Browne](theo-browne.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Matthew Berman](matthew-berman.md) - `import_transcript` - videos `10` / transcripts `0`
+- [Mustafa Suleyman](mustafa-suleyman.md) - `import_transcript` - videos `1` / transcripts `0`
+- [Fidji Simo](fidji-simo.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Mira Murati](mira-murati.md) - `import_transcript` - videos `1` / transcripts `0`
+- [Ilya Sutskever](ilya-sutskever.md) - `import_transcript` - videos `5` / transcripts `0`
+- [Alexandr Wang](alexandr-wang.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Jason Droege](jason-droege.md) - `manual_review` - videos `0` / transcripts `0`
+- [Andy Jassy](andy-jassy.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Tim Cook](tim-cook.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [John Ternus](john-ternus.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Patrick Collison](patrick-collison.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Dylan Field](dylan-field.md) - `import_transcript` - videos `1` / transcripts `0`
+- [Brian Chesky](brian-chesky.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Brian Armstrong](brian-armstrong.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Tobi Lutke](tobi-lutke.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Lisa Su](lisa-su.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [C. C. Wei](cc-wei.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Hock Tan](hock-tan.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Cristiano Amon](cristiano-amon.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Safra Catz](safra-catz.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Arvind Krishna](arvind-krishna.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Bill Gates](bill-gates.md) - `import_transcript` - videos `4` / transcripts `0`
+- [Jeff Bezos](jeff-bezos.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Steve Jobs](steve-jobs.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Aravind Srinivas](aravind-srinivas.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Michael Truell](michael-truell.md) - `manual_review` - videos `0` / transcripts `0`
+- [Guillermo Rauch](guillermo-rauch.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Ali Ghodsi](ali-ghodsi.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Karri Saarinen](karri-saarinen.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Eric Glyman](eric-glyman.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Christina Cacioppo](christina-cacioppo.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Mathilde Collin](mathilde-collin.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Melanie Perkins](melanie-perkins.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Stewart Butterfield](stewart-butterfield.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Tony Xu](tony-xu.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Ritesh Agarwal](ritesh-agarwal.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Sam Blond](sam-blond.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Lenny Rachitsky](lenny-rachitsky.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Claire Hughes Johnson](claire-hughes-johnson.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Geoffrey Hinton](geoffrey-hinton.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Yoshua Bengio](yoshua-bengio.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Fei-Fei Li](fei-fei-li.md) - `import_transcript` - videos `1` / transcripts `0`
+- [Francois Chollet](francois-chollet.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Noam Shazeer](noam-shazeer.md) - `import_transcript` - videos `1` / transcripts `0`
+- [Jeff Dean](jeff-dean.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Ilia Polosukhin](ilia-polosukhin.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Matei Zaharia](matei-zaharia.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Jonathan Frankle](jonathan-frankle.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Chris Olah](chris-olah.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Paul Christiano](paul-christiano.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Eliezer Yudkowsky](eliezer-yudkowsky.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Gwern Branwen](gwern-branwen.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Alex Hormozi](alex-hormozi.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Bob Proctor](bob-proctor.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [David Goggins](david-goggins.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Naval Ravikant](naval-ravikant.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Paul Graham](paul-graham.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Charlie Munger](charlie-munger.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Warren Buffett](warren-buffett.md) - `import_transcript` - videos `1` / transcripts `0`
+- [Ray Dalio](ray-dalio.md) - `import_transcript` - videos `1` / transcripts `0`
+- [Peter Thiel](peter-thiel.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Ben Horowitz](ben-horowitz.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Marc Andreessen](marc-andreessen.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Keith Rabois](keith-rabois.md) - `collect_social_and_longform_sources` - videos `0` / transcripts `0`
+- [Ed Catmull](ed-catmull.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [James Clear](james-clear.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Tony Robbins](tony-robbins.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Earl Nightingale](earl-nightingale.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Jim Rohn](jim-rohn.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Socrates](socrates.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Plato](plato.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Aristotle](aristotle.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Marcus Aurelius](marcus-aurelius.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Seneca](seneca.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Epictetus](epictetus.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Confucius](confucius.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Laozi](laozi.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Sun Tzu](sun-tzu.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Machiavelli](machiavelli.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Friedrich Nietzsche](friedrich-nietzsche.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Arthur Schopenhauer](arthur-schopenhauer.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Immanuel Kant](immanuel-kant.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [David Hume](david-hume.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Rene Descartes](rene-descartes.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Baruch Spinoza](baruch-spinoza.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [John Stuart Mill](john-stuart-mill.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Adam Smith](adam-smith.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Carl Jung](carl-jung.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Viktor Frankl](viktor-frankl.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Rene Girard](rene-girard.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Joseph Campbell](joseph-campbell.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Winston Churchill](winston-churchill.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Abraham Lincoln](abraham-lincoln.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Benjamin Franklin](benjamin-franklin.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Napoleon Bonaparte](napoleon-bonaparte.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Julius Caesar](julius-caesar.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Alexander the Great](alexander-the-great.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Genghis Khan](genghis-khan.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [George Washington](george-washington.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Thomas Jefferson](thomas-jefferson.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Frederick Douglass](frederick-douglass.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Martin Luther King Jr.](martin-luther-king-jr.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Nelson Mandela](nelson-mandela.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Lee Kuan Yew](lee-kuan-yew.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Henry Kissinger](henry-kissinger.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Peter Drucker](peter-drucker.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [W. Edwards Deming](w-edwards-deming.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Nassim Nicholas Taleb](nassim-nicholas-taleb.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Daniel Kahneman](daniel-kahneman.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Richard Feynman](richard-feynman.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Carl Sagan](carl-sagan.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Isaac Asimov](isaac-asimov.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [George Orwell](george-orwell.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Aldous Huxley](aldous-huxley.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Marshall McLuhan](marshall-mcluhan.md) - `rights_review_before_ingest` - videos `0` / transcripts `0`
+- [Kevin Kelly](kevin-kelly.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Stewart Brand](stewart-brand.md) - `collect_corpus_sources` - videos `0` / transcripts `0`
+- [Tyler Cowen](tyler-cowen.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Patrick McKenzie](patrick-mckenzie.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Byrne Hobart](byrne-hobart.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Packy McCormick](packy-mccormick.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Ben Thompson](ben-thompson.md) - `collect_direct_sources` - videos `0` / transcripts `0`
+- [Bob Lazar](bob-lazar.md) - `import_transcript` - videos `10` / transcripts `0`

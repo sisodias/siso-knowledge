@@ -6,7 +6,7 @@
 3. Run `workspace/scraper_runner.py` to fetch and ingest
 
 ## Library Context
-This agent lives at `SISO_Library/agents/RedditQueueAnalysis/` and feeds the SISO_Library pipeline.
+This agent lives at `SISO_Knowledge/agents/RedditQueueAnalysis/` and feeds the SISO_Knowledge pipeline.
 Owned by **LIBRARY_PM**.
 
 ## Pipeline

@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Lisa Su",
+  "slug": "lisa-su",
+  "status": "candidate",
+  "tier": "S",
+  "line": "big-tech-platform-ceos",
+  "role": "Chair and CEO, AMD",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "semiconductors",
+    "ai chips",
+    "cpu",
+    "gpu",
+    "leadership"
+  ],
+  "source_counts": {
+    "targets": 1,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Lisa Su x",
+      "repository": "x",
+      "type": "registry_source",
+      "url": "https://x.com/lisasu",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Lisa+Su%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Lisa+Su%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Lisa+Su%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Lisa+Su%22+semiconductors",
+    "https://www.google.com/search?q=%22Lisa+Su%22+ai+chips"
+  ],
+  "curation_notes": []
+}

@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Michael Truell",
+  "slug": "michael-truell",
+  "status": "candidate",
+  "tier": "A",
+  "line": "fast-growing-company-builders",
+  "role": "Co-founder and CEO, Anysphere",
+  "collection_mode": "manual-curation",
+  "source_strategy": "manual",
+  "next_source_action": "manual_review",
+  "topics": [
+    "ai coding",
+    "cursor",
+    "developer tools",
+    "product"
+  ],
+  "source_counts": {
+    "targets": 1,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Michael Truell manual evidence file",
+      "repository": "manual",
+      "type": "manual_review",
+      "url": "",
+      "rights_status": "manual_review",
+      "notes": "Curate claims, interviews, transcripts, and counter-sources before extraction."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Michael+Truell%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Michael+Truell%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Michael+Truell%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Michael+Truell%22+ai+coding",
+    "https://www.google.com/search?q=%22Michael+Truell%22+cursor"
+  ],
+  "curation_notes": []
+}

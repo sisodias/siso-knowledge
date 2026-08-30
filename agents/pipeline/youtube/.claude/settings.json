@@ -1,7 +1,18 @@
 {
   "permissions": {
-    "allow": ["Bash", "Read", "Write", "Edit", "Glob", "Grep"],
-    "deny": ["Rm -rf", "Sudo"]
+    "allow": [
+      "Bash",
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep"
+    ],
+    "deny": [
+      "Rm -rf",
+      "Sudo"
+    ],
+    "defaultMode": "bypassPermissions"
   },
   "env": {
     "AGENT_HOME": "${agent_dir}",

@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Simon Willison",
+  "slug": "simon-willison",
+  "status": "approved",
+  "tier": "A",
+  "line": "ai-researchers-technical-thinkers",
+  "role": "AI developer and researcher",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "llms",
+    "python",
+    "tools",
+    "agents",
+    "ai ethics"
+  ],
+  "source_counts": {
+    "targets": 2,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Simon Willison x",
+      "repository": "x",
+      "type": "registry_source",
+      "url": "https://x.com/simonw",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    },
+    {
+      "title": "Simon Willison website",
+      "repository": "website",
+      "type": "registry_source",
+      "url": "https://simonwillison.net",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Simon+Willison%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Simon+Willison%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Simon+Willison%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Simon+Willison%22+llms",
+    "https://www.google.com/search?q=%22Simon+Willison%22+python"
+  ],
+  "curation_notes": []
+}

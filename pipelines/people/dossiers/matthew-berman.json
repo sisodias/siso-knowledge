@@ -1,0 +1,187 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Matthew Berman",
+  "slug": "matthew-berman",
+  "status": "approved",
+  "tier": "B",
+  "line": "ai-researchers-technical-thinkers",
+  "role": "AI educator and YouTuber",
+  "collection_mode": "social-first",
+  "topics": [
+    "ai tools",
+    "model comparisons",
+    "llm research",
+    "ai news"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/matthew_berman"
+    },
+    {
+      "type": "youtube",
+      "url": "https://youtube.com/@MatthewBermanAI"
+    }
+  ],
+  "notes": "",
+  "next_action": "import_transcript",
+  "video_next_action": "import_transcript",
+  "search_queries": [
+    "\"Matthew Berman\" interview",
+    "\"Matthew Berman\" keynote",
+    "\"Matthew Berman\" podcast",
+    "\"Matthew Berman\" lecture",
+    "\"Matthew Berman\" AI educator and YouTuber interview"
+  ],
+  "source_plan": {
+    "source_strategy": "social",
+    "next_source_action": "collect_social_and_longform_sources",
+    "source_counts": {
+      "targets": 2,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Matthew Berman x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/matthew_berman",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      },
+      {
+        "title": "Matthew Berman youtube",
+        "repository": "youtube",
+        "type": "registry_source",
+        "url": "https://youtube.com/@MatthewBermanAI",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Matthew+Berman%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Matthew+Berman%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Matthew+Berman%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Matthew+Berman%22+ai+tools",
+      "https://www.google.com/search?q=%22Matthew+Berman%22+model+comparisons"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 10,
+    "transcript_ready": 0,
+    "total": 10
+  },
+  "videos": [
+    {
+      "video_id": "IdP4L7cpx2k",
+      "title": "ASI/AGI, Open vs Closed AI, Founding with Sam Altman, and Verifying Humanness! (Interview)",
+      "url": "https://www.youtube.com/watch?v=IdP4L7cpx2k",
+      "channel_name": "Matthew Berman",
+      "priority": "P0",
+      "score": 10.3,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "matthew-berman__IdP4L7cpx2k__ASI-AGI-Open-vs-Closed-AI-Founding-with-Sam-Altman-and-Verifying-Humanness-Inter.txt"
+    },
+    {
+      "video_id": "3WNukz5-Ch0",
+      "title": "GitHub CEO predicts the future of programming...(Full Interview)",
+      "url": "https://www.youtube.com/watch?v=3WNukz5-Ch0",
+      "channel_name": "Matthew Berman",
+      "priority": "P0",
+      "score": 10.3,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "matthew-berman__3WNukz5-Ch0__GitHub-CEO-predicts-the-future-of-programming-Full-Interview.txt"
+    },
+    {
+      "video_id": "uudMuddzrFc",
+      "title": "Real World AI Use Cases, Open-Source, Hallucinations (MindsDB CEO Interview)",
+      "url": "https://www.youtube.com/watch?v=uudMuddzrFc",
+      "channel_name": "Matthew Berman",
+      "priority": "P0",
+      "score": 10.3,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "matthew-berman__uudMuddzrFc__Real-World-AI-Use-Cases-Open-Source-Hallucinations-MindsDB-CEO-Interview.txt"
+    },
+    {
+      "video_id": "fcr8WzeEXyk",
+      "title": "SWE-Agent Team Interview - Agents, Programming, and Benchmarks!",
+      "url": "https://www.youtube.com/watch?v=fcr8WzeEXyk",
+      "channel_name": "Matthew Berman",
+      "priority": "P0",
+      "score": 10.3,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "matthew-berman__fcr8WzeEXyk__SWE-Agent-Team-Interview-Agents-Programming-and-Benchmarks.txt"
+    },
+    {
+      "video_id": "-o0fiD-M34M",
+      "title": "IBM's Quantum Director Talks AI, Breaking Crypto, Basics of Quantum",
+      "url": "https://www.youtube.com/watch?v=-o0fiD-M34M",
+      "channel_name": "Matthew Berman",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "matthew-berman__-o0fiD-M34M__IBM-s-Quantum-Director-Talks-AI-Breaking-Crypto-Basics-of-Quantum.txt"
+    },
+    {
+      "video_id": "Q1tgc3WTb2k",
+      "title": "Microsoft Exec talks OpenAI, AI Bubble, Data Centers, AI Safety and more",
+      "url": "https://www.youtube.com/watch?v=Q1tgc3WTb2k",
+      "channel_name": "Matthew Berman",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "matthew-berman__Q1tgc3WTb2k__Microsoft-Exec-talks-OpenAI-AI-Bubble-Data-Centers-AI-Safety-and-more.txt"
+    },
+    {
+      "video_id": "xdMVgZfZ1yg",
+      "title": "What is MCP? Why is everyone talking about it?",
+      "url": "https://www.youtube.com/watch?v=xdMVgZfZ1yg",
+      "channel_name": "Matthew Berman",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "matthew-berman__xdMVgZfZ1yg__What-is-MCP-Why-is-everyone-talking-about-it.txt"
+    },
+    {
+      "video_id": "RYg5Mz4_tf8",
+      "title": "Sam Altman Just Revealed NEW DETAILS About GPT-5 In Spicy \ud83c\udf36\ufe0f\u00a0Interview",
+      "url": "https://www.youtube.com/watch?v=RYg5Mz4_tf8",
+      "channel_name": "Matthew Berman",
+      "priority": "P1",
+      "score": 7.3,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "matthew-berman__RYg5Mz4_tf8__Sam-Altman-Just-Revealed-NEW-DETAILS-About-GPT-5-In-Spicy-Interview.txt"
+    },
+    {
+      "video_id": "LTM_3EUwUmE",
+      "title": "\"AI Scientist\" Can Discover New Science! (Self-Improving AI = AGI)",
+      "url": "https://www.youtube.com/watch?v=LTM_3EUwUmE",
+      "channel_name": "Matthew Berman",
+      "priority": "P1",
+      "score": 6.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "matthew-berman__LTM_3EUwUmE__AI-Scientist-Can-Discover-New-Science-Self-Improving-AI-AGI.txt"
+    },
+    {
+      "video_id": "PZ58UsbQzrs",
+      "title": "2025 Generative AI Predictions",
+      "url": "https://www.youtube.com/watch?v=PZ58UsbQzrs",
+      "channel_name": "Matthew Berman",
+      "priority": "P1",
+      "score": 6.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "matthew-berman__PZ58UsbQzrs__2025-Generative-AI-Predictions.txt"
+    }
+  ]
+}

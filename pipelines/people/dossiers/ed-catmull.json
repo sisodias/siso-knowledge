@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Ed Catmull",
+  "slug": "ed-catmull",
+  "status": "candidate",
+  "tier": "A",
+  "line": "business-wealth-persuasion-self-mastery",
+  "role": "Co-founder, Pixar",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "creative organizations",
+    "leadership",
+    "candor",
+    "animation"
+  ],
+  "sources": [],
+  "notes": "",
+  "next_action": "collect_direct_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Ed Catmull\" interview",
+    "\"Ed Catmull\" keynote",
+    "\"Ed Catmull\" podcast",
+    "\"Ed Catmull\" lecture",
+    "\"Ed Catmull\" Co-founder interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 0,
+      "discovery_urls": 5
+    },
+    "source_targets": [],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Ed+Catmull%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Ed+Catmull%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Ed+Catmull%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Ed+Catmull%22+creative+organizations",
+      "https://www.google.com/search?q=%22Ed+Catmull%22+leadership"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Joseph Campbell",
+  "slug": "joseph-campbell",
+  "status": "candidate",
+  "tier": "B",
+  "line": "historic-philosophy-fundamental-thinkers",
+  "role": "Mythologist and writer",
+  "collection_mode": "corpus-first",
+  "source_strategy": "corpus",
+  "next_source_action": "rights_review_before_ingest",
+  "topics": [
+    "myth",
+    "hero journey",
+    "storytelling",
+    "symbols"
+  ],
+  "source_counts": {
+    "targets": 4,
+    "discovery_urls": 4
+  },
+  "source_targets": [
+    {
+      "title": "Joseph Campbell source search",
+      "repository": "Project Gutenberg",
+      "type": "archive_search",
+      "url": "https://www.gutenberg.org/ebooks/search/?query=Joseph+Campbell",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Joseph Campbell source search",
+      "repository": "Wikisource",
+      "type": "archive_search",
+      "url": "https://en.wikisource.org/w/index.php?search=Joseph+Campbell",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Joseph Campbell source search",
+      "repository": "Internet Archive",
+      "type": "archive_search",
+      "url": "https://archive.org/search?query=Joseph+Campbell",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Joseph Campbell source search",
+      "repository": "Open Library",
+      "type": "archive_search",
+      "url": "https://openlibrary.org/search?q=Joseph+Campbell",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.gutenberg.org/ebooks/search/?query=Joseph+Campbell",
+    "https://en.wikisource.org/w/index.php?search=Joseph+Campbell",
+    "https://archive.org/search?query=Joseph+Campbell",
+    "https://openlibrary.org/search?q=Joseph+Campbell"
+  ],
+  "curation_notes": [
+    "Modern corpus entry: use official archives, public-domain items, or user-supplied material only after rights review."
+  ]
+}

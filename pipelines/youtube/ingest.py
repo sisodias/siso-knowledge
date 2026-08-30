@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Ingest YouTube extractions into SISO_Library.
+Ingest YouTube extractions into SISO_Knowledge.
 
 Reads new .md files from /tmp/youtube-ai-research/extracted/by_date/,
 skips already-ingested (tracked in .last_ingested),
@@ -21,7 +21,7 @@ from pathlib import Path
 import yaml
 
 # Add queries/ to path for add_book import
-ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 sys.path.insert(0, str(ROOT / "pipelines"))
 
 from shared.topic_router import route_to_shelf, detect_tags, extract_tools
@@ -275,7 +275,7 @@ def ingest_file(path: Path, dry_run: bool = False) -> list[dict] | None:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Ingest YouTube extractions into SISO_Library")
+    parser = argparse.ArgumentParser(description="Ingest YouTube extractions into SISO_Knowledge")
     parser.add_argument("--all", action="store_true", help="Re-ingest all files (ignore tracking)")
     parser.add_argument("--dry-run", action="store_true", help="Show what would be ingested")
     parser.add_argument("--limit", type=int, default=0, help="Limit number of files to process (0=all)")

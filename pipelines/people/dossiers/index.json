@@ -1,0 +1,2106 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "people_count": 140,
+  "people": [
+    {
+      "slug": "jensen-huang",
+      "name": "Jensen Huang",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "next_action": "ready_for_extraction",
+      "video_counts": {
+        "candidate": 6,
+        "transcript_ready": 4,
+        "total": 10
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jensen-huang.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jensen-huang.json"
+    },
+    {
+      "slug": "elon-musk",
+      "name": "Elon Musk",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "next_action": "ready_for_extraction",
+      "video_counts": {
+        "candidate": 8,
+        "transcript_ready": 2,
+        "total": 10
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/elon-musk.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/elon-musk.json"
+    },
+    {
+      "slug": "sam-altman",
+      "name": "Sam Altman",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "next_action": "ready_for_extraction",
+      "video_counts": {
+        "candidate": 3,
+        "transcript_ready": 7,
+        "total": 10
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/sam-altman.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/sam-altman.json"
+    },
+    {
+      "slug": "dario-amodei",
+      "name": "Dario Amodei",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 3,
+        "transcript_ready": 0,
+        "total": 3
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/dario-amodei.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/dario-amodei.json"
+    },
+    {
+      "slug": "sundar-pichai",
+      "name": "Sundar Pichai",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 1,
+        "transcript_ready": 0,
+        "total": 1
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/sundar-pichai.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/sundar-pichai.json"
+    },
+    {
+      "slug": "satya-nadella",
+      "name": "Satya Nadella",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 1,
+        "transcript_ready": 0,
+        "total": 1
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/satya-nadella.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/satya-nadella.json"
+    },
+    {
+      "slug": "mark-zuckerberg",
+      "name": "Mark Zuckerberg",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "next_action": "ready_for_extraction",
+      "video_counts": {
+        "candidate": 3,
+        "transcript_ready": 1,
+        "total": 4
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/mark-zuckerberg.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/mark-zuckerberg.json"
+    },
+    {
+      "slug": "demis-hassabis",
+      "name": "Demis Hassabis",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 5,
+        "transcript_ready": 0,
+        "total": 5
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/demis-hassabis.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/demis-hassabis.json"
+    },
+    {
+      "slug": "andrej-karpathy",
+      "name": "Andrej Karpathy",
+      "status": "approved",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 4,
+        "transcript_ready": 0,
+        "total": 4
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/andrej-karpathy.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/andrej-karpathy.json"
+    },
+    {
+      "slug": "jim-fan",
+      "name": "Jim Fan",
+      "status": "approved",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 1,
+        "transcript_ready": 0,
+        "total": 1
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jim-fan.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jim-fan.json"
+    },
+    {
+      "slug": "yann-lecun",
+      "name": "Yann LeCun",
+      "status": "approved",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 2,
+        "transcript_ready": 0,
+        "total": 2
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/yann-lecun.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/yann-lecun.json"
+    },
+    {
+      "slug": "andrew-ng",
+      "name": "Andrew Ng",
+      "status": "approved",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/andrew-ng.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/andrew-ng.json"
+    },
+    {
+      "slug": "jim-keller",
+      "name": "Jim Keller",
+      "status": "approved",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jim-keller.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jim-keller.json"
+    },
+    {
+      "slug": "simon-willison",
+      "name": "Simon Willison",
+      "status": "approved",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 3,
+        "transcript_ready": 0,
+        "total": 3
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/simon-willison.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/simon-willison.json"
+    },
+    {
+      "slug": "simon-olson",
+      "name": "Simon Olson",
+      "status": "approved",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "next_action": "manual_review",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/simon-olson.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/simon-olson.json"
+    },
+    {
+      "slug": "swyx",
+      "name": "swyx",
+      "status": "approved",
+      "tier": "B",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 7,
+        "transcript_ready": 0,
+        "total": 7
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/swyx.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/swyx.json"
+    },
+    {
+      "slug": "theo-browne",
+      "name": "Theo Browne",
+      "status": "approved",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/theo-browne.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/theo-browne.json"
+    },
+    {
+      "slug": "matthew-berman",
+      "name": "Matthew Berman",
+      "status": "approved",
+      "tier": "B",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 10,
+        "transcript_ready": 0,
+        "total": 10
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/matthew-berman.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/matthew-berman.json"
+    },
+    {
+      "slug": "mustafa-suleyman",
+      "name": "Mustafa Suleyman",
+      "status": "candidate",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 1,
+        "transcript_ready": 0,
+        "total": 1
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/mustafa-suleyman.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/mustafa-suleyman.json"
+    },
+    {
+      "slug": "fidji-simo",
+      "name": "Fidji Simo",
+      "status": "candidate",
+      "tier": "A",
+      "line": "frontier-ai-company-leaders",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/fidji-simo.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/fidji-simo.json"
+    },
+    {
+      "slug": "mira-murati",
+      "name": "Mira Murati",
+      "status": "candidate",
+      "tier": "A",
+      "line": "frontier-ai-company-leaders",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 1,
+        "transcript_ready": 0,
+        "total": 1
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/mira-murati.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/mira-murati.json"
+    },
+    {
+      "slug": "ilya-sutskever",
+      "name": "Ilya Sutskever",
+      "status": "candidate",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 5,
+        "transcript_ready": 0,
+        "total": 5
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ilya-sutskever.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ilya-sutskever.json"
+    },
+    {
+      "slug": "alexandr-wang",
+      "name": "Alexandr Wang",
+      "status": "candidate",
+      "tier": "A",
+      "line": "frontier-ai-company-leaders",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/alexandr-wang.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/alexandr-wang.json"
+    },
+    {
+      "slug": "jason-droege",
+      "name": "Jason Droege",
+      "status": "candidate",
+      "tier": "B",
+      "line": "frontier-ai-company-leaders",
+      "next_action": "manual_review",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jason-droege.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jason-droege.json"
+    },
+    {
+      "slug": "andy-jassy",
+      "name": "Andy Jassy",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/andy-jassy.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/andy-jassy.json"
+    },
+    {
+      "slug": "tim-cook",
+      "name": "Tim Cook",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/tim-cook.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/tim-cook.json"
+    },
+    {
+      "slug": "john-ternus",
+      "name": "John Ternus",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/john-ternus.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/john-ternus.json"
+    },
+    {
+      "slug": "patrick-collison",
+      "name": "Patrick Collison",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/patrick-collison.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/patrick-collison.json"
+    },
+    {
+      "slug": "dylan-field",
+      "name": "Dylan Field",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 1,
+        "transcript_ready": 0,
+        "total": 1
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/dylan-field.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/dylan-field.json"
+    },
+    {
+      "slug": "brian-chesky",
+      "name": "Brian Chesky",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/brian-chesky.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/brian-chesky.json"
+    },
+    {
+      "slug": "brian-armstrong",
+      "name": "Brian Armstrong",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/brian-armstrong.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/brian-armstrong.json"
+    },
+    {
+      "slug": "tobi-lutke",
+      "name": "Tobi Lutke",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/tobi-lutke.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/tobi-lutke.json"
+    },
+    {
+      "slug": "lisa-su",
+      "name": "Lisa Su",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/lisa-su.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/lisa-su.json"
+    },
+    {
+      "slug": "cc-wei",
+      "name": "C. C. Wei",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/cc-wei.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/cc-wei.json"
+    },
+    {
+      "slug": "hock-tan",
+      "name": "Hock Tan",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/hock-tan.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/hock-tan.json"
+    },
+    {
+      "slug": "cristiano-amon",
+      "name": "Cristiano Amon",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/cristiano-amon.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/cristiano-amon.json"
+    },
+    {
+      "slug": "safra-catz",
+      "name": "Safra Catz",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/safra-catz.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/safra-catz.json"
+    },
+    {
+      "slug": "arvind-krishna",
+      "name": "Arvind Krishna",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/arvind-krishna.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/arvind-krishna.json"
+    },
+    {
+      "slug": "bill-gates",
+      "name": "Bill Gates",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 4,
+        "transcript_ready": 0,
+        "total": 4
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/bill-gates.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/bill-gates.json"
+    },
+    {
+      "slug": "jeff-bezos",
+      "name": "Jeff Bezos",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jeff-bezos.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jeff-bezos.json"
+    },
+    {
+      "slug": "steve-jobs",
+      "name": "Steve Jobs",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/steve-jobs.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/steve-jobs.json"
+    },
+    {
+      "slug": "aravind-srinivas",
+      "name": "Aravind Srinivas",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/aravind-srinivas.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/aravind-srinivas.json"
+    },
+    {
+      "slug": "michael-truell",
+      "name": "Michael Truell",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "next_action": "manual_review",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/michael-truell.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/michael-truell.json"
+    },
+    {
+      "slug": "guillermo-rauch",
+      "name": "Guillermo Rauch",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/guillermo-rauch.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/guillermo-rauch.json"
+    },
+    {
+      "slug": "ali-ghodsi",
+      "name": "Ali Ghodsi",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ali-ghodsi.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ali-ghodsi.json"
+    },
+    {
+      "slug": "karri-saarinen",
+      "name": "Karri Saarinen",
+      "status": "candidate",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/karri-saarinen.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/karri-saarinen.json"
+    },
+    {
+      "slug": "eric-glyman",
+      "name": "Eric Glyman",
+      "status": "candidate",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/eric-glyman.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/eric-glyman.json"
+    },
+    {
+      "slug": "christina-cacioppo",
+      "name": "Christina Cacioppo",
+      "status": "candidate",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/christina-cacioppo.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/christina-cacioppo.json"
+    },
+    {
+      "slug": "mathilde-collin",
+      "name": "Mathilde Collin",
+      "status": "candidate",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/mathilde-collin.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/mathilde-collin.json"
+    },
+    {
+      "slug": "melanie-perkins",
+      "name": "Melanie Perkins",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/melanie-perkins.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/melanie-perkins.json"
+    },
+    {
+      "slug": "stewart-butterfield",
+      "name": "Stewart Butterfield",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/stewart-butterfield.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/stewart-butterfield.json"
+    },
+    {
+      "slug": "tony-xu",
+      "name": "Tony Xu",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/tony-xu.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/tony-xu.json"
+    },
+    {
+      "slug": "ritesh-agarwal",
+      "name": "Ritesh Agarwal",
+      "status": "candidate",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ritesh-agarwal.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ritesh-agarwal.json"
+    },
+    {
+      "slug": "sam-blond",
+      "name": "Sam Blond",
+      "status": "candidate",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/sam-blond.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/sam-blond.json"
+    },
+    {
+      "slug": "lenny-rachitsky",
+      "name": "Lenny Rachitsky",
+      "status": "candidate",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/lenny-rachitsky.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/lenny-rachitsky.json"
+    },
+    {
+      "slug": "claire-hughes-johnson",
+      "name": "Claire Hughes Johnson",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/claire-hughes-johnson.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/claire-hughes-johnson.json"
+    },
+    {
+      "slug": "geoffrey-hinton",
+      "name": "Geoffrey Hinton",
+      "status": "candidate",
+      "tier": "S",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/geoffrey-hinton.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/geoffrey-hinton.json"
+    },
+    {
+      "slug": "yoshua-bengio",
+      "name": "Yoshua Bengio",
+      "status": "candidate",
+      "tier": "S",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/yoshua-bengio.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/yoshua-bengio.json"
+    },
+    {
+      "slug": "fei-fei-li",
+      "name": "Fei-Fei Li",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 1,
+        "transcript_ready": 0,
+        "total": 1
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/fei-fei-li.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/fei-fei-li.json"
+    },
+    {
+      "slug": "francois-chollet",
+      "name": "Francois Chollet",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/francois-chollet.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/francois-chollet.json"
+    },
+    {
+      "slug": "noam-shazeer",
+      "name": "Noam Shazeer",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 1,
+        "transcript_ready": 0,
+        "total": 1
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/noam-shazeer.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/noam-shazeer.json"
+    },
+    {
+      "slug": "jeff-dean",
+      "name": "Jeff Dean",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jeff-dean.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jeff-dean.json"
+    },
+    {
+      "slug": "ilia-polosukhin",
+      "name": "Ilia Polosukhin",
+      "status": "candidate",
+      "tier": "B",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ilia-polosukhin.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ilia-polosukhin.json"
+    },
+    {
+      "slug": "matei-zaharia",
+      "name": "Matei Zaharia",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/matei-zaharia.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/matei-zaharia.json"
+    },
+    {
+      "slug": "jonathan-frankle",
+      "name": "Jonathan Frankle",
+      "status": "candidate",
+      "tier": "B",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jonathan-frankle.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jonathan-frankle.json"
+    },
+    {
+      "slug": "chris-olah",
+      "name": "Chris Olah",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/chris-olah.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/chris-olah.json"
+    },
+    {
+      "slug": "paul-christiano",
+      "name": "Paul Christiano",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/paul-christiano.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/paul-christiano.json"
+    },
+    {
+      "slug": "eliezer-yudkowsky",
+      "name": "Eliezer Yudkowsky",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/eliezer-yudkowsky.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/eliezer-yudkowsky.json"
+    },
+    {
+      "slug": "gwern-branwen",
+      "name": "Gwern Branwen",
+      "status": "candidate",
+      "tier": "B",
+      "line": "ai-researchers-technical-thinkers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/gwern-branwen.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/gwern-branwen.json"
+    },
+    {
+      "slug": "alex-hormozi",
+      "name": "Alex Hormozi",
+      "status": "approved",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/alex-hormozi.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/alex-hormozi.json"
+    },
+    {
+      "slug": "bob-proctor",
+      "name": "Bob Proctor",
+      "status": "approved",
+      "tier": "B",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/bob-proctor.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/bob-proctor.json"
+    },
+    {
+      "slug": "david-goggins",
+      "name": "David Goggins",
+      "status": "maybe",
+      "tier": "B",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/david-goggins.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/david-goggins.json"
+    },
+    {
+      "slug": "naval-ravikant",
+      "name": "Naval Ravikant",
+      "status": "candidate",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/naval-ravikant.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/naval-ravikant.json"
+    },
+    {
+      "slug": "paul-graham",
+      "name": "Paul Graham",
+      "status": "candidate",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/paul-graham.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/paul-graham.json"
+    },
+    {
+      "slug": "charlie-munger",
+      "name": "Charlie Munger",
+      "status": "candidate",
+      "tier": "S",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/charlie-munger.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/charlie-munger.json"
+    },
+    {
+      "slug": "warren-buffett",
+      "name": "Warren Buffett",
+      "status": "candidate",
+      "tier": "S",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 1,
+        "transcript_ready": 0,
+        "total": 1
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/warren-buffett.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/warren-buffett.json"
+    },
+    {
+      "slug": "ray-dalio",
+      "name": "Ray Dalio",
+      "status": "candidate",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 1,
+        "transcript_ready": 0,
+        "total": 1
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ray-dalio.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ray-dalio.json"
+    },
+    {
+      "slug": "peter-thiel",
+      "name": "Peter Thiel",
+      "status": "candidate",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/peter-thiel.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/peter-thiel.json"
+    },
+    {
+      "slug": "ben-horowitz",
+      "name": "Ben Horowitz",
+      "status": "candidate",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ben-horowitz.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ben-horowitz.json"
+    },
+    {
+      "slug": "marc-andreessen",
+      "name": "Marc Andreessen",
+      "status": "candidate",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/marc-andreessen.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/marc-andreessen.json"
+    },
+    {
+      "slug": "keith-rabois",
+      "name": "Keith Rabois",
+      "status": "candidate",
+      "tier": "B",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "collect_social_and_longform_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/keith-rabois.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/keith-rabois.json"
+    },
+    {
+      "slug": "ed-catmull",
+      "name": "Ed Catmull",
+      "status": "candidate",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ed-catmull.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ed-catmull.json"
+    },
+    {
+      "slug": "james-clear",
+      "name": "James Clear",
+      "status": "candidate",
+      "tier": "B",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/james-clear.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/james-clear.json"
+    },
+    {
+      "slug": "tony-robbins",
+      "name": "Tony Robbins",
+      "status": "candidate",
+      "tier": "B",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/tony-robbins.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/tony-robbins.json"
+    },
+    {
+      "slug": "earl-nightingale",
+      "name": "Earl Nightingale",
+      "status": "candidate",
+      "tier": "B",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/earl-nightingale.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/earl-nightingale.json"
+    },
+    {
+      "slug": "jim-rohn",
+      "name": "Jim Rohn",
+      "status": "candidate",
+      "tier": "B",
+      "line": "business-wealth-persuasion-self-mastery",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jim-rohn.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/jim-rohn.json"
+    },
+    {
+      "slug": "socrates",
+      "name": "Socrates",
+      "status": "approved",
+      "tier": "S",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/socrates.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/socrates.json"
+    },
+    {
+      "slug": "plato",
+      "name": "Plato",
+      "status": "candidate",
+      "tier": "S",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/plato.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/plato.json"
+    },
+    {
+      "slug": "aristotle",
+      "name": "Aristotle",
+      "status": "candidate",
+      "tier": "S",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/aristotle.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/aristotle.json"
+    },
+    {
+      "slug": "marcus-aurelius",
+      "name": "Marcus Aurelius",
+      "status": "approved",
+      "tier": "S",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/marcus-aurelius.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/marcus-aurelius.json"
+    },
+    {
+      "slug": "seneca",
+      "name": "Seneca",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/seneca.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/seneca.json"
+    },
+    {
+      "slug": "epictetus",
+      "name": "Epictetus",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/epictetus.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/epictetus.json"
+    },
+    {
+      "slug": "confucius",
+      "name": "Confucius",
+      "status": "candidate",
+      "tier": "S",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/confucius.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/confucius.json"
+    },
+    {
+      "slug": "laozi",
+      "name": "Laozi",
+      "status": "candidate",
+      "tier": "S",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/laozi.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/laozi.json"
+    },
+    {
+      "slug": "sun-tzu",
+      "name": "Sun Tzu",
+      "status": "candidate",
+      "tier": "S",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/sun-tzu.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/sun-tzu.json"
+    },
+    {
+      "slug": "machiavelli",
+      "name": "Machiavelli",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/machiavelli.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/machiavelli.json"
+    },
+    {
+      "slug": "friedrich-nietzsche",
+      "name": "Friedrich Nietzsche",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/friedrich-nietzsche.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/friedrich-nietzsche.json"
+    },
+    {
+      "slug": "arthur-schopenhauer",
+      "name": "Arthur Schopenhauer",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/arthur-schopenhauer.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/arthur-schopenhauer.json"
+    },
+    {
+      "slug": "immanuel-kant",
+      "name": "Immanuel Kant",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/immanuel-kant.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/immanuel-kant.json"
+    },
+    {
+      "slug": "david-hume",
+      "name": "David Hume",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/david-hume.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/david-hume.json"
+    },
+    {
+      "slug": "rene-descartes",
+      "name": "Rene Descartes",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/rene-descartes.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/rene-descartes.json"
+    },
+    {
+      "slug": "baruch-spinoza",
+      "name": "Baruch Spinoza",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/baruch-spinoza.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/baruch-spinoza.json"
+    },
+    {
+      "slug": "john-stuart-mill",
+      "name": "John Stuart Mill",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/john-stuart-mill.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/john-stuart-mill.json"
+    },
+    {
+      "slug": "adam-smith",
+      "name": "Adam Smith",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/adam-smith.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/adam-smith.json"
+    },
+    {
+      "slug": "carl-jung",
+      "name": "Carl Jung",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/carl-jung.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/carl-jung.json"
+    },
+    {
+      "slug": "viktor-frankl",
+      "name": "Viktor Frankl",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/viktor-frankl.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/viktor-frankl.json"
+    },
+    {
+      "slug": "rene-girard",
+      "name": "Rene Girard",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/rene-girard.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/rene-girard.json"
+    },
+    {
+      "slug": "joseph-campbell",
+      "name": "Joseph Campbell",
+      "status": "candidate",
+      "tier": "B",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/joseph-campbell.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/joseph-campbell.json"
+    },
+    {
+      "slug": "winston-churchill",
+      "name": "Winston Churchill",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/winston-churchill.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/winston-churchill.json"
+    },
+    {
+      "slug": "abraham-lincoln",
+      "name": "Abraham Lincoln",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/abraham-lincoln.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/abraham-lincoln.json"
+    },
+    {
+      "slug": "benjamin-franklin",
+      "name": "Benjamin Franklin",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/benjamin-franklin.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/benjamin-franklin.json"
+    },
+    {
+      "slug": "napoleon-bonaparte",
+      "name": "Napoleon Bonaparte",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/napoleon-bonaparte.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/napoleon-bonaparte.json"
+    },
+    {
+      "slug": "julius-caesar",
+      "name": "Julius Caesar",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/julius-caesar.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/julius-caesar.json"
+    },
+    {
+      "slug": "alexander-the-great",
+      "name": "Alexander the Great",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/alexander-the-great.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/alexander-the-great.json"
+    },
+    {
+      "slug": "genghis-khan",
+      "name": "Genghis Khan",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/genghis-khan.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/genghis-khan.json"
+    },
+    {
+      "slug": "george-washington",
+      "name": "George Washington",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/george-washington.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/george-washington.json"
+    },
+    {
+      "slug": "thomas-jefferson",
+      "name": "Thomas Jefferson",
+      "status": "candidate",
+      "tier": "B",
+      "line": "strategy-power-history-civilization",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/thomas-jefferson.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/thomas-jefferson.json"
+    },
+    {
+      "slug": "frederick-douglass",
+      "name": "Frederick Douglass",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/frederick-douglass.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/frederick-douglass.json"
+    },
+    {
+      "slug": "martin-luther-king-jr",
+      "name": "Martin Luther King Jr.",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/martin-luther-king-jr.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/martin-luther-king-jr.json"
+    },
+    {
+      "slug": "nelson-mandela",
+      "name": "Nelson Mandela",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/nelson-mandela.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/nelson-mandela.json"
+    },
+    {
+      "slug": "lee-kuan-yew",
+      "name": "Lee Kuan Yew",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/lee-kuan-yew.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/lee-kuan-yew.json"
+    },
+    {
+      "slug": "henry-kissinger",
+      "name": "Henry Kissinger",
+      "status": "candidate",
+      "tier": "B",
+      "line": "strategy-power-history-civilization",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/henry-kissinger.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/henry-kissinger.json"
+    },
+    {
+      "slug": "peter-drucker",
+      "name": "Peter Drucker",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/peter-drucker.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/peter-drucker.json"
+    },
+    {
+      "slug": "w-edwards-deming",
+      "name": "W. Edwards Deming",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/w-edwards-deming.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/w-edwards-deming.json"
+    },
+    {
+      "slug": "nassim-nicholas-taleb",
+      "name": "Nassim Nicholas Taleb",
+      "status": "candidate",
+      "tier": "A",
+      "line": "writers-sensemakers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/nassim-nicholas-taleb.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/nassim-nicholas-taleb.json"
+    },
+    {
+      "slug": "daniel-kahneman",
+      "name": "Daniel Kahneman",
+      "status": "candidate",
+      "tier": "A",
+      "line": "writers-sensemakers",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/daniel-kahneman.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/daniel-kahneman.json"
+    },
+    {
+      "slug": "richard-feynman",
+      "name": "Richard Feynman",
+      "status": "candidate",
+      "tier": "A",
+      "line": "writers-sensemakers",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/richard-feynman.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/richard-feynman.json"
+    },
+    {
+      "slug": "carl-sagan",
+      "name": "Carl Sagan",
+      "status": "candidate",
+      "tier": "A",
+      "line": "writers-sensemakers",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/carl-sagan.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/carl-sagan.json"
+    },
+    {
+      "slug": "isaac-asimov",
+      "name": "Isaac Asimov",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/isaac-asimov.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/isaac-asimov.json"
+    },
+    {
+      "slug": "george-orwell",
+      "name": "George Orwell",
+      "status": "candidate",
+      "tier": "A",
+      "line": "writers-sensemakers",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/george-orwell.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/george-orwell.json"
+    },
+    {
+      "slug": "aldous-huxley",
+      "name": "Aldous Huxley",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/aldous-huxley.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/aldous-huxley.json"
+    },
+    {
+      "slug": "marshall-mcluhan",
+      "name": "Marshall McLuhan",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "next_action": "rights_review_before_ingest",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/marshall-mcluhan.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/marshall-mcluhan.json"
+    },
+    {
+      "slug": "kevin-kelly",
+      "name": "Kevin Kelly",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/kevin-kelly.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/kevin-kelly.json"
+    },
+    {
+      "slug": "stewart-brand",
+      "name": "Stewart Brand",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "next_action": "collect_corpus_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/stewart-brand.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/stewart-brand.json"
+    },
+    {
+      "slug": "tyler-cowen",
+      "name": "Tyler Cowen",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/tyler-cowen.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/tyler-cowen.json"
+    },
+    {
+      "slug": "patrick-mckenzie",
+      "name": "Patrick McKenzie",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/patrick-mckenzie.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/patrick-mckenzie.json"
+    },
+    {
+      "slug": "byrne-hobart",
+      "name": "Byrne Hobart",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/byrne-hobart.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/byrne-hobart.json"
+    },
+    {
+      "slug": "packy-mccormick",
+      "name": "Packy McCormick",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/packy-mccormick.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/packy-mccormick.json"
+    },
+    {
+      "slug": "ben-thompson",
+      "name": "Ben Thompson",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "next_action": "collect_direct_sources",
+      "video_counts": {
+        "candidate": 0,
+        "transcript_ready": 0,
+        "total": 0
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ben-thompson.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/ben-thompson.json"
+    },
+    {
+      "slug": "bob-lazar",
+      "name": "Bob Lazar",
+      "status": "maybe",
+      "tier": "C",
+      "line": "manual-review-interview-subjects",
+      "next_action": "import_transcript",
+      "video_counts": {
+        "candidate": 10,
+        "transcript_ready": 0,
+        "total": 10
+      },
+      "markdown_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/bob-lazar.md",
+      "json_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/people/dossiers/bob-lazar.json"
+    }
+  ]
+}

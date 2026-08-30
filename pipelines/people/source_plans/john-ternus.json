@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "John Ternus",
+  "slug": "john-ternus",
+  "status": "candidate",
+  "tier": "A",
+  "line": "big-tech-platform-ceos",
+  "role": "Incoming CEO, Apple",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "apple",
+    "hardware",
+    "product engineering",
+    "devices"
+  ],
+  "source_counts": {
+    "targets": 0,
+    "discovery_urls": 5
+  },
+  "source_targets": [],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22John+Ternus%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22John+Ternus%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22John+Ternus%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22John+Ternus%22+apple",
+    "https://www.google.com/search?q=%22John+Ternus%22+hardware"
+  ],
+  "curation_notes": []
+}

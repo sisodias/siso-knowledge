@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Andrej Karpathy",
+  "slug": "andrej-karpathy",
+  "status": "approved",
+  "tier": "A",
+  "line": "ai-researchers-technical-thinkers",
+  "role": "AI educator and researcher",
+  "collection_mode": "social-first",
+  "topics": [
+    "llms",
+    "ai education",
+    "computer vision",
+    "neural networks",
+    "software 2.0"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/karpathy"
+    },
+    {
+      "type": "youtube",
+      "url": "https://youtube.com/@AndrejKarpathy"
+    }
+  ],
+  "notes": "",
+  "next_action": "import_transcript",
+  "video_next_action": "import_transcript",
+  "search_queries": [
+    "\"Andrej Karpathy\" interview",
+    "\"Andrej Karpathy\" keynote",
+    "\"Andrej Karpathy\" podcast",
+    "\"Andrej Karpathy\" lecture",
+    "\"Andrej Karpathy\" AI educator and researcher interview"
+  ],
+  "source_plan": {
+    "source_strategy": "social",
+    "next_source_action": "collect_social_and_longform_sources",
+    "source_counts": {
+      "targets": 2,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Andrej Karpathy x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/karpathy",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      },
+      {
+        "title": "Andrej Karpathy youtube",
+        "repository": "youtube",
+        "type": "registry_source",
+        "url": "https://youtube.com/@AndrejKarpathy",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Andrej+Karpathy%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Andrej+Karpathy%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Andrej+Karpathy%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Andrej+Karpathy%22+llms",
+      "https://www.google.com/search?q=%22Andrej+Karpathy%22+ai+education"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 4,
+    "transcript_ready": 0,
+    "total": 4
+  },
+  "videos": [
+    {
+      "video_id": "CRRjFHytZ6Y",
+      "title": "Andrej Karpathy devastates AI optimists...",
+      "url": "https://www.youtube.com/watch?v=CRRjFHytZ6Y",
+      "channel_name": "Matthew Berman",
+      "priority": "P1",
+      "score": 6.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "andrej-karpathy__CRRjFHytZ6Y__Andrej-Karpathy-devastates-AI-optimists.txt"
+    },
+    {
+      "video_id": "H2rgRB0ngn8",
+      "title": "Andrej Karpathy LEAVES OpenAI! Returning to Tesla?",
+      "url": "https://www.youtube.com/watch?v=H2rgRB0ngn8",
+      "channel_name": "David Ondrej",
+      "priority": "P1",
+      "score": 6.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "andrej-karpathy__H2rgRB0ngn8__Andrej-Karpathy-LEAVES-OpenAI-Returning-to-Tesla.txt"
+    },
+    {
+      "video_id": "h0aWeR8pjc8",
+      "title": "I completed Andrej Karpathy\u2019s AI challenge (advanced)",
+      "url": "https://www.youtube.com/watch?v=h0aWeR8pjc8",
+      "channel_name": "David Ondrej",
+      "priority": "P1",
+      "score": 6.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "andrej-karpathy__h0aWeR8pjc8__I-completed-Andrej-Karpathy-s-AI-challenge-advanced.txt"
+    },
+    {
+      "video_id": "BmdOt6A6tHM",
+      "title": "llm.c's Origin and the Future of LLM Compilers - Andrej Karpathy at CUDA MODE",
+      "url": "https://www.youtube.com/watch?v=BmdOt6A6tHM",
+      "channel_name": "Latent Space",
+      "priority": "P1",
+      "score": 6.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "andrej-karpathy__BmdOt6A6tHM__llm-c-s-Origin-and-the-Future-of-LLM-Compilers-Andrej-Karpathy-at-CUDA-MODE.txt"
+    }
+  ]
+}

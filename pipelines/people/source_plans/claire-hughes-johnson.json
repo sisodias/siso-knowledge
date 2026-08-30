@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Claire Hughes Johnson",
+  "slug": "claire-hughes-johnson",
+  "status": "candidate",
+  "tier": "A",
+  "line": "fast-growing-company-builders",
+  "role": "Former COO, Stripe",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "operations",
+    "management",
+    "scaling",
+    "company culture",
+    "leadership"
+  ],
+  "source_counts": {
+    "targets": 0,
+    "discovery_urls": 5
+  },
+  "source_targets": [],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Claire+Hughes+Johnson%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Claire+Hughes+Johnson%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Claire+Hughes+Johnson%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Claire+Hughes+Johnson%22+operations",
+    "https://www.google.com/search?q=%22Claire+Hughes+Johnson%22+management"
+  ],
+  "curation_notes": []
+}

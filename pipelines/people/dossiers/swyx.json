@@ -1,0 +1,155 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "swyx",
+  "slug": "swyx",
+  "status": "approved",
+  "tier": "B",
+  "line": "ai-researchers-technical-thinkers",
+  "role": "Latent Space podcast host and AI engineer",
+  "collection_mode": "social-first",
+  "topics": [
+    "ai engineering",
+    "llms",
+    "agents",
+    "developer tools",
+    "podcast"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/swyx"
+    },
+    {
+      "type": "youtube",
+      "url": "https://youtube.com/@LatentSpace"
+    }
+  ],
+  "notes": "",
+  "next_action": "import_transcript",
+  "video_next_action": "import_transcript",
+  "search_queries": [
+    "\"swyx\" interview",
+    "\"swyx\" keynote",
+    "\"swyx\" podcast",
+    "\"swyx\" lecture",
+    "\"swyx\" Latent Space podcast host and AI engineer interview"
+  ],
+  "source_plan": {
+    "source_strategy": "social",
+    "next_source_action": "collect_social_and_longform_sources",
+    "source_counts": {
+      "targets": 2,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "swyx x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/swyx",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      },
+      {
+        "title": "swyx youtube",
+        "repository": "youtube",
+        "type": "registry_source",
+        "url": "https://youtube.com/@LatentSpace",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22swyx%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22swyx%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22swyx%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22swyx%22+ai+engineering",
+      "https://www.google.com/search?q=%22swyx%22+llms"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 7,
+    "transcript_ready": 0,
+    "total": 7
+  },
+  "videos": [
+    {
+      "video_id": "VIqXNRsRRQo",
+      "title": "[Paper Club] Embeddings in 2024: OpenAI, Nomic Embed, Jina Embed, cde-small-v1 - with swyx",
+      "url": "https://www.youtube.com/watch?v=VIqXNRsRRQo",
+      "channel_name": "Latent Space",
+      "priority": "P2",
+      "score": 4.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "swyx__VIqXNRsRRQo__Paper-Club-Embeddings-in-2024-OpenAI-Nomic-Embed-Jina-Embed-cde-small-v1-with-sw.txt"
+    },
+    {
+      "video_id": "eDr0m6R7fI4",
+      "title": "AI Engineering Without Borders \u2014 swyx",
+      "url": "https://www.youtube.com/watch?v=eDr0m6R7fI4",
+      "channel_name": "Ai Engineer",
+      "priority": "P2",
+      "score": 4.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "swyx__eDr0m6R7fI4__AI-Engineering-Without-Borders-swyx.txt"
+    },
+    {
+      "video_id": "IHkyFhU6JEY",
+      "title": "Designing AI-Intensive Applications - swyx",
+      "url": "https://www.youtube.com/watch?v=IHkyFhU6JEY",
+      "channel_name": "Ai Engineer",
+      "priority": "P2",
+      "score": 4.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "swyx__IHkyFhU6JEY__Designing-AI-Intensive-Applications-swyx.txt"
+    },
+    {
+      "video_id": "IoiHI7p12Ao",
+      "title": "No More Slop \u2013 swyx",
+      "url": "https://www.youtube.com/watch?v=IoiHI7p12Ao",
+      "channel_name": "Ai Engineer",
+      "priority": "P2",
+      "score": 4.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "swyx__IoiHI7p12Ao__No-More-Slop-swyx.txt"
+    },
+    {
+      "video_id": "qaJXBMwUkoE",
+      "title": "The 1,000x AI Engineer: Swyx",
+      "url": "https://www.youtube.com/watch?v=qaJXBMwUkoE",
+      "channel_name": "Ai Engineer",
+      "priority": "P2",
+      "score": 4.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "swyx__qaJXBMwUkoE__The-1-000x-AI-Engineer-Swyx.txt"
+    },
+    {
+      "video_id": "AbToUiWRhn4",
+      "title": "Voice AI Masterclass \u2014\u00a0Kwindla Hultman Kramer and swyx",
+      "url": "https://www.youtube.com/watch?v=AbToUiWRhn4",
+      "channel_name": "Latent Space",
+      "priority": "P2",
+      "score": 4.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "swyx__AbToUiWRhn4__Voice-AI-Masterclass-Kwindla-Hultman-Kramer-and-swyx.txt"
+    },
+    {
+      "video_id": "5N33E9tC400",
+      "title": "Why Agent Engineering \u2014\u00a0swyx",
+      "url": "https://www.youtube.com/watch?v=5N33E9tC400",
+      "channel_name": "Ai Engineer",
+      "priority": "P2",
+      "score": 4.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "swyx__5N33E9tC400__Why-Agent-Engineering-swyx.txt"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Nelson Mandela",
+  "slug": "nelson-mandela",
+  "status": "candidate",
+  "tier": "A",
+  "line": "strategy-power-history-civilization",
+  "role": "President of South Africa",
+  "collection_mode": "corpus-first",
+  "source_strategy": "corpus",
+  "next_source_action": "rights_review_before_ingest",
+  "topics": [
+    "reconciliation",
+    "endurance",
+    "leadership",
+    "justice"
+  ],
+  "source_counts": {
+    "targets": 4,
+    "discovery_urls": 4
+  },
+  "source_targets": [
+    {
+      "title": "Nelson Mandela source search",
+      "repository": "Project Gutenberg",
+      "type": "archive_search",
+      "url": "https://www.gutenberg.org/ebooks/search/?query=Nelson+Mandela",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Nelson Mandela source search",
+      "repository": "Wikisource",
+      "type": "archive_search",
+      "url": "https://en.wikisource.org/w/index.php?search=Nelson+Mandela",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Nelson Mandela source search",
+      "repository": "Internet Archive",
+      "type": "archive_search",
+      "url": "https://archive.org/search?query=Nelson+Mandela",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Nelson Mandela source search",
+      "repository": "Open Library",
+      "type": "archive_search",
+      "url": "https://openlibrary.org/search?q=Nelson+Mandela",
+      "rights_status": "rights_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.gutenberg.org/ebooks/search/?query=Nelson+Mandela",
+    "https://en.wikisource.org/w/index.php?search=Nelson+Mandela",
+    "https://archive.org/search?query=Nelson+Mandela",
+    "https://openlibrary.org/search?q=Nelson+Mandela"
+  ],
+  "curation_notes": [
+    "Modern corpus entry: use official archives, public-domain items, or user-supplied material only after rights review."
+  ]
+}

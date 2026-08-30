@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Guillermo Rauch",
+  "slug": "guillermo-rauch",
+  "status": "candidate",
+  "tier": "A",
+  "line": "fast-growing-company-builders",
+  "role": "Founder and CEO, Vercel",
+  "collection_mode": "social-first",
+  "topics": [
+    "frontend",
+    "developer tools",
+    "nextjs",
+    "infrastructure",
+    "ai applications"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/rauchg"
+    }
+  ],
+  "notes": "",
+  "next_action": "collect_social_and_longform_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Guillermo Rauch\" interview",
+    "\"Guillermo Rauch\" keynote",
+    "\"Guillermo Rauch\" podcast",
+    "\"Guillermo Rauch\" lecture",
+    "\"Guillermo Rauch\" Founder and CEO interview"
+  ],
+  "source_plan": {
+    "source_strategy": "social",
+    "next_source_action": "collect_social_and_longform_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Guillermo Rauch x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/rauchg",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Guillermo+Rauch%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Guillermo+Rauch%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Guillermo+Rauch%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Guillermo+Rauch%22+frontend",
+      "https://www.google.com/search?q=%22Guillermo+Rauch%22+developer+tools"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

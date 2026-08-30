@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Patrick McKenzie",
+  "slug": "patrick-mckenzie",
+  "status": "candidate",
+  "tier": "B",
+  "line": "writers-sensemakers",
+  "role": "Internet business writer",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "internet business",
+    "payments",
+    "saas",
+    "software",
+    "writing"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/patio11"
+    }
+  ],
+  "notes": "",
+  "next_action": "collect_direct_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Patrick McKenzie\" interview",
+    "\"Patrick McKenzie\" keynote",
+    "\"Patrick McKenzie\" podcast",
+    "\"Patrick McKenzie\" lecture",
+    "\"Patrick McKenzie\" Internet business writer interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Patrick McKenzie x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/patio11",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Patrick+McKenzie%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Patrick+McKenzie%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Patrick+McKenzie%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Patrick+McKenzie%22+internet+business",
+      "https://www.google.com/search?q=%22Patrick+McKenzie%22+payments"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

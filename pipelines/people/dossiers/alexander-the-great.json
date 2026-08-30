@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Alexander the Great",
+  "slug": "alexander-the-great",
+  "status": "candidate",
+  "tier": "A",
+  "line": "strategy-power-history-civilization",
+  "role": "Macedonian king and conqueror",
+  "collection_mode": "corpus-first",
+  "topics": [
+    "ambition",
+    "conquest",
+    "charisma",
+    "strategy",
+    "empire"
+  ],
+  "sources": [],
+  "notes": "",
+  "next_action": "collect_corpus_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [],
+  "source_plan": {
+    "source_strategy": "corpus",
+    "next_source_action": "collect_corpus_sources",
+    "source_counts": {
+      "targets": 4,
+      "discovery_urls": 4
+    },
+    "source_targets": [
+      {
+        "title": "Alexander the Great source search",
+        "repository": "Project Gutenberg",
+        "type": "archive_search",
+        "url": "https://www.gutenberg.org/ebooks/search/?query=Alexander+the+Great",
+        "rights_status": "public_domain_or_translation_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      },
+      {
+        "title": "Alexander the Great source search",
+        "repository": "Wikisource",
+        "type": "archive_search",
+        "url": "https://en.wikisource.org/w/index.php?search=Alexander+the+Great",
+        "rights_status": "public_domain_or_translation_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      },
+      {
+        "title": "Alexander the Great source search",
+        "repository": "Internet Archive",
+        "type": "archive_search",
+        "url": "https://archive.org/search?query=Alexander+the+Great",
+        "rights_status": "public_domain_or_translation_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      },
+      {
+        "title": "Alexander the Great source search",
+        "repository": "Open Library",
+        "type": "archive_search",
+        "url": "https://openlibrary.org/search?q=Alexander+the+Great",
+        "rights_status": "public_domain_or_translation_review",
+        "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.gutenberg.org/ebooks/search/?query=Alexander+the+Great",
+      "https://en.wikisource.org/w/index.php?search=Alexander+the+Great",
+      "https://archive.org/search?query=Alexander+the+Great",
+      "https://openlibrary.org/search?q=Alexander+the+Great"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

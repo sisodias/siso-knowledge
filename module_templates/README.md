@@ -1,4 +1,4 @@
-# SISO_Library Module Templates
+# SISO_Knowledge Module Templates
 
 Canonical definitions for every level of the library hierarchy. Instantiate these when creating new sections, bookcases, shelves, pages, or books.
 

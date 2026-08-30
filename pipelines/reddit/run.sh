@@ -5,7 +5,7 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-ROOT="/Users/shaansisodia/SISO_Workspace/SISO_Library"
+ROOT="/Users/shaansisodia/SISO_Workspace/SISO_Knowledge"
 
 cd "$ROOT"
 

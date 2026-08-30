@@ -1,0 +1,41 @@
+{
+  "data": {
+    "web": [
+      {
+        "title": "Demis Hassabis - Scaling, Superhuman AIs, AlphaZero atop LLMs, Rogue Nations Threat",
+        "url": "https://www.youtube.com/watch?v=qTogNUV3CAI",
+        "source": "web_search_seed",
+        "channel": "Dwarkesh Podcast",
+        "description": "Long-form Dwarkesh interview with Demis Hassabis."
+      },
+      {
+        "title": "The future of intelligence | Demis Hassabis (Co-founder and CEO of DeepMind)",
+        "url": "https://www.youtube.com/watch?v=PqVbypvxDto",
+        "source": "web_search_seed",
+        "channel": "Google DeepMind",
+        "description": "First-party Google DeepMind interview with Demis Hassabis."
+      },
+      {
+        "title": "Demis Hassabis: DeepMind - AI, Superintelligence & the Future of Humanity | Lex Fridman Podcast #299",
+        "url": "https://www.youtube.com/watch?v=Gfr50f6ZBvo",
+        "source": "web_search_seed",
+        "channel": "Lex Fridman",
+        "description": "Long-form Lex Fridman interview with Demis Hassabis."
+      },
+      {
+        "title": "Demis Hassabis On The Future of Work in the Age of AI",
+        "url": "https://www.youtube.com/watch?v=CRraHg4Ks_g",
+        "source": "web_search_seed",
+        "channel": "WIRED",
+        "description": "Interview segment with Demis Hassabis on AI and work."
+      },
+      {
+        "title": "Demis Hassabis: The CEO Working to Solve Cancer With AI",
+        "url": "https://www.youtube.com/watch?v=sDZ1j0J-fe8",
+        "source": "web_search_seed",
+        "channel": "Bloomberg Technology",
+        "description": "Bloomberg interview with Demis Hassabis about AI and biology."
+      }
+    ]
+  }
+}

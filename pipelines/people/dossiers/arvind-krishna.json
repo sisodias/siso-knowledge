@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Arvind Krishna",
+  "slug": "arvind-krishna",
+  "status": "candidate",
+  "tier": "A",
+  "line": "big-tech-platform-ceos",
+  "role": "Chairman and CEO, IBM",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "enterprise ai",
+    "hybrid cloud",
+    "ibm",
+    "consulting",
+    "infrastructure"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/arvindkrishna"
+    }
+  ],
+  "notes": "",
+  "next_action": "collect_direct_sources",
+  "video_next_action": "discover_candidates",
+  "search_queries": [
+    "\"Arvind Krishna\" interview",
+    "\"Arvind Krishna\" keynote",
+    "\"Arvind Krishna\" podcast",
+    "\"Arvind Krishna\" lecture",
+    "\"Arvind Krishna\" Chairman and CEO interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Arvind Krishna x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/arvindkrishna",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Arvind+Krishna%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Arvind+Krishna%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Arvind+Krishna%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Arvind+Krishna%22+enterprise+ai",
+      "https://www.google.com/search?q=%22Arvind+Krishna%22+hybrid+cloud"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 0,
+    "transcript_ready": 0,
+    "total": 0
+  },
+  "videos": []
+}

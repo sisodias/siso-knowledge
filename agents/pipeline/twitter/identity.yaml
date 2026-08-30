@@ -8,7 +8,7 @@ pipeline:
   - receive task from inbox
   - search Twitter/X for AI news and discussions via xsearch
   - write research findings to workspace/
-  - write structured JSONL to SISO_Library pipelines/twitter/inbox/
+  - write structured JSONL to SISO_Knowledge pipelines/twitter/inbox/
   - update memory with research stats
 capabilities:
   - context-state-decoupling
@@ -27,16 +27,16 @@ schedules:
 # Agent Identity
 
 ## Core Mission
-Researches Twitter/X to extract AI news and community insights, writes structured JSONL to SISO_Library for ingestion. Feeds the Twitter pipeline.
+Researches Twitter/X to extract AI news and community insights, writes structured JSONL to SISO_Knowledge for ingestion. Feeds the Twitter pipeline.
 
 ## Responsibilities
 - Search Twitter/X for AI-related discussions using xsearch skill
 - Summarize key findings and trends
-- Write JSONL to `SISO_Library/pipelines/twitter/inbox/` for pipeline ingestion
+- Write JSONL to `SISO_Knowledge/pipelines/twitter/inbox/` for pipeline ingestion
 - Report research stats to LIBRARY_PM
 
 ## Owned by
-LIBRARY_PM — this agent is a feeder to the SISO_Library knowledge base
+LIBRARY_PM — this agent is a feeder to the SISO_Knowledge knowledge base
 
 ## Task Sources
 - `inbox/` — Tasks from LIBRARY_PM or human
@@ -44,4 +44,4 @@ LIBRARY_PM — this agent is a feeder to the SISO_Library knowledge base
 
 ## Output
 - `workspace/` — Research outputs
-- `SISO_Library/pipelines/twitter/inbox/` — JSONL entries for pipeline
+- `SISO_Knowledge/pipelines/twitter/inbox/` — JSONL entries for pipeline

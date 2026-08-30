@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Socrates",
+  "slug": "socrates",
+  "status": "approved",
+  "tier": "S",
+  "line": "historic-philosophy-fundamental-thinkers",
+  "role": "Classical Greek philosopher",
+  "collection_mode": "corpus-first",
+  "source_strategy": "corpus",
+  "next_source_action": "collect_corpus_sources",
+  "topics": [
+    "questioning",
+    "ethics",
+    "epistemology",
+    "examined life"
+  ],
+  "source_counts": {
+    "targets": 7,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Apology, Crito, and Phaedo of Socrates",
+      "repository": "Project Gutenberg",
+      "type": "canonical_text",
+      "url": "https://www.gutenberg.org/ebooks/13726",
+      "rights_status": "public_domain_source",
+      "notes": "Plato dialogues centered on Socrates; use as attributed Plato source material."
+    },
+    {
+      "title": "Plato, Apology",
+      "repository": "Perseus Digital Library",
+      "type": "classical_text",
+      "url": "https://www.perseus.tufts.edu/hopper/collection?collection=Perseus%3Acorpus%3Aperseus%2Cwork%2CPlato%2C+Apology",
+      "rights_status": "public_domain_source",
+      "notes": "Primary classical text access; prefer structured citation by dialogue/section."
+    },
+    {
+      "title": "Socrates source search",
+      "repository": "Project Gutenberg",
+      "type": "archive_search",
+      "url": "https://www.gutenberg.org/ebooks/search/?query=Socrates",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Socrates source search",
+      "repository": "Wikisource",
+      "type": "archive_search",
+      "url": "https://en.wikisource.org/w/index.php?search=Socrates",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Socrates source search",
+      "repository": "Internet Archive",
+      "type": "archive_search",
+      "url": "https://archive.org/search?query=Socrates",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Socrates source search",
+      "repository": "Open Library",
+      "type": "archive_search",
+      "url": "https://openlibrary.org/search?q=Socrates",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    },
+    {
+      "title": "Socrates source search",
+      "repository": "Perseus",
+      "type": "archive_search",
+      "url": "https://www.perseus.tufts.edu/hopper/searchresults?q=Socrates",
+      "rights_status": "public_domain_or_translation_review",
+      "notes": "Discovery target; select item-level texts and preserve edition/translator metadata."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.gutenberg.org/ebooks/search/?query=Socrates",
+    "https://en.wikisource.org/w/index.php?search=Socrates",
+    "https://archive.org/search?query=Socrates",
+    "https://openlibrary.org/search?q=Socrates",
+    "https://www.perseus.tufts.edu/hopper/searchresults?q=Socrates"
+  ],
+  "curation_notes": [
+    "Socrates left no writings; collect Plato, Xenophon, and Aristophanes material as attributed witness sources."
+  ]
+}

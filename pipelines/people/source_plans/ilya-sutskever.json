@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "Ilya Sutskever",
+  "slug": "ilya-sutskever",
+  "status": "candidate",
+  "tier": "S",
+  "line": "frontier-ai-company-leaders",
+  "role": "Co-founder, Safe Superintelligence",
+  "collection_mode": "direct-source-first",
+  "source_strategy": "direct",
+  "next_source_action": "collect_direct_sources",
+  "topics": [
+    "superintelligence",
+    "alignment",
+    "deep learning",
+    "safety"
+  ],
+  "source_counts": {
+    "targets": 1,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "Ilya Sutskever x",
+      "repository": "x",
+      "type": "registry_source",
+      "url": "https://x.com/ilyasut",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22Ilya+Sutskever%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22Ilya+Sutskever%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22Ilya+Sutskever%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22Ilya+Sutskever%22+superintelligence",
+    "https://www.google.com/search?q=%22Ilya+Sutskever%22+alignment"
+  ],
+  "curation_notes": []
+}

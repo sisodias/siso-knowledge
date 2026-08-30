@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Ilya Sutskever",
+  "slug": "ilya-sutskever",
+  "status": "candidate",
+  "tier": "S",
+  "line": "frontier-ai-company-leaders",
+  "role": "Co-founder, Safe Superintelligence",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "superintelligence",
+    "alignment",
+    "deep learning",
+    "safety"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/ilyasut"
+    }
+  ],
+  "notes": "",
+  "next_action": "import_transcript",
+  "video_next_action": "import_transcript",
+  "search_queries": [
+    "\"Ilya Sutskever\" interview",
+    "\"Ilya Sutskever\" keynote",
+    "\"Ilya Sutskever\" podcast",
+    "\"Ilya Sutskever\" lecture",
+    "\"Ilya Sutskever\" Co-founder interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 1,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Ilya Sutskever x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/ilyasut",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Ilya+Sutskever%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Ilya+Sutskever%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Ilya+Sutskever%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Ilya+Sutskever%22+superintelligence",
+      "https://www.google.com/search?q=%22Ilya+Sutskever%22+alignment"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 5,
+    "transcript_ready": 0,
+    "total": 5
+  },
+  "videos": [
+    {
+      "video_id": "1vSNWCUmNqs",
+      "title": "Ex-OpenAI Founder Ilya Sutskever Strikes Back!",
+      "url": "https://www.youtube.com/watch?v=1vSNWCUmNqs",
+      "channel_name": "Matthew Berman",
+      "priority": "P0",
+      "score": 8.0,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "ilya-sutskever__1vSNWCUmNqs__Ex-OpenAI-Founder-Ilya-Sutskever-Strikes-Back.txt"
+    },
+    {
+      "video_id": "golOcm0qdsE",
+      "title": "Ilya Sutskever FINALLY Responds! Sam Altman Replies...",
+      "url": "https://www.youtube.com/watch?v=golOcm0qdsE",
+      "channel_name": "David Ondrej",
+      "priority": "P0",
+      "score": 8.0,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "ilya-sutskever__golOcm0qdsE__Ilya-Sutskever-FINALLY-Responds-Sam-Altman-Replies.txt"
+    },
+    {
+      "video_id": "zlRnTw77eaY",
+      "title": "Ilya Sutskever: The Genius Behind OpenAI",
+      "url": "https://www.youtube.com/watch?v=zlRnTw77eaY",
+      "channel_name": "David Ondrej",
+      "priority": "P0",
+      "score": 8.0,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "ilya-sutskever__zlRnTw77eaY__Ilya-Sutskever-The-Genius-Behind-OpenAI.txt"
+    },
+    {
+      "video_id": "3NP_3CRMBdA",
+      "title": "OpenAI Is FALLING Apart. (Ilya Sutskever Leaving, Super alignment Solved? Superintelligence)",
+      "url": "https://www.youtube.com/watch?v=3NP_3CRMBdA",
+      "channel_name": "Ai Grid",
+      "priority": "P1",
+      "score": 6.0,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "ilya-sutskever__3NP_3CRMBdA__OpenAI-Is-FALLING-Apart-Ilya-Sutskever-Leaving-Super-alignment-Solved-Superintel.txt"
+    },
+    {
+      "video_id": "8KL47xLD-yg",
+      "title": "Ilya Sutskever Just Revealed The Next BIG THINGS In AI (Superintelligence Explained)",
+      "url": "https://www.youtube.com/watch?v=8KL47xLD-yg",
+      "channel_name": "Ai Grid",
+      "priority": "P3",
+      "score": 3.0,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "ilya-sutskever__8KL47xLD-yg__Ilya-Sutskever-Just-Revealed-The-Next-BIG-THINGS-In-AI-Superintelligence-Explain.txt"
+    }
+  ]
+}

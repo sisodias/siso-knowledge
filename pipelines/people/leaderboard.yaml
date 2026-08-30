@@ -1,199 +1,1620 @@
-# People Leaderboard — Tier S/A/B AI Leaders
-# Insight credibility is weighted by tier: S=4x, A=3x, B=2x, C=1x
+# People Knowledge Registry
+#
+# This is the candidate database for person-anchored knowledge ingestion.
+# status:
+#   approved  = intentionally kept
+#   candidate = useful default, awaiting Shaan review
+#   maybe     = name or fit needs disambiguation
+#   rejected  = retained only as an explicit no
+# collection_mode:
+#   direct-source-first = official talks, essays, interviews, filings, books
+#   social-first        = X/Twitter, YouTube, podcasts, newsletters
+#   corpus-first        = public-domain texts, books, translations, archives
+#   manual-curation     = collect later by hand before automation
 
-leaderboard:
-  # === TIER S: Company Founders/CEOs — highest credibility for company strategy ===
+people:
+  # Existing local people list.
   - name: Jensen Huang
-    title: CEO, NVIDIA
+    slug: jensen-huang
+    status: approved
+    line: frontier-ai-company-leaders
+    role: Co-founder, President and CEO, NVIDIA
     tier: S
+    collection_mode: direct-source-first
+    topics: [ai infrastructure, gpu, accelerated computing, inference, deep learning]
     sources:
-      - type: twitter
-        url: https://twitter.com/jensen_xai
+      - type: official
+        url: https://www.nvidia.com/en-us/about-nvidia/leadership/
       - type: youtube
         url: https://youtube.com/@nvidia
-    topics: [gpu, inference, AI infrastructure, deep learning]
-    weight: 4.0
 
   - name: Elon Musk
-    title: CEO, xAI / Tesla / SpaceX
+    slug: elon-musk
+    status: approved
+    line: frontier-ai-company-leaders
+    role: CEO, xAI / Tesla / SpaceX
     tier: S
+    collection_mode: social-first
+    topics: [agi, autonomous vehicles, robotics, rockets, brain-computer interfaces]
     sources:
-      - type: twitter
-        url: https://twitter.com/elonmusk
-    topics: [agi, autonomous, llms, rockets, robotics]
-    weight: 4.0
+      - type: x
+        url: https://x.com/elonmusk
+      - type: official
+        url: https://www.tesla.com/elon-musk
 
   - name: Sam Altman
-    title: CEO, OpenAI
+    slug: sam-altman
+    status: approved
+    line: frontier-ai-company-leaders
+    role: CEO, OpenAI
     tier: S
+    collection_mode: direct-source-first
+    topics: [agi, frontier models, ai policy, reasoning, deployment]
     sources:
-      - type: twitter
-        url: https://twitter.com/sama
-    topics: [agi, llms, safety, gpt, reasoning]
-    weight: 4.0
+      - type: x
+        url: https://x.com/sama
+      - type: official
+        url: https://openai.com
 
   - name: Dario Amodei
-    title: CEO, Anthropic
+    slug: dario-amodei
+    status: approved
+    line: frontier-ai-company-leaders
+    role: Co-founder and CEO, Anthropic
     tier: S
+    collection_mode: direct-source-first
+    topics: [claude, ai safety, constitutional ai, frontier models, scaling]
     sources:
-      - type: twitter
-        url: https://twitter.com/daborni
-    topics: [claude, safety, constitutional ai, llms]
-    weight: 4.0
+      - type: x
+        url: https://x.com/darioamodei
+      - type: official
+        url: https://www.anthropic.com
 
   - name: Sundar Pichai
-    title: CEO, Google / Alphabet
+    slug: sundar-pichai
+    status: approved
+    line: frontier-ai-company-leaders
+    role: CEO, Google and Alphabet
     tier: S
+    collection_mode: direct-source-first
+    topics: [gemini, search, google ai, cloud, enterprise]
     sources:
-      - type: twitter
-        url: https://twitter.com/sundarpichai
-    topics: [gemini, search, google ai, enterprise]
-    weight: 4.0
+      - type: x
+        url: https://x.com/sundarpichai
+      - type: official
+        url: https://abc.xyz
 
   - name: Satya Nadella
-    title: CEO, Microsoft
+    slug: satya-nadella
+    status: approved
+    line: frontier-ai-company-leaders
+    role: Chairman and CEO, Microsoft
     tier: S
+    collection_mode: direct-source-first
+    topics: [azure ai, copilot, enterprise ai, cloud, productivity]
     sources:
-      - type: twitter
-        url: https://twitter.com/satyanadella
-    topics: [azure ai, copilot, enterprise, infrastructure]
-    weight: 4.0
+      - type: x
+        url: https://x.com/satyanadella
+      - type: official
+        url: https://www.microsoft.com/investor
 
   - name: Mark Zuckerberg
-    title: CEO, Meta
+    slug: mark-zuckerberg
+    status: approved
+    line: frontier-ai-company-leaders
+    role: Founder, Chairman and CEO, Meta
     tier: S
+    collection_mode: direct-source-first
+    topics: [llama, open source ai, social platforms, ai infrastructure, vr]
     sources:
-      - type: twitter
-        url: https://twitter.com/finkd
-    topics: [llama, open source, ai infrastructure, vr, ai at meta]
-    weight: 4.0
+      - type: x
+        url: https://x.com/finkd
+      - type: official
+        url: https://about.meta.com
 
   - name: Demis Hassabis
-    title: CEO, Google DeepMind
+    slug: demis-hassabis
+    status: approved
+    line: frontier-ai-company-leaders
+    role: Co-founder and CEO, Google DeepMind
     tier: S
+    collection_mode: direct-source-first
+    topics: [agi, gemini, alphafold, reasoning, science]
     sources:
-      - type: twitter
-        url: https://twitter.com/demishassabis
-    topics: [gemini, alphafold, reasoning, research, agi]
-    weight: 4.0
+      - type: x
+        url: https://x.com/demishassabis
+      - type: official
+        url: https://deepmind.google
 
-  # === TIER A: Top AI Researchers / Builders ===
   - name: Andrej Karpathy
-    title: Former Tesla AI Director, AI Educator
+    slug: andrej-karpathy
+    status: approved
+    line: ai-researchers-technical-thinkers
+    role: AI educator and researcher
     tier: A
+    collection_mode: social-first
+    topics: [llms, ai education, computer vision, neural networks, software 2.0]
     sources:
-      - type: twitter
-        url: https://twitter.com/karpathy
+      - type: x
+        url: https://x.com/karpathy
       - type: youtube
         url: https://youtube.com/@AndrejKarpathy
-    topics: [llms, nlp, computer vision, ai education, gpt, llm]
-    weight: 3.0
 
   - name: Jim Fan
-    title: Senior Research Scientist, NVIDIA
+    slug: jim-fan
+    status: approved
+    line: ai-researchers-technical-thinkers
+    role: Senior Research Scientist, NVIDIA
     tier: A
+    collection_mode: social-first
+    topics: [physical ai, robotics, agents, foundation models, simulation]
     sources:
-      - type: twitter
-        url: https://twitter.com/DrJimFan
-    topics: [physical ai, robotics, llms, agentic, foundation models]
-    weight: 3.0
+      - type: x
+        url: https://x.com/DrJimFan
 
   - name: Yann LeCun
-    title: Chief AI Scientist, Meta
+    slug: yann-lecun
+    status: approved
+    line: ai-researchers-technical-thinkers
+    role: Chief AI Scientist, Meta
     tier: A
+    collection_mode: social-first
+    topics: [deep learning, self-supervised learning, open source ai, agi, world models]
     sources:
-      - type: twitter
-        url: https://twitter.com/ylecun
-    topics: [self-supervised learning, llms, agi, deep learning, open source]
-    weight: 3.0
+      - type: x
+        url: https://x.com/ylecun
 
   - name: Andrew Ng
-    title: Founder, DeepLearning.AI / Landing AI
+    slug: andrew-ng
+    status: approved
+    line: ai-researchers-technical-thinkers
+    role: Founder, DeepLearning.AI and Landing AI
     tier: A
+    collection_mode: direct-source-first
+    topics: [ai education, mlops, applied ai, ai business, llm applications]
     sources:
-      - type: twitter
-        url: https://twitter.com/AndrewYNg
+      - type: x
+        url: https://x.com/AndrewYNg
       - type: youtube
-        url: https://youtube.com/@deeplearningai
-    topics: [mlops, llms, ai education, llm applications, ai business]
-    weight: 3.0
+        url: https://youtube.com/@Deeplearningai
 
   - name: Jim Keller
-    title:芯片架构师 / Processor Architect
+    slug: jim-keller
+    status: approved
+    line: ai-researchers-technical-thinkers
+    role: Processor architect
     tier: A
+    collection_mode: social-first
+    topics: [hardware, silicon, ai chips, risc-v, processor architecture]
     sources:
-      - type: twitter
-        url: https://twitter.com/jim_keller
-    topics: [hardware, silicon, ai chips, isa, risc-v]
-    weight: 3.0
+      - type: x
+        url: https://x.com/jimkxa
 
   - name: Simon Willison
-    title: AI Developer & Researcher
+    slug: simon-willison
+    status: approved
+    line: ai-researchers-technical-thinkers
+    role: AI developer and researcher
     tier: A
+    collection_mode: direct-source-first
+    topics: [llms, python, tools, agents, ai ethics]
     sources:
-      - type: twitter
-        url: https://twitter.com/simonw
-    topics: [llms, python, tools, ai ethics, llm applications]
-    weight: 3.0
+      - type: x
+        url: https://x.com/simonw
+      - type: website
+        url: https://simonwillison.net
 
   - name: Simon Olson
-    title: AI Strategy Advisor
+    slug: simon-olson
+    status: approved
+    line: fast-growing-company-builders
+    role: AI strategy advisor
     tier: A
+    collection_mode: manual-curation
+    topics: [ai strategy, enterprise ai, llm adoption]
     sources:
       - type: linkedin
         url: https://linkedin.com/in/simonolson
-    topics: [ai strategy, enterprise ai, llm adoption]
-    weight: 3.0
 
-  # === TIER B: Practitioners / Active Builders ===
-  - name: swyx (Shawn Wang)
-    title: Latent Space Podcast Host
+  - name: swyx
+    slug: swyx
+    status: approved
+    line: ai-researchers-technical-thinkers
+    role: Latent Space podcast host and AI engineer
     tier: B
+    collection_mode: social-first
+    topics: [ai engineering, llms, agents, developer tools, podcast]
     sources:
-      - type: twitter
-        url: https://twitter.com/swyx
+      - type: x
+        url: https://x.com/swyx
       - type: youtube
         url: https://youtube.com/@LatentSpace
-    topics: [ai engineering, llms, podcast, ai infrastructure]
-    weight: 2.0
 
   - name: Theo Browne
-    title: CEO, T3.gg
+    slug: theo-browne
+    status: approved
+    line: fast-growing-company-builders
+    role: CEO, T3.gg
     tier: B
+    collection_mode: social-first
+    topics: [ai applications, nextjs, typescript, developer tools, llm apps]
     sources:
-      - type: twitter
-        url: https://twitter.com/t3dotgg
+      - type: x
+        url: https://x.com/t3dotgg
       - type: youtube
         url: https://youtube.com/@t3dotgg
-    topics: [ai applications, next.js, typescript, llm apps]
-    weight: 2.0
 
   - name: Matthew Berman
-    title: AI YouTuber
+    slug: matthew-berman
+    status: approved
+    line: ai-researchers-technical-thinkers
+    role: AI educator and YouTuber
     tier: B
+    collection_mode: social-first
+    topics: [ai tools, model comparisons, llm research, ai news]
     sources:
-      - type: twitter
-        url: https://twitter.com/matthew_berman
+      - type: x
+        url: https://x.com/matthew_berman
       - type: youtube
         url: https://youtube.com/@MatthewBermanAI
-    topics: [ai news, llm comparisons, ai tools, llm research]
-    weight: 2.0
 
-# Tier definitions
+  # Additional frontier AI leaders.
+  - name: Mustafa Suleyman
+    slug: mustafa-suleyman
+    status: candidate
+    line: frontier-ai-company-leaders
+    role: CEO, Microsoft AI
+    tier: S
+    collection_mode: direct-source-first
+    topics: [consumer ai, copilot, ai products, ai safety, inflection]
+    sources:
+      - type: x
+        url: https://x.com/mustafasuleyman
+
+  - name: Fidji Simo
+    slug: fidji-simo
+    status: candidate
+    line: frontier-ai-company-leaders
+    role: CEO of Applications, OpenAI
+    tier: A
+    collection_mode: direct-source-first
+    topics: [ai applications, product, operations, consumer platforms]
+    sources:
+      - type: x
+        url: https://x.com/fidjissimo
+
+  - name: Mira Murati
+    slug: mira-murati
+    status: candidate
+    line: frontier-ai-company-leaders
+    role: AI product and research leader
+    tier: A
+    collection_mode: direct-source-first
+    topics: [ai products, frontier models, research leadership, deployment]
+    sources: []
+
+  - name: Ilya Sutskever
+    slug: ilya-sutskever
+    status: candidate
+    line: frontier-ai-company-leaders
+    role: Co-founder, Safe Superintelligence
+    tier: S
+    collection_mode: direct-source-first
+    topics: [superintelligence, alignment, deep learning, safety]
+    sources:
+      - type: x
+        url: https://x.com/ilyasut
+
+  - name: Alexandr Wang
+    slug: alexandr-wang
+    status: candidate
+    line: frontier-ai-company-leaders
+    role: Founder, Scale AI; Meta AI leader
+    tier: A
+    collection_mode: direct-source-first
+    topics: [data, ai infrastructure, government ai, meta ai]
+    sources:
+      - type: x
+        url: https://x.com/alexandr_wang
+
+  - name: Jason Droege
+    slug: jason-droege
+    status: candidate
+    line: frontier-ai-company-leaders
+    role: Interim CEO, Scale AI
+    tier: B
+    collection_mode: manual-curation
+    topics: [ai data, operations, marketplace operations]
+    sources: []
+
+  # Big tech and platform CEOs.
+  - name: Andy Jassy
+    slug: andy-jassy
+    status: candidate
+    line: big-tech-platform-ceos
+    role: President and CEO, Amazon
+    tier: S
+    collection_mode: direct-source-first
+    topics: [aws, cloud, marketplaces, operations, ai infrastructure]
+    sources:
+      - type: x
+        url: https://x.com/ajassy
+
+  - name: Tim Cook
+    slug: tim-cook
+    status: candidate
+    line: big-tech-platform-ceos
+    role: CEO, Apple
+    tier: S
+    collection_mode: direct-source-first
+    topics: [apple, operations, supply chain, privacy, devices]
+    sources:
+      - type: x
+        url: https://x.com/tim_cook
+
+  - name: John Ternus
+    slug: john-ternus
+    status: candidate
+    line: big-tech-platform-ceos
+    role: Incoming CEO, Apple
+    tier: A
+    collection_mode: direct-source-first
+    topics: [apple, hardware, product engineering, devices]
+    sources: []
+
+  - name: Patrick Collison
+    slug: patrick-collison
+    status: candidate
+    line: big-tech-platform-ceos
+    role: Co-founder and CEO, Stripe
+    tier: S
+    collection_mode: social-first
+    topics: [payments, internet economy, startups, progress studies, writing]
+    sources:
+      - type: x
+        url: https://x.com/patrickc
+
+  - name: Dylan Field
+    slug: dylan-field
+    status: candidate
+    line: big-tech-platform-ceos
+    role: Co-founder and CEO, Figma
+    tier: A
+    collection_mode: direct-source-first
+    topics: [design, product, collaboration, ai design tools]
+    sources:
+      - type: x
+        url: https://x.com/zoink
+
+  - name: Brian Chesky
+    slug: brian-chesky
+    status: candidate
+    line: big-tech-platform-ceos
+    role: Co-founder and CEO, Airbnb
+    tier: A
+    collection_mode: direct-source-first
+    topics: [design, marketplaces, trust, company culture, product]
+    sources:
+      - type: x
+        url: https://x.com/bchesky
+
+  - name: Brian Armstrong
+    slug: brian-armstrong
+    status: candidate
+    line: big-tech-platform-ceos
+    role: Co-founder and CEO, Coinbase
+    tier: A
+    collection_mode: social-first
+    topics: [crypto, company culture, remote work, regulation, product]
+    sources:
+      - type: x
+        url: https://x.com/brian_armstrong
+
+  - name: Tobi Lutke
+    slug: tobi-lutke
+    status: candidate
+    line: big-tech-platform-ceos
+    role: Founder and CEO, Shopify
+    tier: A
+    collection_mode: social-first
+    topics: [commerce, founder mode, product, engineering culture, ai adoption]
+    sources:
+      - type: x
+        url: https://x.com/tobi
+
+  - name: Lisa Su
+    slug: lisa-su
+    status: candidate
+    line: big-tech-platform-ceos
+    role: Chair and CEO, AMD
+    tier: S
+    collection_mode: direct-source-first
+    topics: [semiconductors, ai chips, cpu, gpu, leadership]
+    sources:
+      - type: x
+        url: https://x.com/lisasu
+
+  - name: C. C. Wei
+    slug: cc-wei
+    status: candidate
+    line: big-tech-platform-ceos
+    role: Chairman and CEO, TSMC
+    tier: S
+    collection_mode: direct-source-first
+    topics: [semiconductors, foundry, manufacturing, ai supply chain]
+    sources: []
+
+  - name: Hock Tan
+    slug: hock-tan
+    status: candidate
+    line: big-tech-platform-ceos
+    role: President and CEO, Broadcom
+    tier: A
+    collection_mode: direct-source-first
+    topics: [semiconductors, infrastructure software, acquisitions, ai networking]
+    sources: []
+
+  - name: Cristiano Amon
+    slug: cristiano-amon
+    status: candidate
+    line: big-tech-platform-ceos
+    role: President and CEO, Qualcomm
+    tier: A
+    collection_mode: direct-source-first
+    topics: [mobile chips, edge ai, wireless, semiconductors]
+    sources:
+      - type: x
+        url: https://x.com/cristianoamon
+
+  - name: Safra Catz
+    slug: safra-catz
+    status: candidate
+    line: big-tech-platform-ceos
+    role: CEO, Oracle
+    tier: S
+    collection_mode: direct-source-first
+    topics: [oracle, enterprise software, cloud, databases, operations]
+    sources: []
+
+  - name: Arvind Krishna
+    slug: arvind-krishna
+    status: candidate
+    line: big-tech-platform-ceos
+    role: Chairman and CEO, IBM
+    tier: A
+    collection_mode: direct-source-first
+    topics: [enterprise ai, hybrid cloud, ibm, consulting, infrastructure]
+    sources:
+      - type: x
+        url: https://x.com/arvindkrishna
+
+  - name: Bill Gates
+    slug: bill-gates
+    status: candidate
+    line: big-tech-platform-ceos
+    role: Co-founder, Microsoft
+    tier: S
+    collection_mode: direct-source-first
+    topics: [software, platforms, philanthropy, climate, global health]
+    sources:
+      - type: x
+        url: https://x.com/BillGates
+
+  - name: Jeff Bezos
+    slug: jeff-bezos
+    status: candidate
+    line: big-tech-platform-ceos
+    role: Founder and Executive Chairman, Amazon
+    tier: S
+    collection_mode: direct-source-first
+    topics: [customer obsession, long-term thinking, marketplaces, space, operations]
+    sources:
+      - type: x
+        url: https://x.com/JeffBezos
+
+  - name: Steve Jobs
+    slug: steve-jobs
+    status: candidate
+    line: big-tech-platform-ceos
+    role: Co-founder, Apple
+    tier: S
+    collection_mode: corpus-first
+    topics: [product taste, focus, storytelling, design, company building]
+    sources: []
+
+  # Fast-growing company builders and operators.
+  - name: Aravind Srinivas
+    slug: aravind-srinivas
+    status: candidate
+    line: fast-growing-company-builders
+    role: Co-founder and CEO, Perplexity
+    tier: A
+    collection_mode: social-first
+    topics: [ai search, consumer ai, product, distribution]
+    sources:
+      - type: x
+        url: https://x.com/AravSrinivas
+
+  - name: Michael Truell
+    slug: michael-truell
+    status: candidate
+    line: fast-growing-company-builders
+    role: Co-founder and CEO, Anysphere
+    tier: A
+    collection_mode: manual-curation
+    topics: [ai coding, cursor, developer tools, product]
+    sources: []
+
+  - name: Guillermo Rauch
+    slug: guillermo-rauch
+    status: candidate
+    line: fast-growing-company-builders
+    role: Founder and CEO, Vercel
+    tier: A
+    collection_mode: social-first
+    topics: [frontend, developer tools, nextjs, infrastructure, ai applications]
+    sources:
+      - type: x
+        url: https://x.com/rauchg
+
+  - name: Ali Ghodsi
+    slug: ali-ghodsi
+    status: candidate
+    line: fast-growing-company-builders
+    role: Co-founder and CEO, Databricks
+    tier: A
+    collection_mode: direct-source-first
+    topics: [data, lakehouse, enterprise ai, open source, cloud]
+    sources:
+      - type: x
+        url: https://x.com/alighodsi
+
+  - name: Karri Saarinen
+    slug: karri-saarinen
+    status: candidate
+    line: fast-growing-company-builders
+    role: Co-founder and CEO, Linear
+    tier: B
+    collection_mode: social-first
+    topics: [product taste, design, execution, remote work, company building]
+    sources:
+      - type: x
+        url: https://x.com/karrisaarinen
+
+  - name: Eric Glyman
+    slug: eric-glyman
+    status: candidate
+    line: fast-growing-company-builders
+    role: Co-founder and CEO, Ramp
+    tier: B
+    collection_mode: direct-source-first
+    topics: [finance automation, operations, ai agents, spend management]
+    sources:
+      - type: x
+        url: https://x.com/eglyman
+
+  - name: Christina Cacioppo
+    slug: christina-cacioppo
+    status: candidate
+    line: fast-growing-company-builders
+    role: Co-founder and CEO, Vanta
+    tier: B
+    collection_mode: social-first
+    topics: [security, compliance, b2b saas, startups, company building]
+    sources:
+      - type: x
+        url: https://x.com/christinacaci
+
+  - name: Mathilde Collin
+    slug: mathilde-collin
+    status: candidate
+    line: fast-growing-company-builders
+    role: Co-founder, Front
+    tier: B
+    collection_mode: social-first
+    topics: [saas, management, product, customer communication]
+    sources:
+      - type: x
+        url: https://x.com/CollinMathilde
+
+  - name: Melanie Perkins
+    slug: melanie-perkins
+    status: candidate
+    line: fast-growing-company-builders
+    role: Co-founder and CEO, Canva
+    tier: A
+    collection_mode: direct-source-first
+    topics: [design, consumer software, company scaling, product]
+    sources: []
+
+  - name: Stewart Butterfield
+    slug: stewart-butterfield
+    status: candidate
+    line: fast-growing-company-builders
+    role: Co-founder, Slack and Flickr
+    tier: A
+    collection_mode: social-first
+    topics: [product, category creation, communication, company culture]
+    sources:
+      - type: x
+        url: https://x.com/stewart
+
+  - name: Tony Xu
+    slug: tony-xu
+    status: candidate
+    line: fast-growing-company-builders
+    role: Co-founder and CEO, DoorDash
+    tier: A
+    collection_mode: direct-source-first
+    topics: [marketplaces, logistics, operations, local commerce]
+    sources:
+      - type: x
+        url: https://x.com/t_xu
+
+  - name: Ritesh Agarwal
+    slug: ritesh-agarwal
+    status: candidate
+    line: fast-growing-company-builders
+    role: Founder and CEO, OYO
+    tier: B
+    collection_mode: social-first
+    topics: [emerging markets, hospitality, scale, entrepreneurship]
+    sources:
+      - type: x
+        url: https://x.com/riteshagar
+
+  - name: Sam Blond
+    slug: sam-blond
+    status: candidate
+    line: fast-growing-company-builders
+    role: Sales and startup operator
+    tier: B
+    collection_mode: social-first
+    topics: [sales, go-to-market, startups, revenue]
+    sources:
+      - type: x
+        url: https://x.com/samdblond
+
+  - name: Lenny Rachitsky
+    slug: lenny-rachitsky
+    status: candidate
+    line: fast-growing-company-builders
+    role: Product and growth writer
+    tier: B
+    collection_mode: direct-source-first
+    topics: [product, growth, startups, marketplaces, newsletter]
+    sources:
+      - type: x
+        url: https://x.com/lennysan
+      - type: website
+        url: https://www.lennysnewsletter.com
+
+  - name: Claire Hughes Johnson
+    slug: claire-hughes-johnson
+    status: candidate
+    line: fast-growing-company-builders
+    role: Former COO, Stripe
+    tier: A
+    collection_mode: direct-source-first
+    topics: [operations, management, scaling, company culture, leadership]
+    sources: []
+
+  # AI researchers and technical thinkers.
+  - name: Geoffrey Hinton
+    slug: geoffrey-hinton
+    status: candidate
+    line: ai-researchers-technical-thinkers
+    role: Deep learning pioneer
+    tier: S
+    collection_mode: direct-source-first
+    topics: [deep learning, neural networks, ai risk, cognition]
+    sources: []
+
+  - name: Yoshua Bengio
+    slug: yoshua-bengio
+    status: candidate
+    line: ai-researchers-technical-thinkers
+    role: Deep learning pioneer
+    tier: S
+    collection_mode: direct-source-first
+    topics: [deep learning, ai safety, representation learning, governance]
+    sources:
+      - type: x
+        url: https://x.com/yoshua_bengio
+
+  - name: Fei-Fei Li
+    slug: fei-fei-li
+    status: candidate
+    line: ai-researchers-technical-thinkers
+    role: AI researcher and professor
+    tier: A
+    collection_mode: direct-source-first
+    topics: [computer vision, human-centered ai, imagenet, healthcare ai]
+    sources:
+      - type: x
+        url: https://x.com/drfeifei
+
+  - name: Francois Chollet
+    slug: francois-chollet
+    status: candidate
+    line: ai-researchers-technical-thinkers
+    role: AI researcher; creator of Keras
+    tier: A
+    collection_mode: social-first
+    topics: [intelligence, abstraction, arc, keras, deep learning]
+    sources:
+      - type: x
+        url: https://x.com/fchollet
+
+  - name: Noam Shazeer
+    slug: noam-shazeer
+    status: candidate
+    line: ai-researchers-technical-thinkers
+    role: AI researcher and entrepreneur
+    tier: A
+    collection_mode: direct-source-first
+    topics: [transformers, language models, character ai, scaling]
+    sources: []
+
+  - name: Jeff Dean
+    slug: jeff-dean
+    status: candidate
+    line: ai-researchers-technical-thinkers
+    role: Chief Scientist, Google DeepMind and Google Research
+    tier: A
+    collection_mode: direct-source-first
+    topics: [distributed systems, ai infrastructure, google brain, deep learning]
+    sources:
+      - type: x
+        url: https://x.com/JeffDean
+
+  - name: Ilia Polosukhin
+    slug: ilia-polosukhin
+    status: candidate
+    line: ai-researchers-technical-thinkers
+    role: Transformer co-author; co-founder, NEAR
+    tier: B
+    collection_mode: social-first
+    topics: [transformers, web3, ai, open source]
+    sources:
+      - type: x
+        url: https://x.com/ilblackdragon
+
+  - name: Matei Zaharia
+    slug: matei-zaharia
+    status: candidate
+    line: ai-researchers-technical-thinkers
+    role: Co-founder and CTO, Databricks
+    tier: A
+    collection_mode: direct-source-first
+    topics: [spark, mlflow, data systems, lakehouse, ai systems]
+    sources:
+      - type: x
+        url: https://x.com/matei_zaharia
+
+  - name: Jonathan Frankle
+    slug: jonathan-frankle
+    status: candidate
+    line: ai-researchers-technical-thinkers
+    role: Chief AI Scientist, Databricks
+    tier: B
+    collection_mode: social-first
+    topics: [lottery ticket hypothesis, ai systems, model efficiency, agents]
+    sources:
+      - type: x
+        url: https://x.com/jefrankle
+
+  - name: Chris Olah
+    slug: chris-olah
+    status: candidate
+    line: ai-researchers-technical-thinkers
+    role: AI interpretability researcher
+    tier: A
+    collection_mode: direct-source-first
+    topics: [interpretability, neural networks, circuits, ai safety]
+    sources:
+      - type: website
+        url: https://colah.github.io
+
+  - name: Paul Christiano
+    slug: paul-christiano
+    status: candidate
+    line: ai-researchers-technical-thinkers
+    role: AI alignment researcher
+    tier: A
+    collection_mode: direct-source-first
+    topics: [alignment, ai safety, eliciting latent knowledge, amplification]
+    sources: []
+
+  - name: Eliezer Yudkowsky
+    slug: eliezer-yudkowsky
+    status: candidate
+    line: ai-researchers-technical-thinkers
+    role: AI risk and rationality writer
+    tier: A
+    collection_mode: direct-source-first
+    topics: [ai risk, rationality, alignment, decision theory]
+    sources:
+      - type: x
+        url: https://x.com/ESYudkowsky
+
+  - name: Gwern Branwen
+    slug: gwern-branwen
+    status: candidate
+    line: ai-researchers-technical-thinkers
+    role: Independent researcher and writer
+    tier: B
+    collection_mode: direct-source-first
+    topics: [research synthesis, ai, statistics, long-form writing]
+    sources:
+      - type: website
+        url: https://gwern.net
+
+  # Business, wealth, persuasion, and self-mastery.
+  - name: Alex Hormozi
+    slug: alex-hormozi
+    status: approved
+    line: business-wealth-persuasion-self-mastery
+    role: Founder, Acquisition.com
+    tier: A
+    collection_mode: social-first
+    topics: [offers, sales, customer acquisition, business, leverage]
+    sources:
+      - type: x
+        url: https://x.com/AlexHormozi
+      - type: youtube
+        url: https://youtube.com/@AlexHormozi
+
+  - name: Bob Proctor
+    slug: bob-proctor
+    status: approved
+    line: business-wealth-persuasion-self-mastery
+    role: Personal development teacher
+    tier: B
+    collection_mode: corpus-first
+    topics: [self-image, mindset, goals, personal development]
+    sources: []
+
+  - name: David Goggins
+    slug: david-goggins
+    status: maybe
+    line: business-wealth-persuasion-self-mastery
+    role: Author and endurance athlete
+    tier: B
+    collection_mode: direct-source-first
+    topics: [discipline, resilience, identity, endurance]
+    notes: "Added as likely match for 'David Andre'; confirm intended person."
+    sources:
+      - type: x
+        url: https://x.com/davidgoggins
+
+  - name: Naval Ravikant
+    slug: naval-ravikant
+    status: candidate
+    line: business-wealth-persuasion-self-mastery
+    role: Founder and investor
+    tier: A
+    collection_mode: direct-source-first
+    topics: [wealth, leverage, judgment, happiness, startups]
+    sources:
+      - type: x
+        url: https://x.com/naval
+
+  - name: Paul Graham
+    slug: paul-graham
+    status: candidate
+    line: business-wealth-persuasion-self-mastery
+    role: Co-founder, Y Combinator
+    tier: A
+    collection_mode: direct-source-first
+    topics: [startups, essays, writing, taste, founders]
+    sources:
+      - type: x
+        url: https://x.com/paulg
+      - type: website
+        url: https://paulgraham.com
+
+  - name: Charlie Munger
+    slug: charlie-munger
+    status: candidate
+    line: business-wealth-persuasion-self-mastery
+    role: Investor and thinker
+    tier: S
+    collection_mode: corpus-first
+    topics: [mental models, incentives, judgment, investing, rationality]
+    sources: []
+
+  - name: Warren Buffett
+    slug: warren-buffett
+    status: candidate
+    line: business-wealth-persuasion-self-mastery
+    role: Chairman and CEO, Berkshire Hathaway
+    tier: S
+    collection_mode: direct-source-first
+    topics: [investing, capital allocation, temperament, business quality]
+    sources: []
+
+  - name: Ray Dalio
+    slug: ray-dalio
+    status: candidate
+    line: business-wealth-persuasion-self-mastery
+    role: Founder, Bridgewater Associates
+    tier: A
+    collection_mode: direct-source-first
+    topics: [principles, macro, systems, decision-making, management]
+    sources:
+      - type: x
+        url: https://x.com/RayDalio
+
+  - name: Peter Thiel
+    slug: peter-thiel
+    status: candidate
+    line: business-wealth-persuasion-self-mastery
+    role: Entrepreneur and investor
+    tier: A
+    collection_mode: direct-source-first
+    topics: [zero to one, monopoly, contrarian thinking, startups]
+    sources: []
+
+  - name: Ben Horowitz
+    slug: ben-horowitz
+    status: candidate
+    line: business-wealth-persuasion-self-mastery
+    role: Co-founder, Andreessen Horowitz
+    tier: A
+    collection_mode: direct-source-first
+    topics: [management, wartime ceo, startups, culture]
+    sources:
+      - type: x
+        url: https://x.com/bhorowitz
+
+  - name: Marc Andreessen
+    slug: marc-andreessen
+    status: candidate
+    line: business-wealth-persuasion-self-mastery
+    role: Co-founder, Andreessen Horowitz
+    tier: A
+    collection_mode: social-first
+    topics: [technology cycles, software, startups, venture capital]
+    sources:
+      - type: x
+        url: https://x.com/pmarca
+
+  - name: Keith Rabois
+    slug: keith-rabois
+    status: candidate
+    line: business-wealth-persuasion-self-mastery
+    role: Operator and investor
+    tier: B
+    collection_mode: social-first
+    topics: [operations, talent density, startups, execution]
+    sources:
+      - type: x
+        url: https://x.com/rabois
+
+  - name: Ed Catmull
+    slug: ed-catmull
+    status: candidate
+    line: business-wealth-persuasion-self-mastery
+    role: Co-founder, Pixar
+    tier: A
+    collection_mode: direct-source-first
+    topics: [creative organizations, leadership, candor, animation]
+    sources: []
+
+  - name: James Clear
+    slug: james-clear
+    status: candidate
+    line: business-wealth-persuasion-self-mastery
+    role: Author, Atomic Habits
+    tier: B
+    collection_mode: direct-source-first
+    topics: [habits, behavior design, systems, self-improvement]
+    sources:
+      - type: x
+        url: https://x.com/JamesClear
+
+  - name: Tony Robbins
+    slug: tony-robbins
+    status: candidate
+    line: business-wealth-persuasion-self-mastery
+    role: Performance coach and author
+    tier: B
+    collection_mode: direct-source-first
+    topics: [performance psychology, persuasion, coaching, self-mastery]
+    sources:
+      - type: x
+        url: https://x.com/TonyRobbins
+
+  - name: Earl Nightingale
+    slug: earl-nightingale
+    status: candidate
+    line: business-wealth-persuasion-self-mastery
+    role: Personal development author and broadcaster
+    tier: B
+    collection_mode: corpus-first
+    topics: [personal development, goals, mindset, success]
+    sources: []
+
+  - name: Jim Rohn
+    slug: jim-rohn
+    status: candidate
+    line: business-wealth-persuasion-self-mastery
+    role: Personal development speaker
+    tier: B
+    collection_mode: corpus-first
+    topics: [discipline, philosophy, personal development, business]
+    sources: []
+
+  # Historic philosophy and fundamental thinkers.
+  - name: Socrates
+    slug: socrates
+    status: approved
+    line: historic-philosophy-fundamental-thinkers
+    role: Classical Greek philosopher
+    tier: S
+    collection_mode: corpus-first
+    topics: [questioning, ethics, epistemology, examined life]
+    sources: []
+
+  - name: Plato
+    slug: plato
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Classical Greek philosopher
+    tier: S
+    collection_mode: corpus-first
+    topics: [forms, politics, education, virtue, metaphysics]
+    sources: []
+
+  - name: Aristotle
+    slug: aristotle
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Philosopher and polymath
+    tier: S
+    collection_mode: corpus-first
+    topics: [logic, ethics, rhetoric, biology, categorization]
+    sources: []
+
+  - name: Marcus Aurelius
+    slug: marcus-aurelius
+    status: approved
+    line: historic-philosophy-fundamental-thinkers
+    role: Roman emperor and Stoic philosopher
+    tier: S
+    collection_mode: corpus-first
+    topics: [stoicism, leadership, discipline, mortality, self-command]
+    sources: []
+
+  - name: Seneca
+    slug: seneca
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Stoic philosopher and statesman
+    tier: A
+    collection_mode: corpus-first
+    topics: [stoicism, time, wealth, anger, self-command]
+    sources: []
+
+  - name: Epictetus
+    slug: epictetus
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Stoic philosopher
+    tier: A
+    collection_mode: corpus-first
+    topics: [agency, control, discipline, freedom, stoicism]
+    sources: []
+
+  - name: Confucius
+    slug: confucius
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Chinese philosopher
+    tier: S
+    collection_mode: corpus-first
+    topics: [ethics, order, cultivation, society, ritual]
+    sources: []
+
+  - name: Laozi
+    slug: laozi
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Taoist philosopher
+    tier: S
+    collection_mode: corpus-first
+    topics: [taoism, simplicity, non-force, nature, leadership]
+    sources: []
+
+  - name: Sun Tzu
+    slug: sun-tzu
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Military strategist
+    tier: S
+    collection_mode: corpus-first
+    topics: [strategy, conflict, positioning, deception, warfare]
+    sources: []
+
+  - name: Machiavelli
+    slug: machiavelli
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Political philosopher
+    tier: A
+    collection_mode: corpus-first
+    topics: [power, statecraft, realism, leadership, politics]
+    sources: []
+
+  - name: Friedrich Nietzsche
+    slug: friedrich-nietzsche
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Philosopher
+    tier: A
+    collection_mode: corpus-first
+    topics: [values, self-overcoming, will, morality, culture]
+    sources: []
+
+  - name: Arthur Schopenhauer
+    slug: arthur-schopenhauer
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Philosopher
+    tier: A
+    collection_mode: corpus-first
+    topics: [desire, suffering, pessimism, will, aesthetics]
+    sources: []
+
+  - name: Immanuel Kant
+    slug: immanuel-kant
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Philosopher
+    tier: A
+    collection_mode: corpus-first
+    topics: [duty, reason, ethics, metaphysics, enlightenment]
+    sources: []
+
+  - name: David Hume
+    slug: david-hume
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Philosopher
+    tier: A
+    collection_mode: corpus-first
+    topics: [empiricism, skepticism, human nature, causality]
+    sources: []
+
+  - name: Rene Descartes
+    slug: rene-descartes
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Philosopher and mathematician
+    tier: A
+    collection_mode: corpus-first
+    topics: [doubt, method, rationalism, mind, science]
+    sources: []
+
+  - name: Baruch Spinoza
+    slug: baruch-spinoza
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Philosopher
+    tier: A
+    collection_mode: corpus-first
+    topics: [systems, emotion, determinism, ethics, nature]
+    sources: []
+
+  - name: John Stuart Mill
+    slug: john-stuart-mill
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Philosopher and economist
+    tier: A
+    collection_mode: corpus-first
+    topics: [liberty, utilitarianism, democracy, individuality]
+    sources: []
+
+  - name: Adam Smith
+    slug: adam-smith
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Philosopher and economist
+    tier: A
+    collection_mode: corpus-first
+    topics: [markets, incentives, moral sentiments, economics]
+    sources: []
+
+  - name: Carl Jung
+    slug: carl-jung
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Psychiatrist and psychoanalyst
+    tier: A
+    collection_mode: corpus-first
+    topics: [archetypes, shadow, psyche, individuation, symbolism]
+    sources: []
+
+  - name: Viktor Frankl
+    slug: viktor-frankl
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Psychiatrist and author
+    tier: A
+    collection_mode: corpus-first
+    topics: [meaning, suffering, resilience, logotherapy]
+    sources: []
+
+  - name: Rene Girard
+    slug: rene-girard
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Historian and philosopher
+    tier: A
+    collection_mode: corpus-first
+    topics: [mimetic desire, rivalry, culture, scapegoating]
+    sources: []
+
+  - name: Joseph Campbell
+    slug: joseph-campbell
+    status: candidate
+    line: historic-philosophy-fundamental-thinkers
+    role: Mythologist and writer
+    tier: B
+    collection_mode: corpus-first
+    topics: [myth, hero journey, storytelling, symbols]
+    sources: []
+
+  # Strategy, power, history, and civilization.
+  - name: Winston Churchill
+    slug: winston-churchill
+    status: candidate
+    line: strategy-power-history-civilization
+    role: British prime minister and writer
+    tier: A
+    collection_mode: corpus-first
+    topics: [leadership, rhetoric, crisis, war, resilience]
+    sources: []
+
+  - name: Abraham Lincoln
+    slug: abraham-lincoln
+    status: candidate
+    line: strategy-power-history-civilization
+    role: President of the United States
+    tier: A
+    collection_mode: corpus-first
+    topics: [leadership, moral conflict, communication, democracy]
+    sources: []
+
+  - name: Benjamin Franklin
+    slug: benjamin-franklin
+    status: candidate
+    line: strategy-power-history-civilization
+    role: Founder, inventor, and diplomat
+    tier: A
+    collection_mode: corpus-first
+    topics: [habits, invention, diplomacy, writing, self-improvement]
+    sources: []
+
+  - name: Napoleon Bonaparte
+    slug: napoleon-bonaparte
+    status: candidate
+    line: strategy-power-history-civilization
+    role: Military and political leader
+    tier: A
+    collection_mode: corpus-first
+    topics: [strategy, ambition, systems, risk, leadership]
+    sources: []
+
+  - name: Julius Caesar
+    slug: julius-caesar
+    status: candidate
+    line: strategy-power-history-civilization
+    role: Roman general and statesman
+    tier: A
+    collection_mode: corpus-first
+    topics: [power, leadership, conquest, politics, rhetoric]
+    sources: []
+
+  - name: Alexander the Great
+    slug: alexander-the-great
+    status: candidate
+    line: strategy-power-history-civilization
+    role: Macedonian king and conqueror
+    tier: A
+    collection_mode: corpus-first
+    topics: [ambition, conquest, charisma, strategy, empire]
+    sources: []
+
+  - name: Genghis Khan
+    slug: genghis-khan
+    status: candidate
+    line: strategy-power-history-civilization
+    role: Founder of the Mongol Empire
+    tier: A
+    collection_mode: corpus-first
+    topics: [organization, conquest, scale, incentives, empire]
+    sources: []
+
+  - name: George Washington
+    slug: george-washington
+    status: candidate
+    line: strategy-power-history-civilization
+    role: President of the United States
+    tier: A
+    collection_mode: corpus-first
+    topics: [restraint, founding leadership, institutions, character]
+    sources: []
+
+  - name: Thomas Jefferson
+    slug: thomas-jefferson
+    status: candidate
+    line: strategy-power-history-civilization
+    role: President of the United States
+    tier: B
+    collection_mode: corpus-first
+    topics: [governance, enlightenment, liberty, contradictions]
+    sources: []
+
+  - name: Frederick Douglass
+    slug: frederick-douglass
+    status: candidate
+    line: strategy-power-history-civilization
+    role: Abolitionist and orator
+    tier: A
+    collection_mode: corpus-first
+    topics: [rhetoric, freedom, moral clarity, autobiography]
+    sources: []
+
+  - name: Martin Luther King Jr.
+    slug: martin-luther-king-jr
+    status: candidate
+    line: strategy-power-history-civilization
+    role: Civil rights leader
+    tier: A
+    collection_mode: corpus-first
+    topics: [moral leadership, persuasion, justice, nonviolence]
+    sources: []
+
+  - name: Nelson Mandela
+    slug: nelson-mandela
+    status: candidate
+    line: strategy-power-history-civilization
+    role: President of South Africa
+    tier: A
+    collection_mode: corpus-first
+    topics: [reconciliation, endurance, leadership, justice]
+    sources: []
+
+  - name: Lee Kuan Yew
+    slug: lee-kuan-yew
+    status: candidate
+    line: strategy-power-history-civilization
+    role: Founding prime minister of Singapore
+    tier: A
+    collection_mode: corpus-first
+    topics: [state-building, governance, pragmatism, institutions]
+    sources: []
+
+  - name: Henry Kissinger
+    slug: henry-kissinger
+    status: candidate
+    line: strategy-power-history-civilization
+    role: Diplomat and geopolitical strategist
+    tier: B
+    collection_mode: corpus-first
+    topics: [geopolitics, realism, diplomacy, power]
+    sources: []
+
+  - name: Peter Drucker
+    slug: peter-drucker
+    status: candidate
+    line: strategy-power-history-civilization
+    role: Management thinker
+    tier: A
+    collection_mode: corpus-first
+    topics: [management, organizations, knowledge work, effectiveness]
+    sources: []
+
+  - name: W. Edwards Deming
+    slug: w-edwards-deming
+    status: candidate
+    line: strategy-power-history-civilization
+    role: Quality systems thinker
+    tier: A
+    collection_mode: corpus-first
+    topics: [quality, systems, operations, statistics, management]
+    sources: []
+
+  # Writers and sensemakers.
+  - name: Nassim Nicholas Taleb
+    slug: nassim-nicholas-taleb
+    status: candidate
+    line: writers-sensemakers
+    role: Author and risk thinker
+    tier: A
+    collection_mode: direct-source-first
+    topics: [risk, antifragility, uncertainty, probability, systems]
+    sources:
+      - type: x
+        url: https://x.com/nntaleb
+
+  - name: Daniel Kahneman
+    slug: daniel-kahneman
+    status: candidate
+    line: writers-sensemakers
+    role: Psychologist and Nobel laureate
+    tier: A
+    collection_mode: corpus-first
+    topics: [decision science, bias, judgment, behavior, psychology]
+    sources: []
+
+  - name: Richard Feynman
+    slug: richard-feynman
+    status: candidate
+    line: writers-sensemakers
+    role: Physicist and teacher
+    tier: A
+    collection_mode: corpus-first
+    topics: [learning, explanation, physics, curiosity, science]
+    sources: []
+
+  - name: Carl Sagan
+    slug: carl-sagan
+    status: candidate
+    line: writers-sensemakers
+    role: Scientist and communicator
+    tier: A
+    collection_mode: corpus-first
+    topics: [science communication, skepticism, astronomy, wonder]
+    sources: []
+
+  - name: Isaac Asimov
+    slug: isaac-asimov
+    status: candidate
+    line: writers-sensemakers
+    role: Writer and futurist
+    tier: B
+    collection_mode: corpus-first
+    topics: [systems, futurism, science fiction, robotics]
+    sources: []
+
+  - name: George Orwell
+    slug: george-orwell
+    status: candidate
+    line: writers-sensemakers
+    role: Writer and essayist
+    tier: A
+    collection_mode: corpus-first
+    topics: [language, power, propaganda, politics, clarity]
+    sources: []
+
+  - name: Aldous Huxley
+    slug: aldous-huxley
+    status: candidate
+    line: writers-sensemakers
+    role: Writer and philosopher
+    tier: B
+    collection_mode: corpus-first
+    topics: [attention, control, society, consciousness, dystopia]
+    sources: []
+
+  - name: Marshall McLuhan
+    slug: marshall-mcluhan
+    status: candidate
+    line: writers-sensemakers
+    role: Media theorist
+    tier: B
+    collection_mode: corpus-first
+    topics: [media, communication, technology, perception]
+    sources: []
+
+  - name: Kevin Kelly
+    slug: kevin-kelly
+    status: candidate
+    line: writers-sensemakers
+    role: Writer and technology thinker
+    tier: B
+    collection_mode: direct-source-first
+    topics: [technology, abundance, tools, long-term trends]
+    sources:
+      - type: x
+        url: https://x.com/kevin2kelly
+
+  - name: Stewart Brand
+    slug: stewart-brand
+    status: candidate
+    line: writers-sensemakers
+    role: Writer and systems thinker
+    tier: B
+    collection_mode: corpus-first
+    topics: [systems, tools, civilization, environment, long-term thinking]
+    sources: []
+
+  - name: Tyler Cowen
+    slug: tyler-cowen
+    status: candidate
+    line: writers-sensemakers
+    role: Economist and writer
+    tier: B
+    collection_mode: direct-source-first
+    topics: [economics, talent, culture, progress, interviewing]
+    sources:
+      - type: x
+        url: https://x.com/tylercowen
+
+  - name: Patrick McKenzie
+    slug: patrick-mckenzie
+    status: candidate
+    line: writers-sensemakers
+    role: Internet business writer
+    tier: B
+    collection_mode: direct-source-first
+    topics: [internet business, payments, saas, software, writing]
+    sources:
+      - type: x
+        url: https://x.com/patio11
+
+  - name: Byrne Hobart
+    slug: byrne-hobart
+    status: candidate
+    line: writers-sensemakers
+    role: Finance and strategy writer
+    tier: B
+    collection_mode: direct-source-first
+    topics: [finance, strategy, technology, business models]
+    sources:
+      - type: x
+        url: https://x.com/ByrneHobart
+
+  - name: Packy McCormick
+    slug: packy-mccormick
+    status: candidate
+    line: writers-sensemakers
+    role: Technology writer and investor
+    tier: B
+    collection_mode: direct-source-first
+    topics: [technology narratives, startups, company analysis, investing]
+    sources:
+      - type: x
+        url: https://x.com/packyM
+
+  - name: Ben Thompson
+    slug: ben-thompson
+    status: candidate
+    line: writers-sensemakers
+    role: Technology strategy analyst
+    tier: B
+    collection_mode: direct-source-first
+    topics: [aggregation theory, tech strategy, business models, platforms]
+    sources:
+      - type: x
+        url: https://x.com/benthompson
+
+  # User-requested interview subjects that need extra evidence labeling.
+  - name: Bob Lazar
+    slug: bob-lazar
+    status: maybe
+    line: manual-review-interview-subjects
+    role: Interview subject and controversial aerospace claimant
+    tier: C
+    collection_mode: manual-curation
+    topics: [interviews, ufology, aerospace claims, propulsion claims, controversy]
+    notes: "Added from user request. Treat as interview/source material, not verified factual authority."
+    sources: []
+
 tiers:
   S:
-    description: "Company founders/CEOs — highest authority on company strategy and direction"
+    description: Highest leverage source for company strategy, foundational thought, or field direction.
     weight: 4.0
-    color: "#FFD700"
   A:
-    description: "Top researchers and builders — deep technical credibility"
+    description: Deep credibility or durable body of work.
     weight: 3.0
-    color: "#C0C0C0"
   B:
-    description: "Active practitioners with track record of quality output"
+    description: Useful practitioner, operator, or sensemaker.
     weight: 2.0
-    color: "#CD7F32"
   C:
-    description: "Emerging voices worth monitoring"
+    description: Emerging voice or lower-priority candidate.
     weight: 1.0
-    color: "#808080"

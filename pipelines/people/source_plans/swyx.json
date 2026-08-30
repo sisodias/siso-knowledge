@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-07-25T20:27:05+00:00",
+  "name": "swyx",
+  "slug": "swyx",
+  "status": "approved",
+  "tier": "B",
+  "line": "ai-researchers-technical-thinkers",
+  "role": "Latent Space podcast host and AI engineer",
+  "collection_mode": "social-first",
+  "source_strategy": "social",
+  "next_source_action": "collect_social_and_longform_sources",
+  "topics": [
+    "ai engineering",
+    "llms",
+    "agents",
+    "developer tools",
+    "podcast"
+  ],
+  "source_counts": {
+    "targets": 2,
+    "discovery_urls": 5
+  },
+  "source_targets": [
+    {
+      "title": "swyx x",
+      "repository": "x",
+      "type": "registry_source",
+      "url": "https://x.com/swyx",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    },
+    {
+      "title": "swyx youtube",
+      "repository": "youtube",
+      "type": "registry_source",
+      "url": "https://youtube.com/@LatentSpace",
+      "rights_status": "rights_review",
+      "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+    }
+  ],
+  "discovery_urls": [
+    "https://www.google.com/search?q=%22swyx%22+official+essays+interviews",
+    "https://www.youtube.com/results?search_query=%22swyx%22+site%3Ayoutube.com+interview",
+    "https://www.youtube.com/results?search_query=%22swyx%22+site%3Ayoutube.com+keynote",
+    "https://www.google.com/search?q=%22swyx%22+ai+engineering",
+    "https://www.google.com/search?q=%22swyx%22+llms"
+  ],
+  "curation_notes": []
+}

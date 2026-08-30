@@ -1,0 +1,3956 @@
+{
+  "generated_at": "2026-07-25T20:27:04+00:00",
+  "totals": {
+    "people": 140,
+    "with_candidates": 24,
+    "with_transcripts": 4,
+    "candidate_videos": 97,
+    "transcript_ready_videos": 14
+  },
+  "people": [
+    {
+      "slug": "jensen-huang",
+      "name": "Jensen Huang",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 10,
+      "transcript_ready_count": 4,
+      "shown_candidate_count": 5,
+      "next_action": "ready_for_extraction",
+      "top_queries": [
+        "\"Jensen Huang\" interview",
+        "\"Jensen Huang\" keynote",
+        "\"Jensen Huang\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jensen+Huang%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jensen+Huang%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jensen+Huang%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "avWhreBUYF0",
+          "title": "#define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang)",
+          "url": "https://www.youtube.com/watch?v=avWhreBUYF0",
+          "channel_name": "Ai Engineer",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "slhh1wyK9JY",
+          "title": "AI News E4: Huge ChatGPT Updates, Apple AI, Disney AI, New Nvidia Chip, AI Clones, Musk v Zuck!",
+          "url": "https://www.youtube.com/watch?v=slhh1wyK9JY",
+          "channel_name": "Matthew Berman",
+          "score": 7.3,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "qx0tPXwHYYA",
+          "title": "AI News: ChatGPT Pulse, Gemini Robotics, Qwen3-Max, Stargate, OpenAI and Nvidia, and more!",
+          "url": "https://www.youtube.com/watch?v=qx0tPXwHYYA",
+          "channel_name": "Matthew Berman",
+          "score": 7.3,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "YzpHiVNE7Bw",
+          "title": "AI News: Gemini 3 Flash, GPT Image 1.5, NVIDIA Nemotron 3, Bernie Sanders DOOMER, and more!",
+          "url": "https://www.youtube.com/watch?v=YzpHiVNE7Bw",
+          "channel_name": "Matthew Berman",
+          "score": 7.3,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "MW8YXn-_-AE",
+          "title": "AI News: GPT-6 2025, NVIDIA DGX-1, Claude Skills, Waymo DDOS, Datacenters in Space, and more!",
+          "url": "https://www.youtube.com/watch?v=MW8YXn-_-AE",
+          "channel_name": "Matthew Berman",
+          "score": 7.3,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "elon-musk",
+      "name": "Elon Musk",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "collection_mode": "social-first",
+      "candidate_count": 10,
+      "transcript_ready_count": 2,
+      "shown_candidate_count": 5,
+      "next_action": "ready_for_extraction",
+      "top_queries": [
+        "\"Elon Musk\" interview",
+        "\"Elon Musk\" keynote",
+        "\"Elon Musk\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Elon+Musk%22+interview",
+        "https://www.youtube.com/results?search_query=%22Elon+Musk%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Elon+Musk%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "FKSXoyvmcyM",
+          "title": "Sam Altman Talks AI, Elon Musk, ChatGPT, Google\u2026",
+          "url": "https://www.youtube.com/watch?v=FKSXoyvmcyM",
+          "channel_name": "David Ondrej",
+          "score": 10.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "aHsunc60Xms",
+          "title": "ELON MUSK - OpenAI will not build AGI. Tesla will.",
+          "url": "https://www.youtube.com/watch?v=aHsunc60Xms",
+          "channel_name": "David Ondrej",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "tPZauAYgVRQ",
+          "title": "Elon Musk attempts hostile takeover of OpenAI\u2026",
+          "url": "https://www.youtube.com/watch?v=tPZauAYgVRQ",
+          "channel_name": "Fireship",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "HLyEGlYjCfI",
+          "title": "Elon Musk on ChatGPT, OpenAI, AGI, AI Danger...",
+          "url": "https://www.youtube.com/watch?v=HLyEGlYjCfI",
+          "channel_name": "David Ondrej",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "YN2pclh_-nw",
+          "title": "Elon Musk Unveils Robotaxi - \"We, Robot\" Breakdown",
+          "url": "https://www.youtube.com/watch?v=YN2pclh_-nw",
+          "channel_name": "Matthew Berman",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "sam-altman",
+      "name": "Sam Altman",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 10,
+      "transcript_ready_count": 7,
+      "shown_candidate_count": 5,
+      "next_action": "ready_for_extraction",
+      "top_queries": [
+        "\"Sam Altman\" interview",
+        "\"Sam Altman\" keynote",
+        "\"Sam Altman\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Sam+Altman%22+interview",
+        "https://www.youtube.com/results?search_query=%22Sam+Altman%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Sam+Altman%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "IdP4L7cpx2k",
+          "title": "ASI/AGI, Open vs Closed AI, Founding with Sam Altman, and Verifying Humanness! (Interview)",
+          "url": "https://www.youtube.com/watch?v=IdP4L7cpx2k",
+          "channel_name": "Matthew Berman",
+          "score": 12.3,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "ViMW5pM95Qo",
+          "title": "Sam Altman\u2019s Secret Interview",
+          "url": "https://www.youtube.com/watch?v=ViMW5pM95Qo",
+          "channel_name": "David Ondrej",
+          "score": 12.3,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "FKSXoyvmcyM",
+          "title": "Sam Altman Talks AI, Elon Musk, ChatGPT, Google\u2026",
+          "url": "https://www.youtube.com/watch?v=FKSXoyvmcyM",
+          "channel_name": "David Ondrej",
+          "score": 10.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "aI3M9gUrDdg",
+          "title": "Sam Altman Loses Cool During Interview \"Ive Had ENOUGH!!",
+          "url": "https://www.youtube.com/watch?v=aI3M9gUrDdg",
+          "channel_name": "Ai Grid",
+          "score": 7.3,
+          "priority": "P1",
+          "status": "transcript_ready",
+          "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/aI3M9gUrDdg.txt"
+        },
+        {
+          "video_id": "qc5cc7L3kF4",
+          "title": "Sam Altman's New AI Prediction For 2035 (Life In 2035)",
+          "url": "https://www.youtube.com/watch?v=qc5cc7L3kF4",
+          "channel_name": "Ai Grid",
+          "score": 6.8,
+          "priority": "P1",
+          "status": "transcript_ready",
+          "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/qc5cc7L3kF4.txt"
+        }
+      ]
+    },
+    {
+      "slug": "dario-amodei",
+      "name": "Dario Amodei",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 3,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 3,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Dario Amodei\" interview",
+        "\"Dario Amodei\" keynote",
+        "\"Dario Amodei\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Dario+Amodei%22+interview",
+        "https://www.youtube.com/results?search_query=%22Dario+Amodei%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Dario+Amodei%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "Nlkk3glap_U",
+          "title": "Dario Amodei (Anthropic CEO) - $10 Billion Models, OpenAI, Scaling, & Alignment",
+          "url": "https://www.youtube.com/watch?v=Nlkk3glap_U",
+          "channel_name": "Dwarkesh Patel",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "n1E9IZfvGMA",
+          "title": "Dario Amodei \u2014 We are near the end of the exponential",
+          "url": "https://www.youtube.com/watch?v=n1E9IZfvGMA",
+          "channel_name": "Dwarkesh Patel",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "y8ZEJe2Ss9k",
+          "title": "Avoiding Bankruptcy Before AGI - Dario Amodei",
+          "url": "https://www.youtube.com/watch?v=y8ZEJe2Ss9k",
+          "channel_name": "Dwarkesh Clips",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "sundar-pichai",
+      "name": "Sundar Pichai",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 1,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 1,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Sundar Pichai\" interview",
+        "\"Sundar Pichai\" keynote",
+        "\"Sundar Pichai\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Sundar+Pichai%22+interview",
+        "https://www.youtube.com/results?search_query=%22Sundar+Pichai%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Sundar+Pichai%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "nZtmmUQDzMQ",
+          "title": "Google CEO Sundar Pichai on Gemini, Self-improving AI, and World Models",
+          "url": "https://www.youtube.com/watch?v=nZtmmUQDzMQ",
+          "channel_name": "Matthew Berman",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "satya-nadella",
+      "name": "Satya Nadella",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 1,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 1,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Satya Nadella\" interview",
+        "\"Satya Nadella\" keynote",
+        "\"Satya Nadella\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Satya+Nadella%22+interview",
+        "https://www.youtube.com/results?search_query=%22Satya+Nadella%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Satya+Nadella%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "w87UvmMcmW4",
+          "title": "Microsoft CEO Satya Nadella on the Future of AI",
+          "url": "https://www.youtube.com/watch?v=w87UvmMcmW4",
+          "channel_name": "Matthew Berman",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "mark-zuckerberg",
+      "name": "Mark Zuckerberg",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 4,
+      "transcript_ready_count": 1,
+      "shown_candidate_count": 4,
+      "next_action": "ready_for_extraction",
+      "top_queries": [
+        "\"Mark Zuckerberg\" interview",
+        "\"Mark Zuckerberg\" keynote",
+        "\"Mark Zuckerberg\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Mark+Zuckerberg%22+interview",
+        "https://www.youtube.com/results?search_query=%22Mark+Zuckerberg%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Mark+Zuckerberg%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "e1gFkvLGpBM",
+          "title": "Priscilla Chan and Mark Zuckerberg: Frontier AI + Virtual Biology To Solve All Diseases",
+          "url": "https://www.youtube.com/watch?v=e1gFkvLGpBM",
+          "channel_name": "Latent Space",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "0e2gGRdE4PE",
+          "title": "Mark Zuckerberg\u2019s AI Dream is Becoming a Nightmare",
+          "url": "https://www.youtube.com/watch?v=0e2gGRdE4PE",
+          "channel_name": "Ai Grid",
+          "score": 6.8,
+          "priority": "P1",
+          "status": "transcript_ready",
+          "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/0e2gGRdE4PE.txt"
+        },
+        {
+          "video_id": "-Ivbfv_VAnQ",
+          "title": "IT JUST HAPPENED! Microsoft And MARK Zuckerberg RELEASE NEW AI (NOW RELEASED!)",
+          "url": "https://www.youtube.com/watch?v=-Ivbfv_VAnQ",
+          "channel_name": "Ai Grid",
+          "score": 6.8,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "8md5EgOa5vM",
+          "title": "Mark Zuckerberg NEW STATEMENT Changes EVERYTHING!",
+          "url": "https://www.youtube.com/watch?v=8md5EgOa5vM",
+          "channel_name": "Ai Grid",
+          "score": 6.8,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "demis-hassabis",
+      "name": "Demis Hassabis",
+      "status": "approved",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 5,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 5,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Demis Hassabis\" interview",
+        "\"Demis Hassabis\" keynote",
+        "\"Demis Hassabis\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Demis+Hassabis%22+interview",
+        "https://www.youtube.com/results?search_query=%22Demis+Hassabis%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Demis+Hassabis%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "Gfr50f6ZBvo",
+          "title": "Demis Hassabis: DeepMind - AI, Superintelligence & the Future of Humanity | Lex Fridman Podcast #299",
+          "url": "https://www.youtube.com/watch?v=Gfr50f6ZBvo",
+          "channel_name": "Lex Fridman",
+          "score": 9.5,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "qTogNUV3CAI",
+          "title": "Demis Hassabis - Scaling, Superhuman AIs, AlphaZero atop LLMs, Rogue Nations Threat",
+          "url": "https://www.youtube.com/watch?v=qTogNUV3CAI",
+          "channel_name": "Dwarkesh Podcast",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "PqVbypvxDto",
+          "title": "The future of intelligence | Demis Hassabis (Co-founder and CEO of DeepMind)",
+          "url": "https://www.youtube.com/watch?v=PqVbypvxDto",
+          "channel_name": "Google DeepMind",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "CRraHg4Ks_g",
+          "title": "Demis Hassabis On The Future of Work in the Age of AI",
+          "url": "https://www.youtube.com/watch?v=CRraHg4Ks_g",
+          "channel_name": "WIRED",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "sDZ1j0J-fe8",
+          "title": "Demis Hassabis: The CEO Working to Solve Cancer With AI",
+          "url": "https://www.youtube.com/watch?v=sDZ1j0J-fe8",
+          "channel_name": "Bloomberg Technology",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "andrej-karpathy",
+      "name": "Andrej Karpathy",
+      "status": "approved",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "social-first",
+      "candidate_count": 4,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 4,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Andrej Karpathy\" interview",
+        "\"Andrej Karpathy\" keynote",
+        "\"Andrej Karpathy\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Andrej+Karpathy%22+interview",
+        "https://www.youtube.com/results?search_query=%22Andrej+Karpathy%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Andrej+Karpathy%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "CRRjFHytZ6Y",
+          "title": "Andrej Karpathy devastates AI optimists...",
+          "url": "https://www.youtube.com/watch?v=CRRjFHytZ6Y",
+          "channel_name": "Matthew Berman",
+          "score": 6.8,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "H2rgRB0ngn8",
+          "title": "Andrej Karpathy LEAVES OpenAI! Returning to Tesla?",
+          "url": "https://www.youtube.com/watch?v=H2rgRB0ngn8",
+          "channel_name": "David Ondrej",
+          "score": 6.8,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "h0aWeR8pjc8",
+          "title": "I completed Andrej Karpathy\u2019s AI challenge (advanced)",
+          "url": "https://www.youtube.com/watch?v=h0aWeR8pjc8",
+          "channel_name": "David Ondrej",
+          "score": 6.8,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "BmdOt6A6tHM",
+          "title": "llm.c's Origin and the Future of LLM Compilers - Andrej Karpathy at CUDA MODE",
+          "url": "https://www.youtube.com/watch?v=BmdOt6A6tHM",
+          "channel_name": "Latent Space",
+          "score": 6.8,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "jim-fan",
+      "name": "Jim Fan",
+      "status": "approved",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "social-first",
+      "candidate_count": 1,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 1,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Jim Fan\" interview",
+        "\"Jim Fan\" keynote",
+        "\"Jim Fan\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jim+Fan%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jim+Fan%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jim+Fan%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "K1i8Y55DRvQ",
+          "title": "Nvidias NEW \"AI AGENT\" Will Change The WORLD! (Jim Fan)",
+          "url": "https://www.youtube.com/watch?v=K1i8Y55DRvQ",
+          "channel_name": "Ai Grid",
+          "score": 4.8,
+          "priority": "P2",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "yann-lecun",
+      "name": "Yann LeCun",
+      "status": "approved",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "social-first",
+      "candidate_count": 2,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 2,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Yann LeCun\" interview",
+        "\"Yann LeCun\" keynote",
+        "\"Yann LeCun\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Yann+LeCun%22+interview",
+        "https://www.youtube.com/results?search_query=%22Yann+LeCun%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Yann+LeCun%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "nAT3-W1sDKU",
+          "title": "Googles $100 BILLION A.I Masterplan, Secret HUMANOID Robot, Yann Lecun  On AGI, Grok 1.5 AI",
+          "url": "https://www.youtube.com/watch?v=nAT3-W1sDKU",
+          "channel_name": "Ai Grid",
+          "score": 4.8,
+          "priority": "P2",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "ArG8GiIHmjE",
+          "title": "Yann LeCun Just Called Out the Entire Robotics Industry",
+          "url": "https://www.youtube.com/watch?v=ArG8GiIHmjE",
+          "channel_name": "Ai Grid",
+          "score": 4.8,
+          "priority": "P2",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "andrew-ng",
+      "name": "Andrew Ng",
+      "status": "approved",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Andrew Ng\" interview",
+        "\"Andrew Ng\" keynote",
+        "\"Andrew Ng\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Andrew+Ng%22+interview",
+        "https://www.youtube.com/results?search_query=%22Andrew+Ng%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Andrew+Ng%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "jim-keller",
+      "name": "Jim Keller",
+      "status": "approved",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Jim Keller\" interview",
+        "\"Jim Keller\" keynote",
+        "\"Jim Keller\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jim+Keller%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jim+Keller%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jim+Keller%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "simon-willison",
+      "name": "Simon Willison",
+      "status": "approved",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 3,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 3,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Simon Willison\" interview",
+        "\"Simon Willison\" keynote",
+        "\"Simon Willison\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Simon+Willison%22+interview",
+        "https://www.youtube.com/results?search_query=%22Simon+Willison%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Simon+Willison%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "YpY83-kA7Bo",
+          "title": "2025 in LLMs so far, illustrated by Pelicans on Bicycles \u2014 Simon Willison",
+          "url": "https://www.youtube.com/watch?v=YpY83-kA7Bo",
+          "channel_name": "Ai Engineer",
+          "score": 6.8,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "eTTMUWP5B0s",
+          "title": "Open Challenges for AI Engineering: Simon Willison",
+          "url": "https://www.youtube.com/watch?v=eTTMUWP5B0s",
+          "channel_name": "Ai Engineer",
+          "score": 6.8,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "AjLVoAu-u-Q",
+          "title": "Open Questions for AI Engineering: Simon Willison",
+          "url": "https://www.youtube.com/watch?v=AjLVoAu-u-Q",
+          "channel_name": "Ai Engineer",
+          "score": 6.8,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "simon-olson",
+      "name": "Simon Olson",
+      "status": "approved",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "manual-curation",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Simon Olson\" interview",
+        "\"Simon Olson\" keynote",
+        "\"Simon Olson\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Simon+Olson%22+interview",
+        "https://www.youtube.com/results?search_query=%22Simon+Olson%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Simon+Olson%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "swyx",
+      "name": "swyx",
+      "status": "approved",
+      "tier": "B",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "social-first",
+      "candidate_count": 7,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 5,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"swyx\" interview",
+        "\"swyx\" keynote",
+        "\"swyx\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22swyx%22+interview",
+        "https://www.youtube.com/results?search_query=%22swyx%22+keynote",
+        "https://www.youtube.com/results?search_query=%22swyx%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "VIqXNRsRRQo",
+          "title": "[Paper Club] Embeddings in 2024: OpenAI, Nomic Embed, Jina Embed, cde-small-v1 - with swyx",
+          "url": "https://www.youtube.com/watch?v=VIqXNRsRRQo",
+          "channel_name": "Latent Space",
+          "score": 4.8,
+          "priority": "P2",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "eDr0m6R7fI4",
+          "title": "AI Engineering Without Borders \u2014 swyx",
+          "url": "https://www.youtube.com/watch?v=eDr0m6R7fI4",
+          "channel_name": "Ai Engineer",
+          "score": 4.8,
+          "priority": "P2",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "IHkyFhU6JEY",
+          "title": "Designing AI-Intensive Applications - swyx",
+          "url": "https://www.youtube.com/watch?v=IHkyFhU6JEY",
+          "channel_name": "Ai Engineer",
+          "score": 4.8,
+          "priority": "P2",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "IoiHI7p12Ao",
+          "title": "No More Slop \u2013 swyx",
+          "url": "https://www.youtube.com/watch?v=IoiHI7p12Ao",
+          "channel_name": "Ai Engineer",
+          "score": 4.8,
+          "priority": "P2",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "qaJXBMwUkoE",
+          "title": "The 1,000x AI Engineer: Swyx",
+          "url": "https://www.youtube.com/watch?v=qaJXBMwUkoE",
+          "channel_name": "Ai Engineer",
+          "score": 4.8,
+          "priority": "P2",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "theo-browne",
+      "name": "Theo Browne",
+      "status": "approved",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Theo Browne\" interview",
+        "\"Theo Browne\" keynote",
+        "\"Theo Browne\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Theo+Browne%22+interview",
+        "https://www.youtube.com/results?search_query=%22Theo+Browne%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Theo+Browne%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "matthew-berman",
+      "name": "Matthew Berman",
+      "status": "approved",
+      "tier": "B",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "social-first",
+      "candidate_count": 10,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 5,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Matthew Berman\" interview",
+        "\"Matthew Berman\" keynote",
+        "\"Matthew Berman\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Matthew+Berman%22+interview",
+        "https://www.youtube.com/results?search_query=%22Matthew+Berman%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Matthew+Berman%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "IdP4L7cpx2k",
+          "title": "ASI/AGI, Open vs Closed AI, Founding with Sam Altman, and Verifying Humanness! (Interview)",
+          "url": "https://www.youtube.com/watch?v=IdP4L7cpx2k",
+          "channel_name": "Matthew Berman",
+          "score": 10.3,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "3WNukz5-Ch0",
+          "title": "GitHub CEO predicts the future of programming...(Full Interview)",
+          "url": "https://www.youtube.com/watch?v=3WNukz5-Ch0",
+          "channel_name": "Matthew Berman",
+          "score": 10.3,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "uudMuddzrFc",
+          "title": "Real World AI Use Cases, Open-Source, Hallucinations (MindsDB CEO Interview)",
+          "url": "https://www.youtube.com/watch?v=uudMuddzrFc",
+          "channel_name": "Matthew Berman",
+          "score": 10.3,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "fcr8WzeEXyk",
+          "title": "SWE-Agent Team Interview - Agents, Programming, and Benchmarks!",
+          "url": "https://www.youtube.com/watch?v=fcr8WzeEXyk",
+          "channel_name": "Matthew Berman",
+          "score": 10.3,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "-o0fiD-M34M",
+          "title": "IBM's Quantum Director Talks AI, Breaking Crypto, Basics of Quantum",
+          "url": "https://www.youtube.com/watch?v=-o0fiD-M34M",
+          "channel_name": "Matthew Berman",
+          "score": 8.8,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "mustafa-suleyman",
+      "name": "Mustafa Suleyman",
+      "status": "candidate",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 1,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 1,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Mustafa Suleyman\" interview",
+        "\"Mustafa Suleyman\" keynote",
+        "\"Mustafa Suleyman\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Mustafa+Suleyman%22+interview",
+        "https://www.youtube.com/results?search_query=%22Mustafa+Suleyman%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Mustafa+Suleyman%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "QM8BJ9Vqhs0",
+          "title": "Mustafa Suleyman: OpenAI's Biggest Threat",
+          "url": "https://www.youtube.com/watch?v=QM8BJ9Vqhs0",
+          "channel_name": "David Ondrej",
+          "score": 8.0,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "fidji-simo",
+      "name": "Fidji Simo",
+      "status": "candidate",
+      "tier": "A",
+      "line": "frontier-ai-company-leaders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Fidji Simo\" interview",
+        "\"Fidji Simo\" keynote",
+        "\"Fidji Simo\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Fidji+Simo%22+interview",
+        "https://www.youtube.com/results?search_query=%22Fidji+Simo%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Fidji+Simo%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "mira-murati",
+      "name": "Mira Murati",
+      "status": "candidate",
+      "tier": "A",
+      "line": "frontier-ai-company-leaders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 1,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 1,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Mira Murati\" interview",
+        "\"Mira Murati\" keynote",
+        "\"Mira Murati\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Mira+Murati%22+interview",
+        "https://www.youtube.com/results?search_query=%22Mira+Murati%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Mira+Murati%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "ssYl11_pjuA",
+          "title": "Who Is Mira Murati? - New OpenAI CEO",
+          "url": "https://www.youtube.com/watch?v=ssYl11_pjuA",
+          "channel_name": "David Ondrej",
+          "score": 6.0,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "ilya-sutskever",
+      "name": "Ilya Sutskever",
+      "status": "candidate",
+      "tier": "S",
+      "line": "frontier-ai-company-leaders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 5,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 5,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Ilya Sutskever\" interview",
+        "\"Ilya Sutskever\" keynote",
+        "\"Ilya Sutskever\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ilya+Sutskever%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ilya+Sutskever%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ilya+Sutskever%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "1vSNWCUmNqs",
+          "title": "Ex-OpenAI Founder Ilya Sutskever Strikes Back!",
+          "url": "https://www.youtube.com/watch?v=1vSNWCUmNqs",
+          "channel_name": "Matthew Berman",
+          "score": 8.0,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "golOcm0qdsE",
+          "title": "Ilya Sutskever FINALLY Responds! Sam Altman Replies...",
+          "url": "https://www.youtube.com/watch?v=golOcm0qdsE",
+          "channel_name": "David Ondrej",
+          "score": 8.0,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "zlRnTw77eaY",
+          "title": "Ilya Sutskever: The Genius Behind OpenAI",
+          "url": "https://www.youtube.com/watch?v=zlRnTw77eaY",
+          "channel_name": "David Ondrej",
+          "score": 8.0,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "3NP_3CRMBdA",
+          "title": "OpenAI Is FALLING Apart. (Ilya Sutskever Leaving, Super alignment Solved? Superintelligence)",
+          "url": "https://www.youtube.com/watch?v=3NP_3CRMBdA",
+          "channel_name": "Ai Grid",
+          "score": 6.0,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "8KL47xLD-yg",
+          "title": "Ilya Sutskever Just Revealed The Next BIG THINGS In AI (Superintelligence Explained)",
+          "url": "https://www.youtube.com/watch?v=8KL47xLD-yg",
+          "channel_name": "Ai Grid",
+          "score": 3.0,
+          "priority": "P3",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "alexandr-wang",
+      "name": "Alexandr Wang",
+      "status": "candidate",
+      "tier": "A",
+      "line": "frontier-ai-company-leaders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Alexandr Wang\" interview",
+        "\"Alexandr Wang\" keynote",
+        "\"Alexandr Wang\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Alexandr+Wang%22+interview",
+        "https://www.youtube.com/results?search_query=%22Alexandr+Wang%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Alexandr+Wang%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "jason-droege",
+      "name": "Jason Droege",
+      "status": "candidate",
+      "tier": "B",
+      "line": "frontier-ai-company-leaders",
+      "collection_mode": "manual-curation",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Jason Droege\" interview",
+        "\"Jason Droege\" keynote",
+        "\"Jason Droege\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jason+Droege%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jason+Droege%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jason+Droege%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "andy-jassy",
+      "name": "Andy Jassy",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Andy Jassy\" interview",
+        "\"Andy Jassy\" keynote",
+        "\"Andy Jassy\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Andy+Jassy%22+interview",
+        "https://www.youtube.com/results?search_query=%22Andy+Jassy%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Andy+Jassy%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "tim-cook",
+      "name": "Tim Cook",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Tim Cook\" interview",
+        "\"Tim Cook\" keynote",
+        "\"Tim Cook\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Tim+Cook%22+interview",
+        "https://www.youtube.com/results?search_query=%22Tim+Cook%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Tim+Cook%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "john-ternus",
+      "name": "John Ternus",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"John Ternus\" interview",
+        "\"John Ternus\" keynote",
+        "\"John Ternus\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22John+Ternus%22+interview",
+        "https://www.youtube.com/results?search_query=%22John+Ternus%22+keynote",
+        "https://www.youtube.com/results?search_query=%22John+Ternus%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "patrick-collison",
+      "name": "Patrick Collison",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Patrick Collison\" interview",
+        "\"Patrick Collison\" keynote",
+        "\"Patrick Collison\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Patrick+Collison%22+interview",
+        "https://www.youtube.com/results?search_query=%22Patrick+Collison%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Patrick+Collison%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "dylan-field",
+      "name": "Dylan Field",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 1,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 1,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Dylan Field\" interview",
+        "\"Dylan Field\" keynote",
+        "\"Dylan Field\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Dylan+Field%22+interview",
+        "https://www.youtube.com/results?search_query=%22Dylan+Field%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Dylan+Field%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "wGEnr0Jba0g",
+          "title": "Taste is your Moat (Dylan Field of Figma)",
+          "url": "https://www.youtube.com/watch?v=wGEnr0Jba0g",
+          "channel_name": "Latent Space",
+          "score": 6.0,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "brian-chesky",
+      "name": "Brian Chesky",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Brian Chesky\" interview",
+        "\"Brian Chesky\" keynote",
+        "\"Brian Chesky\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Brian+Chesky%22+interview",
+        "https://www.youtube.com/results?search_query=%22Brian+Chesky%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Brian+Chesky%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "brian-armstrong",
+      "name": "Brian Armstrong",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Brian Armstrong\" interview",
+        "\"Brian Armstrong\" keynote",
+        "\"Brian Armstrong\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Brian+Armstrong%22+interview",
+        "https://www.youtube.com/results?search_query=%22Brian+Armstrong%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Brian+Armstrong%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "tobi-lutke",
+      "name": "Tobi Lutke",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Tobi Lutke\" interview",
+        "\"Tobi Lutke\" keynote",
+        "\"Tobi Lutke\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Tobi+Lutke%22+interview",
+        "https://www.youtube.com/results?search_query=%22Tobi+Lutke%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Tobi+Lutke%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "lisa-su",
+      "name": "Lisa Su",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Lisa Su\" interview",
+        "\"Lisa Su\" keynote",
+        "\"Lisa Su\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Lisa+Su%22+interview",
+        "https://www.youtube.com/results?search_query=%22Lisa+Su%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Lisa+Su%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "cc-wei",
+      "name": "C. C. Wei",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"C. C. Wei\" interview",
+        "\"C. C. Wei\" keynote",
+        "\"C. C. Wei\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22C.+C.+Wei%22+interview",
+        "https://www.youtube.com/results?search_query=%22C.+C.+Wei%22+keynote",
+        "https://www.youtube.com/results?search_query=%22C.+C.+Wei%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "hock-tan",
+      "name": "Hock Tan",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Hock Tan\" interview",
+        "\"Hock Tan\" keynote",
+        "\"Hock Tan\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Hock+Tan%22+interview",
+        "https://www.youtube.com/results?search_query=%22Hock+Tan%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Hock+Tan%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "cristiano-amon",
+      "name": "Cristiano Amon",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Cristiano Amon\" interview",
+        "\"Cristiano Amon\" keynote",
+        "\"Cristiano Amon\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Cristiano+Amon%22+interview",
+        "https://www.youtube.com/results?search_query=%22Cristiano+Amon%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Cristiano+Amon%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "safra-catz",
+      "name": "Safra Catz",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Safra Catz\" interview",
+        "\"Safra Catz\" keynote",
+        "\"Safra Catz\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Safra+Catz%22+interview",
+        "https://www.youtube.com/results?search_query=%22Safra+Catz%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Safra+Catz%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "arvind-krishna",
+      "name": "Arvind Krishna",
+      "status": "candidate",
+      "tier": "A",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Arvind Krishna\" interview",
+        "\"Arvind Krishna\" keynote",
+        "\"Arvind Krishna\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Arvind+Krishna%22+interview",
+        "https://www.youtube.com/results?search_query=%22Arvind+Krishna%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Arvind+Krishna%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "bill-gates",
+      "name": "Bill Gates",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 4,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 4,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Bill Gates\" interview",
+        "\"Bill Gates\" keynote",
+        "\"Bill Gates\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Bill+Gates%22+interview",
+        "https://www.youtube.com/results?search_query=%22Bill+Gates%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Bill+Gates%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "croxobxz1bU",
+          "title": "massive TWITTER HACK! (Elon Musk, Bill Gates, Mr. Beast, Kanye)",
+          "url": "https://www.youtube.com/watch?v=croxobxz1bU",
+          "channel_name": "Networkchuck",
+          "score": 8.0,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "iFVmNDTJQOQ",
+          "title": "Bill Gates Surprising AI Statement \" Humans Will No Longer Be Needed\"",
+          "url": "https://www.youtube.com/watch?v=iFVmNDTJQOQ",
+          "channel_name": "Ai Grid",
+          "score": 6.0,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "7qg3LTrARZM",
+          "title": "Bill Gates Reveals The Next Big Thing In AI, Humanoid  Robots Get To work",
+          "url": "https://www.youtube.com/watch?v=7qg3LTrARZM",
+          "channel_name": "Ai Grid",
+          "score": 3.0,
+          "priority": "P3",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "k63-eElwz2k",
+          "title": "Bill Gates Shocking New 2024 AI Prediction ( AGI + AI Agents)",
+          "url": "https://www.youtube.com/watch?v=k63-eElwz2k",
+          "channel_name": "Ai Grid",
+          "score": 3.0,
+          "priority": "P3",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "jeff-bezos",
+      "name": "Jeff Bezos",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Jeff Bezos\" interview",
+        "\"Jeff Bezos\" keynote",
+        "\"Jeff Bezos\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jeff+Bezos%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jeff+Bezos%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jeff+Bezos%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "steve-jobs",
+      "name": "Steve Jobs",
+      "status": "candidate",
+      "tier": "S",
+      "line": "big-tech-platform-ceos",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Steve Jobs\" interview",
+        "\"Steve Jobs\" keynote",
+        "\"Steve Jobs\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Steve+Jobs%22+interview",
+        "https://www.youtube.com/results?search_query=%22Steve+Jobs%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Steve+Jobs%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "aravind-srinivas",
+      "name": "Aravind Srinivas",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Aravind Srinivas\" interview",
+        "\"Aravind Srinivas\" keynote",
+        "\"Aravind Srinivas\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Aravind+Srinivas%22+interview",
+        "https://www.youtube.com/results?search_query=%22Aravind+Srinivas%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Aravind+Srinivas%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "michael-truell",
+      "name": "Michael Truell",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "manual-curation",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Michael Truell\" interview",
+        "\"Michael Truell\" keynote",
+        "\"Michael Truell\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Michael+Truell%22+interview",
+        "https://www.youtube.com/results?search_query=%22Michael+Truell%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Michael+Truell%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "guillermo-rauch",
+      "name": "Guillermo Rauch",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Guillermo Rauch\" interview",
+        "\"Guillermo Rauch\" keynote",
+        "\"Guillermo Rauch\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Guillermo+Rauch%22+interview",
+        "https://www.youtube.com/results?search_query=%22Guillermo+Rauch%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Guillermo+Rauch%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "ali-ghodsi",
+      "name": "Ali Ghodsi",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Ali Ghodsi\" interview",
+        "\"Ali Ghodsi\" keynote",
+        "\"Ali Ghodsi\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ali+Ghodsi%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ali+Ghodsi%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ali+Ghodsi%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "karri-saarinen",
+      "name": "Karri Saarinen",
+      "status": "candidate",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Karri Saarinen\" interview",
+        "\"Karri Saarinen\" keynote",
+        "\"Karri Saarinen\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Karri+Saarinen%22+interview",
+        "https://www.youtube.com/results?search_query=%22Karri+Saarinen%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Karri+Saarinen%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "eric-glyman",
+      "name": "Eric Glyman",
+      "status": "candidate",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Eric Glyman\" interview",
+        "\"Eric Glyman\" keynote",
+        "\"Eric Glyman\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Eric+Glyman%22+interview",
+        "https://www.youtube.com/results?search_query=%22Eric+Glyman%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Eric+Glyman%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "christina-cacioppo",
+      "name": "Christina Cacioppo",
+      "status": "candidate",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Christina Cacioppo\" interview",
+        "\"Christina Cacioppo\" keynote",
+        "\"Christina Cacioppo\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Christina+Cacioppo%22+interview",
+        "https://www.youtube.com/results?search_query=%22Christina+Cacioppo%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Christina+Cacioppo%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "mathilde-collin",
+      "name": "Mathilde Collin",
+      "status": "candidate",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Mathilde Collin\" interview",
+        "\"Mathilde Collin\" keynote",
+        "\"Mathilde Collin\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Mathilde+Collin%22+interview",
+        "https://www.youtube.com/results?search_query=%22Mathilde+Collin%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Mathilde+Collin%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "melanie-perkins",
+      "name": "Melanie Perkins",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Melanie Perkins\" interview",
+        "\"Melanie Perkins\" keynote",
+        "\"Melanie Perkins\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Melanie+Perkins%22+interview",
+        "https://www.youtube.com/results?search_query=%22Melanie+Perkins%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Melanie+Perkins%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "stewart-butterfield",
+      "name": "Stewart Butterfield",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Stewart Butterfield\" interview",
+        "\"Stewart Butterfield\" keynote",
+        "\"Stewart Butterfield\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Stewart+Butterfield%22+interview",
+        "https://www.youtube.com/results?search_query=%22Stewart+Butterfield%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Stewart+Butterfield%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "tony-xu",
+      "name": "Tony Xu",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Tony Xu\" interview",
+        "\"Tony Xu\" keynote",
+        "\"Tony Xu\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Tony+Xu%22+interview",
+        "https://www.youtube.com/results?search_query=%22Tony+Xu%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Tony+Xu%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "ritesh-agarwal",
+      "name": "Ritesh Agarwal",
+      "status": "candidate",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Ritesh Agarwal\" interview",
+        "\"Ritesh Agarwal\" keynote",
+        "\"Ritesh Agarwal\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ritesh+Agarwal%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ritesh+Agarwal%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ritesh+Agarwal%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "sam-blond",
+      "name": "Sam Blond",
+      "status": "candidate",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Sam Blond\" interview",
+        "\"Sam Blond\" keynote",
+        "\"Sam Blond\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Sam+Blond%22+interview",
+        "https://www.youtube.com/results?search_query=%22Sam+Blond%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Sam+Blond%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "lenny-rachitsky",
+      "name": "Lenny Rachitsky",
+      "status": "candidate",
+      "tier": "B",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Lenny Rachitsky\" interview",
+        "\"Lenny Rachitsky\" keynote",
+        "\"Lenny Rachitsky\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Lenny+Rachitsky%22+interview",
+        "https://www.youtube.com/results?search_query=%22Lenny+Rachitsky%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Lenny+Rachitsky%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "claire-hughes-johnson",
+      "name": "Claire Hughes Johnson",
+      "status": "candidate",
+      "tier": "A",
+      "line": "fast-growing-company-builders",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Claire Hughes Johnson\" interview",
+        "\"Claire Hughes Johnson\" keynote",
+        "\"Claire Hughes Johnson\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Claire+Hughes+Johnson%22+interview",
+        "https://www.youtube.com/results?search_query=%22Claire+Hughes+Johnson%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Claire+Hughes+Johnson%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "geoffrey-hinton",
+      "name": "Geoffrey Hinton",
+      "status": "candidate",
+      "tier": "S",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Geoffrey Hinton\" interview",
+        "\"Geoffrey Hinton\" keynote",
+        "\"Geoffrey Hinton\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Geoffrey+Hinton%22+interview",
+        "https://www.youtube.com/results?search_query=%22Geoffrey+Hinton%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Geoffrey+Hinton%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "yoshua-bengio",
+      "name": "Yoshua Bengio",
+      "status": "candidate",
+      "tier": "S",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Yoshua Bengio\" interview",
+        "\"Yoshua Bengio\" keynote",
+        "\"Yoshua Bengio\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Yoshua+Bengio%22+interview",
+        "https://www.youtube.com/results?search_query=%22Yoshua+Bengio%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Yoshua+Bengio%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "fei-fei-li",
+      "name": "Fei-Fei Li",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 1,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 1,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Fei-Fei Li\" interview",
+        "\"Fei-Fei Li\" keynote",
+        "\"Fei-Fei Li\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Fei-Fei+Li%22+interview",
+        "https://www.youtube.com/results?search_query=%22Fei-Fei+Li%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Fei-Fei+Li%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "60iW8FZ7MJU",
+          "title": "After LLMs: Spatial Intelligence and World Models \u2014 Fei-Fei Li & Justin Johnson, World Labs",
+          "url": "https://www.youtube.com/watch?v=60iW8FZ7MJU",
+          "channel_name": "Latent Space",
+          "score": 6.0,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "francois-chollet",
+      "name": "Francois Chollet",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Francois Chollet\" interview",
+        "\"Francois Chollet\" keynote",
+        "\"Francois Chollet\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Francois+Chollet%22+interview",
+        "https://www.youtube.com/results?search_query=%22Francois+Chollet%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Francois+Chollet%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "noam-shazeer",
+      "name": "Noam Shazeer",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 1,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 1,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Noam Shazeer\" interview",
+        "\"Noam Shazeer\" keynote",
+        "\"Noam Shazeer\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Noam+Shazeer%22+interview",
+        "https://www.youtube.com/results?search_query=%22Noam+Shazeer%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Noam+Shazeer%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "5npvwAjHWno",
+          "title": "Outlasting Noam Shazeer, Crowdsourcing Chai AI w/ 1.4m DAU \u2014 with William Beauchamp, Chai Research",
+          "url": "https://www.youtube.com/watch?v=5npvwAjHWno",
+          "channel_name": "Latent Space",
+          "score": 6.0,
+          "priority": "P1",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "jeff-dean",
+      "name": "Jeff Dean",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Jeff Dean\" interview",
+        "\"Jeff Dean\" keynote",
+        "\"Jeff Dean\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jeff+Dean%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jeff+Dean%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jeff+Dean%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "ilia-polosukhin",
+      "name": "Ilia Polosukhin",
+      "status": "candidate",
+      "tier": "B",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Ilia Polosukhin\" interview",
+        "\"Ilia Polosukhin\" keynote",
+        "\"Ilia Polosukhin\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ilia+Polosukhin%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ilia+Polosukhin%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ilia+Polosukhin%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "matei-zaharia",
+      "name": "Matei Zaharia",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Matei Zaharia\" interview",
+        "\"Matei Zaharia\" keynote",
+        "\"Matei Zaharia\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Matei+Zaharia%22+interview",
+        "https://www.youtube.com/results?search_query=%22Matei+Zaharia%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Matei+Zaharia%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "jonathan-frankle",
+      "name": "Jonathan Frankle",
+      "status": "candidate",
+      "tier": "B",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Jonathan Frankle\" interview",
+        "\"Jonathan Frankle\" keynote",
+        "\"Jonathan Frankle\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jonathan+Frankle%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jonathan+Frankle%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jonathan+Frankle%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "chris-olah",
+      "name": "Chris Olah",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Chris Olah\" interview",
+        "\"Chris Olah\" keynote",
+        "\"Chris Olah\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Chris+Olah%22+interview",
+        "https://www.youtube.com/results?search_query=%22Chris+Olah%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Chris+Olah%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "paul-christiano",
+      "name": "Paul Christiano",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Paul Christiano\" interview",
+        "\"Paul Christiano\" keynote",
+        "\"Paul Christiano\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Paul+Christiano%22+interview",
+        "https://www.youtube.com/results?search_query=%22Paul+Christiano%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Paul+Christiano%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "eliezer-yudkowsky",
+      "name": "Eliezer Yudkowsky",
+      "status": "candidate",
+      "tier": "A",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Eliezer Yudkowsky\" interview",
+        "\"Eliezer Yudkowsky\" keynote",
+        "\"Eliezer Yudkowsky\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Eliezer+Yudkowsky%22+interview",
+        "https://www.youtube.com/results?search_query=%22Eliezer+Yudkowsky%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Eliezer+Yudkowsky%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "gwern-branwen",
+      "name": "Gwern Branwen",
+      "status": "candidate",
+      "tier": "B",
+      "line": "ai-researchers-technical-thinkers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Gwern Branwen\" interview",
+        "\"Gwern Branwen\" keynote",
+        "\"Gwern Branwen\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Gwern+Branwen%22+interview",
+        "https://www.youtube.com/results?search_query=%22Gwern+Branwen%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Gwern+Branwen%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "alex-hormozi",
+      "name": "Alex Hormozi",
+      "status": "approved",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Alex Hormozi\" interview",
+        "\"Alex Hormozi\" keynote",
+        "\"Alex Hormozi\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Alex+Hormozi%22+interview",
+        "https://www.youtube.com/results?search_query=%22Alex+Hormozi%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Alex+Hormozi%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "bob-proctor",
+      "name": "Bob Proctor",
+      "status": "approved",
+      "tier": "B",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Bob Proctor\" interview",
+        "\"Bob Proctor\" keynote",
+        "\"Bob Proctor\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Bob+Proctor%22+interview",
+        "https://www.youtube.com/results?search_query=%22Bob+Proctor%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Bob+Proctor%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "david-goggins",
+      "name": "David Goggins",
+      "status": "maybe",
+      "tier": "B",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"David Goggins\" interview",
+        "\"David Goggins\" keynote",
+        "\"David Goggins\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22David+Goggins%22+interview",
+        "https://www.youtube.com/results?search_query=%22David+Goggins%22+keynote",
+        "https://www.youtube.com/results?search_query=%22David+Goggins%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "naval-ravikant",
+      "name": "Naval Ravikant",
+      "status": "candidate",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Naval Ravikant\" interview",
+        "\"Naval Ravikant\" keynote",
+        "\"Naval Ravikant\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Naval+Ravikant%22+interview",
+        "https://www.youtube.com/results?search_query=%22Naval+Ravikant%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Naval+Ravikant%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "paul-graham",
+      "name": "Paul Graham",
+      "status": "candidate",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Paul Graham\" interview",
+        "\"Paul Graham\" keynote",
+        "\"Paul Graham\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Paul+Graham%22+interview",
+        "https://www.youtube.com/results?search_query=%22Paul+Graham%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Paul+Graham%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "charlie-munger",
+      "name": "Charlie Munger",
+      "status": "candidate",
+      "tier": "S",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Charlie Munger\" interview",
+        "\"Charlie Munger\" keynote",
+        "\"Charlie Munger\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Charlie+Munger%22+interview",
+        "https://www.youtube.com/results?search_query=%22Charlie+Munger%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Charlie+Munger%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "warren-buffett",
+      "name": "Warren Buffett",
+      "status": "candidate",
+      "tier": "S",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 1,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 1,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Warren Buffett\" interview",
+        "\"Warren Buffett\" keynote",
+        "\"Warren Buffett\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Warren+Buffett%22+interview",
+        "https://www.youtube.com/results?search_query=%22Warren+Buffett%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Warren+Buffett%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "pyYk5WPcPm4",
+          "title": "6 startup ideas from the Tech Warren Buffett (make $120k/mo)",
+          "url": "https://www.youtube.com/watch?v=pyYk5WPcPm4",
+          "channel_name": "Greg Isenberg",
+          "score": 8.0,
+          "priority": "P0",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "ray-dalio",
+      "name": "Ray Dalio",
+      "status": "candidate",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 1,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 1,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Ray Dalio\" interview",
+        "\"Ray Dalio\" keynote",
+        "\"Ray Dalio\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ray+Dalio%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ray+Dalio%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ray+Dalio%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "YHYJ0Ba8iQc",
+          "title": "Ray Dalio WARNS About The Dangers Of UBI",
+          "url": "https://www.youtube.com/watch?v=YHYJ0Ba8iQc",
+          "channel_name": "Ai Grid",
+          "score": 4.0,
+          "priority": "P2",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    },
+    {
+      "slug": "peter-thiel",
+      "name": "Peter Thiel",
+      "status": "candidate",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Peter Thiel\" interview",
+        "\"Peter Thiel\" keynote",
+        "\"Peter Thiel\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Peter+Thiel%22+interview",
+        "https://www.youtube.com/results?search_query=%22Peter+Thiel%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Peter+Thiel%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "ben-horowitz",
+      "name": "Ben Horowitz",
+      "status": "candidate",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Ben Horowitz\" interview",
+        "\"Ben Horowitz\" keynote",
+        "\"Ben Horowitz\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ben+Horowitz%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ben+Horowitz%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ben+Horowitz%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "marc-andreessen",
+      "name": "Marc Andreessen",
+      "status": "candidate",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Marc Andreessen\" interview",
+        "\"Marc Andreessen\" keynote",
+        "\"Marc Andreessen\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Marc+Andreessen%22+interview",
+        "https://www.youtube.com/results?search_query=%22Marc+Andreessen%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Marc+Andreessen%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "keith-rabois",
+      "name": "Keith Rabois",
+      "status": "candidate",
+      "tier": "B",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "social-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Keith Rabois\" interview",
+        "\"Keith Rabois\" keynote",
+        "\"Keith Rabois\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Keith+Rabois%22+interview",
+        "https://www.youtube.com/results?search_query=%22Keith+Rabois%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Keith+Rabois%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "ed-catmull",
+      "name": "Ed Catmull",
+      "status": "candidate",
+      "tier": "A",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Ed Catmull\" interview",
+        "\"Ed Catmull\" keynote",
+        "\"Ed Catmull\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ed+Catmull%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ed+Catmull%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ed+Catmull%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "james-clear",
+      "name": "James Clear",
+      "status": "candidate",
+      "tier": "B",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"James Clear\" interview",
+        "\"James Clear\" keynote",
+        "\"James Clear\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22James+Clear%22+interview",
+        "https://www.youtube.com/results?search_query=%22James+Clear%22+keynote",
+        "https://www.youtube.com/results?search_query=%22James+Clear%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "tony-robbins",
+      "name": "Tony Robbins",
+      "status": "candidate",
+      "tier": "B",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Tony Robbins\" interview",
+        "\"Tony Robbins\" keynote",
+        "\"Tony Robbins\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Tony+Robbins%22+interview",
+        "https://www.youtube.com/results?search_query=%22Tony+Robbins%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Tony+Robbins%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "earl-nightingale",
+      "name": "Earl Nightingale",
+      "status": "candidate",
+      "tier": "B",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Earl Nightingale\" interview",
+        "\"Earl Nightingale\" keynote",
+        "\"Earl Nightingale\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Earl+Nightingale%22+interview",
+        "https://www.youtube.com/results?search_query=%22Earl+Nightingale%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Earl+Nightingale%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "jim-rohn",
+      "name": "Jim Rohn",
+      "status": "candidate",
+      "tier": "B",
+      "line": "business-wealth-persuasion-self-mastery",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Jim Rohn\" interview",
+        "\"Jim Rohn\" keynote",
+        "\"Jim Rohn\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jim+Rohn%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jim+Rohn%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jim+Rohn%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "socrates",
+      "name": "Socrates",
+      "status": "approved",
+      "tier": "S",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Socrates\" interview",
+        "\"Socrates\" keynote",
+        "\"Socrates\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Socrates%22+interview",
+        "https://www.youtube.com/results?search_query=%22Socrates%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Socrates%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "plato",
+      "name": "Plato",
+      "status": "candidate",
+      "tier": "S",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Plato\" interview",
+        "\"Plato\" keynote",
+        "\"Plato\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Plato%22+interview",
+        "https://www.youtube.com/results?search_query=%22Plato%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Plato%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "aristotle",
+      "name": "Aristotle",
+      "status": "candidate",
+      "tier": "S",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Aristotle\" interview",
+        "\"Aristotle\" keynote",
+        "\"Aristotle\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Aristotle%22+interview",
+        "https://www.youtube.com/results?search_query=%22Aristotle%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Aristotle%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "marcus-aurelius",
+      "name": "Marcus Aurelius",
+      "status": "approved",
+      "tier": "S",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Marcus Aurelius\" interview",
+        "\"Marcus Aurelius\" keynote",
+        "\"Marcus Aurelius\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Marcus+Aurelius%22+interview",
+        "https://www.youtube.com/results?search_query=%22Marcus+Aurelius%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Marcus+Aurelius%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "seneca",
+      "name": "Seneca",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Seneca\" interview",
+        "\"Seneca\" keynote",
+        "\"Seneca\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Seneca%22+interview",
+        "https://www.youtube.com/results?search_query=%22Seneca%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Seneca%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "epictetus",
+      "name": "Epictetus",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Epictetus\" interview",
+        "\"Epictetus\" keynote",
+        "\"Epictetus\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Epictetus%22+interview",
+        "https://www.youtube.com/results?search_query=%22Epictetus%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Epictetus%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "confucius",
+      "name": "Confucius",
+      "status": "candidate",
+      "tier": "S",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Confucius\" interview",
+        "\"Confucius\" keynote",
+        "\"Confucius\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Confucius%22+interview",
+        "https://www.youtube.com/results?search_query=%22Confucius%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Confucius%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "laozi",
+      "name": "Laozi",
+      "status": "candidate",
+      "tier": "S",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Laozi\" interview",
+        "\"Laozi\" keynote",
+        "\"Laozi\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Laozi%22+interview",
+        "https://www.youtube.com/results?search_query=%22Laozi%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Laozi%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "sun-tzu",
+      "name": "Sun Tzu",
+      "status": "candidate",
+      "tier": "S",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Sun Tzu\" interview",
+        "\"Sun Tzu\" keynote",
+        "\"Sun Tzu\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Sun+Tzu%22+interview",
+        "https://www.youtube.com/results?search_query=%22Sun+Tzu%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Sun+Tzu%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "machiavelli",
+      "name": "Machiavelli",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Machiavelli\" interview",
+        "\"Machiavelli\" keynote",
+        "\"Machiavelli\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Machiavelli%22+interview",
+        "https://www.youtube.com/results?search_query=%22Machiavelli%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Machiavelli%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "friedrich-nietzsche",
+      "name": "Friedrich Nietzsche",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Friedrich Nietzsche\" interview",
+        "\"Friedrich Nietzsche\" keynote",
+        "\"Friedrich Nietzsche\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Friedrich+Nietzsche%22+interview",
+        "https://www.youtube.com/results?search_query=%22Friedrich+Nietzsche%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Friedrich+Nietzsche%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "arthur-schopenhauer",
+      "name": "Arthur Schopenhauer",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Arthur Schopenhauer\" interview",
+        "\"Arthur Schopenhauer\" keynote",
+        "\"Arthur Schopenhauer\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Arthur+Schopenhauer%22+interview",
+        "https://www.youtube.com/results?search_query=%22Arthur+Schopenhauer%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Arthur+Schopenhauer%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "immanuel-kant",
+      "name": "Immanuel Kant",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Immanuel Kant\" interview",
+        "\"Immanuel Kant\" keynote",
+        "\"Immanuel Kant\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Immanuel+Kant%22+interview",
+        "https://www.youtube.com/results?search_query=%22Immanuel+Kant%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Immanuel+Kant%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "david-hume",
+      "name": "David Hume",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"David Hume\" interview",
+        "\"David Hume\" keynote",
+        "\"David Hume\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22David+Hume%22+interview",
+        "https://www.youtube.com/results?search_query=%22David+Hume%22+keynote",
+        "https://www.youtube.com/results?search_query=%22David+Hume%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "rene-descartes",
+      "name": "Rene Descartes",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Rene Descartes\" interview",
+        "\"Rene Descartes\" keynote",
+        "\"Rene Descartes\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Rene+Descartes%22+interview",
+        "https://www.youtube.com/results?search_query=%22Rene+Descartes%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Rene+Descartes%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "baruch-spinoza",
+      "name": "Baruch Spinoza",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Baruch Spinoza\" interview",
+        "\"Baruch Spinoza\" keynote",
+        "\"Baruch Spinoza\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Baruch+Spinoza%22+interview",
+        "https://www.youtube.com/results?search_query=%22Baruch+Spinoza%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Baruch+Spinoza%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "john-stuart-mill",
+      "name": "John Stuart Mill",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"John Stuart Mill\" interview",
+        "\"John Stuart Mill\" keynote",
+        "\"John Stuart Mill\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22John+Stuart+Mill%22+interview",
+        "https://www.youtube.com/results?search_query=%22John+Stuart+Mill%22+keynote",
+        "https://www.youtube.com/results?search_query=%22John+Stuart+Mill%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "adam-smith",
+      "name": "Adam Smith",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Adam Smith\" interview",
+        "\"Adam Smith\" keynote",
+        "\"Adam Smith\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Adam+Smith%22+interview",
+        "https://www.youtube.com/results?search_query=%22Adam+Smith%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Adam+Smith%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "carl-jung",
+      "name": "Carl Jung",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Carl Jung\" interview",
+        "\"Carl Jung\" keynote",
+        "\"Carl Jung\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Carl+Jung%22+interview",
+        "https://www.youtube.com/results?search_query=%22Carl+Jung%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Carl+Jung%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "viktor-frankl",
+      "name": "Viktor Frankl",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Viktor Frankl\" interview",
+        "\"Viktor Frankl\" keynote",
+        "\"Viktor Frankl\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Viktor+Frankl%22+interview",
+        "https://www.youtube.com/results?search_query=%22Viktor+Frankl%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Viktor+Frankl%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "rene-girard",
+      "name": "Rene Girard",
+      "status": "candidate",
+      "tier": "A",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Rene Girard\" interview",
+        "\"Rene Girard\" keynote",
+        "\"Rene Girard\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Rene+Girard%22+interview",
+        "https://www.youtube.com/results?search_query=%22Rene+Girard%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Rene+Girard%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "joseph-campbell",
+      "name": "Joseph Campbell",
+      "status": "candidate",
+      "tier": "B",
+      "line": "historic-philosophy-fundamental-thinkers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Joseph Campbell\" interview",
+        "\"Joseph Campbell\" keynote",
+        "\"Joseph Campbell\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Joseph+Campbell%22+interview",
+        "https://www.youtube.com/results?search_query=%22Joseph+Campbell%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Joseph+Campbell%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "winston-churchill",
+      "name": "Winston Churchill",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Winston Churchill\" interview",
+        "\"Winston Churchill\" keynote",
+        "\"Winston Churchill\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Winston+Churchill%22+interview",
+        "https://www.youtube.com/results?search_query=%22Winston+Churchill%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Winston+Churchill%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "abraham-lincoln",
+      "name": "Abraham Lincoln",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Abraham Lincoln\" interview",
+        "\"Abraham Lincoln\" keynote",
+        "\"Abraham Lincoln\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Abraham+Lincoln%22+interview",
+        "https://www.youtube.com/results?search_query=%22Abraham+Lincoln%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Abraham+Lincoln%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "benjamin-franklin",
+      "name": "Benjamin Franklin",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Benjamin Franklin\" interview",
+        "\"Benjamin Franklin\" keynote",
+        "\"Benjamin Franklin\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Benjamin+Franklin%22+interview",
+        "https://www.youtube.com/results?search_query=%22Benjamin+Franklin%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Benjamin+Franklin%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "napoleon-bonaparte",
+      "name": "Napoleon Bonaparte",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Napoleon Bonaparte\" interview",
+        "\"Napoleon Bonaparte\" keynote",
+        "\"Napoleon Bonaparte\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Napoleon+Bonaparte%22+interview",
+        "https://www.youtube.com/results?search_query=%22Napoleon+Bonaparte%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Napoleon+Bonaparte%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "julius-caesar",
+      "name": "Julius Caesar",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Julius Caesar\" interview",
+        "\"Julius Caesar\" keynote",
+        "\"Julius Caesar\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Julius+Caesar%22+interview",
+        "https://www.youtube.com/results?search_query=%22Julius+Caesar%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Julius+Caesar%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "alexander-the-great",
+      "name": "Alexander the Great",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Alexander the Great\" interview",
+        "\"Alexander the Great\" keynote",
+        "\"Alexander the Great\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Alexander+the+Great%22+interview",
+        "https://www.youtube.com/results?search_query=%22Alexander+the+Great%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Alexander+the+Great%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "genghis-khan",
+      "name": "Genghis Khan",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Genghis Khan\" interview",
+        "\"Genghis Khan\" keynote",
+        "\"Genghis Khan\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Genghis+Khan%22+interview",
+        "https://www.youtube.com/results?search_query=%22Genghis+Khan%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Genghis+Khan%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "george-washington",
+      "name": "George Washington",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"George Washington\" interview",
+        "\"George Washington\" keynote",
+        "\"George Washington\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22George+Washington%22+interview",
+        "https://www.youtube.com/results?search_query=%22George+Washington%22+keynote",
+        "https://www.youtube.com/results?search_query=%22George+Washington%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "thomas-jefferson",
+      "name": "Thomas Jefferson",
+      "status": "candidate",
+      "tier": "B",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Thomas Jefferson\" interview",
+        "\"Thomas Jefferson\" keynote",
+        "\"Thomas Jefferson\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Thomas+Jefferson%22+interview",
+        "https://www.youtube.com/results?search_query=%22Thomas+Jefferson%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Thomas+Jefferson%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "frederick-douglass",
+      "name": "Frederick Douglass",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Frederick Douglass\" interview",
+        "\"Frederick Douglass\" keynote",
+        "\"Frederick Douglass\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Frederick+Douglass%22+interview",
+        "https://www.youtube.com/results?search_query=%22Frederick+Douglass%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Frederick+Douglass%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "martin-luther-king-jr",
+      "name": "Martin Luther King Jr.",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Martin Luther King Jr.\" interview",
+        "\"Martin Luther King Jr.\" keynote",
+        "\"Martin Luther King Jr.\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Martin+Luther+King+Jr.%22+interview",
+        "https://www.youtube.com/results?search_query=%22Martin+Luther+King+Jr.%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Martin+Luther+King+Jr.%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "nelson-mandela",
+      "name": "Nelson Mandela",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Nelson Mandela\" interview",
+        "\"Nelson Mandela\" keynote",
+        "\"Nelson Mandela\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Nelson+Mandela%22+interview",
+        "https://www.youtube.com/results?search_query=%22Nelson+Mandela%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Nelson+Mandela%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "lee-kuan-yew",
+      "name": "Lee Kuan Yew",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Lee Kuan Yew\" interview",
+        "\"Lee Kuan Yew\" keynote",
+        "\"Lee Kuan Yew\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Lee+Kuan+Yew%22+interview",
+        "https://www.youtube.com/results?search_query=%22Lee+Kuan+Yew%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Lee+Kuan+Yew%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "henry-kissinger",
+      "name": "Henry Kissinger",
+      "status": "candidate",
+      "tier": "B",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Henry Kissinger\" interview",
+        "\"Henry Kissinger\" keynote",
+        "\"Henry Kissinger\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Henry+Kissinger%22+interview",
+        "https://www.youtube.com/results?search_query=%22Henry+Kissinger%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Henry+Kissinger%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "peter-drucker",
+      "name": "Peter Drucker",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Peter Drucker\" interview",
+        "\"Peter Drucker\" keynote",
+        "\"Peter Drucker\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Peter+Drucker%22+interview",
+        "https://www.youtube.com/results?search_query=%22Peter+Drucker%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Peter+Drucker%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "w-edwards-deming",
+      "name": "W. Edwards Deming",
+      "status": "candidate",
+      "tier": "A",
+      "line": "strategy-power-history-civilization",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"W. Edwards Deming\" interview",
+        "\"W. Edwards Deming\" keynote",
+        "\"W. Edwards Deming\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22W.+Edwards+Deming%22+interview",
+        "https://www.youtube.com/results?search_query=%22W.+Edwards+Deming%22+keynote",
+        "https://www.youtube.com/results?search_query=%22W.+Edwards+Deming%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "nassim-nicholas-taleb",
+      "name": "Nassim Nicholas Taleb",
+      "status": "candidate",
+      "tier": "A",
+      "line": "writers-sensemakers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Nassim Nicholas Taleb\" interview",
+        "\"Nassim Nicholas Taleb\" keynote",
+        "\"Nassim Nicholas Taleb\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Nassim+Nicholas+Taleb%22+interview",
+        "https://www.youtube.com/results?search_query=%22Nassim+Nicholas+Taleb%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Nassim+Nicholas+Taleb%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "daniel-kahneman",
+      "name": "Daniel Kahneman",
+      "status": "candidate",
+      "tier": "A",
+      "line": "writers-sensemakers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Daniel Kahneman\" interview",
+        "\"Daniel Kahneman\" keynote",
+        "\"Daniel Kahneman\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Daniel+Kahneman%22+interview",
+        "https://www.youtube.com/results?search_query=%22Daniel+Kahneman%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Daniel+Kahneman%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "richard-feynman",
+      "name": "Richard Feynman",
+      "status": "candidate",
+      "tier": "A",
+      "line": "writers-sensemakers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Richard Feynman\" interview",
+        "\"Richard Feynman\" keynote",
+        "\"Richard Feynman\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Richard+Feynman%22+interview",
+        "https://www.youtube.com/results?search_query=%22Richard+Feynman%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Richard+Feynman%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "carl-sagan",
+      "name": "Carl Sagan",
+      "status": "candidate",
+      "tier": "A",
+      "line": "writers-sensemakers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Carl Sagan\" interview",
+        "\"Carl Sagan\" keynote",
+        "\"Carl Sagan\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Carl+Sagan%22+interview",
+        "https://www.youtube.com/results?search_query=%22Carl+Sagan%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Carl+Sagan%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "isaac-asimov",
+      "name": "Isaac Asimov",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Isaac Asimov\" interview",
+        "\"Isaac Asimov\" keynote",
+        "\"Isaac Asimov\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Isaac+Asimov%22+interview",
+        "https://www.youtube.com/results?search_query=%22Isaac+Asimov%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Isaac+Asimov%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "george-orwell",
+      "name": "George Orwell",
+      "status": "candidate",
+      "tier": "A",
+      "line": "writers-sensemakers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"George Orwell\" interview",
+        "\"George Orwell\" keynote",
+        "\"George Orwell\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22George+Orwell%22+interview",
+        "https://www.youtube.com/results?search_query=%22George+Orwell%22+keynote",
+        "https://www.youtube.com/results?search_query=%22George+Orwell%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "aldous-huxley",
+      "name": "Aldous Huxley",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Aldous Huxley\" interview",
+        "\"Aldous Huxley\" keynote",
+        "\"Aldous Huxley\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Aldous+Huxley%22+interview",
+        "https://www.youtube.com/results?search_query=%22Aldous+Huxley%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Aldous+Huxley%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "marshall-mcluhan",
+      "name": "Marshall McLuhan",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Marshall McLuhan\" interview",
+        "\"Marshall McLuhan\" keynote",
+        "\"Marshall McLuhan\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Marshall+McLuhan%22+interview",
+        "https://www.youtube.com/results?search_query=%22Marshall+McLuhan%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Marshall+McLuhan%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "kevin-kelly",
+      "name": "Kevin Kelly",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Kevin Kelly\" interview",
+        "\"Kevin Kelly\" keynote",
+        "\"Kevin Kelly\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Kevin+Kelly%22+interview",
+        "https://www.youtube.com/results?search_query=%22Kevin+Kelly%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Kevin+Kelly%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "stewart-brand",
+      "name": "Stewart Brand",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "collection_mode": "corpus-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Stewart Brand\" interview",
+        "\"Stewart Brand\" keynote",
+        "\"Stewart Brand\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Stewart+Brand%22+interview",
+        "https://www.youtube.com/results?search_query=%22Stewart+Brand%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Stewart+Brand%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "tyler-cowen",
+      "name": "Tyler Cowen",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Tyler Cowen\" interview",
+        "\"Tyler Cowen\" keynote",
+        "\"Tyler Cowen\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Tyler+Cowen%22+interview",
+        "https://www.youtube.com/results?search_query=%22Tyler+Cowen%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Tyler+Cowen%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "patrick-mckenzie",
+      "name": "Patrick McKenzie",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Patrick McKenzie\" interview",
+        "\"Patrick McKenzie\" keynote",
+        "\"Patrick McKenzie\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Patrick+McKenzie%22+interview",
+        "https://www.youtube.com/results?search_query=%22Patrick+McKenzie%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Patrick+McKenzie%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "byrne-hobart",
+      "name": "Byrne Hobart",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Byrne Hobart\" interview",
+        "\"Byrne Hobart\" keynote",
+        "\"Byrne Hobart\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Byrne+Hobart%22+interview",
+        "https://www.youtube.com/results?search_query=%22Byrne+Hobart%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Byrne+Hobart%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "packy-mccormick",
+      "name": "Packy McCormick",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Packy McCormick\" interview",
+        "\"Packy McCormick\" keynote",
+        "\"Packy McCormick\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Packy+McCormick%22+interview",
+        "https://www.youtube.com/results?search_query=%22Packy+McCormick%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Packy+McCormick%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "ben-thompson",
+      "name": "Ben Thompson",
+      "status": "candidate",
+      "tier": "B",
+      "line": "writers-sensemakers",
+      "collection_mode": "direct-source-first",
+      "candidate_count": 0,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 0,
+      "next_action": "discover_candidates",
+      "top_queries": [
+        "\"Ben Thompson\" interview",
+        "\"Ben Thompson\" keynote",
+        "\"Ben Thompson\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ben+Thompson%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ben+Thompson%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ben+Thompson%22+podcast"
+      ],
+      "candidates": []
+    },
+    {
+      "slug": "bob-lazar",
+      "name": "Bob Lazar",
+      "status": "maybe",
+      "tier": "C",
+      "line": "manual-review-interview-subjects",
+      "collection_mode": "manual-curation",
+      "candidate_count": 10,
+      "transcript_ready_count": 0,
+      "shown_candidate_count": 5,
+      "next_action": "import_transcript",
+      "top_queries": [
+        "\"Bob Lazar\" interview",
+        "\"Bob Lazar\" keynote",
+        "\"Bob Lazar\" podcast"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Bob+Lazar%22+interview",
+        "https://www.youtube.com/results?search_query=%22Bob+Lazar%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Bob+Lazar%22+podcast"
+      ],
+      "candidates": [
+        {
+          "video_id": "lP69E2NE-vI",
+          "title": "Bob Lazar Finally Goes Deep on S-4 - The Interview You Haven't Seen",
+          "url": "https://www.youtube.com/watch?v=lP69E2NE-vI",
+          "channel_name": "The Richard Dolan Show",
+          "score": 2.5,
+          "priority": "P3",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "fZyKcJQZrDA",
+          "title": "Bob Lazar Tells me Everything in NEW Interview - DEBRIEFED",
+          "url": "https://www.youtube.com/watch?v=fZyKcJQZrDA",
+          "channel_name": "AREA52 / DEBRIEFED With Chris Ramsay",
+          "score": 2.5,
+          "priority": "P3",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "I9EnIRhhtf4",
+          "title": "Das Dennis Interview von Lazar / Anonymous Bob Lazar Dennis Interview",
+          "url": "https://www.youtube.com/watch?v=I9EnIRhhtf4",
+          "channel_name": "Archive upload / George Knapp-KLAS material",
+          "score": 2.5,
+          "priority": "P3",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "joLuGk2U7Mc",
+          "title": "UFOs, Area-51 and S-4 | Bob Lazar, Gene Huff Interview Pt.2 1997",
+          "url": "https://www.youtube.com/watch?v=joLuGk2U7Mc",
+          "channel_name": "Archive upload",
+          "score": 2.5,
+          "priority": "P3",
+          "status": "candidate",
+          "transcript_path": ""
+        },
+        {
+          "video_id": "BEWz4SXfyCQ",
+          "title": "Joe Rogan Experience #1315 - Bob Lazar & Jeremy Corbell",
+          "url": "https://www.youtube.com/watch?v=BEWz4SXfyCQ",
+          "channel_name": "web_search_seed",
+          "score": 1.0,
+          "priority": "P3",
+          "status": "candidate",
+          "transcript_path": ""
+        }
+      ]
+    }
+  ]
+}

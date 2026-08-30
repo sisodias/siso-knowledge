@@ -1,0 +1,2807 @@
+{
+  "generated_at": "2026-07-25T20:26:59+00:00",
+  "people_count": 140,
+  "collection_policy": "Use official YouTube APIs for metadata when configured; import transcripts manually or with permission.",
+  "people": [
+    {
+      "slug": "jensen-huang",
+      "name": "Jensen Huang",
+      "status": "approved",
+      "tier": "S",
+      "queries": [
+        "\"Jensen Huang\" interview",
+        "\"Jensen Huang\" keynote",
+        "\"Jensen Huang\" podcast",
+        "\"Jensen Huang\" lecture",
+        "\"Jensen Huang\" Co-founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jensen+Huang%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jensen+Huang%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jensen+Huang%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Jensen+Huang%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Jensen+Huang%22+Co-founder+interview"
+      ]
+    },
+    {
+      "slug": "elon-musk",
+      "name": "Elon Musk",
+      "status": "approved",
+      "tier": "S",
+      "queries": [
+        "\"Elon Musk\" interview",
+        "\"Elon Musk\" keynote",
+        "\"Elon Musk\" podcast",
+        "\"Elon Musk\" lecture",
+        "\"Elon Musk\" full interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Elon+Musk%22+interview",
+        "https://www.youtube.com/results?search_query=%22Elon+Musk%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Elon+Musk%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Elon+Musk%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Elon+Musk%22+full+interview"
+      ]
+    },
+    {
+      "slug": "sam-altman",
+      "name": "Sam Altman",
+      "status": "approved",
+      "tier": "S",
+      "queries": [
+        "\"Sam Altman\" interview",
+        "\"Sam Altman\" keynote",
+        "\"Sam Altman\" podcast",
+        "\"Sam Altman\" lecture",
+        "\"Sam Altman\" CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Sam+Altman%22+interview",
+        "https://www.youtube.com/results?search_query=%22Sam+Altman%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Sam+Altman%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Sam+Altman%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Sam+Altman%22+CEO+interview"
+      ]
+    },
+    {
+      "slug": "dario-amodei",
+      "name": "Dario Amodei",
+      "status": "approved",
+      "tier": "S",
+      "queries": [
+        "\"Dario Amodei\" interview",
+        "\"Dario Amodei\" keynote",
+        "\"Dario Amodei\" podcast",
+        "\"Dario Amodei\" lecture",
+        "\"Dario Amodei\" Co-founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Dario+Amodei%22+interview",
+        "https://www.youtube.com/results?search_query=%22Dario+Amodei%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Dario+Amodei%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Dario+Amodei%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Dario+Amodei%22+Co-founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "sundar-pichai",
+      "name": "Sundar Pichai",
+      "status": "approved",
+      "tier": "S",
+      "queries": [
+        "\"Sundar Pichai\" interview",
+        "\"Sundar Pichai\" keynote",
+        "\"Sundar Pichai\" podcast",
+        "\"Sundar Pichai\" lecture",
+        "\"Sundar Pichai\" CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Sundar+Pichai%22+interview",
+        "https://www.youtube.com/results?search_query=%22Sundar+Pichai%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Sundar+Pichai%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Sundar+Pichai%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Sundar+Pichai%22+CEO+interview"
+      ]
+    },
+    {
+      "slug": "satya-nadella",
+      "name": "Satya Nadella",
+      "status": "approved",
+      "tier": "S",
+      "queries": [
+        "\"Satya Nadella\" interview",
+        "\"Satya Nadella\" keynote",
+        "\"Satya Nadella\" podcast",
+        "\"Satya Nadella\" lecture",
+        "\"Satya Nadella\" Chairman and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Satya+Nadella%22+interview",
+        "https://www.youtube.com/results?search_query=%22Satya+Nadella%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Satya+Nadella%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Satya+Nadella%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Satya+Nadella%22+Chairman+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "mark-zuckerberg",
+      "name": "Mark Zuckerberg",
+      "status": "approved",
+      "tier": "S",
+      "queries": [
+        "\"Mark Zuckerberg\" interview",
+        "\"Mark Zuckerberg\" keynote",
+        "\"Mark Zuckerberg\" podcast",
+        "\"Mark Zuckerberg\" lecture",
+        "\"Mark Zuckerberg\" Founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Mark+Zuckerberg%22+interview",
+        "https://www.youtube.com/results?search_query=%22Mark+Zuckerberg%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Mark+Zuckerberg%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Mark+Zuckerberg%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Mark+Zuckerberg%22+Founder+interview"
+      ]
+    },
+    {
+      "slug": "demis-hassabis",
+      "name": "Demis Hassabis",
+      "status": "approved",
+      "tier": "S",
+      "queries": [
+        "\"Demis Hassabis\" interview",
+        "\"Demis Hassabis\" keynote",
+        "\"Demis Hassabis\" podcast",
+        "\"Demis Hassabis\" lecture",
+        "\"Demis Hassabis\" Co-founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Demis+Hassabis%22+interview",
+        "https://www.youtube.com/results?search_query=%22Demis+Hassabis%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Demis+Hassabis%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Demis+Hassabis%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Demis+Hassabis%22+Co-founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "andrej-karpathy",
+      "name": "Andrej Karpathy",
+      "status": "approved",
+      "tier": "A",
+      "queries": [
+        "\"Andrej Karpathy\" interview",
+        "\"Andrej Karpathy\" keynote",
+        "\"Andrej Karpathy\" podcast",
+        "\"Andrej Karpathy\" lecture",
+        "\"Andrej Karpathy\" AI educator and researcher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Andrej+Karpathy%22+interview",
+        "https://www.youtube.com/results?search_query=%22Andrej+Karpathy%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Andrej+Karpathy%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Andrej+Karpathy%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Andrej+Karpathy%22+AI+educator+and+researcher+interview"
+      ]
+    },
+    {
+      "slug": "jim-fan",
+      "name": "Jim Fan",
+      "status": "approved",
+      "tier": "A",
+      "queries": [
+        "\"Jim Fan\" interview",
+        "\"Jim Fan\" keynote",
+        "\"Jim Fan\" podcast",
+        "\"Jim Fan\" lecture",
+        "\"Jim Fan\" Senior Research Scientist interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jim+Fan%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jim+Fan%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jim+Fan%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Jim+Fan%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Jim+Fan%22+Senior+Research+Scientist+interview"
+      ]
+    },
+    {
+      "slug": "yann-lecun",
+      "name": "Yann LeCun",
+      "status": "approved",
+      "tier": "A",
+      "queries": [
+        "\"Yann LeCun\" interview",
+        "\"Yann LeCun\" keynote",
+        "\"Yann LeCun\" podcast",
+        "\"Yann LeCun\" lecture",
+        "\"Yann LeCun\" Chief AI Scientist interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Yann+LeCun%22+interview",
+        "https://www.youtube.com/results?search_query=%22Yann+LeCun%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Yann+LeCun%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Yann+LeCun%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Yann+LeCun%22+Chief+AI+Scientist+interview"
+      ]
+    },
+    {
+      "slug": "andrew-ng",
+      "name": "Andrew Ng",
+      "status": "approved",
+      "tier": "A",
+      "queries": [
+        "\"Andrew Ng\" interview",
+        "\"Andrew Ng\" keynote",
+        "\"Andrew Ng\" podcast",
+        "\"Andrew Ng\" lecture",
+        "\"Andrew Ng\" Founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Andrew+Ng%22+interview",
+        "https://www.youtube.com/results?search_query=%22Andrew+Ng%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Andrew+Ng%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Andrew+Ng%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Andrew+Ng%22+Founder+interview"
+      ]
+    },
+    {
+      "slug": "jim-keller",
+      "name": "Jim Keller",
+      "status": "approved",
+      "tier": "A",
+      "queries": [
+        "\"Jim Keller\" interview",
+        "\"Jim Keller\" keynote",
+        "\"Jim Keller\" podcast",
+        "\"Jim Keller\" lecture",
+        "\"Jim Keller\" Processor architect interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jim+Keller%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jim+Keller%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jim+Keller%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Jim+Keller%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Jim+Keller%22+Processor+architect+interview"
+      ]
+    },
+    {
+      "slug": "simon-willison",
+      "name": "Simon Willison",
+      "status": "approved",
+      "tier": "A",
+      "queries": [
+        "\"Simon Willison\" interview",
+        "\"Simon Willison\" keynote",
+        "\"Simon Willison\" podcast",
+        "\"Simon Willison\" lecture",
+        "\"Simon Willison\" AI developer and researcher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Simon+Willison%22+interview",
+        "https://www.youtube.com/results?search_query=%22Simon+Willison%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Simon+Willison%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Simon+Willison%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Simon+Willison%22+AI+developer+and+researcher+interview"
+      ]
+    },
+    {
+      "slug": "simon-olson",
+      "name": "Simon Olson",
+      "status": "approved",
+      "tier": "A",
+      "queries": [
+        "\"Simon Olson\" interview",
+        "\"Simon Olson\" keynote",
+        "\"Simon Olson\" podcast",
+        "\"Simon Olson\" lecture",
+        "\"Simon Olson\" AI strategy advisor interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Simon+Olson%22+interview",
+        "https://www.youtube.com/results?search_query=%22Simon+Olson%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Simon+Olson%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Simon+Olson%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Simon+Olson%22+AI+strategy+advisor+interview"
+      ]
+    },
+    {
+      "slug": "swyx",
+      "name": "swyx",
+      "status": "approved",
+      "tier": "B",
+      "queries": [
+        "\"swyx\" interview",
+        "\"swyx\" keynote",
+        "\"swyx\" podcast",
+        "\"swyx\" lecture",
+        "\"swyx\" Latent Space podcast host and AI engineer interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22swyx%22+interview",
+        "https://www.youtube.com/results?search_query=%22swyx%22+keynote",
+        "https://www.youtube.com/results?search_query=%22swyx%22+podcast",
+        "https://www.youtube.com/results?search_query=%22swyx%22+lecture",
+        "https://www.youtube.com/results?search_query=%22swyx%22+Latent+Space+podcast+host+and+AI+engineer+interview"
+      ]
+    },
+    {
+      "slug": "theo-browne",
+      "name": "Theo Browne",
+      "status": "approved",
+      "tier": "B",
+      "queries": [
+        "\"Theo Browne\" interview",
+        "\"Theo Browne\" keynote",
+        "\"Theo Browne\" podcast",
+        "\"Theo Browne\" lecture",
+        "\"Theo Browne\" CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Theo+Browne%22+interview",
+        "https://www.youtube.com/results?search_query=%22Theo+Browne%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Theo+Browne%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Theo+Browne%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Theo+Browne%22+CEO+interview"
+      ]
+    },
+    {
+      "slug": "matthew-berman",
+      "name": "Matthew Berman",
+      "status": "approved",
+      "tier": "B",
+      "queries": [
+        "\"Matthew Berman\" interview",
+        "\"Matthew Berman\" keynote",
+        "\"Matthew Berman\" podcast",
+        "\"Matthew Berman\" lecture",
+        "\"Matthew Berman\" AI educator and YouTuber interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Matthew+Berman%22+interview",
+        "https://www.youtube.com/results?search_query=%22Matthew+Berman%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Matthew+Berman%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Matthew+Berman%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Matthew+Berman%22+AI+educator+and+YouTuber+interview"
+      ]
+    },
+    {
+      "slug": "mustafa-suleyman",
+      "name": "Mustafa Suleyman",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Mustafa Suleyman\" interview",
+        "\"Mustafa Suleyman\" keynote",
+        "\"Mustafa Suleyman\" podcast",
+        "\"Mustafa Suleyman\" lecture",
+        "\"Mustafa Suleyman\" CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Mustafa+Suleyman%22+interview",
+        "https://www.youtube.com/results?search_query=%22Mustafa+Suleyman%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Mustafa+Suleyman%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Mustafa+Suleyman%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Mustafa+Suleyman%22+CEO+interview"
+      ]
+    },
+    {
+      "slug": "fidji-simo",
+      "name": "Fidji Simo",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Fidji Simo\" interview",
+        "\"Fidji Simo\" keynote",
+        "\"Fidji Simo\" podcast",
+        "\"Fidji Simo\" lecture",
+        "\"Fidji Simo\" CEO of Applications interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Fidji+Simo%22+interview",
+        "https://www.youtube.com/results?search_query=%22Fidji+Simo%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Fidji+Simo%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Fidji+Simo%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Fidji+Simo%22+CEO+of+Applications+interview"
+      ]
+    },
+    {
+      "slug": "mira-murati",
+      "name": "Mira Murati",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Mira Murati\" interview",
+        "\"Mira Murati\" keynote",
+        "\"Mira Murati\" podcast",
+        "\"Mira Murati\" lecture",
+        "\"Mira Murati\" AI product and research leader interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Mira+Murati%22+interview",
+        "https://www.youtube.com/results?search_query=%22Mira+Murati%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Mira+Murati%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Mira+Murati%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Mira+Murati%22+AI+product+and+research+leader+interview"
+      ]
+    },
+    {
+      "slug": "ilya-sutskever",
+      "name": "Ilya Sutskever",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Ilya Sutskever\" interview",
+        "\"Ilya Sutskever\" keynote",
+        "\"Ilya Sutskever\" podcast",
+        "\"Ilya Sutskever\" lecture",
+        "\"Ilya Sutskever\" Co-founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ilya+Sutskever%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ilya+Sutskever%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ilya+Sutskever%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Ilya+Sutskever%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Ilya+Sutskever%22+Co-founder+interview"
+      ]
+    },
+    {
+      "slug": "alexandr-wang",
+      "name": "Alexandr Wang",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Alexandr Wang\" interview",
+        "\"Alexandr Wang\" keynote",
+        "\"Alexandr Wang\" podcast",
+        "\"Alexandr Wang\" lecture",
+        "\"Alexandr Wang\" Founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Alexandr+Wang%22+interview",
+        "https://www.youtube.com/results?search_query=%22Alexandr+Wang%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Alexandr+Wang%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Alexandr+Wang%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Alexandr+Wang%22+Founder+interview"
+      ]
+    },
+    {
+      "slug": "jason-droege",
+      "name": "Jason Droege",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Jason Droege\" interview",
+        "\"Jason Droege\" keynote",
+        "\"Jason Droege\" podcast",
+        "\"Jason Droege\" lecture",
+        "\"Jason Droege\" Interim CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jason+Droege%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jason+Droege%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jason+Droege%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Jason+Droege%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Jason+Droege%22+Interim+CEO+interview"
+      ]
+    },
+    {
+      "slug": "andy-jassy",
+      "name": "Andy Jassy",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Andy Jassy\" interview",
+        "\"Andy Jassy\" keynote",
+        "\"Andy Jassy\" podcast",
+        "\"Andy Jassy\" lecture",
+        "\"Andy Jassy\" President and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Andy+Jassy%22+interview",
+        "https://www.youtube.com/results?search_query=%22Andy+Jassy%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Andy+Jassy%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Andy+Jassy%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Andy+Jassy%22+President+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "tim-cook",
+      "name": "Tim Cook",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Tim Cook\" interview",
+        "\"Tim Cook\" keynote",
+        "\"Tim Cook\" podcast",
+        "\"Tim Cook\" lecture",
+        "\"Tim Cook\" CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Tim+Cook%22+interview",
+        "https://www.youtube.com/results?search_query=%22Tim+Cook%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Tim+Cook%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Tim+Cook%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Tim+Cook%22+CEO+interview"
+      ]
+    },
+    {
+      "slug": "john-ternus",
+      "name": "John Ternus",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"John Ternus\" interview",
+        "\"John Ternus\" keynote",
+        "\"John Ternus\" podcast",
+        "\"John Ternus\" lecture",
+        "\"John Ternus\" Incoming CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22John+Ternus%22+interview",
+        "https://www.youtube.com/results?search_query=%22John+Ternus%22+keynote",
+        "https://www.youtube.com/results?search_query=%22John+Ternus%22+podcast",
+        "https://www.youtube.com/results?search_query=%22John+Ternus%22+lecture",
+        "https://www.youtube.com/results?search_query=%22John+Ternus%22+Incoming+CEO+interview"
+      ]
+    },
+    {
+      "slug": "patrick-collison",
+      "name": "Patrick Collison",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Patrick Collison\" interview",
+        "\"Patrick Collison\" keynote",
+        "\"Patrick Collison\" podcast",
+        "\"Patrick Collison\" lecture",
+        "\"Patrick Collison\" Co-founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Patrick+Collison%22+interview",
+        "https://www.youtube.com/results?search_query=%22Patrick+Collison%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Patrick+Collison%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Patrick+Collison%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Patrick+Collison%22+Co-founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "dylan-field",
+      "name": "Dylan Field",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Dylan Field\" interview",
+        "\"Dylan Field\" keynote",
+        "\"Dylan Field\" podcast",
+        "\"Dylan Field\" lecture",
+        "\"Dylan Field\" Co-founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Dylan+Field%22+interview",
+        "https://www.youtube.com/results?search_query=%22Dylan+Field%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Dylan+Field%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Dylan+Field%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Dylan+Field%22+Co-founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "brian-chesky",
+      "name": "Brian Chesky",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Brian Chesky\" interview",
+        "\"Brian Chesky\" keynote",
+        "\"Brian Chesky\" podcast",
+        "\"Brian Chesky\" lecture",
+        "\"Brian Chesky\" Co-founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Brian+Chesky%22+interview",
+        "https://www.youtube.com/results?search_query=%22Brian+Chesky%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Brian+Chesky%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Brian+Chesky%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Brian+Chesky%22+Co-founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "brian-armstrong",
+      "name": "Brian Armstrong",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Brian Armstrong\" interview",
+        "\"Brian Armstrong\" keynote",
+        "\"Brian Armstrong\" podcast",
+        "\"Brian Armstrong\" lecture",
+        "\"Brian Armstrong\" Co-founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Brian+Armstrong%22+interview",
+        "https://www.youtube.com/results?search_query=%22Brian+Armstrong%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Brian+Armstrong%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Brian+Armstrong%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Brian+Armstrong%22+Co-founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "tobi-lutke",
+      "name": "Tobi Lutke",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Tobi Lutke\" interview",
+        "\"Tobi Lutke\" keynote",
+        "\"Tobi Lutke\" podcast",
+        "\"Tobi Lutke\" lecture",
+        "\"Tobi Lutke\" Founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Tobi+Lutke%22+interview",
+        "https://www.youtube.com/results?search_query=%22Tobi+Lutke%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Tobi+Lutke%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Tobi+Lutke%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Tobi+Lutke%22+Founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "lisa-su",
+      "name": "Lisa Su",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Lisa Su\" interview",
+        "\"Lisa Su\" keynote",
+        "\"Lisa Su\" podcast",
+        "\"Lisa Su\" lecture",
+        "\"Lisa Su\" Chair and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Lisa+Su%22+interview",
+        "https://www.youtube.com/results?search_query=%22Lisa+Su%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Lisa+Su%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Lisa+Su%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Lisa+Su%22+Chair+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "cc-wei",
+      "name": "C. C. Wei",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"C. C. Wei\" interview",
+        "\"C. C. Wei\" keynote",
+        "\"C. C. Wei\" podcast",
+        "\"C. C. Wei\" lecture",
+        "\"C. C. Wei\" Chairman and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22C.+C.+Wei%22+interview",
+        "https://www.youtube.com/results?search_query=%22C.+C.+Wei%22+keynote",
+        "https://www.youtube.com/results?search_query=%22C.+C.+Wei%22+podcast",
+        "https://www.youtube.com/results?search_query=%22C.+C.+Wei%22+lecture",
+        "https://www.youtube.com/results?search_query=%22C.+C.+Wei%22+Chairman+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "hock-tan",
+      "name": "Hock Tan",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Hock Tan\" interview",
+        "\"Hock Tan\" keynote",
+        "\"Hock Tan\" podcast",
+        "\"Hock Tan\" lecture",
+        "\"Hock Tan\" President and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Hock+Tan%22+interview",
+        "https://www.youtube.com/results?search_query=%22Hock+Tan%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Hock+Tan%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Hock+Tan%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Hock+Tan%22+President+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "cristiano-amon",
+      "name": "Cristiano Amon",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Cristiano Amon\" interview",
+        "\"Cristiano Amon\" keynote",
+        "\"Cristiano Amon\" podcast",
+        "\"Cristiano Amon\" lecture",
+        "\"Cristiano Amon\" President and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Cristiano+Amon%22+interview",
+        "https://www.youtube.com/results?search_query=%22Cristiano+Amon%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Cristiano+Amon%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Cristiano+Amon%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Cristiano+Amon%22+President+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "safra-catz",
+      "name": "Safra Catz",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Safra Catz\" interview",
+        "\"Safra Catz\" keynote",
+        "\"Safra Catz\" podcast",
+        "\"Safra Catz\" lecture",
+        "\"Safra Catz\" CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Safra+Catz%22+interview",
+        "https://www.youtube.com/results?search_query=%22Safra+Catz%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Safra+Catz%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Safra+Catz%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Safra+Catz%22+CEO+interview"
+      ]
+    },
+    {
+      "slug": "arvind-krishna",
+      "name": "Arvind Krishna",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Arvind Krishna\" interview",
+        "\"Arvind Krishna\" keynote",
+        "\"Arvind Krishna\" podcast",
+        "\"Arvind Krishna\" lecture",
+        "\"Arvind Krishna\" Chairman and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Arvind+Krishna%22+interview",
+        "https://www.youtube.com/results?search_query=%22Arvind+Krishna%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Arvind+Krishna%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Arvind+Krishna%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Arvind+Krishna%22+Chairman+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "bill-gates",
+      "name": "Bill Gates",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Bill Gates\" interview",
+        "\"Bill Gates\" keynote",
+        "\"Bill Gates\" podcast",
+        "\"Bill Gates\" lecture",
+        "\"Bill Gates\" Co-founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Bill+Gates%22+interview",
+        "https://www.youtube.com/results?search_query=%22Bill+Gates%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Bill+Gates%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Bill+Gates%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Bill+Gates%22+Co-founder+interview"
+      ]
+    },
+    {
+      "slug": "jeff-bezos",
+      "name": "Jeff Bezos",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Jeff Bezos\" interview",
+        "\"Jeff Bezos\" keynote",
+        "\"Jeff Bezos\" podcast",
+        "\"Jeff Bezos\" lecture",
+        "\"Jeff Bezos\" Founder and Executive Chairman interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jeff+Bezos%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jeff+Bezos%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jeff+Bezos%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Jeff+Bezos%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Jeff+Bezos%22+Founder+and+Executive+Chairman+interview"
+      ]
+    },
+    {
+      "slug": "steve-jobs",
+      "name": "Steve Jobs",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Steve Jobs\" interview",
+        "\"Steve Jobs\" keynote",
+        "\"Steve Jobs\" podcast",
+        "\"Steve Jobs\" lecture",
+        "\"Steve Jobs\" Co-founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Steve+Jobs%22+interview",
+        "https://www.youtube.com/results?search_query=%22Steve+Jobs%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Steve+Jobs%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Steve+Jobs%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Steve+Jobs%22+Co-founder+interview"
+      ]
+    },
+    {
+      "slug": "aravind-srinivas",
+      "name": "Aravind Srinivas",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Aravind Srinivas\" interview",
+        "\"Aravind Srinivas\" keynote",
+        "\"Aravind Srinivas\" podcast",
+        "\"Aravind Srinivas\" lecture",
+        "\"Aravind Srinivas\" Co-founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Aravind+Srinivas%22+interview",
+        "https://www.youtube.com/results?search_query=%22Aravind+Srinivas%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Aravind+Srinivas%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Aravind+Srinivas%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Aravind+Srinivas%22+Co-founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "michael-truell",
+      "name": "Michael Truell",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Michael Truell\" interview",
+        "\"Michael Truell\" keynote",
+        "\"Michael Truell\" podcast",
+        "\"Michael Truell\" lecture",
+        "\"Michael Truell\" Co-founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Michael+Truell%22+interview",
+        "https://www.youtube.com/results?search_query=%22Michael+Truell%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Michael+Truell%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Michael+Truell%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Michael+Truell%22+Co-founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "guillermo-rauch",
+      "name": "Guillermo Rauch",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Guillermo Rauch\" interview",
+        "\"Guillermo Rauch\" keynote",
+        "\"Guillermo Rauch\" podcast",
+        "\"Guillermo Rauch\" lecture",
+        "\"Guillermo Rauch\" Founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Guillermo+Rauch%22+interview",
+        "https://www.youtube.com/results?search_query=%22Guillermo+Rauch%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Guillermo+Rauch%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Guillermo+Rauch%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Guillermo+Rauch%22+Founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "ali-ghodsi",
+      "name": "Ali Ghodsi",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Ali Ghodsi\" interview",
+        "\"Ali Ghodsi\" keynote",
+        "\"Ali Ghodsi\" podcast",
+        "\"Ali Ghodsi\" lecture",
+        "\"Ali Ghodsi\" Co-founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ali+Ghodsi%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ali+Ghodsi%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ali+Ghodsi%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Ali+Ghodsi%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Ali+Ghodsi%22+Co-founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "karri-saarinen",
+      "name": "Karri Saarinen",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Karri Saarinen\" interview",
+        "\"Karri Saarinen\" keynote",
+        "\"Karri Saarinen\" podcast",
+        "\"Karri Saarinen\" lecture",
+        "\"Karri Saarinen\" Co-founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Karri+Saarinen%22+interview",
+        "https://www.youtube.com/results?search_query=%22Karri+Saarinen%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Karri+Saarinen%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Karri+Saarinen%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Karri+Saarinen%22+Co-founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "eric-glyman",
+      "name": "Eric Glyman",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Eric Glyman\" interview",
+        "\"Eric Glyman\" keynote",
+        "\"Eric Glyman\" podcast",
+        "\"Eric Glyman\" lecture",
+        "\"Eric Glyman\" Co-founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Eric+Glyman%22+interview",
+        "https://www.youtube.com/results?search_query=%22Eric+Glyman%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Eric+Glyman%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Eric+Glyman%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Eric+Glyman%22+Co-founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "christina-cacioppo",
+      "name": "Christina Cacioppo",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Christina Cacioppo\" interview",
+        "\"Christina Cacioppo\" keynote",
+        "\"Christina Cacioppo\" podcast",
+        "\"Christina Cacioppo\" lecture",
+        "\"Christina Cacioppo\" Co-founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Christina+Cacioppo%22+interview",
+        "https://www.youtube.com/results?search_query=%22Christina+Cacioppo%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Christina+Cacioppo%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Christina+Cacioppo%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Christina+Cacioppo%22+Co-founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "mathilde-collin",
+      "name": "Mathilde Collin",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Mathilde Collin\" interview",
+        "\"Mathilde Collin\" keynote",
+        "\"Mathilde Collin\" podcast",
+        "\"Mathilde Collin\" lecture",
+        "\"Mathilde Collin\" Co-founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Mathilde+Collin%22+interview",
+        "https://www.youtube.com/results?search_query=%22Mathilde+Collin%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Mathilde+Collin%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Mathilde+Collin%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Mathilde+Collin%22+Co-founder+interview"
+      ]
+    },
+    {
+      "slug": "melanie-perkins",
+      "name": "Melanie Perkins",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Melanie Perkins\" interview",
+        "\"Melanie Perkins\" keynote",
+        "\"Melanie Perkins\" podcast",
+        "\"Melanie Perkins\" lecture",
+        "\"Melanie Perkins\" Co-founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Melanie+Perkins%22+interview",
+        "https://www.youtube.com/results?search_query=%22Melanie+Perkins%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Melanie+Perkins%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Melanie+Perkins%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Melanie+Perkins%22+Co-founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "stewart-butterfield",
+      "name": "Stewart Butterfield",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Stewart Butterfield\" interview",
+        "\"Stewart Butterfield\" keynote",
+        "\"Stewart Butterfield\" podcast",
+        "\"Stewart Butterfield\" lecture",
+        "\"Stewart Butterfield\" Co-founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Stewart+Butterfield%22+interview",
+        "https://www.youtube.com/results?search_query=%22Stewart+Butterfield%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Stewart+Butterfield%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Stewart+Butterfield%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Stewart+Butterfield%22+Co-founder+interview"
+      ]
+    },
+    {
+      "slug": "tony-xu",
+      "name": "Tony Xu",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Tony Xu\" interview",
+        "\"Tony Xu\" keynote",
+        "\"Tony Xu\" podcast",
+        "\"Tony Xu\" lecture",
+        "\"Tony Xu\" Co-founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Tony+Xu%22+interview",
+        "https://www.youtube.com/results?search_query=%22Tony+Xu%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Tony+Xu%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Tony+Xu%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Tony+Xu%22+Co-founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "ritesh-agarwal",
+      "name": "Ritesh Agarwal",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Ritesh Agarwal\" interview",
+        "\"Ritesh Agarwal\" keynote",
+        "\"Ritesh Agarwal\" podcast",
+        "\"Ritesh Agarwal\" lecture",
+        "\"Ritesh Agarwal\" Founder and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ritesh+Agarwal%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ritesh+Agarwal%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ritesh+Agarwal%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Ritesh+Agarwal%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Ritesh+Agarwal%22+Founder+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "sam-blond",
+      "name": "Sam Blond",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Sam Blond\" interview",
+        "\"Sam Blond\" keynote",
+        "\"Sam Blond\" podcast",
+        "\"Sam Blond\" lecture",
+        "\"Sam Blond\" Sales and startup operator interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Sam+Blond%22+interview",
+        "https://www.youtube.com/results?search_query=%22Sam+Blond%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Sam+Blond%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Sam+Blond%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Sam+Blond%22+Sales+and+startup+operator+interview"
+      ]
+    },
+    {
+      "slug": "lenny-rachitsky",
+      "name": "Lenny Rachitsky",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Lenny Rachitsky\" interview",
+        "\"Lenny Rachitsky\" keynote",
+        "\"Lenny Rachitsky\" podcast",
+        "\"Lenny Rachitsky\" lecture",
+        "\"Lenny Rachitsky\" Product and growth writer interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Lenny+Rachitsky%22+interview",
+        "https://www.youtube.com/results?search_query=%22Lenny+Rachitsky%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Lenny+Rachitsky%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Lenny+Rachitsky%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Lenny+Rachitsky%22+Product+and+growth+writer+interview"
+      ]
+    },
+    {
+      "slug": "claire-hughes-johnson",
+      "name": "Claire Hughes Johnson",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Claire Hughes Johnson\" interview",
+        "\"Claire Hughes Johnson\" keynote",
+        "\"Claire Hughes Johnson\" podcast",
+        "\"Claire Hughes Johnson\" lecture",
+        "\"Claire Hughes Johnson\" Former COO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Claire+Hughes+Johnson%22+interview",
+        "https://www.youtube.com/results?search_query=%22Claire+Hughes+Johnson%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Claire+Hughes+Johnson%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Claire+Hughes+Johnson%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Claire+Hughes+Johnson%22+Former+COO+interview"
+      ]
+    },
+    {
+      "slug": "geoffrey-hinton",
+      "name": "Geoffrey Hinton",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Geoffrey Hinton\" interview",
+        "\"Geoffrey Hinton\" keynote",
+        "\"Geoffrey Hinton\" podcast",
+        "\"Geoffrey Hinton\" lecture",
+        "\"Geoffrey Hinton\" Deep learning pioneer interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Geoffrey+Hinton%22+interview",
+        "https://www.youtube.com/results?search_query=%22Geoffrey+Hinton%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Geoffrey+Hinton%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Geoffrey+Hinton%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Geoffrey+Hinton%22+Deep+learning+pioneer+interview"
+      ]
+    },
+    {
+      "slug": "yoshua-bengio",
+      "name": "Yoshua Bengio",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Yoshua Bengio\" interview",
+        "\"Yoshua Bengio\" keynote",
+        "\"Yoshua Bengio\" podcast",
+        "\"Yoshua Bengio\" lecture",
+        "\"Yoshua Bengio\" Deep learning pioneer interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Yoshua+Bengio%22+interview",
+        "https://www.youtube.com/results?search_query=%22Yoshua+Bengio%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Yoshua+Bengio%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Yoshua+Bengio%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Yoshua+Bengio%22+Deep+learning+pioneer+interview"
+      ]
+    },
+    {
+      "slug": "fei-fei-li",
+      "name": "Fei-Fei Li",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Fei-Fei Li\" interview",
+        "\"Fei-Fei Li\" keynote",
+        "\"Fei-Fei Li\" podcast",
+        "\"Fei-Fei Li\" lecture",
+        "\"Fei-Fei Li\" AI researcher and professor interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Fei-Fei+Li%22+interview",
+        "https://www.youtube.com/results?search_query=%22Fei-Fei+Li%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Fei-Fei+Li%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Fei-Fei+Li%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Fei-Fei+Li%22+AI+researcher+and+professor+interview"
+      ]
+    },
+    {
+      "slug": "francois-chollet",
+      "name": "Francois Chollet",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Francois Chollet\" interview",
+        "\"Francois Chollet\" keynote",
+        "\"Francois Chollet\" podcast",
+        "\"Francois Chollet\" lecture",
+        "\"Francois Chollet\" AI researcher; creator of Keras interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Francois+Chollet%22+interview",
+        "https://www.youtube.com/results?search_query=%22Francois+Chollet%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Francois+Chollet%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Francois+Chollet%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Francois+Chollet%22+AI+researcher%3B+creator+of+Keras+interview"
+      ]
+    },
+    {
+      "slug": "noam-shazeer",
+      "name": "Noam Shazeer",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Noam Shazeer\" interview",
+        "\"Noam Shazeer\" keynote",
+        "\"Noam Shazeer\" podcast",
+        "\"Noam Shazeer\" lecture",
+        "\"Noam Shazeer\" AI researcher and entrepreneur interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Noam+Shazeer%22+interview",
+        "https://www.youtube.com/results?search_query=%22Noam+Shazeer%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Noam+Shazeer%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Noam+Shazeer%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Noam+Shazeer%22+AI+researcher+and+entrepreneur+interview"
+      ]
+    },
+    {
+      "slug": "jeff-dean",
+      "name": "Jeff Dean",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Jeff Dean\" interview",
+        "\"Jeff Dean\" keynote",
+        "\"Jeff Dean\" podcast",
+        "\"Jeff Dean\" lecture",
+        "\"Jeff Dean\" Chief Scientist interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jeff+Dean%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jeff+Dean%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jeff+Dean%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Jeff+Dean%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Jeff+Dean%22+Chief+Scientist+interview"
+      ]
+    },
+    {
+      "slug": "ilia-polosukhin",
+      "name": "Ilia Polosukhin",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Ilia Polosukhin\" interview",
+        "\"Ilia Polosukhin\" keynote",
+        "\"Ilia Polosukhin\" podcast",
+        "\"Ilia Polosukhin\" lecture",
+        "\"Ilia Polosukhin\" Transformer co-author; co-founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ilia+Polosukhin%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ilia+Polosukhin%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ilia+Polosukhin%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Ilia+Polosukhin%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Ilia+Polosukhin%22+Transformer+co-author%3B+co-founder+interview"
+      ]
+    },
+    {
+      "slug": "matei-zaharia",
+      "name": "Matei Zaharia",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Matei Zaharia\" interview",
+        "\"Matei Zaharia\" keynote",
+        "\"Matei Zaharia\" podcast",
+        "\"Matei Zaharia\" lecture",
+        "\"Matei Zaharia\" Co-founder and CTO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Matei+Zaharia%22+interview",
+        "https://www.youtube.com/results?search_query=%22Matei+Zaharia%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Matei+Zaharia%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Matei+Zaharia%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Matei+Zaharia%22+Co-founder+and+CTO+interview"
+      ]
+    },
+    {
+      "slug": "jonathan-frankle",
+      "name": "Jonathan Frankle",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Jonathan Frankle\" interview",
+        "\"Jonathan Frankle\" keynote",
+        "\"Jonathan Frankle\" podcast",
+        "\"Jonathan Frankle\" lecture",
+        "\"Jonathan Frankle\" Chief AI Scientist interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jonathan+Frankle%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jonathan+Frankle%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jonathan+Frankle%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Jonathan+Frankle%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Jonathan+Frankle%22+Chief+AI+Scientist+interview"
+      ]
+    },
+    {
+      "slug": "chris-olah",
+      "name": "Chris Olah",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Chris Olah\" interview",
+        "\"Chris Olah\" keynote",
+        "\"Chris Olah\" podcast",
+        "\"Chris Olah\" lecture",
+        "\"Chris Olah\" AI interpretability researcher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Chris+Olah%22+interview",
+        "https://www.youtube.com/results?search_query=%22Chris+Olah%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Chris+Olah%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Chris+Olah%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Chris+Olah%22+AI+interpretability+researcher+interview"
+      ]
+    },
+    {
+      "slug": "paul-christiano",
+      "name": "Paul Christiano",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Paul Christiano\" interview",
+        "\"Paul Christiano\" keynote",
+        "\"Paul Christiano\" podcast",
+        "\"Paul Christiano\" lecture",
+        "\"Paul Christiano\" AI alignment researcher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Paul+Christiano%22+interview",
+        "https://www.youtube.com/results?search_query=%22Paul+Christiano%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Paul+Christiano%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Paul+Christiano%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Paul+Christiano%22+AI+alignment+researcher+interview"
+      ]
+    },
+    {
+      "slug": "eliezer-yudkowsky",
+      "name": "Eliezer Yudkowsky",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Eliezer Yudkowsky\" interview",
+        "\"Eliezer Yudkowsky\" keynote",
+        "\"Eliezer Yudkowsky\" podcast",
+        "\"Eliezer Yudkowsky\" lecture",
+        "\"Eliezer Yudkowsky\" AI risk and rationality writer interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Eliezer+Yudkowsky%22+interview",
+        "https://www.youtube.com/results?search_query=%22Eliezer+Yudkowsky%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Eliezer+Yudkowsky%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Eliezer+Yudkowsky%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Eliezer+Yudkowsky%22+AI+risk+and+rationality+writer+interview"
+      ]
+    },
+    {
+      "slug": "gwern-branwen",
+      "name": "Gwern Branwen",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Gwern Branwen\" interview",
+        "\"Gwern Branwen\" keynote",
+        "\"Gwern Branwen\" podcast",
+        "\"Gwern Branwen\" lecture",
+        "\"Gwern Branwen\" Independent researcher and writer interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Gwern+Branwen%22+interview",
+        "https://www.youtube.com/results?search_query=%22Gwern+Branwen%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Gwern+Branwen%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Gwern+Branwen%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Gwern+Branwen%22+Independent+researcher+and+writer+interview"
+      ]
+    },
+    {
+      "slug": "alex-hormozi",
+      "name": "Alex Hormozi",
+      "status": "approved",
+      "tier": "A",
+      "queries": [
+        "\"Alex Hormozi\" interview",
+        "\"Alex Hormozi\" keynote",
+        "\"Alex Hormozi\" podcast",
+        "\"Alex Hormozi\" lecture",
+        "\"Alex Hormozi\" Founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Alex+Hormozi%22+interview",
+        "https://www.youtube.com/results?search_query=%22Alex+Hormozi%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Alex+Hormozi%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Alex+Hormozi%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Alex+Hormozi%22+Founder+interview"
+      ]
+    },
+    {
+      "slug": "bob-proctor",
+      "name": "Bob Proctor",
+      "status": "approved",
+      "tier": "B",
+      "queries": [
+        "\"Bob Proctor\" interview",
+        "\"Bob Proctor\" keynote",
+        "\"Bob Proctor\" podcast",
+        "\"Bob Proctor\" lecture",
+        "\"Bob Proctor\" Personal development teacher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Bob+Proctor%22+interview",
+        "https://www.youtube.com/results?search_query=%22Bob+Proctor%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Bob+Proctor%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Bob+Proctor%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Bob+Proctor%22+Personal+development+teacher+interview"
+      ]
+    },
+    {
+      "slug": "david-goggins",
+      "name": "David Goggins",
+      "status": "maybe",
+      "tier": "B",
+      "queries": [
+        "\"David Goggins\" interview",
+        "\"David Goggins\" keynote",
+        "\"David Goggins\" podcast",
+        "\"David Goggins\" lecture",
+        "\"David Goggins\" Author and endurance athlete interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22David+Goggins%22+interview",
+        "https://www.youtube.com/results?search_query=%22David+Goggins%22+keynote",
+        "https://www.youtube.com/results?search_query=%22David+Goggins%22+podcast",
+        "https://www.youtube.com/results?search_query=%22David+Goggins%22+lecture",
+        "https://www.youtube.com/results?search_query=%22David+Goggins%22+Author+and+endurance+athlete+interview"
+      ]
+    },
+    {
+      "slug": "naval-ravikant",
+      "name": "Naval Ravikant",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Naval Ravikant\" interview",
+        "\"Naval Ravikant\" keynote",
+        "\"Naval Ravikant\" podcast",
+        "\"Naval Ravikant\" lecture",
+        "\"Naval Ravikant\" Founder and investor interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Naval+Ravikant%22+interview",
+        "https://www.youtube.com/results?search_query=%22Naval+Ravikant%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Naval+Ravikant%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Naval+Ravikant%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Naval+Ravikant%22+Founder+and+investor+interview"
+      ]
+    },
+    {
+      "slug": "paul-graham",
+      "name": "Paul Graham",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Paul Graham\" interview",
+        "\"Paul Graham\" keynote",
+        "\"Paul Graham\" podcast",
+        "\"Paul Graham\" lecture",
+        "\"Paul Graham\" Co-founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Paul+Graham%22+interview",
+        "https://www.youtube.com/results?search_query=%22Paul+Graham%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Paul+Graham%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Paul+Graham%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Paul+Graham%22+Co-founder+interview"
+      ]
+    },
+    {
+      "slug": "charlie-munger",
+      "name": "Charlie Munger",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Charlie Munger\" interview",
+        "\"Charlie Munger\" keynote",
+        "\"Charlie Munger\" podcast",
+        "\"Charlie Munger\" lecture",
+        "\"Charlie Munger\" Investor and thinker interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Charlie+Munger%22+interview",
+        "https://www.youtube.com/results?search_query=%22Charlie+Munger%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Charlie+Munger%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Charlie+Munger%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Charlie+Munger%22+Investor+and+thinker+interview"
+      ]
+    },
+    {
+      "slug": "warren-buffett",
+      "name": "Warren Buffett",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Warren Buffett\" interview",
+        "\"Warren Buffett\" keynote",
+        "\"Warren Buffett\" podcast",
+        "\"Warren Buffett\" lecture",
+        "\"Warren Buffett\" Chairman and CEO interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Warren+Buffett%22+interview",
+        "https://www.youtube.com/results?search_query=%22Warren+Buffett%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Warren+Buffett%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Warren+Buffett%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Warren+Buffett%22+Chairman+and+CEO+interview"
+      ]
+    },
+    {
+      "slug": "ray-dalio",
+      "name": "Ray Dalio",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Ray Dalio\" interview",
+        "\"Ray Dalio\" keynote",
+        "\"Ray Dalio\" podcast",
+        "\"Ray Dalio\" lecture",
+        "\"Ray Dalio\" Founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ray+Dalio%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ray+Dalio%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ray+Dalio%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Ray+Dalio%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Ray+Dalio%22+Founder+interview"
+      ]
+    },
+    {
+      "slug": "peter-thiel",
+      "name": "Peter Thiel",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Peter Thiel\" interview",
+        "\"Peter Thiel\" keynote",
+        "\"Peter Thiel\" podcast",
+        "\"Peter Thiel\" lecture",
+        "\"Peter Thiel\" Entrepreneur and investor interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Peter+Thiel%22+interview",
+        "https://www.youtube.com/results?search_query=%22Peter+Thiel%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Peter+Thiel%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Peter+Thiel%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Peter+Thiel%22+Entrepreneur+and+investor+interview"
+      ]
+    },
+    {
+      "slug": "ben-horowitz",
+      "name": "Ben Horowitz",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Ben Horowitz\" interview",
+        "\"Ben Horowitz\" keynote",
+        "\"Ben Horowitz\" podcast",
+        "\"Ben Horowitz\" lecture",
+        "\"Ben Horowitz\" Co-founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ben+Horowitz%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ben+Horowitz%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ben+Horowitz%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Ben+Horowitz%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Ben+Horowitz%22+Co-founder+interview"
+      ]
+    },
+    {
+      "slug": "marc-andreessen",
+      "name": "Marc Andreessen",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Marc Andreessen\" interview",
+        "\"Marc Andreessen\" keynote",
+        "\"Marc Andreessen\" podcast",
+        "\"Marc Andreessen\" lecture",
+        "\"Marc Andreessen\" Co-founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Marc+Andreessen%22+interview",
+        "https://www.youtube.com/results?search_query=%22Marc+Andreessen%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Marc+Andreessen%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Marc+Andreessen%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Marc+Andreessen%22+Co-founder+interview"
+      ]
+    },
+    {
+      "slug": "keith-rabois",
+      "name": "Keith Rabois",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Keith Rabois\" interview",
+        "\"Keith Rabois\" keynote",
+        "\"Keith Rabois\" podcast",
+        "\"Keith Rabois\" lecture",
+        "\"Keith Rabois\" Operator and investor interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Keith+Rabois%22+interview",
+        "https://www.youtube.com/results?search_query=%22Keith+Rabois%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Keith+Rabois%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Keith+Rabois%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Keith+Rabois%22+Operator+and+investor+interview"
+      ]
+    },
+    {
+      "slug": "ed-catmull",
+      "name": "Ed Catmull",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Ed Catmull\" interview",
+        "\"Ed Catmull\" keynote",
+        "\"Ed Catmull\" podcast",
+        "\"Ed Catmull\" lecture",
+        "\"Ed Catmull\" Co-founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ed+Catmull%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ed+Catmull%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ed+Catmull%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Ed+Catmull%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Ed+Catmull%22+Co-founder+interview"
+      ]
+    },
+    {
+      "slug": "james-clear",
+      "name": "James Clear",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"James Clear\" interview",
+        "\"James Clear\" keynote",
+        "\"James Clear\" podcast",
+        "\"James Clear\" lecture",
+        "\"James Clear\" Author interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22James+Clear%22+interview",
+        "https://www.youtube.com/results?search_query=%22James+Clear%22+keynote",
+        "https://www.youtube.com/results?search_query=%22James+Clear%22+podcast",
+        "https://www.youtube.com/results?search_query=%22James+Clear%22+lecture",
+        "https://www.youtube.com/results?search_query=%22James+Clear%22+Author+interview"
+      ]
+    },
+    {
+      "slug": "tony-robbins",
+      "name": "Tony Robbins",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Tony Robbins\" interview",
+        "\"Tony Robbins\" keynote",
+        "\"Tony Robbins\" podcast",
+        "\"Tony Robbins\" lecture",
+        "\"Tony Robbins\" Performance coach and author interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Tony+Robbins%22+interview",
+        "https://www.youtube.com/results?search_query=%22Tony+Robbins%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Tony+Robbins%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Tony+Robbins%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Tony+Robbins%22+Performance+coach+and+author+interview"
+      ]
+    },
+    {
+      "slug": "earl-nightingale",
+      "name": "Earl Nightingale",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Earl Nightingale\" interview",
+        "\"Earl Nightingale\" keynote",
+        "\"Earl Nightingale\" podcast",
+        "\"Earl Nightingale\" lecture",
+        "\"Earl Nightingale\" Personal development author and broadcaster interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Earl+Nightingale%22+interview",
+        "https://www.youtube.com/results?search_query=%22Earl+Nightingale%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Earl+Nightingale%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Earl+Nightingale%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Earl+Nightingale%22+Personal+development+author+and+broadcaster+interview"
+      ]
+    },
+    {
+      "slug": "jim-rohn",
+      "name": "Jim Rohn",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Jim Rohn\" interview",
+        "\"Jim Rohn\" keynote",
+        "\"Jim Rohn\" podcast",
+        "\"Jim Rohn\" lecture",
+        "\"Jim Rohn\" Personal development speaker interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Jim+Rohn%22+interview",
+        "https://www.youtube.com/results?search_query=%22Jim+Rohn%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Jim+Rohn%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Jim+Rohn%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Jim+Rohn%22+Personal+development+speaker+interview"
+      ]
+    },
+    {
+      "slug": "socrates",
+      "name": "Socrates",
+      "status": "approved",
+      "tier": "S",
+      "queries": [
+        "\"Socrates\" interview",
+        "\"Socrates\" keynote",
+        "\"Socrates\" podcast",
+        "\"Socrates\" lecture",
+        "\"Socrates\" Classical Greek philosopher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Socrates%22+interview",
+        "https://www.youtube.com/results?search_query=%22Socrates%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Socrates%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Socrates%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Socrates%22+Classical+Greek+philosopher+interview"
+      ]
+    },
+    {
+      "slug": "plato",
+      "name": "Plato",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Plato\" interview",
+        "\"Plato\" keynote",
+        "\"Plato\" podcast",
+        "\"Plato\" lecture",
+        "\"Plato\" Classical Greek philosopher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Plato%22+interview",
+        "https://www.youtube.com/results?search_query=%22Plato%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Plato%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Plato%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Plato%22+Classical+Greek+philosopher+interview"
+      ]
+    },
+    {
+      "slug": "aristotle",
+      "name": "Aristotle",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Aristotle\" interview",
+        "\"Aristotle\" keynote",
+        "\"Aristotle\" podcast",
+        "\"Aristotle\" lecture",
+        "\"Aristotle\" Philosopher and polymath interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Aristotle%22+interview",
+        "https://www.youtube.com/results?search_query=%22Aristotle%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Aristotle%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Aristotle%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Aristotle%22+Philosopher+and+polymath+interview"
+      ]
+    },
+    {
+      "slug": "marcus-aurelius",
+      "name": "Marcus Aurelius",
+      "status": "approved",
+      "tier": "S",
+      "queries": [
+        "\"Marcus Aurelius\" interview",
+        "\"Marcus Aurelius\" keynote",
+        "\"Marcus Aurelius\" podcast",
+        "\"Marcus Aurelius\" lecture",
+        "\"Marcus Aurelius\" Roman emperor and Stoic philosopher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Marcus+Aurelius%22+interview",
+        "https://www.youtube.com/results?search_query=%22Marcus+Aurelius%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Marcus+Aurelius%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Marcus+Aurelius%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Marcus+Aurelius%22+Roman+emperor+and+Stoic+philosopher+interview"
+      ]
+    },
+    {
+      "slug": "seneca",
+      "name": "Seneca",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Seneca\" interview",
+        "\"Seneca\" keynote",
+        "\"Seneca\" podcast",
+        "\"Seneca\" lecture",
+        "\"Seneca\" Stoic philosopher and statesman interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Seneca%22+interview",
+        "https://www.youtube.com/results?search_query=%22Seneca%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Seneca%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Seneca%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Seneca%22+Stoic+philosopher+and+statesman+interview"
+      ]
+    },
+    {
+      "slug": "epictetus",
+      "name": "Epictetus",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Epictetus\" interview",
+        "\"Epictetus\" keynote",
+        "\"Epictetus\" podcast",
+        "\"Epictetus\" lecture",
+        "\"Epictetus\" Stoic philosopher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Epictetus%22+interview",
+        "https://www.youtube.com/results?search_query=%22Epictetus%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Epictetus%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Epictetus%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Epictetus%22+Stoic+philosopher+interview"
+      ]
+    },
+    {
+      "slug": "confucius",
+      "name": "Confucius",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Confucius\" interview",
+        "\"Confucius\" keynote",
+        "\"Confucius\" podcast",
+        "\"Confucius\" lecture",
+        "\"Confucius\" Chinese philosopher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Confucius%22+interview",
+        "https://www.youtube.com/results?search_query=%22Confucius%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Confucius%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Confucius%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Confucius%22+Chinese+philosopher+interview"
+      ]
+    },
+    {
+      "slug": "laozi",
+      "name": "Laozi",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Laozi\" interview",
+        "\"Laozi\" keynote",
+        "\"Laozi\" podcast",
+        "\"Laozi\" lecture",
+        "\"Laozi\" Taoist philosopher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Laozi%22+interview",
+        "https://www.youtube.com/results?search_query=%22Laozi%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Laozi%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Laozi%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Laozi%22+Taoist+philosopher+interview"
+      ]
+    },
+    {
+      "slug": "sun-tzu",
+      "name": "Sun Tzu",
+      "status": "candidate",
+      "tier": "S",
+      "queries": [
+        "\"Sun Tzu\" interview",
+        "\"Sun Tzu\" keynote",
+        "\"Sun Tzu\" podcast",
+        "\"Sun Tzu\" lecture",
+        "\"Sun Tzu\" Military strategist interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Sun+Tzu%22+interview",
+        "https://www.youtube.com/results?search_query=%22Sun+Tzu%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Sun+Tzu%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Sun+Tzu%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Sun+Tzu%22+Military+strategist+interview"
+      ]
+    },
+    {
+      "slug": "machiavelli",
+      "name": "Machiavelli",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Machiavelli\" interview",
+        "\"Machiavelli\" keynote",
+        "\"Machiavelli\" podcast",
+        "\"Machiavelli\" lecture",
+        "\"Machiavelli\" Political philosopher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Machiavelli%22+interview",
+        "https://www.youtube.com/results?search_query=%22Machiavelli%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Machiavelli%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Machiavelli%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Machiavelli%22+Political+philosopher+interview"
+      ]
+    },
+    {
+      "slug": "friedrich-nietzsche",
+      "name": "Friedrich Nietzsche",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Friedrich Nietzsche\" interview",
+        "\"Friedrich Nietzsche\" keynote",
+        "\"Friedrich Nietzsche\" podcast",
+        "\"Friedrich Nietzsche\" lecture",
+        "\"Friedrich Nietzsche\" Philosopher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Friedrich+Nietzsche%22+interview",
+        "https://www.youtube.com/results?search_query=%22Friedrich+Nietzsche%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Friedrich+Nietzsche%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Friedrich+Nietzsche%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Friedrich+Nietzsche%22+Philosopher+interview"
+      ]
+    },
+    {
+      "slug": "arthur-schopenhauer",
+      "name": "Arthur Schopenhauer",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Arthur Schopenhauer\" interview",
+        "\"Arthur Schopenhauer\" keynote",
+        "\"Arthur Schopenhauer\" podcast",
+        "\"Arthur Schopenhauer\" lecture",
+        "\"Arthur Schopenhauer\" Philosopher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Arthur+Schopenhauer%22+interview",
+        "https://www.youtube.com/results?search_query=%22Arthur+Schopenhauer%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Arthur+Schopenhauer%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Arthur+Schopenhauer%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Arthur+Schopenhauer%22+Philosopher+interview"
+      ]
+    },
+    {
+      "slug": "immanuel-kant",
+      "name": "Immanuel Kant",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Immanuel Kant\" interview",
+        "\"Immanuel Kant\" keynote",
+        "\"Immanuel Kant\" podcast",
+        "\"Immanuel Kant\" lecture",
+        "\"Immanuel Kant\" Philosopher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Immanuel+Kant%22+interview",
+        "https://www.youtube.com/results?search_query=%22Immanuel+Kant%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Immanuel+Kant%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Immanuel+Kant%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Immanuel+Kant%22+Philosopher+interview"
+      ]
+    },
+    {
+      "slug": "david-hume",
+      "name": "David Hume",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"David Hume\" interview",
+        "\"David Hume\" keynote",
+        "\"David Hume\" podcast",
+        "\"David Hume\" lecture",
+        "\"David Hume\" Philosopher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22David+Hume%22+interview",
+        "https://www.youtube.com/results?search_query=%22David+Hume%22+keynote",
+        "https://www.youtube.com/results?search_query=%22David+Hume%22+podcast",
+        "https://www.youtube.com/results?search_query=%22David+Hume%22+lecture",
+        "https://www.youtube.com/results?search_query=%22David+Hume%22+Philosopher+interview"
+      ]
+    },
+    {
+      "slug": "rene-descartes",
+      "name": "Rene Descartes",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Rene Descartes\" interview",
+        "\"Rene Descartes\" keynote",
+        "\"Rene Descartes\" podcast",
+        "\"Rene Descartes\" lecture",
+        "\"Rene Descartes\" Philosopher and mathematician interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Rene+Descartes%22+interview",
+        "https://www.youtube.com/results?search_query=%22Rene+Descartes%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Rene+Descartes%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Rene+Descartes%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Rene+Descartes%22+Philosopher+and+mathematician+interview"
+      ]
+    },
+    {
+      "slug": "baruch-spinoza",
+      "name": "Baruch Spinoza",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Baruch Spinoza\" interview",
+        "\"Baruch Spinoza\" keynote",
+        "\"Baruch Spinoza\" podcast",
+        "\"Baruch Spinoza\" lecture",
+        "\"Baruch Spinoza\" Philosopher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Baruch+Spinoza%22+interview",
+        "https://www.youtube.com/results?search_query=%22Baruch+Spinoza%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Baruch+Spinoza%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Baruch+Spinoza%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Baruch+Spinoza%22+Philosopher+interview"
+      ]
+    },
+    {
+      "slug": "john-stuart-mill",
+      "name": "John Stuart Mill",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"John Stuart Mill\" interview",
+        "\"John Stuart Mill\" keynote",
+        "\"John Stuart Mill\" podcast",
+        "\"John Stuart Mill\" lecture",
+        "\"John Stuart Mill\" Philosopher and economist interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22John+Stuart+Mill%22+interview",
+        "https://www.youtube.com/results?search_query=%22John+Stuart+Mill%22+keynote",
+        "https://www.youtube.com/results?search_query=%22John+Stuart+Mill%22+podcast",
+        "https://www.youtube.com/results?search_query=%22John+Stuart+Mill%22+lecture",
+        "https://www.youtube.com/results?search_query=%22John+Stuart+Mill%22+Philosopher+and+economist+interview"
+      ]
+    },
+    {
+      "slug": "adam-smith",
+      "name": "Adam Smith",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Adam Smith\" interview",
+        "\"Adam Smith\" keynote",
+        "\"Adam Smith\" podcast",
+        "\"Adam Smith\" lecture",
+        "\"Adam Smith\" Philosopher and economist interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Adam+Smith%22+interview",
+        "https://www.youtube.com/results?search_query=%22Adam+Smith%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Adam+Smith%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Adam+Smith%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Adam+Smith%22+Philosopher+and+economist+interview"
+      ]
+    },
+    {
+      "slug": "carl-jung",
+      "name": "Carl Jung",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Carl Jung\" interview",
+        "\"Carl Jung\" keynote",
+        "\"Carl Jung\" podcast",
+        "\"Carl Jung\" lecture",
+        "\"Carl Jung\" Psychiatrist and psychoanalyst interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Carl+Jung%22+interview",
+        "https://www.youtube.com/results?search_query=%22Carl+Jung%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Carl+Jung%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Carl+Jung%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Carl+Jung%22+Psychiatrist+and+psychoanalyst+interview"
+      ]
+    },
+    {
+      "slug": "viktor-frankl",
+      "name": "Viktor Frankl",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Viktor Frankl\" interview",
+        "\"Viktor Frankl\" keynote",
+        "\"Viktor Frankl\" podcast",
+        "\"Viktor Frankl\" lecture",
+        "\"Viktor Frankl\" Psychiatrist and author interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Viktor+Frankl%22+interview",
+        "https://www.youtube.com/results?search_query=%22Viktor+Frankl%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Viktor+Frankl%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Viktor+Frankl%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Viktor+Frankl%22+Psychiatrist+and+author+interview"
+      ]
+    },
+    {
+      "slug": "rene-girard",
+      "name": "Rene Girard",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Rene Girard\" interview",
+        "\"Rene Girard\" keynote",
+        "\"Rene Girard\" podcast",
+        "\"Rene Girard\" lecture",
+        "\"Rene Girard\" Historian and philosopher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Rene+Girard%22+interview",
+        "https://www.youtube.com/results?search_query=%22Rene+Girard%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Rene+Girard%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Rene+Girard%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Rene+Girard%22+Historian+and+philosopher+interview"
+      ]
+    },
+    {
+      "slug": "joseph-campbell",
+      "name": "Joseph Campbell",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Joseph Campbell\" interview",
+        "\"Joseph Campbell\" keynote",
+        "\"Joseph Campbell\" podcast",
+        "\"Joseph Campbell\" lecture",
+        "\"Joseph Campbell\" Mythologist and writer interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Joseph+Campbell%22+interview",
+        "https://www.youtube.com/results?search_query=%22Joseph+Campbell%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Joseph+Campbell%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Joseph+Campbell%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Joseph+Campbell%22+Mythologist+and+writer+interview"
+      ]
+    },
+    {
+      "slug": "winston-churchill",
+      "name": "Winston Churchill",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Winston Churchill\" interview",
+        "\"Winston Churchill\" keynote",
+        "\"Winston Churchill\" podcast",
+        "\"Winston Churchill\" lecture",
+        "\"Winston Churchill\" British prime minister and writer interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Winston+Churchill%22+interview",
+        "https://www.youtube.com/results?search_query=%22Winston+Churchill%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Winston+Churchill%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Winston+Churchill%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Winston+Churchill%22+British+prime+minister+and+writer+interview"
+      ]
+    },
+    {
+      "slug": "abraham-lincoln",
+      "name": "Abraham Lincoln",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Abraham Lincoln\" interview",
+        "\"Abraham Lincoln\" keynote",
+        "\"Abraham Lincoln\" podcast",
+        "\"Abraham Lincoln\" lecture",
+        "\"Abraham Lincoln\" President of the United States interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Abraham+Lincoln%22+interview",
+        "https://www.youtube.com/results?search_query=%22Abraham+Lincoln%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Abraham+Lincoln%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Abraham+Lincoln%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Abraham+Lincoln%22+President+of+the+United+States+interview"
+      ]
+    },
+    {
+      "slug": "benjamin-franklin",
+      "name": "Benjamin Franklin",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Benjamin Franklin\" interview",
+        "\"Benjamin Franklin\" keynote",
+        "\"Benjamin Franklin\" podcast",
+        "\"Benjamin Franklin\" lecture",
+        "\"Benjamin Franklin\" Founder interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Benjamin+Franklin%22+interview",
+        "https://www.youtube.com/results?search_query=%22Benjamin+Franklin%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Benjamin+Franklin%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Benjamin+Franklin%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Benjamin+Franklin%22+Founder+interview"
+      ]
+    },
+    {
+      "slug": "napoleon-bonaparte",
+      "name": "Napoleon Bonaparte",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Napoleon Bonaparte\" interview",
+        "\"Napoleon Bonaparte\" keynote",
+        "\"Napoleon Bonaparte\" podcast",
+        "\"Napoleon Bonaparte\" lecture",
+        "\"Napoleon Bonaparte\" Military and political leader interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Napoleon+Bonaparte%22+interview",
+        "https://www.youtube.com/results?search_query=%22Napoleon+Bonaparte%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Napoleon+Bonaparte%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Napoleon+Bonaparte%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Napoleon+Bonaparte%22+Military+and+political+leader+interview"
+      ]
+    },
+    {
+      "slug": "julius-caesar",
+      "name": "Julius Caesar",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Julius Caesar\" interview",
+        "\"Julius Caesar\" keynote",
+        "\"Julius Caesar\" podcast",
+        "\"Julius Caesar\" lecture",
+        "\"Julius Caesar\" Roman general and statesman interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Julius+Caesar%22+interview",
+        "https://www.youtube.com/results?search_query=%22Julius+Caesar%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Julius+Caesar%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Julius+Caesar%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Julius+Caesar%22+Roman+general+and+statesman+interview"
+      ]
+    },
+    {
+      "slug": "alexander-the-great",
+      "name": "Alexander the Great",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Alexander the Great\" interview",
+        "\"Alexander the Great\" keynote",
+        "\"Alexander the Great\" podcast",
+        "\"Alexander the Great\" lecture",
+        "\"Alexander the Great\" Macedonian king and conqueror interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Alexander+the+Great%22+interview",
+        "https://www.youtube.com/results?search_query=%22Alexander+the+Great%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Alexander+the+Great%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Alexander+the+Great%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Alexander+the+Great%22+Macedonian+king+and+conqueror+interview"
+      ]
+    },
+    {
+      "slug": "genghis-khan",
+      "name": "Genghis Khan",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Genghis Khan\" interview",
+        "\"Genghis Khan\" keynote",
+        "\"Genghis Khan\" podcast",
+        "\"Genghis Khan\" lecture",
+        "\"Genghis Khan\" Founder of the Mongol Empire interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Genghis+Khan%22+interview",
+        "https://www.youtube.com/results?search_query=%22Genghis+Khan%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Genghis+Khan%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Genghis+Khan%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Genghis+Khan%22+Founder+of+the+Mongol+Empire+interview"
+      ]
+    },
+    {
+      "slug": "george-washington",
+      "name": "George Washington",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"George Washington\" interview",
+        "\"George Washington\" keynote",
+        "\"George Washington\" podcast",
+        "\"George Washington\" lecture",
+        "\"George Washington\" President of the United States interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22George+Washington%22+interview",
+        "https://www.youtube.com/results?search_query=%22George+Washington%22+keynote",
+        "https://www.youtube.com/results?search_query=%22George+Washington%22+podcast",
+        "https://www.youtube.com/results?search_query=%22George+Washington%22+lecture",
+        "https://www.youtube.com/results?search_query=%22George+Washington%22+President+of+the+United+States+interview"
+      ]
+    },
+    {
+      "slug": "thomas-jefferson",
+      "name": "Thomas Jefferson",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Thomas Jefferson\" interview",
+        "\"Thomas Jefferson\" keynote",
+        "\"Thomas Jefferson\" podcast",
+        "\"Thomas Jefferson\" lecture",
+        "\"Thomas Jefferson\" President of the United States interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Thomas+Jefferson%22+interview",
+        "https://www.youtube.com/results?search_query=%22Thomas+Jefferson%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Thomas+Jefferson%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Thomas+Jefferson%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Thomas+Jefferson%22+President+of+the+United+States+interview"
+      ]
+    },
+    {
+      "slug": "frederick-douglass",
+      "name": "Frederick Douglass",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Frederick Douglass\" interview",
+        "\"Frederick Douglass\" keynote",
+        "\"Frederick Douglass\" podcast",
+        "\"Frederick Douglass\" lecture",
+        "\"Frederick Douglass\" Abolitionist and orator interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Frederick+Douglass%22+interview",
+        "https://www.youtube.com/results?search_query=%22Frederick+Douglass%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Frederick+Douglass%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Frederick+Douglass%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Frederick+Douglass%22+Abolitionist+and+orator+interview"
+      ]
+    },
+    {
+      "slug": "martin-luther-king-jr",
+      "name": "Martin Luther King Jr.",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Martin Luther King Jr.\" interview",
+        "\"Martin Luther King Jr.\" keynote",
+        "\"Martin Luther King Jr.\" podcast",
+        "\"Martin Luther King Jr.\" lecture",
+        "\"Martin Luther King Jr.\" Civil rights leader interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Martin+Luther+King+Jr.%22+interview",
+        "https://www.youtube.com/results?search_query=%22Martin+Luther+King+Jr.%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Martin+Luther+King+Jr.%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Martin+Luther+King+Jr.%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Martin+Luther+King+Jr.%22+Civil+rights+leader+interview"
+      ]
+    },
+    {
+      "slug": "nelson-mandela",
+      "name": "Nelson Mandela",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Nelson Mandela\" interview",
+        "\"Nelson Mandela\" keynote",
+        "\"Nelson Mandela\" podcast",
+        "\"Nelson Mandela\" lecture",
+        "\"Nelson Mandela\" President of South Africa interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Nelson+Mandela%22+interview",
+        "https://www.youtube.com/results?search_query=%22Nelson+Mandela%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Nelson+Mandela%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Nelson+Mandela%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Nelson+Mandela%22+President+of+South+Africa+interview"
+      ]
+    },
+    {
+      "slug": "lee-kuan-yew",
+      "name": "Lee Kuan Yew",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Lee Kuan Yew\" interview",
+        "\"Lee Kuan Yew\" keynote",
+        "\"Lee Kuan Yew\" podcast",
+        "\"Lee Kuan Yew\" lecture",
+        "\"Lee Kuan Yew\" Founding prime minister of Singapore interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Lee+Kuan+Yew%22+interview",
+        "https://www.youtube.com/results?search_query=%22Lee+Kuan+Yew%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Lee+Kuan+Yew%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Lee+Kuan+Yew%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Lee+Kuan+Yew%22+Founding+prime+minister+of+Singapore+interview"
+      ]
+    },
+    {
+      "slug": "henry-kissinger",
+      "name": "Henry Kissinger",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Henry Kissinger\" interview",
+        "\"Henry Kissinger\" keynote",
+        "\"Henry Kissinger\" podcast",
+        "\"Henry Kissinger\" lecture",
+        "\"Henry Kissinger\" Diplomat and geopolitical strategist interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Henry+Kissinger%22+interview",
+        "https://www.youtube.com/results?search_query=%22Henry+Kissinger%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Henry+Kissinger%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Henry+Kissinger%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Henry+Kissinger%22+Diplomat+and+geopolitical+strategist+interview"
+      ]
+    },
+    {
+      "slug": "peter-drucker",
+      "name": "Peter Drucker",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Peter Drucker\" interview",
+        "\"Peter Drucker\" keynote",
+        "\"Peter Drucker\" podcast",
+        "\"Peter Drucker\" lecture",
+        "\"Peter Drucker\" Management thinker interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Peter+Drucker%22+interview",
+        "https://www.youtube.com/results?search_query=%22Peter+Drucker%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Peter+Drucker%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Peter+Drucker%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Peter+Drucker%22+Management+thinker+interview"
+      ]
+    },
+    {
+      "slug": "w-edwards-deming",
+      "name": "W. Edwards Deming",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"W. Edwards Deming\" interview",
+        "\"W. Edwards Deming\" keynote",
+        "\"W. Edwards Deming\" podcast",
+        "\"W. Edwards Deming\" lecture",
+        "\"W. Edwards Deming\" Quality systems thinker interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22W.+Edwards+Deming%22+interview",
+        "https://www.youtube.com/results?search_query=%22W.+Edwards+Deming%22+keynote",
+        "https://www.youtube.com/results?search_query=%22W.+Edwards+Deming%22+podcast",
+        "https://www.youtube.com/results?search_query=%22W.+Edwards+Deming%22+lecture",
+        "https://www.youtube.com/results?search_query=%22W.+Edwards+Deming%22+Quality+systems+thinker+interview"
+      ]
+    },
+    {
+      "slug": "nassim-nicholas-taleb",
+      "name": "Nassim Nicholas Taleb",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Nassim Nicholas Taleb\" interview",
+        "\"Nassim Nicholas Taleb\" keynote",
+        "\"Nassim Nicholas Taleb\" podcast",
+        "\"Nassim Nicholas Taleb\" lecture",
+        "\"Nassim Nicholas Taleb\" Author and risk thinker interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Nassim+Nicholas+Taleb%22+interview",
+        "https://www.youtube.com/results?search_query=%22Nassim+Nicholas+Taleb%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Nassim+Nicholas+Taleb%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Nassim+Nicholas+Taleb%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Nassim+Nicholas+Taleb%22+Author+and+risk+thinker+interview"
+      ]
+    },
+    {
+      "slug": "daniel-kahneman",
+      "name": "Daniel Kahneman",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Daniel Kahneman\" interview",
+        "\"Daniel Kahneman\" keynote",
+        "\"Daniel Kahneman\" podcast",
+        "\"Daniel Kahneman\" lecture",
+        "\"Daniel Kahneman\" Psychologist and Nobel laureate interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Daniel+Kahneman%22+interview",
+        "https://www.youtube.com/results?search_query=%22Daniel+Kahneman%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Daniel+Kahneman%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Daniel+Kahneman%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Daniel+Kahneman%22+Psychologist+and+Nobel+laureate+interview"
+      ]
+    },
+    {
+      "slug": "richard-feynman",
+      "name": "Richard Feynman",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Richard Feynman\" interview",
+        "\"Richard Feynman\" keynote",
+        "\"Richard Feynman\" podcast",
+        "\"Richard Feynman\" lecture",
+        "\"Richard Feynman\" Physicist and teacher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Richard+Feynman%22+interview",
+        "https://www.youtube.com/results?search_query=%22Richard+Feynman%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Richard+Feynman%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Richard+Feynman%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Richard+Feynman%22+Physicist+and+teacher+interview"
+      ]
+    },
+    {
+      "slug": "carl-sagan",
+      "name": "Carl Sagan",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"Carl Sagan\" interview",
+        "\"Carl Sagan\" keynote",
+        "\"Carl Sagan\" podcast",
+        "\"Carl Sagan\" lecture",
+        "\"Carl Sagan\" Scientist and communicator interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Carl+Sagan%22+interview",
+        "https://www.youtube.com/results?search_query=%22Carl+Sagan%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Carl+Sagan%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Carl+Sagan%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Carl+Sagan%22+Scientist+and+communicator+interview"
+      ]
+    },
+    {
+      "slug": "isaac-asimov",
+      "name": "Isaac Asimov",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Isaac Asimov\" interview",
+        "\"Isaac Asimov\" keynote",
+        "\"Isaac Asimov\" podcast",
+        "\"Isaac Asimov\" lecture",
+        "\"Isaac Asimov\" Writer and futurist interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Isaac+Asimov%22+interview",
+        "https://www.youtube.com/results?search_query=%22Isaac+Asimov%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Isaac+Asimov%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Isaac+Asimov%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Isaac+Asimov%22+Writer+and+futurist+interview"
+      ]
+    },
+    {
+      "slug": "george-orwell",
+      "name": "George Orwell",
+      "status": "candidate",
+      "tier": "A",
+      "queries": [
+        "\"George Orwell\" interview",
+        "\"George Orwell\" keynote",
+        "\"George Orwell\" podcast",
+        "\"George Orwell\" lecture",
+        "\"George Orwell\" Writer and essayist interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22George+Orwell%22+interview",
+        "https://www.youtube.com/results?search_query=%22George+Orwell%22+keynote",
+        "https://www.youtube.com/results?search_query=%22George+Orwell%22+podcast",
+        "https://www.youtube.com/results?search_query=%22George+Orwell%22+lecture",
+        "https://www.youtube.com/results?search_query=%22George+Orwell%22+Writer+and+essayist+interview"
+      ]
+    },
+    {
+      "slug": "aldous-huxley",
+      "name": "Aldous Huxley",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Aldous Huxley\" interview",
+        "\"Aldous Huxley\" keynote",
+        "\"Aldous Huxley\" podcast",
+        "\"Aldous Huxley\" lecture",
+        "\"Aldous Huxley\" Writer and philosopher interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Aldous+Huxley%22+interview",
+        "https://www.youtube.com/results?search_query=%22Aldous+Huxley%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Aldous+Huxley%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Aldous+Huxley%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Aldous+Huxley%22+Writer+and+philosopher+interview"
+      ]
+    },
+    {
+      "slug": "marshall-mcluhan",
+      "name": "Marshall McLuhan",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Marshall McLuhan\" interview",
+        "\"Marshall McLuhan\" keynote",
+        "\"Marshall McLuhan\" podcast",
+        "\"Marshall McLuhan\" lecture",
+        "\"Marshall McLuhan\" Media theorist interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Marshall+McLuhan%22+interview",
+        "https://www.youtube.com/results?search_query=%22Marshall+McLuhan%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Marshall+McLuhan%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Marshall+McLuhan%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Marshall+McLuhan%22+Media+theorist+interview"
+      ]
+    },
+    {
+      "slug": "kevin-kelly",
+      "name": "Kevin Kelly",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Kevin Kelly\" interview",
+        "\"Kevin Kelly\" keynote",
+        "\"Kevin Kelly\" podcast",
+        "\"Kevin Kelly\" lecture",
+        "\"Kevin Kelly\" Writer and technology thinker interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Kevin+Kelly%22+interview",
+        "https://www.youtube.com/results?search_query=%22Kevin+Kelly%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Kevin+Kelly%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Kevin+Kelly%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Kevin+Kelly%22+Writer+and+technology+thinker+interview"
+      ]
+    },
+    {
+      "slug": "stewart-brand",
+      "name": "Stewart Brand",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Stewart Brand\" interview",
+        "\"Stewart Brand\" keynote",
+        "\"Stewart Brand\" podcast",
+        "\"Stewart Brand\" lecture",
+        "\"Stewart Brand\" Writer and systems thinker interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Stewart+Brand%22+interview",
+        "https://www.youtube.com/results?search_query=%22Stewart+Brand%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Stewart+Brand%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Stewart+Brand%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Stewart+Brand%22+Writer+and+systems+thinker+interview"
+      ]
+    },
+    {
+      "slug": "tyler-cowen",
+      "name": "Tyler Cowen",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Tyler Cowen\" interview",
+        "\"Tyler Cowen\" keynote",
+        "\"Tyler Cowen\" podcast",
+        "\"Tyler Cowen\" lecture",
+        "\"Tyler Cowen\" Economist and writer interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Tyler+Cowen%22+interview",
+        "https://www.youtube.com/results?search_query=%22Tyler+Cowen%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Tyler+Cowen%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Tyler+Cowen%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Tyler+Cowen%22+Economist+and+writer+interview"
+      ]
+    },
+    {
+      "slug": "patrick-mckenzie",
+      "name": "Patrick McKenzie",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Patrick McKenzie\" interview",
+        "\"Patrick McKenzie\" keynote",
+        "\"Patrick McKenzie\" podcast",
+        "\"Patrick McKenzie\" lecture",
+        "\"Patrick McKenzie\" Internet business writer interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Patrick+McKenzie%22+interview",
+        "https://www.youtube.com/results?search_query=%22Patrick+McKenzie%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Patrick+McKenzie%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Patrick+McKenzie%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Patrick+McKenzie%22+Internet+business+writer+interview"
+      ]
+    },
+    {
+      "slug": "byrne-hobart",
+      "name": "Byrne Hobart",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Byrne Hobart\" interview",
+        "\"Byrne Hobart\" keynote",
+        "\"Byrne Hobart\" podcast",
+        "\"Byrne Hobart\" lecture",
+        "\"Byrne Hobart\" Finance and strategy writer interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Byrne+Hobart%22+interview",
+        "https://www.youtube.com/results?search_query=%22Byrne+Hobart%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Byrne+Hobart%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Byrne+Hobart%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Byrne+Hobart%22+Finance+and+strategy+writer+interview"
+      ]
+    },
+    {
+      "slug": "packy-mccormick",
+      "name": "Packy McCormick",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Packy McCormick\" interview",
+        "\"Packy McCormick\" keynote",
+        "\"Packy McCormick\" podcast",
+        "\"Packy McCormick\" lecture",
+        "\"Packy McCormick\" Technology writer and investor interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Packy+McCormick%22+interview",
+        "https://www.youtube.com/results?search_query=%22Packy+McCormick%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Packy+McCormick%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Packy+McCormick%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Packy+McCormick%22+Technology+writer+and+investor+interview"
+      ]
+    },
+    {
+      "slug": "ben-thompson",
+      "name": "Ben Thompson",
+      "status": "candidate",
+      "tier": "B",
+      "queries": [
+        "\"Ben Thompson\" interview",
+        "\"Ben Thompson\" keynote",
+        "\"Ben Thompson\" podcast",
+        "\"Ben Thompson\" lecture",
+        "\"Ben Thompson\" Technology strategy analyst interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Ben+Thompson%22+interview",
+        "https://www.youtube.com/results?search_query=%22Ben+Thompson%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Ben+Thompson%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Ben+Thompson%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Ben+Thompson%22+Technology+strategy+analyst+interview"
+      ]
+    },
+    {
+      "slug": "bob-lazar",
+      "name": "Bob Lazar",
+      "status": "maybe",
+      "tier": "C",
+      "queries": [
+        "\"Bob Lazar\" interview",
+        "\"Bob Lazar\" keynote",
+        "\"Bob Lazar\" podcast",
+        "\"Bob Lazar\" lecture",
+        "\"Bob Lazar\" Interview subject and controversial aerospace claimant interview"
+      ],
+      "youtube_search_urls": [
+        "https://www.youtube.com/results?search_query=%22Bob+Lazar%22+interview",
+        "https://www.youtube.com/results?search_query=%22Bob+Lazar%22+keynote",
+        "https://www.youtube.com/results?search_query=%22Bob+Lazar%22+podcast",
+        "https://www.youtube.com/results?search_query=%22Bob+Lazar%22+lecture",
+        "https://www.youtube.com/results?search_query=%22Bob+Lazar%22+Interview+subject+and+controversial+aerospace+claimant+interview"
+      ]
+    }
+  ]
+}

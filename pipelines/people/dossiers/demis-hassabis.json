@@ -1,0 +1,133 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Demis Hassabis",
+  "slug": "demis-hassabis",
+  "status": "approved",
+  "tier": "S",
+  "line": "frontier-ai-company-leaders",
+  "role": "Co-founder and CEO, Google DeepMind",
+  "collection_mode": "direct-source-first",
+  "topics": [
+    "agi",
+    "gemini",
+    "alphafold",
+    "reasoning",
+    "science"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/demishassabis"
+    },
+    {
+      "type": "official",
+      "url": "https://deepmind.google"
+    }
+  ],
+  "notes": "",
+  "next_action": "import_transcript",
+  "video_next_action": "import_transcript",
+  "search_queries": [
+    "\"Demis Hassabis\" interview",
+    "\"Demis Hassabis\" keynote",
+    "\"Demis Hassabis\" podcast",
+    "\"Demis Hassabis\" lecture",
+    "\"Demis Hassabis\" Co-founder and CEO interview"
+  ],
+  "source_plan": {
+    "source_strategy": "direct",
+    "next_source_action": "collect_direct_sources",
+    "source_counts": {
+      "targets": 2,
+      "discovery_urls": 5
+    },
+    "source_targets": [
+      {
+        "title": "Demis Hassabis x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/demishassabis",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      },
+      {
+        "title": "Demis Hassabis official",
+        "repository": "official",
+        "type": "registry_source",
+        "url": "https://deepmind.google",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Demis+Hassabis%22+official+essays+interviews",
+      "https://www.youtube.com/results?search_query=%22Demis+Hassabis%22+site%3Ayoutube.com+interview",
+      "https://www.youtube.com/results?search_query=%22Demis+Hassabis%22+site%3Ayoutube.com+keynote",
+      "https://www.google.com/search?q=%22Demis+Hassabis%22+agi",
+      "https://www.google.com/search?q=%22Demis+Hassabis%22+gemini"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 5,
+    "transcript_ready": 0,
+    "total": 5
+  },
+  "videos": [
+    {
+      "video_id": "Gfr50f6ZBvo",
+      "title": "Demis Hassabis: DeepMind - AI, Superintelligence & the Future of Humanity | Lex Fridman Podcast #299",
+      "url": "https://www.youtube.com/watch?v=Gfr50f6ZBvo",
+      "channel_name": "Lex Fridman",
+      "priority": "P0",
+      "score": 9.5,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "demis-hassabis__Gfr50f6ZBvo__Demis-Hassabis-DeepMind-AI-Superintelligence-the-Future-of-Humanity-Lex-Fridman.txt"
+    },
+    {
+      "video_id": "qTogNUV3CAI",
+      "title": "Demis Hassabis - Scaling, Superhuman AIs, AlphaZero atop LLMs, Rogue Nations Threat",
+      "url": "https://www.youtube.com/watch?v=qTogNUV3CAI",
+      "channel_name": "Dwarkesh Podcast",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "demis-hassabis__qTogNUV3CAI__Demis-Hassabis-Scaling-Superhuman-AIs-AlphaZero-atop-LLMs-Rogue-Nations-Threat.txt"
+    },
+    {
+      "video_id": "PqVbypvxDto",
+      "title": "The future of intelligence | Demis Hassabis (Co-founder and CEO of DeepMind)",
+      "url": "https://www.youtube.com/watch?v=PqVbypvxDto",
+      "channel_name": "Google DeepMind",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "demis-hassabis__PqVbypvxDto__The-future-of-intelligence-Demis-Hassabis-Co-founder-and-CEO-of-DeepMind.txt"
+    },
+    {
+      "video_id": "CRraHg4Ks_g",
+      "title": "Demis Hassabis On The Future of Work in the Age of AI",
+      "url": "https://www.youtube.com/watch?v=CRraHg4Ks_g",
+      "channel_name": "WIRED",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "demis-hassabis__CRraHg4Ks_g__Demis-Hassabis-On-The-Future-of-Work-in-the-Age-of-AI.txt"
+    },
+    {
+      "video_id": "sDZ1j0J-fe8",
+      "title": "Demis Hassabis: The CEO Working to Solve Cancer With AI",
+      "url": "https://www.youtube.com/watch?v=sDZ1j0J-fe8",
+      "channel_name": "Bloomberg Technology",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "demis-hassabis__sDZ1j0J-fe8__Demis-Hassabis-The-CEO-Working-to-Solve-Cancer-With-AI.txt"
+    }
+  ]
+}

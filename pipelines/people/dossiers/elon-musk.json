@@ -1,0 +1,212 @@
+{
+  "generated_at": "2026-07-25T20:27:06+00:00",
+  "name": "Elon Musk",
+  "slug": "elon-musk",
+  "status": "approved",
+  "tier": "S",
+  "line": "frontier-ai-company-leaders",
+  "role": "CEO, xAI / Tesla / SpaceX",
+  "collection_mode": "social-first",
+  "topics": [
+    "agi",
+    "autonomous vehicles",
+    "robotics",
+    "rockets",
+    "brain-computer interfaces"
+  ],
+  "sources": [
+    {
+      "type": "x",
+      "url": "https://x.com/elonmusk"
+    },
+    {
+      "type": "official",
+      "url": "https://www.tesla.com/elon-musk"
+    }
+  ],
+  "notes": "",
+  "next_action": "ready_for_extraction",
+  "video_next_action": "ready_for_extraction",
+  "search_queries": [
+    "\"Elon Musk\" interview",
+    "\"Elon Musk\" keynote",
+    "\"Elon Musk\" podcast",
+    "\"Elon Musk\" lecture",
+    "\"Elon Musk\" full interview"
+  ],
+  "source_plan": {
+    "source_strategy": "social",
+    "next_source_action": "collect_social_and_longform_sources",
+    "source_counts": {
+      "targets": 22,
+      "discovery_urls": 15
+    },
+    "source_targets": [
+      {
+        "title": "Elon Musk x",
+        "repository": "x",
+        "type": "registry_source",
+        "url": "https://x.com/elonmusk",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      },
+      {
+        "title": "Elon Musk official",
+        "repository": "official",
+        "type": "registry_source",
+        "url": "https://www.tesla.com/elon-musk",
+        "rights_status": "rights_review",
+        "notes": "Registry-provided source; verify page-specific reuse rights before bulk ingestion."
+      },
+      {
+        "title": "Every Elon Musk Interview year index",
+        "repository": "Every Elon Musk Interview",
+        "type": "lifetime_interview_index",
+        "url": "https://www.everyelonmuskinterview.com/",
+        "rights_status": "discovery_only_rights_review",
+        "notes": "Use as the spine for lifetime interview discovery across years; store event date, host, venue, media URL, transcript availability, and original source URL."
+      },
+      {
+        "title": "Elon Musk Interviews transcript archive",
+        "repository": "Elon Musk Interviews",
+        "type": "fan_transcript_archive",
+        "url": "https://elon-musk-interviews.com/",
+        "rights_status": "rights_review",
+        "notes": "Contains segmented English/German transcripts for major interviews such as Joe Rogan and TED; treat as secondary unless original transcript/source is verified."
+      },
+      {
+        "title": "Lex Fridman Elon Musk transcript pages",
+        "repository": "Lex Fridman",
+        "type": "official_podcast_transcripts",
+        "url": "https://lexfridman.com/?s=Elon+Musk+transcript",
+        "rights_status": "rights_review",
+        "notes": "Official Lex transcript pages/PDFs cover multiple longform Elon interviews; preserve episode number, date, timestamps, and transcript page URL."
+      }
+    ],
+    "discovery_urls": [
+      "https://www.google.com/search?q=%22Elon+Musk%22+interview+transcript",
+      "https://www.google.com/search?q=%22Elon+Musk%22+podcast+transcript",
+      "https://www.google.com/search?q=%22Elon+Musk%22+%22Joe+Rogan%22+transcript",
+      "https://www.google.com/search?q=%22Elon+Musk%22+%22Lex+Fridman%22+transcript",
+      "https://www.google.com/search?q=%22Elon+Musk%22+TED+transcript"
+    ],
+    "curation_notes": []
+  },
+  "video_counts": {
+    "candidate": 8,
+    "transcript_ready": 2,
+    "total": 10
+  },
+  "videos": [
+    {
+      "video_id": "FKSXoyvmcyM",
+      "title": "Sam Altman Talks AI, Elon Musk, ChatGPT, Google\u2026",
+      "url": "https://www.youtube.com/watch?v=FKSXoyvmcyM",
+      "channel_name": "David Ondrej",
+      "priority": "P0",
+      "score": 10.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "elon-musk__FKSXoyvmcyM__Sam-Altman-Talks-AI-Elon-Musk-ChatGPT-Google.txt"
+    },
+    {
+      "video_id": "aHsunc60Xms",
+      "title": "ELON MUSK - OpenAI will not build AGI. Tesla will.",
+      "url": "https://www.youtube.com/watch?v=aHsunc60Xms",
+      "channel_name": "David Ondrej",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "elon-musk__aHsunc60Xms__ELON-MUSK-OpenAI-will-not-build-AGI-Tesla-will.txt"
+    },
+    {
+      "video_id": "tPZauAYgVRQ",
+      "title": "Elon Musk attempts hostile takeover of OpenAI\u2026",
+      "url": "https://www.youtube.com/watch?v=tPZauAYgVRQ",
+      "channel_name": "Fireship",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "elon-musk__tPZauAYgVRQ__Elon-Musk-attempts-hostile-takeover-of-OpenAI.txt"
+    },
+    {
+      "video_id": "HLyEGlYjCfI",
+      "title": "Elon Musk on ChatGPT, OpenAI, AGI, AI Danger...",
+      "url": "https://www.youtube.com/watch?v=HLyEGlYjCfI",
+      "channel_name": "David Ondrej",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "elon-musk__HLyEGlYjCfI__Elon-Musk-on-ChatGPT-OpenAI-AGI-AI-Danger.txt"
+    },
+    {
+      "video_id": "YN2pclh_-nw",
+      "title": "Elon Musk Unveils Robotaxi - \"We, Robot\" Breakdown",
+      "url": "https://www.youtube.com/watch?v=YN2pclh_-nw",
+      "channel_name": "Matthew Berman",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "elon-musk__YN2pclh_-nw__Elon-Musk-Unveils-Robotaxi-We-Robot-Breakdown.txt"
+    },
+    {
+      "video_id": "E4fML4Lghjw",
+      "title": "Grok 3 Tested: Did Elon Musk Actually Succeed This Time?",
+      "url": "https://www.youtube.com/watch?v=E4fML4Lghjw",
+      "channel_name": "Ai Labs",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "elon-musk__E4fML4Lghjw__Grok-3-Tested-Did-Elon-Musk-Actually-Succeed-This-Time.txt"
+    },
+    {
+      "video_id": "30P0WEL1-zs",
+      "title": "I convinced Elon Musk to open-source Grok",
+      "url": "https://www.youtube.com/watch?v=30P0WEL1-zs",
+      "channel_name": "David Ondrej",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "elon-musk__30P0WEL1-zs__I-convinced-Elon-Musk-to-open-source-Grok.txt"
+    },
+    {
+      "video_id": "croxobxz1bU",
+      "title": "massive TWITTER HACK! (Elon Musk, Bill Gates, Mr. Beast, Kanye)",
+      "url": "https://www.youtube.com/watch?v=croxobxz1bU",
+      "channel_name": "Networkchuck",
+      "priority": "P0",
+      "score": 8.8,
+      "status": "candidate",
+      "transcript_path": "",
+      "suggested_transcript_filename": "elon-musk__croxobxz1bU__massive-TWITTER-HACK-Elon-Musk-Bill-Gates-Mr-Beast-Kanye.txt"
+    },
+    {
+      "video_id": "H7xvG_MYuTI",
+      "title": "Elon Musk Just Shocked The AI Industry Grok 4 \u2013 Full Breakdown + Everything You Missed",
+      "url": "https://www.youtube.com/watch?v=H7xvG_MYuTI",
+      "channel_name": "Ai Grid",
+      "priority": "P3",
+      "score": 3.8,
+      "status": "transcript_ready",
+      "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/H7xvG_MYuTI.txt",
+      "suggested_transcript_filename": ""
+    },
+    {
+      "video_id": "igDU0_R_oOM",
+      "title": "Elon Musk's Grok3 Just STUNNED The Entire AI Industry (Beats Everything)",
+      "url": "https://www.youtube.com/watch?v=igDU0_R_oOM",
+      "channel_name": "Ai Grid",
+      "priority": "P3",
+      "score": 3.8,
+      "status": "transcript_ready",
+      "transcript_path": "/Users/shaansisodia/SISO_Workspace/SISO_Knowledge/apps/library-web/data/youtube-research/database/transcripts/igDU0_R_oOM.txt",
+      "suggested_transcript_filename": ""
+    }
+  ]
+}

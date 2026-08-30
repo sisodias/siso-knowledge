@@ -1,0 +1,27 @@
+{
+  "data": {
+    "web": [
+      {
+        "title": "Dario Amodei (Anthropic CEO) - $10 Billion Models, OpenAI, Scaling, & Alignment",
+        "url": "https://www.youtube.com/watch?v=Nlkk3glap_U",
+        "source": "web_search_seed",
+        "channel": "Dwarkesh Patel",
+        "description": "Long-form Dwarkesh Patel interview with Dario Amodei."
+      },
+      {
+        "title": "Dario Amodei — We are near the end of the exponential",
+        "url": "https://www.youtube.com/watch?v=n1E9IZfvGMA",
+        "source": "web_search_seed",
+        "channel": "Dwarkesh Patel",
+        "description": "Long-form Dwarkesh Patel interview with Dario Amodei, published in 2026."
+      },
+      {
+        "title": "Avoiding Bankruptcy Before AGI - Dario Amodei",
+        "url": "https://www.youtube.com/watch?v=y8ZEJe2Ss9k",
+        "source": "web_search_seed",
+        "channel": "Dwarkesh Clips",
+        "description": "Clip from Dario Amodei's Dwarkesh interview about frontier AI lab economics."
+      }
+    ]
+  }
+}
