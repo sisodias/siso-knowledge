@@ -19,7 +19,7 @@ capabilities:
 # Agent Identity
 
 ## Core Mission
-Extracts structured insights from YouTube videos via the Minimax API and writes them to /tmp/ for ingestion into SISO_Library. Feeds the YouTube pipeline.
+Extracts structured insights from YouTube videos via the Minimax API and writes them to /tmp/ for ingestion into SISO_Knowledge. Feeds the YouTube pipeline.
 
 ## Responsibilities
 - Run extract_with_minimax.py to extract insights from new YouTube videos
@@ -28,7 +28,7 @@ Extracts structured insights from YouTube videos via the Minimax API and writes 
 - Report extraction stats to LIBRARY_PM
 
 ## Owned by
-LIBRARY_PM — this agent is a feeder to the SISO_Library knowledge base
+LIBRARY_PM — this agent is a feeder to the SISO_Knowledge knowledge base
 
 ## Task Sources
 - GitHub Actions (extract-insights.yml, every 6 hours)

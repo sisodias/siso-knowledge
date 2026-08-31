@@ -14,7 +14,7 @@ from datetime import datetime
 from pathlib import Path
 
 SUBREDDITS = ["LocalLLaMA", "MachineLearning", "AIagents", "SideProject", "artificial", "technews"]
-ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 INBOX_DIR = ROOT / "pipelines" / "reddit" / "inbox"
 
 

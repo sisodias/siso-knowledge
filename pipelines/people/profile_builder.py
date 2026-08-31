@@ -17,11 +17,13 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 INBOX_DIR = ROOT / "pipelines" / "people" / "inbox"
 PROFILE_SHELF = ROOT / "sections" / "people" / "bookcases" / "people" / "shelves" / "intelligence" / "pages"
 LEADERBOARD_FILE = ROOT / "pipelines" / "people" / "leaderboard.yaml"
 PROFILE_SHELF_STR = "people/people/intelligence"
+
+from registry import load_people, people_with_social_handles
 
 sys.path.insert(0, str(ROOT / "queries"))
 try:
@@ -32,10 +34,7 @@ except ImportError as e:
 
 
 def load_leaderboard() -> list[dict]:
-    import yaml
-    with open(LEADERBOARD_FILE) as f:
-        data = yaml.safe_load(f)
-    return data.get("people", [])
+    return load_people()
 
 
 def person_id(handle: str) -> str:
@@ -227,7 +226,7 @@ def main():
 
     print("=== People Profile Builder ===")
 
-    people = load_leaderboard()
+    people = people_with_social_handles(load_leaderboard())
     if args.person:
         people = [p for p in people if p["handle"] == args.person]
         if not people:

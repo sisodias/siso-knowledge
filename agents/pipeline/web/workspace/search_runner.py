@@ -14,7 +14,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 AGENT_DIR = ROOT / "agents" / "WebQueueAnalysis"
 INBOX_DIR = AGENT_DIR / "inbox"
 PIPELINE_INBOX = ROOT / "pipelines" / "web" / "inbox"

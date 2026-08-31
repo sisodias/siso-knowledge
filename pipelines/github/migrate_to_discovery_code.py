@@ -6,7 +6,7 @@ For each already-ingested GitHub page, create a second page in discovery/code/re
 import sys
 from pathlib import Path
 
-ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 sys.path.insert(0, str(ROOT / "queries"))
 sys.path.insert(0, str(ROOT / "pipelines"))
 

@@ -15,7 +15,7 @@ import sqlite3
 from datetime import datetime, timedelta
 from pathlib import Path
 
-ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 DB_PATH = Path("/Users/youtube-pipeline/youtube-pipeline/database/queue.db")
 EXTRACT_DIR = Path("/tmp/youtube-ai-research/extracted/by_date")
 

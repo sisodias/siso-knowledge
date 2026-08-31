@@ -17,7 +17,7 @@ from datetime import datetime
 # Perplexity search via OpenRouter
 PERPLEXITY_API_KEY = os.environ.get("PERPLEXITY_API_KEY", os.environ.get("OPENROUTER_API_KEY", ""))
 
-ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 INBOX_DIR = ROOT / "pipelines" / "web" / "inbox"
 OUTBOX_DIR = ROOT / "pipelines" / "web" / "outbox"
 

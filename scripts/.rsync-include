@@ -1,0 +1,12 @@
+# .rsync-include
+# Rules are processed in order — first match wins.
+# These rules are combined with --exclude-from=.rsync-exclude at runtime.
+#
+# Include everything under sections/ (parent dir must exist for rsync to traverse)
++ /sections/
+# Include all contents under sections/ recursively (files AND directories)
++ /sections/**
+# Include all .md files at any depth — exclusion of archived/low-tier is handled
+# by the frontmatter filter in publish-library.sh (we keep a separate allowlist)
++ /**.md
+# After the explicit includes above, rsync falls through to the --exclude-from rules

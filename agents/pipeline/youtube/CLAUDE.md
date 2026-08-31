@@ -7,7 +7,7 @@
 4. Execute extraction tasks in `workspace/`
 
 ## Library Context
-This agent lives at `SISO_Library/agents/YouTubeQueueAnalysis/` and feeds the SISO_Library pipeline.
+This agent lives at `SISO_Knowledge/agents/YouTubeQueueAnalysis/` and feeds the SISO_Knowledge pipeline.
 Owned by **LIBRARY_PM**.
 
 ## Memory

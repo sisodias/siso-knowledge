@@ -18,22 +18,24 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 LEADERBOARD_FILE = ROOT / "pipelines" / "people" / "leaderboard.yaml"
 PROFILE_SHELF = ROOT / "sections" / "people" / "bookcases" / "people" / "shelves" / "intelligence" / "pages"
 
+from registry import load_people, load_registry
+
 
 def load_leaderboard() -> list[dict]:
-    import yaml
-    with open(LEADERBOARD_FILE) as f:
-        data = yaml.safe_load(f)
-    return data.get("people", [])
+    return load_people()
 
 
 def save_leaderboard(people: list[dict]):
     import yaml
+    data = load_registry()
+    by_slug = {person["slug"]: person for person in people}
+    data["people"] = [by_slug.get(person.get("slug"), person) for person in data["people"]]
     with open(LEADERBOARD_FILE, "w") as f:
-        yaml.dump({"people": people}, f, default_flow_style=False, sort_keys=False)
+        yaml.dump(data, f, default_flow_style=False, sort_keys=False)
 
 
 def compute_tier(follower_count: int, prediction_accuracy: float | None) -> str:
@@ -104,6 +106,13 @@ def update_person_tier(person: dict, dry_run: bool = False) -> dict:
     # Read profile to get prediction accuracy
     profile_stats = read_profile_page(handle)
     prediction_accuracy = profile_stats.get("prediction_accuracy")
+
+    if not follower_count and prediction_accuracy is None:
+        if dry_run:
+            print(f"  [DRY] {person.get('slug', handle)}: Tier unchanged {old_tier} (no scoring metrics)")
+        else:
+            print(f"  {person.get('slug', handle)}: Tier unchanged {old_tier} (no scoring metrics)")
+        return person
 
     new_tier = compute_tier(follower_count, prediction_accuracy)
 

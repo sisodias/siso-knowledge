@@ -12,7 +12,7 @@ from typing import Optional
 
 import yaml
 
-LIB_PATH = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+LIB_PATH = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 MANIFEST_LOCK_TIMEOUT = 60  # seconds
 
 

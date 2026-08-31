@@ -1,0 +1,39 @@
+# .rsync-exclude
+# Processed after .rsync-include — rsync takes the first matching rule.
+# The actual content filtering (tier A/B vs C, archived flag, public flag)
+# is done by the frontmatter scan in publish-library.sh which builds a
+# per-file allowlist. This file handles structural and filesystem-level
+# exclusions only.
+
+# Exclude everything by default — but re-include the specific patterns
+# that were allowed by --include-from, so they survive past this file.
+# (rsync takes the last matching rule; re-include must come after - **)
+- **
++ /sections/
++ /sections/**
++ /**.md
+
+# Never sync cold/archived subtrees at the directory level if named
+- **/cold/**
+- **/archived/**
+
+# Exclude non-page files that should never appear in the mirror
+- **/*.png
+- **/*.jpg
+- **/*.jpeg
+- **/*.gif
+- **/*.webp
+- **/*.svg
+- **/*.pdf
+- **/*.zip
+- **/*.tar
+- **/*.gz
+
+# Exclude dotfiles at root level of sections
+- /sections/.*
+- /sections/**/.*
+
+# Exclude any _index or metadata directories
+- **/_index/**
+- **/.obsidian/**
+- **/.git/**

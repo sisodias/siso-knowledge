@@ -21,7 +21,7 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path("/Users/shaansisodia/SISO_Library")
+ROOT = Path("/Users/shaansisodia/SISO_Knowledge")
 PIPELINE_DIR = ROOT / "pipelines" / "youtube"
 
 

@@ -14,10 +14,12 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 INBOX_DIR = ROOT / "pipelines" / "people" / "inbox"
 LEADERBOARD_FILE = ROOT / "pipelines" / "people" / "leaderboard.yaml"
 LAST_SCRAPED_FILE = ROOT / "pipelines" / "people" / ".last_scraped"
+
+from registry import load_people, people_with_social_handles
 
 # Prediction-like language patterns
 PREDICTION_PATTERNS = [
@@ -31,10 +33,7 @@ PREDICTION_PATTERNS = [
 
 def load_leaderboard() -> list[dict]:
     """Load people from leaderboard.yaml."""
-    import yaml
-    with open(LEADERBOARD_FILE) as f:
-        data = yaml.safe_load(f)
-    return data.get("people", [])
+    return load_people()
 
 
 def load_last_scraped() -> set[str]:
@@ -204,7 +203,7 @@ def main():
     args = parser.parse_args()
 
     print("=== People Scraper ===")
-    people = load_leaderboard()
+    people = people_with_social_handles(load_leaderboard())
     print(f"Found {len(people)} people in leaderboard")
 
     total_written = 0

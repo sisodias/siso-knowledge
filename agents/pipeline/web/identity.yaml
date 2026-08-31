@@ -1,6 +1,6 @@
 ---
 name: WebQueueAnalysis
-description: Discovers AI/agent research via web search (Perplexity) and feeds to SISO_Library
+description: Discovers AI/agent research via web search (Perplexity) and feeds to SISO_Knowledge
 owner: LIBRARY_PM
 status: active
 created: 2026-03-20
@@ -15,4 +15,4 @@ schedules:
     schedule: "0 */4 * * *"
     timeout: 300
     priority: 2
-output_dir: /Users/shaansisodia/SISO_Workspace/SISO_Library/pipelines/web/inbox
+output_dir: /Users/shaansisodia/SISO_Workspace/SISO_Knowledge/pipelines/web/inbox

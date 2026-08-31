@@ -19,7 +19,7 @@ import yaml
 from datetime import datetime
 from pathlib import Path
 
-ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+ROOT = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 sys.path.insert(0, str(ROOT / "queries"))
 
 from add_book import add_page, get_next_page_id, get_shelf_path

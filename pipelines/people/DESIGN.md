@@ -25,12 +25,40 @@ Pages with tier-weighted credibility metadata
 ```
 pipelines/people/
 ├── leaderboard.yaml       # Tier-ranked list of people + sources
+├── registry.py            # Shared loader/validation for people metadata
+├── source_planner.py      # Corpus/direct/social/manual source acquisition plan
+├── source_ingest.py       # Safe public-domain raw source downloader
+├── dossier_builder.py     # Per-person collection status dossiers
 ├── ingest.py             # Main: scrape → extract → create pages
 ├── scorer.py             # Weight insights by tier + engagement
 ├── validator.py          # Track predictions → check outcomes
 ├── tracker.py            # Track what's been scraped per person
 └── DESIGN.md
 ```
+
+### Source Collection Modes
+
+- `direct-source-first`: official sites, talks, essays, interviews, and verified long-form channels.
+- `social-first`: X/Twitter, YouTube, newsletters, and high-signal personal feeds.
+- `corpus-first`: books, public-domain texts, speeches, papers, archives, and translations.
+- `manual-curation`: controversial or messy subjects where claims need explicit evidence review.
+
+Generated source planning artifacts:
+
+```
+pipelines/people/source_plans/
+├── source_backlog.md
+├── index.json
+└── {person_slug}.md/json
+
+pipelines/people/raw_sources/
+├── manifest.json
+└── {person_slug}/...
+```
+
+Raw sources must preserve provenance fields: `source_url`, `download_url`, `local_path`,
+`rights_status`, `retrieved_at`, `repository`, and `title`. Modern copyrighted thinkers are
+flagged as `rights_review_before_ingest` instead of downloaded automatically.
 
 ### How ingest.py Works
 

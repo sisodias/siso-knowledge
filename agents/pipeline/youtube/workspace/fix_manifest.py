@@ -6,7 +6,7 @@ import yaml
 from pathlib import Path
 from datetime import datetime
 
-LIB = Path("/Users/shaansisodia/SISO_Workspace/SISO_Library")
+LIB = Path("/Users/shaansisodia/SISO_Workspace/SISO_Knowledge")
 
 # Re-scan created pages and rebuild manifest
 pages = []
